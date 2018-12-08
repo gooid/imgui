@@ -4,12 +4,22 @@
 
 package util
 
+import (
+	"sort"
+)
+
 var gFontRanges []uint16
 
 func GetFontGlyphRanges(str string) *uint16 {
 	ret := []uint16{0x0020, 0x00FF} // Basic Latin + Latin Supplement
-	for _, r := range []rune(str) {
-		ret = append(ret, uint16(r), uint16(r))
+	rs := []rune(str)
+	sort.SliceStable(rs, func(i, j int) bool {
+		return rs[i] < rs[j]
+	})
+	for _, r := range rs {
+		if r > 0x00FF {
+			ret = append(ret, uint16(r), uint16(r))
+		}
 	}
 	ret = append(ret, uint16(0), uint16(0))
 	gFontRanges = ret
