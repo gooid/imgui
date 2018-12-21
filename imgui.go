@@ -38,6 +38,7 @@ typedef struct { void* array; intgo len; intgo cap; } _goslice_;
 #cgo windows LDFLAGS: -static
 
 extern void cgoRenderDrawLists(void* drawdata);
+extern void cgoDrawListCallback(void* drawlist, void* drawcmd);
 
 typedef _gostring_ swig_type_1;
 typedef long long swig_type_2;
@@ -2007,10 +2008,13 @@ extern void _wrap_Font_AddRemapChar__SWIG_1(uintptr_t arg1, short arg2, short ar
 */
 import "C"
 
-import "unsafe"
-import _ "runtime/cgo"
-import "sync"
-import "fmt"
+import (
+	"unsafe"
+
+	"fmt"
+	_ "runtime/cgo"
+	"sync"
+)
 
 type _ unsafe.Pointer
 
@@ -16379,10 +16383,24 @@ func (arg1 SwigcptrDrawList) ChannelsSetCurrent(arg2 int) {
 	C._wrap_DrawList_ChannelsSetCurrent(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
-func (arg1 SwigcptrDrawList) AddCallback(arg2 _swig_fnptr, arg3 uintptr) {
+type cbData struct {
+	fn func(interface{}) bool
+	in interface{}
+}
+
+var callbackMap = map[int]cbData{}
+
+func (arg1 SwigcptrDrawList) AddCallback(arg2 func(interface{}) bool, arg3 interface{}) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2
-	_swig_i_2 := arg3
+	_swig_i_1 := C.cgoDrawListCallback
+	_swig_i_2 := 0
+	for i := len(callbackMap); ; i++ {
+		if _, ok := callbackMap[i]; !ok {
+			_swig_i_2 = i
+			callbackMap[i] = cbData{fn: arg2, in: arg3}
+			break
+		}
+	}
 	C._wrap_DrawList_AddCallback(C.uintptr_t(_swig_i_0), C.swig_type_484(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
@@ -16512,7 +16530,7 @@ type DrawList interface {
 	ChannelsSplit(arg2 int)
 	ChannelsMerge()
 	ChannelsSetCurrent(arg2 int)
-	AddCallback(arg2 _swig_fnptr, arg3 uintptr)
+	AddCallback(arg2 func(interface{}) bool, arg3 interface{})
 	AddDrawCmd()
 	CloneOutput() (_swig_ret DrawList)
 	CommandsSize() (_swig_ret int64)
@@ -18156,4 +18174,21 @@ var GoFree func(p unsafe.Pointer)
 //export cgoMemFree
 func cgoMemFree(p unsafe.Pointer) {
 	GoFree(p)
+}
+
+//export cgoDrawListCallback
+func cgoDrawListCallback(clist, ccmd unsafe.Pointer) {
+}
+
+func CallDrawCmdCallback(list DrawList, cmd DrawCmd) bool {
+	if cmd.GetUserCallback() == _swig_fnptr(C.cgoDrawListCallback) {
+		i := int(cmd.GetUserCallbackData())
+		if cb, ok := callbackMap[i]; ok {
+			delete(callbackMap, i)
+			return cb.fn(cb.in)
+		}
+	} else {
+		DrawCmdUserCall(list, cmd)
+	}
+	return false
 }

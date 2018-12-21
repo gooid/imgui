@@ -139,6 +139,7 @@ func (impl *Render) Render(drawData imgui.DrawData) {
 
 		vertexBuffer := list.VtxBufferAt(0)
 		//vertexBufferSize := list.VtxBufferSize()
+		indexBuffer, indexBufferSize := list.IdxBufferAt(0), list.IdxBufferSize()
 
 		//gl.BindBuffer(gl.ARRAY_BUFFER, impl.vboHandle)
 		//gl.BufferData(gl.ARRAY_BUFFER, int(vertexBufferSize), unsafe.Pointer(vertexBuffer.Swigcptr()), gl.STREAM_DRAW)
@@ -147,7 +148,6 @@ func (impl *Render) Render(drawData imgui.DrawData) {
 		gl.VertexAttribPointer(uint32(impl.attribLocationUV), 2, gl.FLOAT, false, int32(vertexSize), unsafe.Pointer(vertexBuffer.Swigcptr()+uintptr(vertexOffsetUv)))
 		gl.VertexAttribPointer(uint32(impl.attribLocationColor), 4, gl.UNSIGNED_BYTE, true, int32(vertexSize), unsafe.Pointer(vertexBuffer.Swigcptr()+uintptr(vertexOffsetCol)))
 
-		indexBuffer, indexBufferSize := list.IdxBufferAt(0), list.IdxBufferSize()
 		gl.BindBuffer(gl.ELEMENT_ARRAY_BUFFER, impl.elementsHandle)
 		gl.BufferData(gl.ELEMENT_ARRAY_BUFFER, int(indexBufferSize)*int(indexSize), unsafe.Pointer(indexBuffer), gl.STREAM_DRAW)
 
@@ -159,7 +159,18 @@ func (impl *Render) Render(drawData imgui.DrawData) {
 
 			elemCount := cmd.GetElemCount()
 			if cmd.GetUserCallback() != nil {
-				imgui.DrawCmdUserCall(list, cmd)
+				if imgui.CallDrawCmdCallback(list, cmd) {
+					gl.EnableVertexAttribArray(uint32(impl.attribLocationPosition))
+					gl.EnableVertexAttribArray(uint32(impl.attribLocationUV))
+					gl.EnableVertexAttribArray(uint32(impl.attribLocationColor))
+
+					gl.VertexAttribPointer(uint32(impl.attribLocationPosition), 2, gl.FLOAT, false, int32(vertexSize), unsafe.Pointer(vertexBuffer.Swigcptr()+uintptr(vertexOffsetPos)))
+					gl.VertexAttribPointer(uint32(impl.attribLocationUV), 2, gl.FLOAT, false, int32(vertexSize), unsafe.Pointer(vertexBuffer.Swigcptr()+uintptr(vertexOffsetUv)))
+					gl.VertexAttribPointer(uint32(impl.attribLocationColor), 4, gl.UNSIGNED_BYTE, true, int32(vertexSize), unsafe.Pointer(vertexBuffer.Swigcptr()+uintptr(vertexOffsetCol)))
+
+					gl.BindBuffer(gl.ELEMENT_ARRAY_BUFFER, impl.elementsHandle)
+					gl.BufferData(gl.ELEMENT_ARRAY_BUFFER, int(indexBufferSize)*int(indexSize), unsafe.Pointer(indexBuffer), gl.STREAM_DRAW)
+				}
 			} else {
 				cmdClipRect := cmd.GetClipRect()
 				//log.Println("\tclip:", j, i, cmdClipRect.GetX(), cmdClipRect.GetY(), cmdClipRect.GetZ(), cmdClipRect.GetW())
