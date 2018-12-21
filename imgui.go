@@ -2009,6 +2009,7 @@ extern void _wrap_Font_AddRemapChar__SWIG_1(uintptr_t arg1, short arg2, short ar
 import "C"
 
 import (
+	"reflect"
 	"unsafe"
 
 	"fmt"
@@ -2186,7 +2187,7 @@ func NewVec2(a ...interface{}) Vec2 {
 		return NewVec2__SWIG_0()
 	}
 	if argc == 2 {
-		return NewVec2__SWIG_1(a[0].(float32), a[1].(float32))
+		return NewVec2__SWIG_1(unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -2289,7 +2290,7 @@ func NewVec4(a ...interface{}) Vec4 {
 		return NewVec4__SWIG_0()
 	}
 	if argc == 4 {
-		return NewVec4__SWIG_1(a[0].(float32), a[1].(float32), a[2].(float32), a[3].(float32))
+		return NewVec4__SWIG_1(unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32), unsafeOf(a[2], reflect.Float32).(float32), unsafeOf(a[3], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -2523,7 +2524,7 @@ func Begin(a0 string, a ...interface{}) bool {
 		return Begin__SWIG_1(a0, a[0].(*bool))
 	}
 	if argc == 2 {
-		return Begin__SWIG_0(a0, a[0].(*bool), a[1].(int))
+		return Begin__SWIG_0(a0, a[0].(*bool), unsafeOf(a[1], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -2618,7 +2619,7 @@ func BeginChild(a0 interface{}, a ...interface{}) bool {
 		if _, ok := a0.(uint); !ok {
 			goto check_1
 		}
-		return BeginChild__SWIG_7(a0.(uint))
+		return BeginChild__SWIG_7(unsafeOf(a0, reflect.Uint).(uint))
 	}
 check_1:
 	if argc == 0 {
@@ -2628,7 +2629,7 @@ check_1:
 		if _, ok := a0.(uint); !ok {
 			goto check_3
 		}
-		return BeginChild__SWIG_6(a0.(uint), a[0].(Vec2))
+		return BeginChild__SWIG_6(unsafeOf(a0, reflect.Uint).(uint), a[0].(Vec2))
 	}
 check_3:
 	if argc == 1 {
@@ -2638,7 +2639,7 @@ check_3:
 		if _, ok := a0.(uint); !ok {
 			goto check_5
 		}
-		return BeginChild__SWIG_5(a0.(uint), a[0].(Vec2), a[1].(bool))
+		return BeginChild__SWIG_5(unsafeOf(a0, reflect.Uint).(uint), a[0].(Vec2), a[1].(bool))
 	}
 check_5:
 	if argc == 2 {
@@ -2648,11 +2649,11 @@ check_5:
 		if _, ok := a0.(uint); !ok {
 			goto check_7
 		}
-		return BeginChild__SWIG_4(a0.(uint), a[0].(Vec2), a[1].(bool), a[2].(int))
+		return BeginChild__SWIG_4(unsafeOf(a0, reflect.Uint).(uint), a[0].(Vec2), a[1].(bool), unsafeOf(a[2], reflect.Int).(int))
 	}
 check_7:
 	if argc == 3 {
-		return BeginChild__SWIG_0(a0.(string), a[0].(Vec2), a[1].(bool), a[2].(int))
+		return BeginChild__SWIG_0(a0.(string), a[0].(Vec2), a[1].(bool), unsafeOf(a[2], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -2692,7 +2693,7 @@ func IsWindowFocused(a ...interface{}) bool {
 		return IsWindowFocused__SWIG_1()
 	}
 	if argc == 1 {
-		return IsWindowFocused__SWIG_0(a[0].(int))
+		return IsWindowFocused__SWIG_0(unsafeOf(a[0], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -2716,7 +2717,7 @@ func IsWindowHovered(a ...interface{}) bool {
 		return IsWindowHovered__SWIG_1()
 	}
 	if argc == 1 {
-		return IsWindowHovered__SWIG_0(a[0].(int))
+		return IsWindowHovered__SWIG_0(unsafeOf(a[0], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -2812,11 +2813,11 @@ func SetNextWindowPos(a0 Vec2, a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		SetNextWindowPos__SWIG_1(a0, a[0].(int))
+		SetNextWindowPos__SWIG_1(a0, unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 	if argc == 2 {
-		SetNextWindowPos__SWIG_0(a0, a[0].(int), a[1].(Vec2))
+		SetNextWindowPos__SWIG_0(a0, unsafeOf(a[0], reflect.Int).(int), a[1].(Vec2))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -2840,7 +2841,7 @@ func SetNextWindowSize(a0 Vec2, a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		SetNextWindowSize__SWIG_0(a0, a[0].(int))
+		SetNextWindowSize__SWIG_0(a0, unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -2878,7 +2879,7 @@ func SetNextWindowSizeConstraints(a0 Vec2, a1 Vec2, a ...interface{}) {
 		return
 	}
 	if argc == 2 {
-		SetNextWindowSizeConstraints__SWIG_0(a0, a1, a[0].(_swig_fnptr), a[1].(uintptr))
+		SetNextWindowSizeConstraints__SWIG_0(a0, a1, a[0].(_swig_fnptr), unsafeOf(a[1], reflect.Uintptr).(uintptr))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -2907,7 +2908,7 @@ func SetNextWindowCollapsed(a0 bool, a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		SetNextWindowCollapsed__SWIG_0(a0, a[0].(int))
+		SetNextWindowCollapsed__SWIG_0(a0, unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -2996,7 +2997,7 @@ func SetWindowPos(a0 interface{}, a ...interface{}) {
 		if _, ok := a[0].(int); !ok {
 			goto check_2
 		}
-		SetWindowPos__SWIG_0(a0.(Vec2), a[0].(int))
+		SetWindowPos__SWIG_0(a0.(Vec2), unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 check_2:
@@ -3005,7 +3006,7 @@ check_2:
 		return
 	}
 	if argc == 2 {
-		SetWindowPos__SWIG_2(a0.(string), a[0].(Vec2), a[1].(int))
+		SetWindowPos__SWIG_2(a0.(string), a[0].(Vec2), unsafeOf(a[1], reflect.Int).(int))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -3043,7 +3044,7 @@ func SetWindowSize(a0 interface{}, a ...interface{}) {
 		if _, ok := a[0].(int); !ok {
 			goto check_2
 		}
-		SetWindowSize__SWIG_0(a0.(Vec2), a[0].(int))
+		SetWindowSize__SWIG_0(a0.(Vec2), unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 check_2:
@@ -3052,7 +3053,7 @@ check_2:
 		return
 	}
 	if argc == 2 {
-		SetWindowSize__SWIG_2(a0.(string), a[0].(Vec2), a[1].(int))
+		SetWindowSize__SWIG_2(a0.(string), a[0].(Vec2), unsafeOf(a[1], reflect.Int).(int))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -3090,7 +3091,7 @@ func SetWindowCollapsed(a0 interface{}, a ...interface{}) {
 		if _, ok := a[0].(int); !ok {
 			goto check_2
 		}
-		SetWindowCollapsed__SWIG_0(a0.(bool), a[0].(int))
+		SetWindowCollapsed__SWIG_0(a0.(bool), unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 check_2:
@@ -3099,7 +3100,7 @@ check_2:
 		return
 	}
 	if argc == 2 {
-		SetWindowCollapsed__SWIG_2(a0.(string), a[0].(bool), a[1].(int))
+		SetWindowCollapsed__SWIG_2(a0.(string), a[0].(bool), unsafeOf(a[1], reflect.Int).(int))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -3176,7 +3177,7 @@ func SetScrollHere(a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		SetScrollHere__SWIG_0(a[0].(float32))
+		SetScrollHere__SWIG_0(unsafeOf(a[0], reflect.Float32).(float32))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -3200,7 +3201,7 @@ func SetScrollFromPosY(a0 float32, a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		SetScrollFromPosY__SWIG_0(a0, a[0].(float32))
+		SetScrollFromPosY__SWIG_0(a0, unsafeOf(a[0], reflect.Float32).(float32))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -3237,7 +3238,7 @@ func PushStyleColor(a0 int, a1 interface{}) {
 	}
 check_1:
 	{
-		PushStyleColor__SWIG_0(a0, a1.(uint))
+		PushStyleColor__SWIG_0(a0, unsafeOf(a1, reflect.Uint).(uint))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -3259,7 +3260,7 @@ func PopStyleColor(a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		PopStyleColor__SWIG_0(a[0].(int))
+		PopStyleColor__SWIG_0(unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -3287,7 +3288,7 @@ func PushStyleVar(a0 int, a1 interface{}) {
 	}
 check_1:
 	{
-		PushStyleVar__SWIG_0(a0, a1.(float32))
+		PushStyleVar__SWIG_0(a0, unsafeOf(a1, reflect.Float32).(float32))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -3309,7 +3310,7 @@ func PopStyleVar(a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		PopStyleVar__SWIG_0(a[0].(int))
+		PopStyleVar__SWIG_0(unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -3372,10 +3373,10 @@ func GetColorU32(a0 interface{}, a ...interface{}) uint {
 	}
 check_1:
 	if argc == 0 {
-		return GetColorU32__SWIG_1(a0.(int))
+		return GetColorU32__SWIG_1(unsafeOf(a0, reflect.Int).(int))
 	}
 	if argc == 1 {
-		return GetColorU32__SWIG_0(a0.(int), a[0].(float32))
+		return GetColorU32__SWIG_0(unsafeOf(a0, reflect.Int).(int), unsafeOf(a[0], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -3418,7 +3419,7 @@ func PushTextWrapPos(a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		PushTextWrapPos__SWIG_0(a[0].(float32))
+		PushTextWrapPos__SWIG_0(unsafeOf(a[0], reflect.Float32).(float32))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -3472,11 +3473,11 @@ func SameLine(a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		SameLine__SWIG_1(a[0].(float32))
+		SameLine__SWIG_1(unsafeOf(a[0], reflect.Float32).(float32))
 		return
 	}
 	if argc == 2 {
-		SameLine__SWIG_0(a[0].(float32), a[1].(float32))
+		SameLine__SWIG_0(unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -3511,7 +3512,7 @@ func Indent(a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		Indent__SWIG_0(a[0].(float32))
+		Indent__SWIG_0(unsafeOf(a[0], reflect.Float32).(float32))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -3533,7 +3534,7 @@ func Unindent(a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		Unindent__SWIG_0(a[0].(float32))
+		Unindent__SWIG_0(unsafeOf(a[0], reflect.Float32).(float32))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -3661,7 +3662,7 @@ func PushID(a0 interface{}, a ...interface{}) {
 		if _, ok := a0.(uintptr); !ok {
 			goto check_1
 		}
-		PushID__SWIG_2(a0.(uintptr))
+		PushID__SWIG_2(unsafeOf(a0, reflect.Uintptr).(uintptr))
 		return
 	}
 check_1:
@@ -3669,7 +3670,7 @@ check_1:
 		if _, ok := a0.(int); !ok {
 			goto check_2
 		}
-		PushID__SWIG_3(a0.(int))
+		PushID__SWIG_3(unsafeOf(a0, reflect.Int).(int))
 		return
 	}
 check_2:
@@ -3725,7 +3726,7 @@ func GetID(a0 interface{}, a ...interface{}) uint {
 		if _, ok := a0.(uintptr); !ok {
 			goto check_1
 		}
-		return GetID__SWIG_2(a0.(uintptr))
+		return GetID__SWIG_2(unsafeOf(a0, reflect.Uintptr).(uintptr))
 	}
 check_1:
 	if argc == 0 {
@@ -4015,13 +4016,13 @@ func ImageButton(a0 uintptr, a1 Vec2, a ...interface{}) bool {
 		return ImageButton__SWIG_3(a0, a1, a[0].(Vec2), a[1].(Vec2))
 	}
 	if argc == 3 {
-		return ImageButton__SWIG_2(a0, a1, a[0].(Vec2), a[1].(Vec2), a[2].(int))
+		return ImageButton__SWIG_2(a0, a1, a[0].(Vec2), a[1].(Vec2), unsafeOf(a[2], reflect.Int).(int))
 	}
 	if argc == 4 {
-		return ImageButton__SWIG_1(a0, a1, a[0].(Vec2), a[1].(Vec2), a[2].(int), a[3].(Vec4))
+		return ImageButton__SWIG_1(a0, a1, a[0].(Vec2), a[1].(Vec2), unsafeOf(a[2], reflect.Int).(int), a[3].(Vec4))
 	}
 	if argc == 5 {
-		return ImageButton__SWIG_0(a0, a1, a[0].(Vec2), a[1].(Vec2), a[2].(int), a[3].(Vec4), a[4].(Vec4))
+		return ImageButton__SWIG_0(a0, a1, a[0].(Vec2), a[1].(Vec2), unsafeOf(a[2], reflect.Int).(int), a[3].(Vec4), a[4].(Vec4))
 	}
 	panic("No match for overloaded function call")
 }
@@ -4078,7 +4079,7 @@ func RadioButton(a0 string, a1 interface{}, a ...interface{}) bool {
 		return RadioButton__SWIG_0(a0, a1.(bool))
 	}
 	if argc == 1 {
-		return RadioButton__SWIG_1(a0, a1.(*int), a[0].(int))
+		return RadioButton__SWIG_1(a0, a1.(*int), unsafeOf(a[0], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -4160,7 +4161,7 @@ func BeginCombo(a0 string, a1 string, a ...interface{}) bool {
 		return BeginCombo__SWIG_1(a0, a1)
 	}
 	if argc == 1 {
-		return BeginCombo__SWIG_0(a0, a1, a[0].(int))
+		return BeginCombo__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -4265,11 +4266,11 @@ func Combo(a0 string, a1 *int, a2 interface{}, a ...interface{}) bool {
 		if _, ok := a2.(*string); !ok {
 			goto check_2
 		}
-		return Combo__SWIG_1(a0, a1, a2.(*string), a[0].(int))
+		return Combo__SWIG_1(a0, a1, a2.(*string), unsafeOf(a[0], reflect.Int).(int))
 	}
 check_2:
 	if argc == 1 {
-		return Combo__SWIG_2(a0, a1, a2.(string), a[0].(int))
+		return Combo__SWIG_2(a0, a1, a2.(string), unsafeOf(a[0], reflect.Int).(int))
 	}
 	if argc == 2 {
 		if _, ok := a2.(*string); !ok {
@@ -4278,14 +4279,14 @@ check_2:
 		if _, ok := a[0].(int); !ok {
 			goto check_4
 		}
-		return Combo__SWIG_0(a0, a1, a2.(*string), a[0].(int), a[1].(int))
+		return Combo__SWIG_0(a0, a1, a2.(*string), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int))
 	}
 check_4:
 	if argc == 2 {
-		return Combo__SWIG_5(a0, a1, a2.(_swig_fnptr), a[0].(uintptr), a[1].(int))
+		return Combo__SWIG_5(a0, a1, a2.(_swig_fnptr), unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Int).(int))
 	}
 	if argc == 3 {
-		return Combo__SWIG_4(a0, a1, a2.(_swig_fnptr), a[0].(uintptr), a[1].(int), a[2].(int))
+		return Combo__SWIG_4(a0, a1, a2.(_swig_fnptr), unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Int).(int), unsafeOf(a[2], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -4383,19 +4384,19 @@ func DragFloat(a0 string, a1 *float32, a ...interface{}) bool {
 		return DragFloat__SWIG_5(a0, a1)
 	}
 	if argc == 1 {
-		return DragFloat__SWIG_4(a0, a1, a[0].(float32))
+		return DragFloat__SWIG_4(a0, a1, unsafeOf(a[0], reflect.Float32).(float32))
 	}
 	if argc == 2 {
-		return DragFloat__SWIG_3(a0, a1, a[0].(float32), a[1].(float32))
+		return DragFloat__SWIG_3(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32))
 	}
 	if argc == 3 {
-		return DragFloat__SWIG_2(a0, a1, a[0].(float32), a[1].(float32), a[2].(float32))
+		return DragFloat__SWIG_2(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32), unsafeOf(a[2], reflect.Float32).(float32))
 	}
 	if argc == 4 {
-		return DragFloat__SWIG_1(a0, a1, a[0].(float32), a[1].(float32), a[2].(float32), a[3].(string))
+		return DragFloat__SWIG_1(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32), unsafeOf(a[2], reflect.Float32).(float32), a[3].(string))
 	}
 	if argc == 5 {
-		return DragFloat__SWIG_0(a0, a1, a[0].(float32), a[1].(float32), a[2].(float32), a[3].(string), a[4].(float32))
+		return DragFloat__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32), unsafeOf(a[2], reflect.Float32).(float32), a[3].(string), unsafeOf(a[4], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -4493,19 +4494,19 @@ func DragFloat2(a0 string, a1 *float32, a ...interface{}) bool {
 		return DragFloat2__SWIG_5(a0, a1)
 	}
 	if argc == 1 {
-		return DragFloat2__SWIG_4(a0, a1, a[0].(float32))
+		return DragFloat2__SWIG_4(a0, a1, unsafeOf(a[0], reflect.Float32).(float32))
 	}
 	if argc == 2 {
-		return DragFloat2__SWIG_3(a0, a1, a[0].(float32), a[1].(float32))
+		return DragFloat2__SWIG_3(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32))
 	}
 	if argc == 3 {
-		return DragFloat2__SWIG_2(a0, a1, a[0].(float32), a[1].(float32), a[2].(float32))
+		return DragFloat2__SWIG_2(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32), unsafeOf(a[2], reflect.Float32).(float32))
 	}
 	if argc == 4 {
-		return DragFloat2__SWIG_1(a0, a1, a[0].(float32), a[1].(float32), a[2].(float32), a[3].(string))
+		return DragFloat2__SWIG_1(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32), unsafeOf(a[2], reflect.Float32).(float32), a[3].(string))
 	}
 	if argc == 5 {
-		return DragFloat2__SWIG_0(a0, a1, a[0].(float32), a[1].(float32), a[2].(float32), a[3].(string), a[4].(float32))
+		return DragFloat2__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32), unsafeOf(a[2], reflect.Float32).(float32), a[3].(string), unsafeOf(a[4], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -4603,19 +4604,19 @@ func DragFloat3(a0 string, a1 *float32, a ...interface{}) bool {
 		return DragFloat3__SWIG_5(a0, a1)
 	}
 	if argc == 1 {
-		return DragFloat3__SWIG_4(a0, a1, a[0].(float32))
+		return DragFloat3__SWIG_4(a0, a1, unsafeOf(a[0], reflect.Float32).(float32))
 	}
 	if argc == 2 {
-		return DragFloat3__SWIG_3(a0, a1, a[0].(float32), a[1].(float32))
+		return DragFloat3__SWIG_3(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32))
 	}
 	if argc == 3 {
-		return DragFloat3__SWIG_2(a0, a1, a[0].(float32), a[1].(float32), a[2].(float32))
+		return DragFloat3__SWIG_2(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32), unsafeOf(a[2], reflect.Float32).(float32))
 	}
 	if argc == 4 {
-		return DragFloat3__SWIG_1(a0, a1, a[0].(float32), a[1].(float32), a[2].(float32), a[3].(string))
+		return DragFloat3__SWIG_1(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32), unsafeOf(a[2], reflect.Float32).(float32), a[3].(string))
 	}
 	if argc == 5 {
-		return DragFloat3__SWIG_0(a0, a1, a[0].(float32), a[1].(float32), a[2].(float32), a[3].(string), a[4].(float32))
+		return DragFloat3__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32), unsafeOf(a[2], reflect.Float32).(float32), a[3].(string), unsafeOf(a[4], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -4713,19 +4714,19 @@ func DragFloat4(a0 string, a1 *float32, a ...interface{}) bool {
 		return DragFloat4__SWIG_5(a0, a1)
 	}
 	if argc == 1 {
-		return DragFloat4__SWIG_4(a0, a1, a[0].(float32))
+		return DragFloat4__SWIG_4(a0, a1, unsafeOf(a[0], reflect.Float32).(float32))
 	}
 	if argc == 2 {
-		return DragFloat4__SWIG_3(a0, a1, a[0].(float32), a[1].(float32))
+		return DragFloat4__SWIG_3(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32))
 	}
 	if argc == 3 {
-		return DragFloat4__SWIG_2(a0, a1, a[0].(float32), a[1].(float32), a[2].(float32))
+		return DragFloat4__SWIG_2(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32), unsafeOf(a[2], reflect.Float32).(float32))
 	}
 	if argc == 4 {
-		return DragFloat4__SWIG_1(a0, a1, a[0].(float32), a[1].(float32), a[2].(float32), a[3].(string))
+		return DragFloat4__SWIG_1(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32), unsafeOf(a[2], reflect.Float32).(float32), a[3].(string))
 	}
 	if argc == 5 {
-		return DragFloat4__SWIG_0(a0, a1, a[0].(float32), a[1].(float32), a[2].(float32), a[3].(string), a[4].(float32))
+		return DragFloat4__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32), unsafeOf(a[2], reflect.Float32).(float32), a[3].(string), unsafeOf(a[4], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -4856,22 +4857,22 @@ func DragFloatRange2(a0 string, a1 *float32, a2 *float32, a ...interface{}) bool
 		return DragFloatRange2__SWIG_6(a0, a1, a2)
 	}
 	if argc == 1 {
-		return DragFloatRange2__SWIG_5(a0, a1, a2, a[0].(float32))
+		return DragFloatRange2__SWIG_5(a0, a1, a2, unsafeOf(a[0], reflect.Float32).(float32))
 	}
 	if argc == 2 {
-		return DragFloatRange2__SWIG_4(a0, a1, a2, a[0].(float32), a[1].(float32))
+		return DragFloatRange2__SWIG_4(a0, a1, a2, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32))
 	}
 	if argc == 3 {
-		return DragFloatRange2__SWIG_3(a0, a1, a2, a[0].(float32), a[1].(float32), a[2].(float32))
+		return DragFloatRange2__SWIG_3(a0, a1, a2, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32), unsafeOf(a[2], reflect.Float32).(float32))
 	}
 	if argc == 4 {
-		return DragFloatRange2__SWIG_2(a0, a1, a2, a[0].(float32), a[1].(float32), a[2].(float32), a[3].(string))
+		return DragFloatRange2__SWIG_2(a0, a1, a2, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32), unsafeOf(a[2], reflect.Float32).(float32), a[3].(string))
 	}
 	if argc == 5 {
-		return DragFloatRange2__SWIG_1(a0, a1, a2, a[0].(float32), a[1].(float32), a[2].(float32), a[3].(string), a[4].(string))
+		return DragFloatRange2__SWIG_1(a0, a1, a2, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32), unsafeOf(a[2], reflect.Float32).(float32), a[3].(string), a[4].(string))
 	}
 	if argc == 6 {
-		return DragFloatRange2__SWIG_0(a0, a1, a2, a[0].(float32), a[1].(float32), a[2].(float32), a[3].(string), a[4].(string), a[5].(float32))
+		return DragFloatRange2__SWIG_0(a0, a1, a2, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32), unsafeOf(a[2], reflect.Float32).(float32), a[3].(string), a[4].(string), unsafeOf(a[5], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -4950,16 +4951,16 @@ func DragInt(a0 string, a1 *int, a ...interface{}) bool {
 		return DragInt__SWIG_4(a0, a1)
 	}
 	if argc == 1 {
-		return DragInt__SWIG_3(a0, a1, a[0].(float32))
+		return DragInt__SWIG_3(a0, a1, unsafeOf(a[0], reflect.Float32).(float32))
 	}
 	if argc == 2 {
-		return DragInt__SWIG_2(a0, a1, a[0].(float32), a[1].(int))
+		return DragInt__SWIG_2(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Int).(int))
 	}
 	if argc == 3 {
-		return DragInt__SWIG_1(a0, a1, a[0].(float32), a[1].(int), a[2].(int))
+		return DragInt__SWIG_1(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Int).(int), unsafeOf(a[2], reflect.Int).(int))
 	}
 	if argc == 4 {
-		return DragInt__SWIG_0(a0, a1, a[0].(float32), a[1].(int), a[2].(int), a[3].(string))
+		return DragInt__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Int).(int), unsafeOf(a[2], reflect.Int).(int), a[3].(string))
 	}
 	panic("No match for overloaded function call")
 }
@@ -5038,16 +5039,16 @@ func DragInt2(a0 string, a1 *int, a ...interface{}) bool {
 		return DragInt2__SWIG_4(a0, a1)
 	}
 	if argc == 1 {
-		return DragInt2__SWIG_3(a0, a1, a[0].(float32))
+		return DragInt2__SWIG_3(a0, a1, unsafeOf(a[0], reflect.Float32).(float32))
 	}
 	if argc == 2 {
-		return DragInt2__SWIG_2(a0, a1, a[0].(float32), a[1].(int))
+		return DragInt2__SWIG_2(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Int).(int))
 	}
 	if argc == 3 {
-		return DragInt2__SWIG_1(a0, a1, a[0].(float32), a[1].(int), a[2].(int))
+		return DragInt2__SWIG_1(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Int).(int), unsafeOf(a[2], reflect.Int).(int))
 	}
 	if argc == 4 {
-		return DragInt2__SWIG_0(a0, a1, a[0].(float32), a[1].(int), a[2].(int), a[3].(string))
+		return DragInt2__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Int).(int), unsafeOf(a[2], reflect.Int).(int), a[3].(string))
 	}
 	panic("No match for overloaded function call")
 }
@@ -5126,16 +5127,16 @@ func DragInt3(a0 string, a1 *int, a ...interface{}) bool {
 		return DragInt3__SWIG_4(a0, a1)
 	}
 	if argc == 1 {
-		return DragInt3__SWIG_3(a0, a1, a[0].(float32))
+		return DragInt3__SWIG_3(a0, a1, unsafeOf(a[0], reflect.Float32).(float32))
 	}
 	if argc == 2 {
-		return DragInt3__SWIG_2(a0, a1, a[0].(float32), a[1].(int))
+		return DragInt3__SWIG_2(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Int).(int))
 	}
 	if argc == 3 {
-		return DragInt3__SWIG_1(a0, a1, a[0].(float32), a[1].(int), a[2].(int))
+		return DragInt3__SWIG_1(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Int).(int), unsafeOf(a[2], reflect.Int).(int))
 	}
 	if argc == 4 {
-		return DragInt3__SWIG_0(a0, a1, a[0].(float32), a[1].(int), a[2].(int), a[3].(string))
+		return DragInt3__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Int).(int), unsafeOf(a[2], reflect.Int).(int), a[3].(string))
 	}
 	panic("No match for overloaded function call")
 }
@@ -5214,16 +5215,16 @@ func DragInt4(a0 string, a1 *int, a ...interface{}) bool {
 		return DragInt4__SWIG_4(a0, a1)
 	}
 	if argc == 1 {
-		return DragInt4__SWIG_3(a0, a1, a[0].(float32))
+		return DragInt4__SWIG_3(a0, a1, unsafeOf(a[0], reflect.Float32).(float32))
 	}
 	if argc == 2 {
-		return DragInt4__SWIG_2(a0, a1, a[0].(float32), a[1].(int))
+		return DragInt4__SWIG_2(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Int).(int))
 	}
 	if argc == 3 {
-		return DragInt4__SWIG_1(a0, a1, a[0].(float32), a[1].(int), a[2].(int))
+		return DragInt4__SWIG_1(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Int).(int), unsafeOf(a[2], reflect.Int).(int))
 	}
 	if argc == 4 {
-		return DragInt4__SWIG_0(a0, a1, a[0].(float32), a[1].(int), a[2].(int), a[3].(string))
+		return DragInt4__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Int).(int), unsafeOf(a[2], reflect.Int).(int), a[3].(string))
 	}
 	panic("No match for overloaded function call")
 }
@@ -5330,19 +5331,19 @@ func DragIntRange2(a0 string, a1 *int, a2 *int, a ...interface{}) bool {
 		return DragIntRange2__SWIG_5(a0, a1, a2)
 	}
 	if argc == 1 {
-		return DragIntRange2__SWIG_4(a0, a1, a2, a[0].(float32))
+		return DragIntRange2__SWIG_4(a0, a1, a2, unsafeOf(a[0], reflect.Float32).(float32))
 	}
 	if argc == 2 {
-		return DragIntRange2__SWIG_3(a0, a1, a2, a[0].(float32), a[1].(int))
+		return DragIntRange2__SWIG_3(a0, a1, a2, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Int).(int))
 	}
 	if argc == 3 {
-		return DragIntRange2__SWIG_2(a0, a1, a2, a[0].(float32), a[1].(int), a[2].(int))
+		return DragIntRange2__SWIG_2(a0, a1, a2, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Int).(int), unsafeOf(a[2], reflect.Int).(int))
 	}
 	if argc == 4 {
-		return DragIntRange2__SWIG_1(a0, a1, a2, a[0].(float32), a[1].(int), a[2].(int), a[3].(string))
+		return DragIntRange2__SWIG_1(a0, a1, a2, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Int).(int), unsafeOf(a[2], reflect.Int).(int), a[3].(string))
 	}
 	if argc == 5 {
-		return DragIntRange2__SWIG_0(a0, a1, a2, a[0].(float32), a[1].(int), a[2].(int), a[3].(string), a[4].(string))
+		return DragIntRange2__SWIG_0(a0, a1, a2, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Int).(int), unsafeOf(a[2], reflect.Int).(int), a[3].(string), a[4].(string))
 	}
 	panic("No match for overloaded function call")
 }
@@ -5434,16 +5435,16 @@ func DragScalar(a0 string, a1 int, a2 uintptr, a3 float32, a ...interface{}) boo
 		return DragScalar__SWIG_4(a0, a1, a2, a3)
 	}
 	if argc == 1 {
-		return DragScalar__SWIG_3(a0, a1, a2, a3, a[0].(uintptr))
+		return DragScalar__SWIG_3(a0, a1, a2, a3, unsafeOf(a[0], reflect.Uintptr).(uintptr))
 	}
 	if argc == 2 {
-		return DragScalar__SWIG_2(a0, a1, a2, a3, a[0].(uintptr), a[1].(uintptr))
+		return DragScalar__SWIG_2(a0, a1, a2, a3, unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Uintptr).(uintptr))
 	}
 	if argc == 3 {
-		return DragScalar__SWIG_1(a0, a1, a2, a3, a[0].(uintptr), a[1].(uintptr), a[2].(string))
+		return DragScalar__SWIG_1(a0, a1, a2, a3, unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Uintptr).(uintptr), a[2].(string))
 	}
 	if argc == 4 {
-		return DragScalar__SWIG_0(a0, a1, a2, a3, a[0].(uintptr), a[1].(uintptr), a[2].(string), a[3].(float32))
+		return DragScalar__SWIG_0(a0, a1, a2, a3, unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Uintptr).(uintptr), a[2].(string), unsafeOf(a[3], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -5540,16 +5541,16 @@ func DragScalarN(a0 string, a1 int, a2 uintptr, a3 int, a4 float32, a ...interfa
 		return DragScalarN__SWIG_4(a0, a1, a2, a3, a4)
 	}
 	if argc == 1 {
-		return DragScalarN__SWIG_3(a0, a1, a2, a3, a4, a[0].(uintptr))
+		return DragScalarN__SWIG_3(a0, a1, a2, a3, a4, unsafeOf(a[0], reflect.Uintptr).(uintptr))
 	}
 	if argc == 2 {
-		return DragScalarN__SWIG_2(a0, a1, a2, a3, a4, a[0].(uintptr), a[1].(uintptr))
+		return DragScalarN__SWIG_2(a0, a1, a2, a3, a4, unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Uintptr).(uintptr))
 	}
 	if argc == 3 {
-		return DragScalarN__SWIG_1(a0, a1, a2, a3, a4, a[0].(uintptr), a[1].(uintptr), a[2].(string))
+		return DragScalarN__SWIG_1(a0, a1, a2, a3, a4, unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Uintptr).(uintptr), a[2].(string))
 	}
 	if argc == 4 {
-		return DragScalarN__SWIG_0(a0, a1, a2, a3, a4, a[0].(uintptr), a[1].(uintptr), a[2].(string), a[3].(float32))
+		return DragScalarN__SWIG_0(a0, a1, a2, a3, a4, unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Uintptr).(uintptr), a[2].(string), unsafeOf(a[3], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -5611,7 +5612,7 @@ func SliderFloat(a0 string, a1 *float32, a2 float32, a3 float32, a ...interface{
 		return SliderFloat__SWIG_1(a0, a1, a2, a3, a[0].(string))
 	}
 	if argc == 2 {
-		return SliderFloat__SWIG_0(a0, a1, a2, a3, a[0].(string), a[1].(float32))
+		return SliderFloat__SWIG_0(a0, a1, a2, a3, a[0].(string), unsafeOf(a[1], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -5673,7 +5674,7 @@ func SliderFloat2(a0 string, a1 *float32, a2 float32, a3 float32, a ...interface
 		return SliderFloat2__SWIG_1(a0, a1, a2, a3, a[0].(string))
 	}
 	if argc == 2 {
-		return SliderFloat2__SWIG_0(a0, a1, a2, a3, a[0].(string), a[1].(float32))
+		return SliderFloat2__SWIG_0(a0, a1, a2, a3, a[0].(string), unsafeOf(a[1], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -5735,7 +5736,7 @@ func SliderFloat3(a0 string, a1 *float32, a2 float32, a3 float32, a ...interface
 		return SliderFloat3__SWIG_1(a0, a1, a2, a3, a[0].(string))
 	}
 	if argc == 2 {
-		return SliderFloat3__SWIG_0(a0, a1, a2, a3, a[0].(string), a[1].(float32))
+		return SliderFloat3__SWIG_0(a0, a1, a2, a3, a[0].(string), unsafeOf(a[1], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -5797,7 +5798,7 @@ func SliderFloat4(a0 string, a1 *float32, a2 float32, a3 float32, a ...interface
 		return SliderFloat4__SWIG_1(a0, a1, a2, a3, a[0].(string))
 	}
 	if argc == 2 {
-		return SliderFloat4__SWIG_0(a0, a1, a2, a3, a[0].(string), a[1].(float32))
+		return SliderFloat4__SWIG_0(a0, a1, a2, a3, a[0].(string), unsafeOf(a[1], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -5844,10 +5845,10 @@ func SliderAngle(a0 string, a1 *float32, a ...interface{}) bool {
 		return SliderAngle__SWIG_2(a0, a1)
 	}
 	if argc == 1 {
-		return SliderAngle__SWIG_1(a0, a1, a[0].(float32))
+		return SliderAngle__SWIG_1(a0, a1, unsafeOf(a[0], reflect.Float32).(float32))
 	}
 	if argc == 2 {
-		return SliderAngle__SWIG_0(a0, a1, a[0].(float32), a[1].(float32))
+		return SliderAngle__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -6076,7 +6077,7 @@ func SliderScalar(a0 string, a1 int, a2 uintptr, a3 uintptr, a4 uintptr, a ...in
 		return SliderScalar__SWIG_1(a0, a1, a2, a3, a4, a[0].(string))
 	}
 	if argc == 2 {
-		return SliderScalar__SWIG_0(a0, a1, a2, a3, a4, a[0].(string), a[1].(float32))
+		return SliderScalar__SWIG_0(a0, a1, a2, a3, a4, a[0].(string), unsafeOf(a[1], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -6144,7 +6145,7 @@ func SliderScalarN(a0 string, a1 int, a2 uintptr, a3 int, a4 uintptr, a5 uintptr
 		return SliderScalarN__SWIG_1(a0, a1, a2, a3, a4, a5, a[0].(string))
 	}
 	if argc == 2 {
-		return SliderScalarN__SWIG_0(a0, a1, a2, a3, a4, a5, a[0].(string), a[1].(float32))
+		return SliderScalarN__SWIG_0(a0, a1, a2, a3, a4, a5, a[0].(string), unsafeOf(a[1], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -6209,7 +6210,7 @@ func VSliderFloat(a0 string, a1 Vec2, a2 *float32, a3 float32, a4 float32, a ...
 		return VSliderFloat__SWIG_1(a0, a1, a2, a3, a4, a[0].(string))
 	}
 	if argc == 2 {
-		return VSliderFloat__SWIG_0(a0, a1, a2, a3, a4, a[0].(string), a[1].(float32))
+		return VSliderFloat__SWIG_0(a0, a1, a2, a3, a4, a[0].(string), unsafeOf(a[1], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -6320,7 +6321,7 @@ func VSliderScalar(a0 string, a1 Vec2, a2 int, a3 uintptr, a4 uintptr, a5 uintpt
 		return VSliderScalar__SWIG_1(a0, a1, a2, a3, a4, a5, a[0].(string))
 	}
 	if argc == 2 {
-		return VSliderScalar__SWIG_0(a0, a1, a2, a3, a4, a5, a[0].(string), a[1].(float32))
+		return VSliderScalar__SWIG_0(a0, a1, a2, a3, a4, a5, a[0].(string), unsafeOf(a[1], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -6397,13 +6398,13 @@ func InputText(a0 string, a1 string, a2 int64, a ...interface{}) bool {
 		return InputText__SWIG_3(a0, a1, a2)
 	}
 	if argc == 1 {
-		return InputText__SWIG_2(a0, a1, a2, a[0].(int))
+		return InputText__SWIG_2(a0, a1, a2, unsafeOf(a[0], reflect.Int).(int))
 	}
 	if argc == 2 {
-		return InputText__SWIG_1(a0, a1, a2, a[0].(int), a[1].(_swig_fnptr))
+		return InputText__SWIG_1(a0, a1, a2, unsafeOf(a[0], reflect.Int).(int), a[1].(_swig_fnptr))
 	}
 	if argc == 3 {
-		return InputText__SWIG_0(a0, a1, a2, a[0].(int), a[1].(_swig_fnptr), a[2].(uintptr))
+		return InputText__SWIG_0(a0, a1, a2, unsafeOf(a[0], reflect.Int).(int), a[1].(_swig_fnptr), unsafeOf(a[2], reflect.Uintptr).(uintptr))
 	}
 	panic("No match for overloaded function call")
 }
@@ -6502,13 +6503,13 @@ func InputTextMultiline(a0 string, a1 string, a2 int64, a ...interface{}) bool {
 		return InputTextMultiline__SWIG_3(a0, a1, a2, a[0].(Vec2))
 	}
 	if argc == 2 {
-		return InputTextMultiline__SWIG_2(a0, a1, a2, a[0].(Vec2), a[1].(int))
+		return InputTextMultiline__SWIG_2(a0, a1, a2, a[0].(Vec2), unsafeOf(a[1], reflect.Int).(int))
 	}
 	if argc == 3 {
-		return InputTextMultiline__SWIG_1(a0, a1, a2, a[0].(Vec2), a[1].(int), a[2].(_swig_fnptr))
+		return InputTextMultiline__SWIG_1(a0, a1, a2, a[0].(Vec2), unsafeOf(a[1], reflect.Int).(int), a[2].(_swig_fnptr))
 	}
 	if argc == 4 {
-		return InputTextMultiline__SWIG_0(a0, a1, a2, a[0].(Vec2), a[1].(int), a[2].(_swig_fnptr), a[3].(uintptr))
+		return InputTextMultiline__SWIG_0(a0, a1, a2, a[0].(Vec2), unsafeOf(a[1], reflect.Int).(int), a[2].(_swig_fnptr), unsafeOf(a[3], reflect.Uintptr).(uintptr))
 	}
 	panic("No match for overloaded function call")
 }
@@ -6590,16 +6591,16 @@ func InputFloat(a0 string, a1 *float32, a ...interface{}) bool {
 		return InputFloat__SWIG_4(a0, a1)
 	}
 	if argc == 1 {
-		return InputFloat__SWIG_3(a0, a1, a[0].(float32))
+		return InputFloat__SWIG_3(a0, a1, unsafeOf(a[0], reflect.Float32).(float32))
 	}
 	if argc == 2 {
-		return InputFloat__SWIG_2(a0, a1, a[0].(float32), a[1].(float32))
+		return InputFloat__SWIG_2(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32))
 	}
 	if argc == 3 {
-		return InputFloat__SWIG_1(a0, a1, a[0].(float32), a[1].(float32), a[2].(string))
+		return InputFloat__SWIG_1(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32), a[2].(string))
 	}
 	if argc == 4 {
-		return InputFloat__SWIG_0(a0, a1, a[0].(float32), a[1].(float32), a[2].(string), a[3].(int))
+		return InputFloat__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32), a[2].(string), unsafeOf(a[3], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -6655,7 +6656,7 @@ func InputFloat2(a0 string, a1 *float32, a ...interface{}) bool {
 		return InputFloat2__SWIG_1(a0, a1, a[0].(string))
 	}
 	if argc == 2 {
-		return InputFloat2__SWIG_0(a0, a1, a[0].(string), a[1].(int))
+		return InputFloat2__SWIG_0(a0, a1, a[0].(string), unsafeOf(a[1], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -6711,7 +6712,7 @@ func InputFloat3(a0 string, a1 *float32, a ...interface{}) bool {
 		return InputFloat3__SWIG_1(a0, a1, a[0].(string))
 	}
 	if argc == 2 {
-		return InputFloat3__SWIG_0(a0, a1, a[0].(string), a[1].(int))
+		return InputFloat3__SWIG_0(a0, a1, a[0].(string), unsafeOf(a[1], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -6767,7 +6768,7 @@ func InputFloat4(a0 string, a1 *float32, a ...interface{}) bool {
 		return InputFloat4__SWIG_1(a0, a1, a[0].(string))
 	}
 	if argc == 2 {
-		return InputFloat4__SWIG_0(a0, a1, a[0].(string), a[1].(int))
+		return InputFloat4__SWIG_0(a0, a1, a[0].(string), unsafeOf(a[1], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -6828,13 +6829,13 @@ func InputInt(a0 string, a1 *int, a ...interface{}) bool {
 		return InputInt__SWIG_3(a0, a1)
 	}
 	if argc == 1 {
-		return InputInt__SWIG_2(a0, a1, a[0].(int))
+		return InputInt__SWIG_2(a0, a1, unsafeOf(a[0], reflect.Int).(int))
 	}
 	if argc == 2 {
-		return InputInt__SWIG_1(a0, a1, a[0].(int), a[1].(int))
+		return InputInt__SWIG_1(a0, a1, unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int))
 	}
 	if argc == 3 {
-		return InputInt__SWIG_0(a0, a1, a[0].(int), a[1].(int), a[2].(int))
+		return InputInt__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), unsafeOf(a[2], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -6868,7 +6869,7 @@ func InputInt2(a0 string, a1 *int, a ...interface{}) bool {
 		return InputInt2__SWIG_1(a0, a1)
 	}
 	if argc == 1 {
-		return InputInt2__SWIG_0(a0, a1, a[0].(int))
+		return InputInt2__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -6902,7 +6903,7 @@ func InputInt3(a0 string, a1 *int, a ...interface{}) bool {
 		return InputInt3__SWIG_1(a0, a1)
 	}
 	if argc == 1 {
-		return InputInt3__SWIG_0(a0, a1, a[0].(int))
+		return InputInt3__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -6936,7 +6937,7 @@ func InputInt4(a0 string, a1 *int, a ...interface{}) bool {
 		return InputInt4__SWIG_1(a0, a1)
 	}
 	if argc == 1 {
-		return InputInt4__SWIG_0(a0, a1, a[0].(int))
+		return InputInt4__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -7018,16 +7019,16 @@ func InputDouble(a0 string, a1 *float64, a ...interface{}) bool {
 		return InputDouble__SWIG_4(a0, a1)
 	}
 	if argc == 1 {
-		return InputDouble__SWIG_3(a0, a1, a[0].(float64))
+		return InputDouble__SWIG_3(a0, a1, unsafeOf(a[0], reflect.Float64).(float64))
 	}
 	if argc == 2 {
-		return InputDouble__SWIG_2(a0, a1, a[0].(float64), a[1].(float64))
+		return InputDouble__SWIG_2(a0, a1, unsafeOf(a[0], reflect.Float64).(float64), unsafeOf(a[1], reflect.Float64).(float64))
 	}
 	if argc == 3 {
-		return InputDouble__SWIG_1(a0, a1, a[0].(float64), a[1].(float64), a[2].(string))
+		return InputDouble__SWIG_1(a0, a1, unsafeOf(a[0], reflect.Float64).(float64), unsafeOf(a[1], reflect.Float64).(float64), a[2].(string))
 	}
 	if argc == 4 {
-		return InputDouble__SWIG_0(a0, a1, a[0].(float64), a[1].(float64), a[2].(string), a[3].(int))
+		return InputDouble__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Float64).(float64), unsafeOf(a[1], reflect.Float64).(float64), a[2].(string), unsafeOf(a[3], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -7114,16 +7115,16 @@ func InputScalar(a0 string, a1 int, a2 uintptr, a ...interface{}) bool {
 		return InputScalar__SWIG_4(a0, a1, a2)
 	}
 	if argc == 1 {
-		return InputScalar__SWIG_3(a0, a1, a2, a[0].(uintptr))
+		return InputScalar__SWIG_3(a0, a1, a2, unsafeOf(a[0], reflect.Uintptr).(uintptr))
 	}
 	if argc == 2 {
-		return InputScalar__SWIG_2(a0, a1, a2, a[0].(uintptr), a[1].(uintptr))
+		return InputScalar__SWIG_2(a0, a1, a2, unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Uintptr).(uintptr))
 	}
 	if argc == 3 {
-		return InputScalar__SWIG_1(a0, a1, a2, a[0].(uintptr), a[1].(uintptr), a[2].(string))
+		return InputScalar__SWIG_1(a0, a1, a2, unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Uintptr).(uintptr), a[2].(string))
 	}
 	if argc == 4 {
-		return InputScalar__SWIG_0(a0, a1, a2, a[0].(uintptr), a[1].(uintptr), a[2].(string), a[3].(int))
+		return InputScalar__SWIG_0(a0, a1, a2, unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Uintptr).(uintptr), a[2].(string), unsafeOf(a[3], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -7215,16 +7216,16 @@ func InputScalarN(a0 string, a1 int, a2 uintptr, a3 int, a ...interface{}) bool 
 		return InputScalarN__SWIG_4(a0, a1, a2, a3)
 	}
 	if argc == 1 {
-		return InputScalarN__SWIG_3(a0, a1, a2, a3, a[0].(uintptr))
+		return InputScalarN__SWIG_3(a0, a1, a2, a3, unsafeOf(a[0], reflect.Uintptr).(uintptr))
 	}
 	if argc == 2 {
-		return InputScalarN__SWIG_2(a0, a1, a2, a3, a[0].(uintptr), a[1].(uintptr))
+		return InputScalarN__SWIG_2(a0, a1, a2, a3, unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Uintptr).(uintptr))
 	}
 	if argc == 3 {
-		return InputScalarN__SWIG_1(a0, a1, a2, a3, a[0].(uintptr), a[1].(uintptr), a[2].(string))
+		return InputScalarN__SWIG_1(a0, a1, a2, a3, unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Uintptr).(uintptr), a[2].(string))
 	}
 	if argc == 4 {
-		return InputScalarN__SWIG_0(a0, a1, a2, a3, a[0].(uintptr), a[1].(uintptr), a[2].(string), a[3].(int))
+		return InputScalarN__SWIG_0(a0, a1, a2, a3, unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Uintptr).(uintptr), a[2].(string), unsafeOf(a[3], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -7258,7 +7259,7 @@ func ColorEdit3(a0 string, a1 *float32, a ...interface{}) bool {
 		return ColorEdit3__SWIG_1(a0, a1)
 	}
 	if argc == 1 {
-		return ColorEdit3__SWIG_0(a0, a1, a[0].(int))
+		return ColorEdit3__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -7292,7 +7293,7 @@ func ColorEdit4(a0 string, a1 *float32, a ...interface{}) bool {
 		return ColorEdit4__SWIG_1(a0, a1)
 	}
 	if argc == 1 {
-		return ColorEdit4__SWIG_0(a0, a1, a[0].(int))
+		return ColorEdit4__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -7326,7 +7327,7 @@ func ColorPicker3(a0 string, a1 *float32, a ...interface{}) bool {
 		return ColorPicker3__SWIG_1(a0, a1)
 	}
 	if argc == 1 {
-		return ColorPicker3__SWIG_0(a0, a1, a[0].(int))
+		return ColorPicker3__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -7373,10 +7374,10 @@ func ColorPicker4(a0 string, a1 *float32, a ...interface{}) bool {
 		return ColorPicker4__SWIG_2(a0, a1)
 	}
 	if argc == 1 {
-		return ColorPicker4__SWIG_1(a0, a1, a[0].(int))
+		return ColorPicker4__SWIG_1(a0, a1, unsafeOf(a[0], reflect.Int).(int))
 	}
 	if argc == 2 {
-		return ColorPicker4__SWIG_0(a0, a1, a[0].(int), a[1].(*float32))
+		return ColorPicker4__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Int).(int), a[1].(*float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -7423,10 +7424,10 @@ func ColorButton(a0 string, a1 Vec4, a ...interface{}) bool {
 		return ColorButton__SWIG_2(a0, a1)
 	}
 	if argc == 1 {
-		return ColorButton__SWIG_1(a0, a1, a[0].(int))
+		return ColorButton__SWIG_1(a0, a1, unsafeOf(a[0], reflect.Int).(int))
 	}
 	if argc == 2 {
-		return ColorButton__SWIG_0(a0, a1, a[0].(int), a[1].(Vec2))
+		return ColorButton__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Int).(int), a[1].(Vec2))
 	}
 	panic("No match for overloaded function call")
 }
@@ -7476,7 +7477,7 @@ func TreeNode(a0 interface{}, a ...interface{}) bool {
 		if _, ok := a0.(uintptr); !ok {
 			goto check_2
 		}
-		return TreeNode__SWIG_2(a0.(uintptr), a[0].(string), a[1:]...)
+		return TreeNode__SWIG_2(unsafeOf(a0, reflect.Uintptr).(uintptr), a[0].(string), a[1:]...)
 	}
 check_2:
 	if argc >= 1 {
@@ -7535,18 +7536,18 @@ func TreeNodeEx(a0 interface{}, a ...interface{}) bool {
 		return TreeNodeEx__SWIG_1(a0.(string))
 	}
 	if argc == 1 {
-		return TreeNodeEx__SWIG_0(a0.(string), a[0].(int))
+		return TreeNodeEx__SWIG_0(a0.(string), unsafeOf(a[0], reflect.Int).(int))
 	}
 	if argc >= 2 {
 		if _, ok := a0.(uintptr); !ok {
 			goto check_3
 		}
-		return TreeNodeEx__SWIG_3(a0.(uintptr), a[0].(int), a[1].(string), a[2:]...,
+		return TreeNodeEx__SWIG_3(unsafeOf(a0, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int), a[1].(string), a[2:]...,
 		)
 	}
 check_3:
 	if argc >= 2 {
-		return TreeNodeEx__SWIG_2(a0.(string), a[0].(int), a[1].(string), a[2:]...,
+		return TreeNodeEx__SWIG_2(a0.(string), unsafeOf(a[0], reflect.Int).(int), a[1].(string), a[2:]...,
 		)
 	}
 	panic("No match for overloaded function call")
@@ -7579,7 +7580,7 @@ func TreePush(a ...interface{}) {
 		if _, ok := a[0].(uintptr); !ok {
 			goto check_2
 		}
-		TreePush__SWIG_1(a[0].(uintptr))
+		TreePush__SWIG_1(unsafeOf(a[0], reflect.Uintptr).(uintptr))
 		return
 	}
 check_2:
@@ -7622,7 +7623,7 @@ func SetNextTreeNodeOpen(a0 bool, a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		SetNextTreeNodeOpen__SWIG_0(a0, a[0].(int))
+		SetNextTreeNodeOpen__SWIG_0(a0, unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -7685,10 +7686,10 @@ func CollapsingHeader(a0 string, a ...interface{}) bool {
 	}
 check_2:
 	if argc == 1 {
-		return CollapsingHeader__SWIG_0(a0, a[0].(int))
+		return CollapsingHeader__SWIG_0(a0, unsafeOf(a[0], reflect.Int).(int))
 	}
 	if argc == 2 {
-		return CollapsingHeader__SWIG_2(a0, a[0].(*bool), a[1].(int))
+		return CollapsingHeader__SWIG_2(a0, a[0].(*bool), unsafeOf(a[1], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -7794,21 +7795,21 @@ check_2:
 		if _, ok := a[0].(*bool); !ok {
 			goto check_4
 		}
-		return Selectable__SWIG_5(a0, a[0].(*bool), a[1].(int))
+		return Selectable__SWIG_5(a0, a[0].(*bool), unsafeOf(a[1], reflect.Int).(int))
 	}
 check_4:
 	if argc == 2 {
-		return Selectable__SWIG_1(a0, a[0].(bool), a[1].(int))
+		return Selectable__SWIG_1(a0, a[0].(bool), unsafeOf(a[1], reflect.Int).(int))
 	}
 	if argc == 3 {
 		if _, ok := a[0].(*bool); !ok {
 			goto check_6
 		}
-		return Selectable__SWIG_4(a0, a[0].(*bool), a[1].(int), a[2].(Vec2))
+		return Selectable__SWIG_4(a0, a[0].(*bool), unsafeOf(a[1], reflect.Int).(int), a[2].(Vec2))
 	}
 check_6:
 	if argc == 3 {
-		return Selectable__SWIG_0(a0, a[0].(bool), a[1].(int), a[2].(Vec2))
+		return Selectable__SWIG_0(a0, a[0].(bool), unsafeOf(a[1], reflect.Int).(int), a[2].(Vec2))
 	}
 	panic("No match for overloaded function call")
 }
@@ -7872,7 +7873,7 @@ func ListBox__SWIG_3(arg1 string, arg2 *int, arg3 _swig_fnptr, arg4 uintptr, arg
 func ListBox(a0 string, a1 *int, a2 interface{}, a3 interface{}, a ...interface{}) bool {
 	argc := len(a)
 	if argc == 0 {
-		return ListBox__SWIG_1(a0, a1, a2.(*string), a3.(int))
+		return ListBox__SWIG_1(a0, a1, a2.(*string), unsafeOf(a3, reflect.Int).(int))
 	}
 	if argc == 1 {
 		if _, ok := a2.(*string); !ok {
@@ -7881,14 +7882,14 @@ func ListBox(a0 string, a1 *int, a2 interface{}, a3 interface{}, a ...interface{
 		if _, ok := a3.(int); !ok {
 			goto check_2
 		}
-		return ListBox__SWIG_0(a0, a1, a2.(*string), a3.(int), a[0].(int))
+		return ListBox__SWIG_0(a0, a1, a2.(*string), unsafeOf(a3, reflect.Int).(int), unsafeOf(a[0], reflect.Int).(int))
 	}
 check_2:
 	if argc == 1 {
-		return ListBox__SWIG_3(a0, a1, a2.(_swig_fnptr), a3.(uintptr), a[0].(int))
+		return ListBox__SWIG_3(a0, a1, a2.(_swig_fnptr), unsafeOf(a3, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int))
 	}
 	if argc == 2 {
-		return ListBox__SWIG_2(a0, a1, a2.(_swig_fnptr), a3.(uintptr), a[0].(int), a[1].(int))
+		return ListBox__SWIG_2(a0, a1, a2.(_swig_fnptr), unsafeOf(a3, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -7950,10 +7951,10 @@ func ListBoxHeader(a0 string, a ...interface{}) bool {
 	}
 check_2:
 	if argc == 1 {
-		return ListBoxHeader__SWIG_3(a0, a[0].(int))
+		return ListBoxHeader__SWIG_3(a0, unsafeOf(a[0], reflect.Int).(int))
 	}
 	if argc == 2 {
-		return ListBoxHeader__SWIG_2(a0, a[0].(int), a[1].(int))
+		return ListBoxHeader__SWIG_2(a0, unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -8164,7 +8165,7 @@ func PlotLines__SWIG_12(arg1 string, arg2 _swig_fnptr, arg3 uintptr, arg4 int) {
 func PlotLines(a0 string, a1 interface{}, a2 interface{}, a ...interface{}) {
 	argc := len(a)
 	if argc == 0 {
-		PlotLines__SWIG_6(a0, a1.(*float32), a2.(int))
+		PlotLines__SWIG_6(a0, a1.(*float32), unsafeOf(a2, reflect.Int).(int))
 		return
 	}
 	if argc == 1 {
@@ -8174,12 +8175,12 @@ func PlotLines(a0 string, a1 interface{}, a2 interface{}, a ...interface{}) {
 		if _, ok := a2.(int); !ok {
 			goto check_2
 		}
-		PlotLines__SWIG_5(a0, a1.(*float32), a2.(int), a[0].(int))
+		PlotLines__SWIG_5(a0, a1.(*float32), unsafeOf(a2, reflect.Int).(int), unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 check_2:
 	if argc == 1 {
-		PlotLines__SWIG_12(a0, a1.(_swig_fnptr), a2.(uintptr), a[0].(int))
+		PlotLines__SWIG_12(a0, a1.(_swig_fnptr), unsafeOf(a2, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 	if argc == 2 {
@@ -8192,12 +8193,12 @@ check_2:
 		if _, ok := a[1].(int); !ok {
 			goto check_4
 		}
-		PlotLines__SWIG_11(a0, a1.(_swig_fnptr), a2.(uintptr), a[0].(int), a[1].(int))
+		PlotLines__SWIG_11(a0, a1.(_swig_fnptr), unsafeOf(a2, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int))
 		return
 	}
 check_4:
 	if argc == 2 {
-		PlotLines__SWIG_4(a0, a1.(*float32), a2.(int), a[0].(int), a[1].(string))
+		PlotLines__SWIG_4(a0, a1.(*float32), unsafeOf(a2, reflect.Int).(int), unsafeOf(a[0], reflect.Int).(int), a[1].(string))
 		return
 	}
 	if argc == 3 {
@@ -8213,12 +8214,12 @@ check_4:
 		if _, ok := a[2].(float32); !ok {
 			goto check_6
 		}
-		PlotLines__SWIG_3(a0, a1.(*float32), a2.(int), a[0].(int), a[1].(string), a[2].(float32))
+		PlotLines__SWIG_3(a0, a1.(*float32), unsafeOf(a2, reflect.Int).(int), unsafeOf(a[0], reflect.Int).(int), a[1].(string), unsafeOf(a[2], reflect.Float32).(float32))
 		return
 	}
 check_6:
 	if argc == 3 {
-		PlotLines__SWIG_10(a0, a1.(_swig_fnptr), a2.(uintptr), a[0].(int), a[1].(int), a[2].(string))
+		PlotLines__SWIG_10(a0, a1.(_swig_fnptr), unsafeOf(a2, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), a[2].(string))
 		return
 	}
 	if argc == 4 {
@@ -8234,12 +8235,12 @@ check_6:
 		if _, ok := a[2].(string); !ok {
 			goto check_8
 		}
-		PlotLines__SWIG_9(a0, a1.(_swig_fnptr), a2.(uintptr), a[0].(int), a[1].(int), a[2].(string), a[3].(float32))
+		PlotLines__SWIG_9(a0, a1.(_swig_fnptr), unsafeOf(a2, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), a[2].(string), unsafeOf(a[3], reflect.Float32).(float32))
 		return
 	}
 check_8:
 	if argc == 4 {
-		PlotLines__SWIG_2(a0, a1.(*float32), a2.(int), a[0].(int), a[1].(string), a[2].(float32), a[3].(float32))
+		PlotLines__SWIG_2(a0, a1.(*float32), unsafeOf(a2, reflect.Int).(int), unsafeOf(a[0], reflect.Int).(int), a[1].(string), unsafeOf(a[2], reflect.Float32).(float32), unsafeOf(a[3], reflect.Float32).(float32))
 		return
 	}
 	if argc == 5 {
@@ -8258,12 +8259,12 @@ check_8:
 		if _, ok := a[4].(SwigcptrVec2); !ok {
 			goto check_10
 		}
-		PlotLines__SWIG_1(a0, a1.(*float32), a2.(int), a[0].(int), a[1].(string), a[2].(float32), a[3].(float32), a[4].(Vec2))
+		PlotLines__SWIG_1(a0, a1.(*float32), unsafeOf(a2, reflect.Int).(int), unsafeOf(a[0], reflect.Int).(int), a[1].(string), unsafeOf(a[2], reflect.Float32).(float32), unsafeOf(a[3], reflect.Float32).(float32), a[4].(Vec2))
 		return
 	}
 check_10:
 	if argc == 5 {
-		PlotLines__SWIG_8(a0, a1.(_swig_fnptr), a2.(uintptr), a[0].(int), a[1].(int), a[2].(string), a[3].(float32), a[4].(float32))
+		PlotLines__SWIG_8(a0, a1.(_swig_fnptr), unsafeOf(a2, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), a[2].(string), unsafeOf(a[3], reflect.Float32).(float32), unsafeOf(a[4], reflect.Float32).(float32))
 		return
 	}
 	if argc == 6 {
@@ -8285,12 +8286,12 @@ check_10:
 		if _, ok := a[5].(SwigcptrVec2); !ok {
 			goto check_12
 		}
-		PlotLines__SWIG_7(a0, a1.(_swig_fnptr), a2.(uintptr), a[0].(int), a[1].(int), a[2].(string), a[3].(float32), a[4].(float32), a[5].(Vec2))
+		PlotLines__SWIG_7(a0, a1.(_swig_fnptr), unsafeOf(a2, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), a[2].(string), unsafeOf(a[3], reflect.Float32).(float32), unsafeOf(a[4], reflect.Float32).(float32), a[5].(Vec2))
 		return
 	}
 check_12:
 	if argc == 6 {
-		PlotLines__SWIG_0(a0, a1.(*float32), a2.(int), a[0].(int), a[1].(string), a[2].(float32), a[3].(float32), a[4].(Vec2), a[5].(int))
+		PlotLines__SWIG_0(a0, a1.(*float32), unsafeOf(a2, reflect.Int).(int), unsafeOf(a[0], reflect.Int).(int), a[1].(string), unsafeOf(a[2], reflect.Float32).(float32), unsafeOf(a[3], reflect.Float32).(float32), a[4].(Vec2), unsafeOf(a[5], reflect.Int).(int))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -8498,7 +8499,7 @@ func PlotHistogram__SWIG_12(arg1 string, arg2 _swig_fnptr, arg3 uintptr, arg4 in
 func PlotHistogram(a0 string, a1 interface{}, a2 interface{}, a ...interface{}) {
 	argc := len(a)
 	if argc == 0 {
-		PlotHistogram__SWIG_6(a0, a1.(*float32), a2.(int))
+		PlotHistogram__SWIG_6(a0, a1.(*float32), unsafeOf(a2, reflect.Int).(int))
 		return
 	}
 	if argc == 1 {
@@ -8508,12 +8509,12 @@ func PlotHistogram(a0 string, a1 interface{}, a2 interface{}, a ...interface{}) 
 		if _, ok := a2.(int); !ok {
 			goto check_2
 		}
-		PlotHistogram__SWIG_5(a0, a1.(*float32), a2.(int), a[0].(int))
+		PlotHistogram__SWIG_5(a0, a1.(*float32), unsafeOf(a2, reflect.Int).(int), unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 check_2:
 	if argc == 1 {
-		PlotHistogram__SWIG_12(a0, a1.(_swig_fnptr), a2.(uintptr), a[0].(int))
+		PlotHistogram__SWIG_12(a0, a1.(_swig_fnptr), unsafeOf(a2, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 	if argc == 2 {
@@ -8526,12 +8527,12 @@ check_2:
 		if _, ok := a[1].(int); !ok {
 			goto check_4
 		}
-		PlotHistogram__SWIG_11(a0, a1.(_swig_fnptr), a2.(uintptr), a[0].(int), a[1].(int))
+		PlotHistogram__SWIG_11(a0, a1.(_swig_fnptr), unsafeOf(a2, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int))
 		return
 	}
 check_4:
 	if argc == 2 {
-		PlotHistogram__SWIG_4(a0, a1.(*float32), a2.(int), a[0].(int), a[1].(string))
+		PlotHistogram__SWIG_4(a0, a1.(*float32), unsafeOf(a2, reflect.Int).(int), unsafeOf(a[0], reflect.Int).(int), a[1].(string))
 		return
 	}
 	if argc == 3 {
@@ -8547,12 +8548,12 @@ check_4:
 		if _, ok := a[2].(float32); !ok {
 			goto check_6
 		}
-		PlotHistogram__SWIG_3(a0, a1.(*float32), a2.(int), a[0].(int), a[1].(string), a[2].(float32))
+		PlotHistogram__SWIG_3(a0, a1.(*float32), unsafeOf(a2, reflect.Int).(int), unsafeOf(a[0], reflect.Int).(int), a[1].(string), unsafeOf(a[2], reflect.Float32).(float32))
 		return
 	}
 check_6:
 	if argc == 3 {
-		PlotHistogram__SWIG_10(a0, a1.(_swig_fnptr), a2.(uintptr), a[0].(int), a[1].(int), a[2].(string))
+		PlotHistogram__SWIG_10(a0, a1.(_swig_fnptr), unsafeOf(a2, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), a[2].(string))
 		return
 	}
 	if argc == 4 {
@@ -8568,12 +8569,12 @@ check_6:
 		if _, ok := a[2].(string); !ok {
 			goto check_8
 		}
-		PlotHistogram__SWIG_9(a0, a1.(_swig_fnptr), a2.(uintptr), a[0].(int), a[1].(int), a[2].(string), a[3].(float32))
+		PlotHistogram__SWIG_9(a0, a1.(_swig_fnptr), unsafeOf(a2, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), a[2].(string), unsafeOf(a[3], reflect.Float32).(float32))
 		return
 	}
 check_8:
 	if argc == 4 {
-		PlotHistogram__SWIG_2(a0, a1.(*float32), a2.(int), a[0].(int), a[1].(string), a[2].(float32), a[3].(float32))
+		PlotHistogram__SWIG_2(a0, a1.(*float32), unsafeOf(a2, reflect.Int).(int), unsafeOf(a[0], reflect.Int).(int), a[1].(string), unsafeOf(a[2], reflect.Float32).(float32), unsafeOf(a[3], reflect.Float32).(float32))
 		return
 	}
 	if argc == 5 {
@@ -8592,12 +8593,12 @@ check_8:
 		if _, ok := a[4].(SwigcptrVec2); !ok {
 			goto check_10
 		}
-		PlotHistogram__SWIG_1(a0, a1.(*float32), a2.(int), a[0].(int), a[1].(string), a[2].(float32), a[3].(float32), a[4].(Vec2))
+		PlotHistogram__SWIG_1(a0, a1.(*float32), unsafeOf(a2, reflect.Int).(int), unsafeOf(a[0], reflect.Int).(int), a[1].(string), unsafeOf(a[2], reflect.Float32).(float32), unsafeOf(a[3], reflect.Float32).(float32), a[4].(Vec2))
 		return
 	}
 check_10:
 	if argc == 5 {
-		PlotHistogram__SWIG_8(a0, a1.(_swig_fnptr), a2.(uintptr), a[0].(int), a[1].(int), a[2].(string), a[3].(float32), a[4].(float32))
+		PlotHistogram__SWIG_8(a0, a1.(_swig_fnptr), unsafeOf(a2, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), a[2].(string), unsafeOf(a[3], reflect.Float32).(float32), unsafeOf(a[4], reflect.Float32).(float32))
 		return
 	}
 	if argc == 6 {
@@ -8619,12 +8620,12 @@ check_10:
 		if _, ok := a[5].(SwigcptrVec2); !ok {
 			goto check_12
 		}
-		PlotHistogram__SWIG_7(a0, a1.(_swig_fnptr), a2.(uintptr), a[0].(int), a[1].(int), a[2].(string), a[3].(float32), a[4].(float32), a[5].(Vec2))
+		PlotHistogram__SWIG_7(a0, a1.(_swig_fnptr), unsafeOf(a2, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), a[2].(string), unsafeOf(a[3], reflect.Float32).(float32), unsafeOf(a[4], reflect.Float32).(float32), a[5].(Vec2))
 		return
 	}
 check_12:
 	if argc == 6 {
-		PlotHistogram__SWIG_0(a0, a1.(*float32), a2.(int), a[0].(int), a[1].(string), a[2].(float32), a[3].(float32), a[4].(Vec2), a[5].(int))
+		PlotHistogram__SWIG_0(a0, a1.(*float32), unsafeOf(a2, reflect.Int).(int), unsafeOf(a[0], reflect.Int).(int), a[1].(string), unsafeOf(a[2], reflect.Float32).(float32), unsafeOf(a[3], reflect.Float32).(float32), a[4].(Vec2), unsafeOf(a[5], reflect.Int).(int))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -8693,16 +8694,16 @@ check_1:
 		if _, ok := a1.(int); !ok {
 			goto check_2
 		}
-		Value__SWIG_1(a0, a1.(int))
+		Value__SWIG_1(a0, unsafeOf(a1, reflect.Int).(int))
 		return
 	}
 check_2:
 	if argc == 0 {
-		Value__SWIG_3(a0, a1.(float32))
+		Value__SWIG_3(a0, unsafeOf(a1, reflect.Float32).(float32))
 		return
 	}
 	if argc == 1 {
-		Value__SWIG_2(a0, a1.(float32), a[0].(string))
+		Value__SWIG_2(a0, unsafeOf(a1, reflect.Float32).(float32), a[0].(string))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -8930,7 +8931,7 @@ func BeginPopup(a0 string, a ...interface{}) bool {
 		return BeginPopup__SWIG_1(a0)
 	}
 	if argc == 1 {
-		return BeginPopup__SWIG_0(a0, a[0].(int))
+		return BeginPopup__SWIG_0(a0, unsafeOf(a[0], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -8971,7 +8972,7 @@ func BeginPopupContextItem(a ...interface{}) bool {
 		return BeginPopupContextItem__SWIG_1(a[0].(string))
 	}
 	if argc == 2 {
-		return BeginPopupContextItem__SWIG_0(a[0].(string), a[1].(int))
+		return BeginPopupContextItem__SWIG_0(a[0].(string), unsafeOf(a[1], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -9024,10 +9025,10 @@ func BeginPopupContextWindow(a ...interface{}) bool {
 		return BeginPopupContextWindow__SWIG_2(a[0].(string))
 	}
 	if argc == 2 {
-		return BeginPopupContextWindow__SWIG_1(a[0].(string), a[1].(int))
+		return BeginPopupContextWindow__SWIG_1(a[0].(string), unsafeOf(a[1], reflect.Int).(int))
 	}
 	if argc == 3 {
-		return BeginPopupContextWindow__SWIG_0(a[0].(string), a[1].(int), a[2].(bool))
+		return BeginPopupContextWindow__SWIG_0(a[0].(string), unsafeOf(a[1], reflect.Int).(int), a[2].(bool))
 	}
 	panic("No match for overloaded function call")
 }
@@ -9068,7 +9069,7 @@ func BeginPopupContextVoid(a ...interface{}) bool {
 		return BeginPopupContextVoid__SWIG_1(a[0].(string))
 	}
 	if argc == 2 {
-		return BeginPopupContextVoid__SWIG_0(a[0].(string), a[1].(int))
+		return BeginPopupContextVoid__SWIG_0(a[0].(string), unsafeOf(a[1], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -9115,7 +9116,7 @@ func BeginPopupModal(a0 string, a ...interface{}) bool {
 		return BeginPopupModal__SWIG_1(a0, a[0].(*bool))
 	}
 	if argc == 2 {
-		return BeginPopupModal__SWIG_0(a0, a[0].(*bool), a[1].(int))
+		return BeginPopupModal__SWIG_0(a0, a[0].(*bool), unsafeOf(a[1], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -9160,7 +9161,7 @@ func OpenPopupOnItemClick(a ...interface{}) bool {
 		return OpenPopupOnItemClick__SWIG_1(a[0].(string))
 	}
 	if argc == 2 {
-		return OpenPopupOnItemClick__SWIG_0(a[0].(string), a[1].(int))
+		return OpenPopupOnItemClick__SWIG_0(a[0].(string), unsafeOf(a[1], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -9214,15 +9215,15 @@ func Columns(a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		Columns__SWIG_2(a[0].(int))
+		Columns__SWIG_2(unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 	if argc == 2 {
-		Columns__SWIG_1(a[0].(int), a[1].(string))
+		Columns__SWIG_1(unsafeOf(a[0], reflect.Int).(int), a[1].(string))
 		return
 	}
 	if argc == 3 {
-		Columns__SWIG_0(a[0].(int), a[1].(string), a[2].(bool))
+		Columns__SWIG_0(unsafeOf(a[0], reflect.Int).(int), a[1].(string), a[2].(bool))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -9257,7 +9258,7 @@ func GetColumnWidth(a ...interface{}) float32 {
 		return GetColumnWidth__SWIG_1()
 	}
 	if argc == 1 {
-		return GetColumnWidth__SWIG_0(a[0].(int))
+		return GetColumnWidth__SWIG_0(unsafeOf(a[0], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -9287,7 +9288,7 @@ func GetColumnOffset(a ...interface{}) float32 {
 		return GetColumnOffset__SWIG_1()
 	}
 	if argc == 1 {
-		return GetColumnOffset__SWIG_0(a[0].(int))
+		return GetColumnOffset__SWIG_0(unsafeOf(a[0], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -9320,7 +9321,7 @@ func LogToTTY(a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		LogToTTY__SWIG_0(a[0].(int))
+		LogToTTY__SWIG_0(unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -9351,11 +9352,11 @@ func LogToFile(a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		LogToFile__SWIG_1(a[0].(int))
+		LogToFile__SWIG_1(unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 	if argc == 2 {
-		LogToFile__SWIG_0(a[0].(int), a[1].(string))
+		LogToFile__SWIG_0(unsafeOf(a[0], reflect.Int).(int), a[1].(string))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -9377,7 +9378,7 @@ func LogToClipboard(a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		LogToClipboard__SWIG_0(a[0].(int))
+		LogToClipboard__SWIG_0(unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -9416,7 +9417,7 @@ func BeginDragDropSource(a ...interface{}) bool {
 		return BeginDragDropSource__SWIG_1()
 	}
 	if argc == 1 {
-		return BeginDragDropSource__SWIG_0(a[0].(int))
+		return BeginDragDropSource__SWIG_0(unsafeOf(a[0], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -9452,7 +9453,7 @@ func SetDragDropPayload(a0 string, a1 uintptr, a2 int64, a ...interface{}) bool 
 		return SetDragDropPayload__SWIG_1(a0, a1, a2)
 	}
 	if argc == 1 {
-		return SetDragDropPayload__SWIG_0(a0, a1, a2, a[0].(int))
+		return SetDragDropPayload__SWIG_0(a0, a1, a2, unsafeOf(a[0], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -9494,7 +9495,7 @@ func AcceptDragDropPayload(a0 string, a ...interface{}) Payload {
 		return AcceptDragDropPayload__SWIG_1(a0)
 	}
 	if argc == 1 {
-		return AcceptDragDropPayload__SWIG_0(a0, a[0].(int))
+		return AcceptDragDropPayload__SWIG_0(a0, unsafeOf(a[0], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -9534,7 +9535,7 @@ func SetKeyboardFocusHere(a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		SetKeyboardFocusHere__SWIG_0(a[0].(int))
+		SetKeyboardFocusHere__SWIG_0(unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -9559,7 +9560,7 @@ func IsItemHovered(a ...interface{}) bool {
 		return IsItemHovered__SWIG_1()
 	}
 	if argc == 1 {
-		return IsItemHovered__SWIG_0(a[0].(int))
+		return IsItemHovered__SWIG_0(unsafeOf(a[0], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -9595,7 +9596,7 @@ func IsItemClicked(a ...interface{}) bool {
 		return IsItemClicked__SWIG_1()
 	}
 	if argc == 1 {
-		return IsItemClicked__SWIG_0(a[0].(int))
+		return IsItemClicked__SWIG_0(unsafeOf(a[0], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -9802,7 +9803,7 @@ func CalcTextSize(a0 string, a ...interface{}) Vec2 {
 		return CalcTextSize__SWIG_1(a0, a[0].(string), a[1].(bool))
 	}
 	if argc == 3 {
-		return CalcTextSize__SWIG_0(a0, a[0].(string), a[1].(bool), a[2].(float32))
+		return CalcTextSize__SWIG_0(a0, a[0].(string), a[1].(bool), unsafeOf(a[2], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -9838,7 +9839,7 @@ func BeginChildFrame(a0 uint, a1 Vec2, a ...interface{}) bool {
 		return BeginChildFrame__SWIG_1(a0, a1)
 	}
 	if argc == 1 {
-		return BeginChildFrame__SWIG_0(a0, a1, a[0].(int))
+		return BeginChildFrame__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -10017,10 +10018,10 @@ func IsMouseDragging(a ...interface{}) bool {
 		return IsMouseDragging__SWIG_2()
 	}
 	if argc == 1 {
-		return IsMouseDragging__SWIG_1(a[0].(int))
+		return IsMouseDragging__SWIG_1(unsafeOf(a[0], reflect.Int).(int))
 	}
 	if argc == 2 {
-		return IsMouseDragging__SWIG_0(a[0].(int), a[1].(float32))
+		return IsMouseDragging__SWIG_0(unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -10116,10 +10117,10 @@ func GetMouseDragDelta(a ...interface{}) Vec2 {
 		return GetMouseDragDelta__SWIG_2()
 	}
 	if argc == 1 {
-		return GetMouseDragDelta__SWIG_1(a[0].(int))
+		return GetMouseDragDelta__SWIG_1(unsafeOf(a[0], reflect.Int).(int))
 	}
 	if argc == 2 {
-		return GetMouseDragDelta__SWIG_0(a[0].(int), a[1].(float32))
+		return GetMouseDragDelta__SWIG_0(unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -10140,7 +10141,7 @@ func ResetMouseDragDelta(a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		ResetMouseDragDelta__SWIG_0(a[0].(int))
+		ResetMouseDragDelta__SWIG_0(unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -10250,7 +10251,7 @@ func LoadIniSettingsFromMemory(a0 string, a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		LoadIniSettingsFromMemory__SWIG_0(a0, a[0].(int64))
+		LoadIniSettingsFromMemory__SWIG_0(a0, unsafeOf(a[0], reflect.Int64).(int64))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -10314,7 +10315,7 @@ func SetAllocatorFunctions(a0 _swig_fnptr, a1 _swig_fnptr, a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		SetAllocatorFunctions__SWIG_0(a0, a1, a[0].(uintptr))
+		SetAllocatorFunctions__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Uintptr).(uintptr))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -14578,7 +14579,7 @@ func NewColor(a ...interface{}) Color {
 	}
 check_2:
 	if argc == 1 {
-		return NewColor__SWIG_3(a[0].(uint))
+		return NewColor__SWIG_3(unsafeOf(a[0], reflect.Uint).(uint))
 	}
 	if argc == 3 {
 		if _, ok := a[0].(int); !ok {
@@ -14590,11 +14591,11 @@ check_2:
 		if _, ok := a[2].(int); !ok {
 			goto check_4
 		}
-		return NewColor__SWIG_2(a[0].(int), a[1].(int), a[2].(int))
+		return NewColor__SWIG_2(unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), unsafeOf(a[2], reflect.Int).(int))
 	}
 check_4:
 	if argc == 3 {
-		return NewColor__SWIG_5(a[0].(float32), a[1].(float32), a[2].(float32))
+		return NewColor__SWIG_5(unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32), unsafeOf(a[2], reflect.Float32).(float32))
 	}
 	if argc == 4 {
 		if _, ok := a[0].(int); !ok {
@@ -14609,11 +14610,11 @@ check_4:
 		if _, ok := a[3].(int); !ok {
 			goto check_6
 		}
-		return NewColor__SWIG_1(a[0].(int), a[1].(int), a[2].(int), a[3].(int))
+		return NewColor__SWIG_1(unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), unsafeOf(a[2], reflect.Int).(int), unsafeOf(a[3], reflect.Int).(int))
 	}
 check_6:
 	if argc == 4 {
-		return NewColor__SWIG_4(a[0].(float32), a[1].(float32), a[2].(float32), a[3].(float32))
+		return NewColor__SWIG_4(unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32), unsafeOf(a[2], reflect.Float32).(float32), unsafeOf(a[3], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -14656,7 +14657,7 @@ func (p SwigcptrColor) SetHSV(a0 float32, a1 float32, a2 float32, a ...interface
 		return
 	}
 	if argc == 1 {
-		p.SetHSV__SWIG_0(a0, a1, a2, a[0].(float32))
+		p.SetHSV__SWIG_0(a0, a1, a2, unsafeOf(a[0], reflect.Float32).(float32))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -14687,7 +14688,7 @@ func ColorHSV(a0 float32, a1 float32, a2 float32, a ...interface{}) Color {
 		return ColorHSV__SWIG_1(a0, a1, a2)
 	}
 	if argc == 1 {
-		return ColorHSV__SWIG_0(a0, a1, a2, a[0].(float32))
+		return ColorHSV__SWIG_0(a0, a1, a2, unsafeOf(a[0], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -14822,10 +14823,10 @@ func NewListClipper(a ...interface{}) ListClipper {
 		return NewListClipper__SWIG_2()
 	}
 	if argc == 1 {
-		return NewListClipper__SWIG_1(a[0].(int))
+		return NewListClipper__SWIG_1(unsafeOf(a[0], reflect.Int).(int))
 	}
 	if argc == 2 {
-		return NewListClipper__SWIG_0(a[0].(int), a[1].(float32))
+		return NewListClipper__SWIG_0(unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -14862,7 +14863,7 @@ func (p SwigcptrListClipper) Begin(a0 int, a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		p.Begin__SWIG_0(a0, a[0].(float32))
+		p.Begin__SWIG_0(a0, unsafeOf(a[0], reflect.Float32).(float32))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -15547,7 +15548,7 @@ func (p SwigcptrDrawList) AddLine(a0 Vec2, a1 Vec2, a2 uint, a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		p.AddLine__SWIG_0(a0, a1, a2, a[0].(float32))
+		p.AddLine__SWIG_0(a0, a1, a2, unsafeOf(a[0], reflect.Float32).(float32))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -15598,15 +15599,15 @@ func (p SwigcptrDrawList) AddRect(a0 Vec2, a1 Vec2, a2 uint, a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		p.AddRect__SWIG_2(a0, a1, a2, a[0].(float32))
+		p.AddRect__SWIG_2(a0, a1, a2, unsafeOf(a[0], reflect.Float32).(float32))
 		return
 	}
 	if argc == 2 {
-		p.AddRect__SWIG_1(a0, a1, a2, a[0].(float32), a[1].(int))
+		p.AddRect__SWIG_1(a0, a1, a2, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Int).(int))
 		return
 	}
 	if argc == 3 {
-		p.AddRect__SWIG_0(a0, a1, a2, a[0].(float32), a[1].(int), a[2].(float32))
+		p.AddRect__SWIG_0(a0, a1, a2, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Int).(int), unsafeOf(a[2], reflect.Float32).(float32))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -15646,11 +15647,11 @@ func (p SwigcptrDrawList) AddRectFilled(a0 Vec2, a1 Vec2, a2 uint, a ...interfac
 		return
 	}
 	if argc == 1 {
-		p.AddRectFilled__SWIG_1(a0, a1, a2, a[0].(float32))
+		p.AddRectFilled__SWIG_1(a0, a1, a2, unsafeOf(a[0], reflect.Float32).(float32))
 		return
 	}
 	if argc == 2 {
-		p.AddRectFilled__SWIG_0(a0, a1, a2, a[0].(float32), a[1].(int))
+		p.AddRectFilled__SWIG_0(a0, a1, a2, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Int).(int))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -15695,7 +15696,7 @@ func (p SwigcptrDrawList) AddQuad(a0 Vec2, a1 Vec2, a2 Vec2, a3 Vec2, a4 uint, a
 		return
 	}
 	if argc == 1 {
-		p.AddQuad__SWIG_0(a0, a1, a2, a3, a4, a[0].(float32))
+		p.AddQuad__SWIG_0(a0, a1, a2, a3, a4, unsafeOf(a[0], reflect.Float32).(float32))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -15737,7 +15738,7 @@ func (p SwigcptrDrawList) AddTriangle(a0 Vec2, a1 Vec2, a2 Vec2, a3 uint, a ...i
 		return
 	}
 	if argc == 1 {
-		p.AddTriangle__SWIG_0(a0, a1, a2, a3, a[0].(float32))
+		p.AddTriangle__SWIG_0(a0, a1, a2, a3, unsafeOf(a[0], reflect.Float32).(float32))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -15786,11 +15787,11 @@ func (p SwigcptrDrawList) AddCircle(a0 Vec2, a1 float32, a2 uint, a ...interface
 		return
 	}
 	if argc == 1 {
-		p.AddCircle__SWIG_1(a0, a1, a2, a[0].(int))
+		p.AddCircle__SWIG_1(a0, a1, a2, unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 	if argc == 2 {
-		p.AddCircle__SWIG_0(a0, a1, a2, a[0].(int), a[1].(float32))
+		p.AddCircle__SWIG_0(a0, a1, a2, unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Float32).(float32))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -15820,7 +15821,7 @@ func (p SwigcptrDrawList) AddCircleFilled(a0 Vec2, a1 float32, a2 uint, a ...int
 		return
 	}
 	if argc == 1 {
-		p.AddCircleFilled__SWIG_0(a0, a1, a2, a[0].(int))
+		p.AddCircleFilled__SWIG_0(a0, a1, a2, unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -15922,27 +15923,27 @@ func (arg1 SwigcptrDrawList) AddText__SWIG_5(arg2 Font, arg3 float32, arg4 Vec2,
 func (p SwigcptrDrawList) AddText(a0 interface{}, a1 interface{}, a2 interface{}, a ...interface{}) {
 	argc := len(a)
 	if argc == 0 {
-		p.AddText__SWIG_1(a0.(Vec2), a1.(uint), a2.(string))
+		p.AddText__SWIG_1(a0.(Vec2), unsafeOf(a1, reflect.Uint).(uint), a2.(string))
 		return
 	}
 	if argc == 1 {
-		p.AddText__SWIG_0(a0.(Vec2), a1.(uint), a2.(string), a[0].(string))
+		p.AddText__SWIG_0(a0.(Vec2), unsafeOf(a1, reflect.Uint).(uint), a2.(string), a[0].(string))
 		return
 	}
 	if argc == 2 {
-		p.AddText__SWIG_5(a0.(Font), a1.(float32), a2.(Vec2), a[0].(uint), a[1].(string))
+		p.AddText__SWIG_5(a0.(Font), unsafeOf(a1, reflect.Float32).(float32), a2.(Vec2), unsafeOf(a[0], reflect.Uint).(uint), a[1].(string))
 		return
 	}
 	if argc == 3 {
-		p.AddText__SWIG_4(a0.(Font), a1.(float32), a2.(Vec2), a[0].(uint), a[1].(string), a[2].(string))
+		p.AddText__SWIG_4(a0.(Font), unsafeOf(a1, reflect.Float32).(float32), a2.(Vec2), unsafeOf(a[0], reflect.Uint).(uint), a[1].(string), a[2].(string))
 		return
 	}
 	if argc == 4 {
-		p.AddText__SWIG_3(a0.(Font), a1.(float32), a2.(Vec2), a[0].(uint), a[1].(string), a[2].(string), a[3].(float32))
+		p.AddText__SWIG_3(a0.(Font), unsafeOf(a1, reflect.Float32).(float32), a2.(Vec2), unsafeOf(a[0], reflect.Uint).(uint), a[1].(string), a[2].(string), unsafeOf(a[3], reflect.Float32).(float32))
 		return
 	}
 	if argc == 5 {
-		p.AddText__SWIG_2(a0.(Font), a1.(float32), a2.(Vec2), a[0].(uint), a[1].(string), a[2].(string), a[3].(float32), a[4].(Vec4))
+		p.AddText__SWIG_2(a0.(Font), unsafeOf(a1, reflect.Float32).(float32), a2.(Vec2), unsafeOf(a[0], reflect.Uint).(uint), a[1].(string), a[2].(string), unsafeOf(a[3], reflect.Float32).(float32), a[4].(Vec4))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -16001,7 +16002,7 @@ func (p SwigcptrDrawList) AddImage(a0 uintptr, a1 Vec2, a2 Vec2, a ...interface{
 		return
 	}
 	if argc == 3 {
-		p.AddImage__SWIG_0(a0, a1, a2, a[0].(Vec2), a[1].(Vec2), a[2].(uint))
+		p.AddImage__SWIG_0(a0, a1, a2, a[0].(Vec2), a[1].(Vec2), unsafeOf(a[2], reflect.Uint).(uint))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -16105,7 +16106,7 @@ func (p SwigcptrDrawList) AddImageQuad(a0 uintptr, a1 Vec2, a2 Vec2, a3 Vec2, a4
 		return
 	}
 	if argc == 5 {
-		p.AddImageQuad__SWIG_0(a0, a1, a2, a3, a4, a[0].(Vec2), a[1].(Vec2), a[2].(Vec2), a[3].(Vec2), a[4].(uint))
+		p.AddImageQuad__SWIG_0(a0, a1, a2, a3, a4, a[0].(Vec2), a[1].(Vec2), a[2].(Vec2), a[3].(Vec2), unsafeOf(a[4], reflect.Uint).(uint))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -16143,7 +16144,7 @@ func (p SwigcptrDrawList) AddImageRounded(a0 uintptr, a1 Vec2, a2 Vec2, a3 Vec2,
 		return
 	}
 	if argc == 1 {
-		p.AddImageRounded__SWIG_0(a0, a1, a2, a3, a4, a5, a6, a[0].(int))
+		p.AddImageRounded__SWIG_0(a0, a1, a2, a3, a4, a5, a6, unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -16197,7 +16198,7 @@ func (p SwigcptrDrawList) AddBezierCurve(a0 Vec2, a1 Vec2, a2 Vec2, a3 Vec2, a4 
 		return
 	}
 	if argc == 1 {
-		p.AddBezierCurve__SWIG_0(a0, a1, a2, a3, a4, a5, a[0].(int))
+		p.AddBezierCurve__SWIG_0(a0, a1, a2, a3, a4, a5, unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -16248,7 +16249,7 @@ func (p SwigcptrDrawList) PathStroke(a0 uint, a1 bool, a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		p.PathStroke__SWIG_0(a0, a1, a[0].(float32))
+		p.PathStroke__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Float32).(float32))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -16280,7 +16281,7 @@ func (p SwigcptrDrawList) PathArcTo(a0 Vec2, a1 float32, a2 float32, a3 float32,
 		return
 	}
 	if argc == 1 {
-		p.PathArcTo__SWIG_0(a0, a1, a2, a3, a[0].(int))
+		p.PathArcTo__SWIG_0(a0, a1, a2, a3, unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -16319,7 +16320,7 @@ func (p SwigcptrDrawList) PathBezierCurveTo(a0 Vec2, a1 Vec2, a2 Vec2, a ...inte
 		return
 	}
 	if argc == 1 {
-		p.PathBezierCurveTo__SWIG_0(a0, a1, a2, a[0].(int))
+		p.PathBezierCurveTo__SWIG_0(a0, a1, a2, unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -16356,11 +16357,11 @@ func (p SwigcptrDrawList) PathRect(a0 Vec2, a1 Vec2, a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		p.PathRect__SWIG_1(a0, a1, a[0].(float32))
+		p.PathRect__SWIG_1(a0, a1, unsafeOf(a[0], reflect.Float32).(float32))
 		return
 	}
 	if argc == 2 {
-		p.PathRect__SWIG_0(a0, a1, a[0].(float32), a[1].(int))
+		p.PathRect__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Int).(int))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -17982,11 +17983,11 @@ func (p SwigcptrFont) RenderText(a0 DrawList, a1 float32, a2 Vec2, a3 uint, a4 V
 		return
 	}
 	if argc == 1 {
-		p.RenderText__SWIG_1(a0, a1, a2, a3, a4, a5, a6, a[0].(float32))
+		p.RenderText__SWIG_1(a0, a1, a2, a3, a4, a5, a6, unsafeOf(a[0], reflect.Float32).(float32))
 		return
 	}
 	if argc == 2 {
-		p.RenderText__SWIG_0(a0, a1, a2, a3, a4, a5, a6, a[0].(float32), a[1].(bool))
+		p.RenderText__SWIG_0(a0, a1, a2, a3, a4, a5, a6, unsafeOf(a[0], reflect.Float32).(float32), a[1].(bool))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -18191,4 +18192,38 @@ func CallDrawCmdCallback(list DrawList, cmd DrawCmd) bool {
 		DrawCmdUserCall(list, cmd)
 	}
 	return false
+}
+
+// unsafe convert type
+func unsafeOf(i interface{}, t reflect.Kind) interface{} {
+	v := reflect.ValueOf(i)
+	switch t {
+	// int
+	case reflect.Int32:
+		return int32(v.Int())
+	case reflect.Int64:
+		return int64(v.Int())
+	case reflect.Int:
+		return int(v.Int())
+
+	// uint
+	case reflect.Uint32:
+		return int32(v.Uint())
+	case reflect.Uint64:
+		return int64(v.Uint())
+	case reflect.Uint:
+		return int(v.Uint())
+
+	// float
+	case reflect.Float32:
+		var f float32
+		fv := v.Convert(reflect.TypeOf(f))
+		return float32(fv.Float())
+
+	case reflect.Float64:
+		var f float64
+		fv := v.Convert(reflect.TypeOf(f))
+		return float64(fv.Float())
+	}
+	return nil
 }
