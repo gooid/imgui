@@ -18208,11 +18208,11 @@ func unsafeOf(i interface{}, t reflect.Kind) interface{} {
 
 	// uint
 	case reflect.Uint32:
-		return int32(v.Uint())
+		return uint32(v.Uint())
 	case reflect.Uint64:
-		return int64(v.Uint())
+		return uint64(v.Uint())
 	case reflect.Uint:
-		return int(v.Uint())
+		return uint(v.Uint())
 
 	// float
 	case reflect.Float32:
