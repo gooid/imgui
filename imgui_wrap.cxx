@@ -266,11 +266,11 @@ extern "C" {
 
 void _wrap_Swig_free(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
-  
-  arg1 = *(void **)&_swig_go_0; 
-  
+
+  arg1 = *(void **)&_swig_go_0;
+
   Swig_free(arg1);
-  
+
 }
 
 
@@ -278,11 +278,11 @@ void *_wrap_Swig_malloc(intgo _swig_go_0) {
   int arg1 ;
   void *result = 0 ;
   void *_swig_go_result;
-  
-  arg1 = (int)_swig_go_0; 
-  
+
+  arg1 = (int)_swig_go_0;
+
   result = (void *)Swig_malloc(arg1);
-  *(void **)&_swig_go_result = (void *)result; 
+  *(void **)&_swig_go_result = (void *)result;
   return _swig_go_result;
 }
 
@@ -290,12 +290,12 @@ void *_wrap_Swig_malloc(intgo _swig_go_0) {
 void _wrap_Vec2_x_set(ImVec2 *_swig_go_0, float _swig_go_1) {
   ImVec2 *arg1 = (ImVec2 *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->x = arg2;
-  
+
 }
 
 
@@ -303,11 +303,11 @@ float _wrap_Vec2_x_get(ImVec2 *_swig_go_0) {
   ImVec2 *arg1 = (ImVec2 *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+
   result = (float) ((arg1)->x);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -315,12 +315,12 @@ float _wrap_Vec2_x_get(ImVec2 *_swig_go_0) {
 void _wrap_Vec2_y_set(ImVec2 *_swig_go_0, float _swig_go_1) {
   ImVec2 *arg1 = (ImVec2 *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->y = arg2;
-  
+
 }
 
 
@@ -328,11 +328,11 @@ float _wrap_Vec2_y_get(ImVec2 *_swig_go_0) {
   ImVec2 *arg1 = (ImVec2 *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+
   result = (float) ((arg1)->y);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -340,10 +340,10 @@ float _wrap_Vec2_y_get(ImVec2 *_swig_go_0) {
 ImVec2 *_wrap_new_Vec2__SWIG_0() {
   ImVec2 *result = 0 ;
   ImVec2 *_swig_go_result;
-  
-  
+
+
   result = (ImVec2 *)new ImVec2();
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
   return _swig_go_result;
 }
 
@@ -353,35 +353,35 @@ ImVec2 *_wrap_new_Vec2__SWIG_1(float _swig_go_0, float _swig_go_1) {
   float arg2 ;
   ImVec2 *result = 0 ;
   ImVec2 *_swig_go_result;
-  
-  arg1 = (float)_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = (float)_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   result = (ImVec2 *)new ImVec2(arg1,arg2);
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
   return _swig_go_result;
 }
 
 
 void _wrap_delete_Vec2(ImVec2 *_swig_go_0) {
   ImVec2 *arg1 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+
   delete arg1;
-  
+
 }
 
 
 void _wrap_Vec4_x_set(ImVec4 *_swig_go_0, float _swig_go_1) {
   ImVec4 *arg1 = (ImVec4 *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImVec4 **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImVec4 **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->x = arg2;
-  
+
 }
 
 
@@ -389,11 +389,11 @@ float _wrap_Vec4_x_get(ImVec4 *_swig_go_0) {
   ImVec4 *arg1 = (ImVec4 *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImVec4 **)&_swig_go_0; 
-  
+
+  arg1 = *(ImVec4 **)&_swig_go_0;
+
   result = (float) ((arg1)->x);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -401,12 +401,12 @@ float _wrap_Vec4_x_get(ImVec4 *_swig_go_0) {
 void _wrap_Vec4_y_set(ImVec4 *_swig_go_0, float _swig_go_1) {
   ImVec4 *arg1 = (ImVec4 *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImVec4 **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImVec4 **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->y = arg2;
-  
+
 }
 
 
@@ -414,11 +414,11 @@ float _wrap_Vec4_y_get(ImVec4 *_swig_go_0) {
   ImVec4 *arg1 = (ImVec4 *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImVec4 **)&_swig_go_0; 
-  
+
+  arg1 = *(ImVec4 **)&_swig_go_0;
+
   result = (float) ((arg1)->y);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -426,12 +426,12 @@ float _wrap_Vec4_y_get(ImVec4 *_swig_go_0) {
 void _wrap_Vec4_z_set(ImVec4 *_swig_go_0, float _swig_go_1) {
   ImVec4 *arg1 = (ImVec4 *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImVec4 **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImVec4 **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->z = arg2;
-  
+
 }
 
 
@@ -439,11 +439,11 @@ float _wrap_Vec4_z_get(ImVec4 *_swig_go_0) {
   ImVec4 *arg1 = (ImVec4 *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImVec4 **)&_swig_go_0; 
-  
+
+  arg1 = *(ImVec4 **)&_swig_go_0;
+
   result = (float) ((arg1)->z);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -451,12 +451,12 @@ float _wrap_Vec4_z_get(ImVec4 *_swig_go_0) {
 void _wrap_Vec4_w_set(ImVec4 *_swig_go_0, float _swig_go_1) {
   ImVec4 *arg1 = (ImVec4 *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImVec4 **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImVec4 **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->w = arg2;
-  
+
 }
 
 
@@ -464,11 +464,11 @@ float _wrap_Vec4_w_get(ImVec4 *_swig_go_0) {
   ImVec4 *arg1 = (ImVec4 *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImVec4 **)&_swig_go_0; 
-  
+
+  arg1 = *(ImVec4 **)&_swig_go_0;
+
   result = (float) ((arg1)->w);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -476,10 +476,10 @@ float _wrap_Vec4_w_get(ImVec4 *_swig_go_0) {
 ImVec4 *_wrap_new_Vec4__SWIG_0() {
   ImVec4 *result = 0 ;
   ImVec4 *_swig_go_result;
-  
-  
+
+
   result = (ImVec4 *)new ImVec4();
-  *(ImVec4 **)&_swig_go_result = (ImVec4 *)result; 
+  *(ImVec4 **)&_swig_go_result = (ImVec4 *)result;
   return _swig_go_result;
 }
 
@@ -491,25 +491,25 @@ ImVec4 *_wrap_new_Vec4__SWIG_1(float _swig_go_0, float _swig_go_1, float _swig_g
   float arg4 ;
   ImVec4 *result = 0 ;
   ImVec4 *_swig_go_result;
-  
-  arg1 = (float)_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg1 = (float)_swig_go_0;
+  arg2 = (float)_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   result = (ImVec4 *)new ImVec4(arg1,arg2,arg3,arg4);
-  *(ImVec4 **)&_swig_go_result = (ImVec4 *)result; 
+  *(ImVec4 **)&_swig_go_result = (ImVec4 *)result;
   return _swig_go_result;
 }
 
 
 void _wrap_delete_Vec4(ImVec4 *_swig_go_0) {
   ImVec4 *arg1 = (ImVec4 *) 0 ;
-  
-  arg1 = *(ImVec4 **)&_swig_go_0; 
-  
+
+  arg1 = *(ImVec4 **)&_swig_go_0;
+
   delete arg1;
-  
+
 }
 
 
@@ -517,11 +517,11 @@ ImGuiContext *_wrap_CreateContext__SWIG_0(ImFontAtlas *_swig_go_0) {
   ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
   ImGuiContext *result = 0 ;
   ImGuiContext *_swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
   result = (ImGuiContext *)ImGui::CreateContext(arg1);
-  *(ImGuiContext **)&_swig_go_result = (ImGuiContext *)result; 
+  *(ImGuiContext **)&_swig_go_result = (ImGuiContext *)result;
   return _swig_go_result;
 }
 
@@ -529,48 +529,48 @@ ImGuiContext *_wrap_CreateContext__SWIG_0(ImFontAtlas *_swig_go_0) {
 ImGuiContext *_wrap_CreateContext__SWIG_1() {
   ImGuiContext *result = 0 ;
   ImGuiContext *_swig_go_result;
-  
-  
+
+
   result = (ImGuiContext *)ImGui::CreateContext();
-  *(ImGuiContext **)&_swig_go_result = (ImGuiContext *)result; 
+  *(ImGuiContext **)&_swig_go_result = (ImGuiContext *)result;
   return _swig_go_result;
 }
 
 
 void _wrap_DestroyContext__SWIG_0(ImGuiContext *_swig_go_0) {
   ImGuiContext *arg1 = (ImGuiContext *) 0 ;
-  
-  arg1 = *(ImGuiContext **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiContext **)&_swig_go_0;
+
   ImGui::DestroyContext(arg1);
-  
+
 }
 
 
 void _wrap_DestroyContext__SWIG_1() {
   ImGui::DestroyContext();
-  
+
 }
 
 
 ImGuiContext *_wrap_GetCurrentContext() {
   ImGuiContext *result = 0 ;
   ImGuiContext *_swig_go_result;
-  
-  
+
+
   result = (ImGuiContext *)ImGui::GetCurrentContext();
-  *(ImGuiContext **)&_swig_go_result = (ImGuiContext *)result; 
+  *(ImGuiContext **)&_swig_go_result = (ImGuiContext *)result;
   return _swig_go_result;
 }
 
 
 void _wrap_SetCurrentContext(ImGuiContext *_swig_go_0) {
   ImGuiContext *arg1 = (ImGuiContext *) 0 ;
-  
-  arg1 = *(ImGuiContext **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiContext **)&_swig_go_0;
+
   ImGui::SetCurrentContext(arg1);
-  
+
 }
 
 
@@ -583,21 +583,21 @@ bool _wrap_DebugCheckVersionAndDataLayout(_gostring_ _swig_go_0, long long _swig
   size_t arg6 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (size_t)_swig_go_1; 
-  arg3 = (size_t)_swig_go_2; 
-  arg4 = (size_t)_swig_go_3; 
-  arg5 = (size_t)_swig_go_4; 
-  arg6 = (size_t)_swig_go_5; 
-  
+
+  arg2 = (size_t)_swig_go_1;
+  arg3 = (size_t)_swig_go_2;
+  arg4 = (size_t)_swig_go_3;
+  arg5 = (size_t)_swig_go_4;
+  arg6 = (size_t)_swig_go_5;
+
   result = (bool)ImGui::DebugCheckVersionAndDataLayout((char const *)arg1,arg2,arg3,arg4,arg5,arg6);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -605,10 +605,10 @@ bool _wrap_DebugCheckVersionAndDataLayout(_gostring_ _swig_go_0, long long _swig
 ImGuiIO *_wrap_GetIO() {
   ImGuiIO *result = 0 ;
   ImGuiIO *_swig_go_result;
-  
-  
+
+
   result = (ImGuiIO *) &ImGui::GetIO();
-  *(ImGuiIO **)&_swig_go_result = result; 
+  *(ImGuiIO **)&_swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -616,88 +616,88 @@ ImGuiIO *_wrap_GetIO() {
 ImGuiStyle *_wrap_GetStyle() {
   ImGuiStyle *result = 0 ;
   ImGuiStyle *_swig_go_result;
-  
-  
+
+
   result = (ImGuiStyle *) &ImGui::GetStyle();
-  *(ImGuiStyle **)&_swig_go_result = result; 
+  *(ImGuiStyle **)&_swig_go_result = result;
   return _swig_go_result;
 }
 
 
 void _wrap_NewFrame() {
   ImGui::NewFrame();
-  
+
 }
 
 
 void _wrap_EndFrame() {
   ImGui::EndFrame();
-  
+
 }
 
 
 void _wrap_Render() {
   ImGui::Render();
-  
+
 }
 
 
 ImDrawData *_wrap_GetDrawData() {
   ImDrawData *result = 0 ;
   ImDrawData *_swig_go_result;
-  
-  
+
+
   result = (ImDrawData *)ImGui::GetDrawData();
-  *(ImDrawData **)&_swig_go_result = (ImDrawData *)result; 
+  *(ImDrawData **)&_swig_go_result = (ImDrawData *)result;
   return _swig_go_result;
 }
 
 
 void _wrap_StyleColorsDark__SWIG_0(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   ImGui::StyleColorsDark(arg1);
-  
+
 }
 
 
 void _wrap_StyleColorsDark__SWIG_1() {
   ImGui::StyleColorsDark();
-  
+
 }
 
 
 void _wrap_StyleColorsClassic__SWIG_0(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   ImGui::StyleColorsClassic(arg1);
-  
+
 }
 
 
 void _wrap_StyleColorsClassic__SWIG_1() {
   ImGui::StyleColorsClassic();
-  
+
 }
 
 
 void _wrap_StyleColorsLight__SWIG_0(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   ImGui::StyleColorsLight(arg1);
-  
+
 }
 
 
 void _wrap_StyleColorsLight__SWIG_1() {
   ImGui::StyleColorsLight();
-  
+
 }
 
 
@@ -707,18 +707,18 @@ bool _wrap_Begin__SWIG_0(_gostring_ _swig_go_0, bool *_swig_go_1, intgo _swig_go
   ImGuiWindowFlags arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(bool **)&_swig_go_1; 
-  arg3 = (ImGuiWindowFlags)_swig_go_2; 
-  
+
+  arg2 = *(bool **)&_swig_go_1;
+  arg3 = (ImGuiWindowFlags)_swig_go_2;
+
   result = (bool)ImGui::Begin((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -728,17 +728,17 @@ bool _wrap_Begin__SWIG_1(_gostring_ _swig_go_0, bool *_swig_go_1) {
   bool *arg2 = (bool *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(bool **)&_swig_go_1; 
-  
+
+  arg2 = *(bool **)&_swig_go_1;
+
   result = (bool)ImGui::Begin((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -747,23 +747,23 @@ bool _wrap_Begin__SWIG_2(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::Begin((char const *)arg1);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
 
 void _wrap_End() {
   ImGui::End();
-  
+
 }
 
 
@@ -774,19 +774,19 @@ bool _wrap_BeginChild__SWIG_0(_gostring_ _swig_go_0, ImVec2 *_swig_go_1, bool _s
   ImGuiWindowFlags arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = (bool)_swig_go_2; 
-  arg4 = (ImGuiWindowFlags)_swig_go_3; 
-  
+
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = (bool)_swig_go_2;
+  arg4 = (ImGuiWindowFlags)_swig_go_3;
+
   result = (bool)ImGui::BeginChild((char const *)arg1,(ImVec2 const &)*arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -797,18 +797,18 @@ bool _wrap_BeginChild__SWIG_1(_gostring_ _swig_go_0, ImVec2 *_swig_go_1, bool _s
   bool arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = (bool)_swig_go_2; 
-  
+
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = (bool)_swig_go_2;
+
   result = (bool)ImGui::BeginChild((char const *)arg1,(ImVec2 const &)*arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -818,17 +818,17 @@ bool _wrap_BeginChild__SWIG_2(_gostring_ _swig_go_0, ImVec2 *_swig_go_1) {
   ImVec2 *arg2 = 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   result = (bool)ImGui::BeginChild((char const *)arg1,(ImVec2 const &)*arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -837,16 +837,16 @@ bool _wrap_BeginChild__SWIG_3(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::BeginChild((char const *)arg1);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -858,14 +858,14 @@ bool _wrap_BeginChild__SWIG_4(intgo _swig_go_0, ImVec2 *_swig_go_1, bool _swig_g
   ImGuiWindowFlags arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = (ImGuiID)_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = (bool)_swig_go_2; 
-  arg4 = (ImGuiWindowFlags)_swig_go_3; 
-  
+
+  arg1 = (ImGuiID)_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = (bool)_swig_go_2;
+  arg4 = (ImGuiWindowFlags)_swig_go_3;
+
   result = (bool)ImGui::BeginChild(arg1,(ImVec2 const &)*arg2,arg3,arg4);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -876,13 +876,13 @@ bool _wrap_BeginChild__SWIG_5(intgo _swig_go_0, ImVec2 *_swig_go_1, bool _swig_g
   bool arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = (ImGuiID)_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = (bool)_swig_go_2; 
-  
+
+  arg1 = (ImGuiID)_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = (bool)_swig_go_2;
+
   result = (bool)ImGui::BeginChild(arg1,(ImVec2 const &)*arg2,arg3);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -892,12 +892,12 @@ bool _wrap_BeginChild__SWIG_6(intgo _swig_go_0, ImVec2 *_swig_go_1) {
   ImVec2 *arg2 = 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = (ImGuiID)_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = (ImGuiID)_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   result = (bool)ImGui::BeginChild(arg1,(ImVec2 const &)*arg2);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -906,28 +906,28 @@ bool _wrap_BeginChild__SWIG_7(intgo _swig_go_0) {
   ImGuiID arg1 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = (ImGuiID)_swig_go_0; 
-  
+
+  arg1 = (ImGuiID)_swig_go_0;
+
   result = (bool)ImGui::BeginChild(arg1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
 
 void _wrap_EndChild() {
   ImGui::EndChild();
-  
+
 }
 
 
 bool _wrap_IsWindowAppearing() {
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   result = (bool)ImGui::IsWindowAppearing();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -935,10 +935,10 @@ bool _wrap_IsWindowAppearing() {
 bool _wrap_IsWindowCollapsed() {
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   result = (bool)ImGui::IsWindowCollapsed();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -947,11 +947,11 @@ bool _wrap_IsWindowFocused__SWIG_0(intgo _swig_go_0) {
   ImGuiFocusedFlags arg1 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = (ImGuiFocusedFlags)_swig_go_0; 
-  
+
+  arg1 = (ImGuiFocusedFlags)_swig_go_0;
+
   result = (bool)ImGui::IsWindowFocused(arg1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -959,10 +959,10 @@ bool _wrap_IsWindowFocused__SWIG_0(intgo _swig_go_0) {
 bool _wrap_IsWindowFocused__SWIG_1() {
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   result = (bool)ImGui::IsWindowFocused();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -971,11 +971,11 @@ bool _wrap_IsWindowHovered__SWIG_0(intgo _swig_go_0) {
   ImGuiHoveredFlags arg1 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = (ImGuiHoveredFlags)_swig_go_0; 
-  
+
+  arg1 = (ImGuiHoveredFlags)_swig_go_0;
+
   result = (bool)ImGui::IsWindowHovered(arg1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -983,10 +983,10 @@ bool _wrap_IsWindowHovered__SWIG_0(intgo _swig_go_0) {
 bool _wrap_IsWindowHovered__SWIG_1() {
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   result = (bool)ImGui::IsWindowHovered();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -994,10 +994,10 @@ bool _wrap_IsWindowHovered__SWIG_1() {
 ImDrawList *_wrap_GetWindowDrawList() {
   ImDrawList *result = 0 ;
   ImDrawList *_swig_go_result;
-  
-  
+
+
   result = (ImDrawList *)ImGui::GetWindowDrawList();
-  *(ImDrawList **)&_swig_go_result = (ImDrawList *)result; 
+  *(ImDrawList **)&_swig_go_result = (ImDrawList *)result;
   return _swig_go_result;
 }
 
@@ -1005,10 +1005,10 @@ ImDrawList *_wrap_GetWindowDrawList() {
 ImVec2 *_wrap_GetWindowPos() {
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  
+
+
   result = ImGui::GetWindowPos();
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
   return _swig_go_result;
 }
 
@@ -1016,10 +1016,10 @@ ImVec2 *_wrap_GetWindowPos() {
 ImVec2 *_wrap_GetWindowSize() {
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  
+
+
   result = ImGui::GetWindowSize();
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
   return _swig_go_result;
 }
 
@@ -1027,10 +1027,10 @@ ImVec2 *_wrap_GetWindowSize() {
 float _wrap_GetWindowWidth() {
   float result;
   float _swig_go_result;
-  
-  
+
+
   result = (float)ImGui::GetWindowWidth();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -1038,10 +1038,10 @@ float _wrap_GetWindowWidth() {
 float _wrap_GetWindowHeight() {
   float result;
   float _swig_go_result;
-  
-  
+
+
   result = (float)ImGui::GetWindowHeight();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -1049,10 +1049,10 @@ float _wrap_GetWindowHeight() {
 ImVec2 *_wrap_GetContentRegionMax() {
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  
+
+
   result = ImGui::GetContentRegionMax();
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
   return _swig_go_result;
 }
 
@@ -1060,10 +1060,10 @@ ImVec2 *_wrap_GetContentRegionMax() {
 ImVec2 *_wrap_GetContentRegionAvail() {
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  
+
+
   result = ImGui::GetContentRegionAvail();
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
   return _swig_go_result;
 }
 
@@ -1071,10 +1071,10 @@ ImVec2 *_wrap_GetContentRegionAvail() {
 float _wrap_GetContentRegionAvailWidth() {
   float result;
   float _swig_go_result;
-  
-  
+
+
   result = (float)ImGui::GetContentRegionAvailWidth();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -1082,10 +1082,10 @@ float _wrap_GetContentRegionAvailWidth() {
 ImVec2 *_wrap_GetWindowContentRegionMin() {
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  
+
+
   result = ImGui::GetWindowContentRegionMin();
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
   return _swig_go_result;
 }
 
@@ -1093,10 +1093,10 @@ ImVec2 *_wrap_GetWindowContentRegionMin() {
 ImVec2 *_wrap_GetWindowContentRegionMax() {
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  
+
+
   result = ImGui::GetWindowContentRegionMax();
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
   return _swig_go_result;
 }
 
@@ -1104,10 +1104,10 @@ ImVec2 *_wrap_GetWindowContentRegionMax() {
 float _wrap_GetWindowContentRegionWidth() {
   float result;
   float _swig_go_result;
-  
-  
+
+
   result = (float)ImGui::GetWindowContentRegionWidth();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -1116,57 +1116,57 @@ void _wrap_SetNextWindowPos__SWIG_0(ImVec2 *_swig_go_0, intgo _swig_go_1, ImVec2
   ImVec2 *arg1 = 0 ;
   ImGuiCond arg2 ;
   ImVec2 *arg3 = 0 ;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  arg2 = (ImGuiCond)_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+  arg2 = (ImGuiCond)_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+
   ImGui::SetNextWindowPos((ImVec2 const &)*arg1,arg2,(ImVec2 const &)*arg3);
-  
+
 }
 
 
 void _wrap_SetNextWindowPos__SWIG_1(ImVec2 *_swig_go_0, intgo _swig_go_1) {
   ImVec2 *arg1 = 0 ;
   ImGuiCond arg2 ;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  arg2 = (ImGuiCond)_swig_go_1; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+  arg2 = (ImGuiCond)_swig_go_1;
+
   ImGui::SetNextWindowPos((ImVec2 const &)*arg1,arg2);
-  
+
 }
 
 
 void _wrap_SetNextWindowPos__SWIG_2(ImVec2 *_swig_go_0) {
   ImVec2 *arg1 = 0 ;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+
   ImGui::SetNextWindowPos((ImVec2 const &)*arg1);
-  
+
 }
 
 
 void _wrap_SetNextWindowSize__SWIG_0(ImVec2 *_swig_go_0, intgo _swig_go_1) {
   ImVec2 *arg1 = 0 ;
   ImGuiCond arg2 ;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  arg2 = (ImGuiCond)_swig_go_1; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+  arg2 = (ImGuiCond)_swig_go_1;
+
   ImGui::SetNextWindowSize((ImVec2 const &)*arg1,arg2);
-  
+
 }
 
 
 void _wrap_SetNextWindowSize__SWIG_1(ImVec2 *_swig_go_0) {
   ImVec2 *arg1 = 0 ;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+
   ImGui::SetNextWindowSize((ImVec2 const &)*arg1);
-  
+
 }
 
 
@@ -1175,14 +1175,14 @@ void _wrap_SetNextWindowSizeConstraints__SWIG_0(ImVec2 *_swig_go_0, ImVec2 *_swi
   ImVec2 *arg2 = 0 ;
   ImGuiSizeCallback arg3 = (ImGuiSizeCallback) 0 ;
   void *arg4 = (void *) 0 ;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImGuiSizeCallback *)&_swig_go_2; 
-  arg4 = *(void **)&_swig_go_3; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImGuiSizeCallback *)&_swig_go_2;
+  arg4 = *(void **)&_swig_go_3;
+
   ImGui::SetNextWindowSizeConstraints((ImVec2 const &)*arg1,(ImVec2 const &)*arg2,arg3,arg4);
-  
+
 }
 
 
@@ -1190,155 +1190,155 @@ void _wrap_SetNextWindowSizeConstraints__SWIG_1(ImVec2 *_swig_go_0, ImVec2 *_swi
   ImVec2 *arg1 = 0 ;
   ImVec2 *arg2 = 0 ;
   ImGuiSizeCallback arg3 = (ImGuiSizeCallback) 0 ;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImGuiSizeCallback *)&_swig_go_2; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImGuiSizeCallback *)&_swig_go_2;
+
   ImGui::SetNextWindowSizeConstraints((ImVec2 const &)*arg1,(ImVec2 const &)*arg2,arg3);
-  
+
 }
 
 
 void _wrap_SetNextWindowSizeConstraints__SWIG_2(ImVec2 *_swig_go_0, ImVec2 *_swig_go_1) {
   ImVec2 *arg1 = 0 ;
   ImVec2 *arg2 = 0 ;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   ImGui::SetNextWindowSizeConstraints((ImVec2 const &)*arg1,(ImVec2 const &)*arg2);
-  
+
 }
 
 
 void _wrap_SetNextWindowContentSize(ImVec2 *_swig_go_0) {
   ImVec2 *arg1 = 0 ;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+
   ImGui::SetNextWindowContentSize((ImVec2 const &)*arg1);
-  
+
 }
 
 
 void _wrap_SetNextWindowCollapsed__SWIG_0(bool _swig_go_0, intgo _swig_go_1) {
   bool arg1 ;
   ImGuiCond arg2 ;
-  
-  arg1 = (bool)_swig_go_0; 
-  arg2 = (ImGuiCond)_swig_go_1; 
-  
+
+  arg1 = (bool)_swig_go_0;
+  arg2 = (ImGuiCond)_swig_go_1;
+
   ImGui::SetNextWindowCollapsed(arg1,arg2);
-  
+
 }
 
 
 void _wrap_SetNextWindowCollapsed__SWIG_1(bool _swig_go_0) {
   bool arg1 ;
-  
-  arg1 = (bool)_swig_go_0; 
-  
+
+  arg1 = (bool)_swig_go_0;
+
   ImGui::SetNextWindowCollapsed(arg1);
-  
+
 }
 
 
 void _wrap_SetNextWindowFocus() {
   ImGui::SetNextWindowFocus();
-  
+
 }
 
 
 void _wrap_SetNextWindowBgAlpha(float _swig_go_0) {
   float arg1 ;
-  
-  arg1 = (float)_swig_go_0; 
-  
+
+  arg1 = (float)_swig_go_0;
+
   ImGui::SetNextWindowBgAlpha(arg1);
-  
+
 }
 
 
 void _wrap_SetWindowPos__SWIG_0(ImVec2 *_swig_go_0, intgo _swig_go_1) {
   ImVec2 *arg1 = 0 ;
   ImGuiCond arg2 ;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  arg2 = (ImGuiCond)_swig_go_1; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+  arg2 = (ImGuiCond)_swig_go_1;
+
   ImGui::SetWindowPos((ImVec2 const &)*arg1,arg2);
-  
+
 }
 
 
 void _wrap_SetWindowPos__SWIG_1(ImVec2 *_swig_go_0) {
   ImVec2 *arg1 = 0 ;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+
   ImGui::SetWindowPos((ImVec2 const &)*arg1);
-  
+
 }
 
 
 void _wrap_SetWindowSize__SWIG_0(ImVec2 *_swig_go_0, intgo _swig_go_1) {
   ImVec2 *arg1 = 0 ;
   ImGuiCond arg2 ;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  arg2 = (ImGuiCond)_swig_go_1; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+  arg2 = (ImGuiCond)_swig_go_1;
+
   ImGui::SetWindowSize((ImVec2 const &)*arg1,arg2);
-  
+
 }
 
 
 void _wrap_SetWindowSize__SWIG_1(ImVec2 *_swig_go_0) {
   ImVec2 *arg1 = 0 ;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+
   ImGui::SetWindowSize((ImVec2 const &)*arg1);
-  
+
 }
 
 
 void _wrap_SetWindowCollapsed__SWIG_0(bool _swig_go_0, intgo _swig_go_1) {
   bool arg1 ;
   ImGuiCond arg2 ;
-  
-  arg1 = (bool)_swig_go_0; 
-  arg2 = (ImGuiCond)_swig_go_1; 
-  
+
+  arg1 = (bool)_swig_go_0;
+  arg2 = (ImGuiCond)_swig_go_1;
+
   ImGui::SetWindowCollapsed(arg1,arg2);
-  
+
 }
 
 
 void _wrap_SetWindowCollapsed__SWIG_1(bool _swig_go_0) {
   bool arg1 ;
-  
-  arg1 = (bool)_swig_go_0; 
-  
+
+  arg1 = (bool)_swig_go_0;
+
   ImGui::SetWindowCollapsed(arg1);
-  
+
 }
 
 
 void _wrap_SetWindowFocus__SWIG_0() {
   ImGui::SetWindowFocus();
-  
+
 }
 
 
 void _wrap_SetWindowFontScale(float _swig_go_0) {
   float arg1 ;
-  
-  arg1 = (float)_swig_go_0; 
-  
+
+  arg1 = (float)_swig_go_0;
+
   ImGui::SetWindowFontScale(arg1);
-  
+
 }
 
 
@@ -1346,35 +1346,35 @@ void _wrap_SetWindowPos__SWIG_2(_gostring_ _swig_go_0, ImVec2 *_swig_go_1, intgo
   char *arg1 = (char *) 0 ;
   ImVec2 *arg2 = 0 ;
   ImGuiCond arg3 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = (ImGuiCond)_swig_go_2; 
-  
+
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = (ImGuiCond)_swig_go_2;
+
   ImGui::SetWindowPos((char const *)arg1,(ImVec2 const &)*arg2,arg3);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
 void _wrap_SetWindowPos__SWIG_3(_gostring_ _swig_go_0, ImVec2 *_swig_go_1) {
   char *arg1 = (char *) 0 ;
   ImVec2 *arg2 = 0 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   ImGui::SetWindowPos((char const *)arg1,(ImVec2 const &)*arg2);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
@@ -1382,35 +1382,35 @@ void _wrap_SetWindowSize__SWIG_2(_gostring_ _swig_go_0, ImVec2 *_swig_go_1, intg
   char *arg1 = (char *) 0 ;
   ImVec2 *arg2 = 0 ;
   ImGuiCond arg3 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = (ImGuiCond)_swig_go_2; 
-  
+
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = (ImGuiCond)_swig_go_2;
+
   ImGui::SetWindowSize((char const *)arg1,(ImVec2 const &)*arg2,arg3);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
 void _wrap_SetWindowSize__SWIG_3(_gostring_ _swig_go_0, ImVec2 *_swig_go_1) {
   char *arg1 = (char *) 0 ;
   ImVec2 *arg2 = 0 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   ImGui::SetWindowSize((char const *)arg1,(ImVec2 const &)*arg2);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
@@ -1418,60 +1418,60 @@ void _wrap_SetWindowCollapsed__SWIG_2(_gostring_ _swig_go_0, bool _swig_go_1, in
   char *arg1 = (char *) 0 ;
   bool arg2 ;
   ImGuiCond arg3 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (bool)_swig_go_1; 
-  arg3 = (ImGuiCond)_swig_go_2; 
-  
+
+  arg2 = (bool)_swig_go_1;
+  arg3 = (ImGuiCond)_swig_go_2;
+
   ImGui::SetWindowCollapsed((char const *)arg1,arg2,arg3);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
 void _wrap_SetWindowCollapsed__SWIG_3(_gostring_ _swig_go_0, bool _swig_go_1) {
   char *arg1 = (char *) 0 ;
   bool arg2 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg2 = (bool)_swig_go_1;
+
   ImGui::SetWindowCollapsed((char const *)arg1,arg2);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
 void _wrap_SetWindowFocus__SWIG_1(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   ImGui::SetWindowFocus((char const *)arg1);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
 float _wrap_GetScrollX() {
   float result;
   float _swig_go_result;
-  
-  
+
+
   result = (float)ImGui::GetScrollX();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -1479,10 +1479,10 @@ float _wrap_GetScrollX() {
 float _wrap_GetScrollY() {
   float result;
   float _swig_go_result;
-  
-  
+
+
   result = (float)ImGui::GetScrollY();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -1490,10 +1490,10 @@ float _wrap_GetScrollY() {
 float _wrap_GetScrollMaxX() {
   float result;
   float _swig_go_result;
-  
-  
+
+
   result = (float)ImGui::GetScrollMaxX();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -1501,165 +1501,165 @@ float _wrap_GetScrollMaxX() {
 float _wrap_GetScrollMaxY() {
   float result;
   float _swig_go_result;
-  
-  
+
+
   result = (float)ImGui::GetScrollMaxY();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
 
 void _wrap_SetScrollX(float _swig_go_0) {
   float arg1 ;
-  
-  arg1 = (float)_swig_go_0; 
-  
+
+  arg1 = (float)_swig_go_0;
+
   ImGui::SetScrollX(arg1);
-  
+
 }
 
 
 void _wrap_SetScrollY(float _swig_go_0) {
   float arg1 ;
-  
-  arg1 = (float)_swig_go_0; 
-  
+
+  arg1 = (float)_swig_go_0;
+
   ImGui::SetScrollY(arg1);
-  
+
 }
 
 
-void _wrap_SetScrollHere__SWIG_0(float _swig_go_0) {
+void _wrap_SetScrollHereY__SWIG_0(float _swig_go_0) {
   float arg1 ;
-  
-  arg1 = (float)_swig_go_0; 
-  
-  ImGui::SetScrollHere(arg1);
-  
+
+  arg1 = (float)_swig_go_0;
+
+  ImGui::SetScrollHereY(arg1);
+
 }
 
 
-void _wrap_SetScrollHere__SWIG_1() {
-  ImGui::SetScrollHere();
-  
+void _wrap_SetScrollHereY__SWIG_1() {
+  ImGui::SetScrollHereY();
+
 }
 
 
 void _wrap_SetScrollFromPosY__SWIG_0(float _swig_go_0, float _swig_go_1) {
   float arg1 ;
   float arg2 ;
-  
-  arg1 = (float)_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = (float)_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   ImGui::SetScrollFromPosY(arg1,arg2);
-  
+
 }
 
 
 void _wrap_SetScrollFromPosY__SWIG_1(float _swig_go_0) {
   float arg1 ;
-  
-  arg1 = (float)_swig_go_0; 
-  
+
+  arg1 = (float)_swig_go_0;
+
   ImGui::SetScrollFromPosY(arg1);
-  
+
 }
 
 
 void _wrap_PushFont(ImFont *_swig_go_0) {
   ImFont *arg1 = (ImFont *) 0 ;
-  
-  arg1 = *(ImFont **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFont **)&_swig_go_0;
+
   ImGui::PushFont(arg1);
-  
+
 }
 
 
 void _wrap_PopFont() {
   ImGui::PopFont();
-  
+
 }
 
 
 void _wrap_PushStyleColor__SWIG_0(intgo _swig_go_0, intgo _swig_go_1) {
   ImGuiCol arg1 ;
   ImU32 arg2 ;
-  
-  arg1 = (ImGuiCol)_swig_go_0; 
-  arg2 = (ImU32)_swig_go_1; 
-  
+
+  arg1 = (ImGuiCol)_swig_go_0;
+  arg2 = (ImU32)_swig_go_1;
+
   ImGui::PushStyleColor(arg1,arg2);
-  
+
 }
 
 
 void _wrap_PushStyleColor__SWIG_1(intgo _swig_go_0, ImVec4 *_swig_go_1) {
   ImGuiCol arg1 ;
   ImVec4 *arg2 = 0 ;
-  
-  arg1 = (ImGuiCol)_swig_go_0; 
-  arg2 = *(ImVec4 **)&_swig_go_1; 
-  
+
+  arg1 = (ImGuiCol)_swig_go_0;
+  arg2 = *(ImVec4 **)&_swig_go_1;
+
   ImGui::PushStyleColor(arg1,(ImVec4 const &)*arg2);
-  
+
 }
 
 
 void _wrap_PopStyleColor__SWIG_0(intgo _swig_go_0) {
   int arg1 ;
-  
-  arg1 = (int)_swig_go_0; 
-  
+
+  arg1 = (int)_swig_go_0;
+
   ImGui::PopStyleColor(arg1);
-  
+
 }
 
 
 void _wrap_PopStyleColor__SWIG_1() {
   ImGui::PopStyleColor();
-  
+
 }
 
 
 void _wrap_PushStyleVar__SWIG_0(intgo _swig_go_0, float _swig_go_1) {
   ImGuiStyleVar arg1 ;
   float arg2 ;
-  
-  arg1 = (ImGuiStyleVar)_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = (ImGuiStyleVar)_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   ImGui::PushStyleVar(arg1,arg2);
-  
+
 }
 
 
 void _wrap_PushStyleVar__SWIG_1(intgo _swig_go_0, ImVec2 *_swig_go_1) {
   ImGuiStyleVar arg1 ;
   ImVec2 *arg2 = 0 ;
-  
-  arg1 = (ImGuiStyleVar)_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = (ImGuiStyleVar)_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   ImGui::PushStyleVar(arg1,(ImVec2 const &)*arg2);
-  
+
 }
 
 
 void _wrap_PopStyleVar__SWIG_0(intgo _swig_go_0) {
   int arg1 ;
-  
-  arg1 = (int)_swig_go_0; 
-  
+
+  arg1 = (int)_swig_go_0;
+
   ImGui::PopStyleVar(arg1);
-  
+
 }
 
 
 void _wrap_PopStyleVar__SWIG_1() {
   ImGui::PopStyleVar();
-  
+
 }
 
 
@@ -1667,11 +1667,11 @@ ImVec4 *_wrap_GetStyleColorVec4(intgo _swig_go_0) {
   ImGuiCol arg1 ;
   ImVec4 *result = 0 ;
   ImVec4 *_swig_go_result;
-  
-  arg1 = (ImGuiCol)_swig_go_0; 
-  
+
+  arg1 = (ImGuiCol)_swig_go_0;
+
   result = (ImVec4 *) &ImGui::GetStyleColorVec4(arg1);
-  *(ImVec4 **)&_swig_go_result = result; 
+  *(ImVec4 **)&_swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -1679,10 +1679,10 @@ ImVec4 *_wrap_GetStyleColorVec4(intgo _swig_go_0) {
 ImFont *_wrap_GetFont() {
   ImFont *result = 0 ;
   ImFont *_swig_go_result;
-  
-  
+
+
   result = (ImFont *)ImGui::GetFont();
-  *(ImFont **)&_swig_go_result = (ImFont *)result; 
+  *(ImFont **)&_swig_go_result = (ImFont *)result;
   return _swig_go_result;
 }
 
@@ -1690,10 +1690,10 @@ ImFont *_wrap_GetFont() {
 float _wrap_GetFontSize() {
   float result;
   float _swig_go_result;
-  
-  
+
+
   result = (float)ImGui::GetFontSize();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -1701,10 +1701,10 @@ float _wrap_GetFontSize() {
 ImVec2 *_wrap_GetFontTexUvWhitePixel() {
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  
+
+
   result = ImGui::GetFontTexUvWhitePixel();
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
   return _swig_go_result;
 }
 
@@ -1714,12 +1714,12 @@ intgo _wrap_GetColorU32__SWIG_0(intgo _swig_go_0, float _swig_go_1) {
   float arg2 ;
   ImU32 result;
   intgo _swig_go_result;
-  
-  arg1 = (ImGuiCol)_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = (ImGuiCol)_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   result = (ImU32)ImGui::GetColorU32(arg1,arg2);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -1728,11 +1728,11 @@ intgo _wrap_GetColorU32__SWIG_1(intgo _swig_go_0) {
   ImGuiCol arg1 ;
   ImU32 result;
   intgo _swig_go_result;
-  
-  arg1 = (ImGuiCol)_swig_go_0; 
-  
+
+  arg1 = (ImGuiCol)_swig_go_0;
+
   result = (ImU32)ImGui::GetColorU32(arg1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -1741,11 +1741,11 @@ intgo _wrap_GetColorU32__SWIG_2(ImVec4 *_swig_go_0) {
   ImVec4 *arg1 = 0 ;
   ImU32 result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImVec4 **)&_swig_go_0; 
-  
+
+  arg1 = *(ImVec4 **)&_swig_go_0;
+
   result = (ImU32)ImGui::GetColorU32((ImVec4 const &)*arg1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -1754,203 +1754,203 @@ intgo _wrap_GetColorU32FromU32(intgo _swig_go_0) {
   ImU32 arg1 ;
   ImU32 result;
   intgo _swig_go_result;
-  
-  arg1 = (ImU32)_swig_go_0; 
-  
+
+  arg1 = (ImU32)_swig_go_0;
+
   result = (ImU32)ImGui::GetColorU32(arg1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
 
 void _wrap_PushItemWidth(float _swig_go_0) {
   float arg1 ;
-  
-  arg1 = (float)_swig_go_0; 
-  
+
+  arg1 = (float)_swig_go_0;
+
   ImGui::PushItemWidth(arg1);
-  
+
 }
 
 
 void _wrap_PopItemWidth() {
   ImGui::PopItemWidth();
-  
+
 }
 
 
 float _wrap_CalcItemWidth() {
   float result;
   float _swig_go_result;
-  
-  
+
+
   result = (float)ImGui::CalcItemWidth();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
 
 void _wrap_PushTextWrapPos__SWIG_0(float _swig_go_0) {
   float arg1 ;
-  
-  arg1 = (float)_swig_go_0; 
-  
+
+  arg1 = (float)_swig_go_0;
+
   ImGui::PushTextWrapPos(arg1);
-  
+
 }
 
 
 void _wrap_PushTextWrapPos__SWIG_1() {
   ImGui::PushTextWrapPos();
-  
+
 }
 
 
 void _wrap_PopTextWrapPos() {
   ImGui::PopTextWrapPos();
-  
+
 }
 
 
 void _wrap_PushAllowKeyboardFocus(bool _swig_go_0) {
   bool arg1 ;
-  
-  arg1 = (bool)_swig_go_0; 
-  
+
+  arg1 = (bool)_swig_go_0;
+
   ImGui::PushAllowKeyboardFocus(arg1);
-  
+
 }
 
 
 void _wrap_PopAllowKeyboardFocus() {
   ImGui::PopAllowKeyboardFocus();
-  
+
 }
 
 
 void _wrap_PushButtonRepeat(bool _swig_go_0) {
   bool arg1 ;
-  
-  arg1 = (bool)_swig_go_0; 
-  
+
+  arg1 = (bool)_swig_go_0;
+
   ImGui::PushButtonRepeat(arg1);
-  
+
 }
 
 
 void _wrap_PopButtonRepeat() {
   ImGui::PopButtonRepeat();
-  
+
 }
 
 
 void _wrap_Separator() {
   ImGui::Separator();
-  
+
 }
 
 
 void _wrap_SameLine__SWIG_0(float _swig_go_0, float _swig_go_1) {
   float arg1 ;
   float arg2 ;
-  
-  arg1 = (float)_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = (float)_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   ImGui::SameLine(arg1,arg2);
-  
+
 }
 
 
 void _wrap_SameLine__SWIG_1(float _swig_go_0) {
   float arg1 ;
-  
-  arg1 = (float)_swig_go_0; 
-  
+
+  arg1 = (float)_swig_go_0;
+
   ImGui::SameLine(arg1);
-  
+
 }
 
 
 void _wrap_SameLine__SWIG_2() {
   ImGui::SameLine();
-  
+
 }
 
 
 void _wrap_NewLine() {
   ImGui::NewLine();
-  
+
 }
 
 
 void _wrap_Spacing() {
   ImGui::Spacing();
-  
+
 }
 
 
 void _wrap_Dummy(ImVec2 *_swig_go_0) {
   ImVec2 *arg1 = 0 ;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+
   ImGui::Dummy((ImVec2 const &)*arg1);
-  
+
 }
 
 
 void _wrap_Indent__SWIG_0(float _swig_go_0) {
   float arg1 ;
-  
-  arg1 = (float)_swig_go_0; 
-  
+
+  arg1 = (float)_swig_go_0;
+
   ImGui::Indent(arg1);
-  
+
 }
 
 
 void _wrap_Indent__SWIG_1() {
   ImGui::Indent();
-  
+
 }
 
 
 void _wrap_Unindent__SWIG_0(float _swig_go_0) {
   float arg1 ;
-  
-  arg1 = (float)_swig_go_0; 
-  
+
+  arg1 = (float)_swig_go_0;
+
   ImGui::Unindent(arg1);
-  
+
 }
 
 
 void _wrap_Unindent__SWIG_1() {
   ImGui::Unindent();
-  
+
 }
 
 
 void _wrap_BeginGroup() {
   ImGui::BeginGroup();
-  
+
 }
 
 
 void _wrap_EndGroup() {
   ImGui::EndGroup();
-  
+
 }
 
 
 ImVec2 *_wrap_GetCursorPos() {
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  
+
+
   result = ImGui::GetCursorPos();
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
   return _swig_go_result;
 }
 
@@ -1958,10 +1958,10 @@ ImVec2 *_wrap_GetCursorPos() {
 float _wrap_GetCursorPosX() {
   float result;
   float _swig_go_result;
-  
-  
+
+
   result = (float)ImGui::GetCursorPosX();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -1969,51 +1969,51 @@ float _wrap_GetCursorPosX() {
 float _wrap_GetCursorPosY() {
   float result;
   float _swig_go_result;
-  
-  
+
+
   result = (float)ImGui::GetCursorPosY();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
 
 void _wrap_SetCursorPos(ImVec2 *_swig_go_0) {
   ImVec2 *arg1 = 0 ;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+
   ImGui::SetCursorPos((ImVec2 const &)*arg1);
-  
+
 }
 
 
 void _wrap_SetCursorPosX(float _swig_go_0) {
   float arg1 ;
-  
-  arg1 = (float)_swig_go_0; 
-  
+
+  arg1 = (float)_swig_go_0;
+
   ImGui::SetCursorPosX(arg1);
-  
+
 }
 
 
 void _wrap_SetCursorPosY(float _swig_go_0) {
   float arg1 ;
-  
-  arg1 = (float)_swig_go_0; 
-  
+
+  arg1 = (float)_swig_go_0;
+
   ImGui::SetCursorPosY(arg1);
-  
+
 }
 
 
 ImVec2 *_wrap_GetCursorStartPos() {
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  
+
+
   result = ImGui::GetCursorStartPos();
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
   return _swig_go_result;
 }
 
@@ -2021,37 +2021,37 @@ ImVec2 *_wrap_GetCursorStartPos() {
 ImVec2 *_wrap_GetCursorScreenPos() {
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  
+
+
   result = ImGui::GetCursorScreenPos();
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
   return _swig_go_result;
 }
 
 
 void _wrap_SetCursorScreenPos(ImVec2 *_swig_go_0) {
   ImVec2 *arg1 = 0 ;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+
   ImGui::SetCursorScreenPos((ImVec2 const &)*arg1);
-  
+
 }
 
 
 void _wrap_AlignTextToFramePadding() {
   ImGui::AlignTextToFramePadding();
-  
+
 }
 
 
 float _wrap_GetTextLineHeight() {
   float result;
   float _swig_go_result;
-  
-  
+
+
   result = (float)ImGui::GetTextLineHeight();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -2059,10 +2059,10 @@ float _wrap_GetTextLineHeight() {
 float _wrap_GetTextLineHeightWithSpacing() {
   float result;
   float _swig_go_result;
-  
-  
+
+
   result = (float)ImGui::GetTextLineHeightWithSpacing();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -2070,10 +2070,10 @@ float _wrap_GetTextLineHeightWithSpacing() {
 float _wrap_GetFrameHeight() {
   float result;
   float _swig_go_result;
-  
-  
+
+
   result = (float)ImGui::GetFrameHeight();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -2081,74 +2081,74 @@ float _wrap_GetFrameHeight() {
 float _wrap_GetFrameHeightWithSpacing() {
   float result;
   float _swig_go_result;
-  
-  
+
+
   result = (float)ImGui::GetFrameHeightWithSpacing();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
 
 void _wrap_PushID__SWIG_0(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   ImGui::PushID((char const *)arg1);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
 void _wrap_PushID__SWIG_1(_gostring_ _swig_go_0, _gostring_ _swig_go_1) {
   char *arg1 = (char *) 0 ;
   char *arg2 = (char *) 0 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  
+
+
   ImGui::PushID((char const *)arg1,(char const *)arg2);
-  
-  free(arg1); 
-  free(arg2); 
+
+  free(arg1);
+  free(arg2);
 }
 
 
 void _wrap_PushID__SWIG_2(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
-  
-  arg1 = *(void **)&_swig_go_0; 
-  
+
+  arg1 = *(void **)&_swig_go_0;
+
   ImGui::PushID((void const *)arg1);
-  
+
 }
 
 
 void _wrap_PushID__SWIG_3(intgo _swig_go_0) {
   int arg1 ;
-  
-  arg1 = (int)_swig_go_0; 
-  
+
+  arg1 = (int)_swig_go_0;
+
   ImGui::PushID(arg1);
-  
+
 }
 
 
 void _wrap_PopID() {
   ImGui::PopID();
-  
+
 }
 
 
@@ -2156,16 +2156,16 @@ intgo _wrap_GetID__SWIG_0(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   ImGuiID result;
   intgo _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   result = (ImGuiID)ImGui::GetID((char const *)arg1);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -2175,22 +2175,22 @@ intgo _wrap_GetID__SWIG_1(_gostring_ _swig_go_0, _gostring_ _swig_go_1) {
   char *arg2 = (char *) 0 ;
   ImGuiID result;
   intgo _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  
+
+
   result = (ImGuiID)ImGui::GetID((char const *)arg1,(char const *)arg2);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg2); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg2);
   return _swig_go_result;
 }
 
@@ -2199,11 +2199,11 @@ intgo _wrap_GetID__SWIG_2(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
   ImGuiID result;
   intgo _swig_go_result;
-  
-  arg1 = *(void **)&_swig_go_0; 
-  
+
+  arg1 = *(void **)&_swig_go_0;
+
   result = (ImGuiID)ImGui::GetID((void const *)arg1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -2211,54 +2211,54 @@ intgo _wrap_GetID__SWIG_2(void *_swig_go_0) {
 void _wrap_TextUnformatted__SWIG_0(_gostring_ _swig_go_0, _gostring_ _swig_go_1) {
   char *arg1 = (char *) 0 ;
   char *arg2 = (char *) 0 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  
+
+
   ImGui::TextUnformatted((char const *)arg1,(char const *)arg2);
-  
-  free(arg1); 
-  free(arg2); 
+
+  free(arg1);
+  free(arg2);
 }
 
 
 void _wrap_TextUnformatted__SWIG_1(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   ImGui::TextUnformatted((char const *)arg1);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
 void _wrap_Text(char *_swig_go_0) {
   char *arg1 = (char *) 0 ;
   void *arg2 = 0 ;
-  
-  arg1 = _swig_go_0; 
-  
+
+  arg1 = _swig_go_0;
+
   ImGui::Text((char const *)arg1,arg2);
-  
-  
+
+
   // nothing argout
-  
-  
+
+
   free(arg1);
-  
+
 }
 
 
@@ -2266,52 +2266,52 @@ void _wrap_TextColored(ImVec4 *_swig_go_0, char *_swig_go_1) {
   ImVec4 *arg1 = 0 ;
   char *arg2 = (char *) 0 ;
   void *arg3 = 0 ;
-  
-  arg1 = *(ImVec4 **)&_swig_go_0; 
-  arg2 = _swig_go_1; 
-  
+
+  arg1 = *(ImVec4 **)&_swig_go_0;
+  arg2 = _swig_go_1;
+
   ImGui::TextColored((ImVec4 const &)*arg1,(char const *)arg2,arg3);
-  
-  
+
+
   // nothing argout
-  
-  
+
+
   free(arg2);
-  
+
 }
 
 
 void _wrap_TextDisabled(char *_swig_go_0) {
   char *arg1 = (char *) 0 ;
   void *arg2 = 0 ;
-  
-  arg1 = _swig_go_0; 
-  
+
+  arg1 = _swig_go_0;
+
   ImGui::TextDisabled((char const *)arg1,arg2);
-  
-  
+
+
   // nothing argout
-  
-  
+
+
   free(arg1);
-  
+
 }
 
 
 void _wrap_TextWrapped(char *_swig_go_0) {
   char *arg1 = (char *) 0 ;
   void *arg2 = 0 ;
-  
-  arg1 = _swig_go_0; 
-  
+
+  arg1 = _swig_go_0;
+
   ImGui::TextWrapped((char const *)arg1,arg2);
-  
-  
+
+
   // nothing argout
-  
-  
+
+
   free(arg1);
-  
+
 }
 
 
@@ -2319,40 +2319,40 @@ void _wrap_LabelText(_gostring_ _swig_go_0, char *_swig_go_1) {
   char *arg1 = (char *) 0 ;
   char *arg2 = (char *) 0 ;
   void *arg3 = 0 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = _swig_go_1; 
-  
+
+  arg2 = _swig_go_1;
+
   ImGui::LabelText((char const *)arg1,(char const *)arg2,arg3);
-  
-  
+
+
   // nothing argout
-  
-  free(arg1); 
-  
+
+  free(arg1);
+
   free(arg2);
-  
+
 }
 
 
 void _wrap_BulletText(char *_swig_go_0) {
   char *arg1 = (char *) 0 ;
   void *arg2 = 0 ;
-  
-  arg1 = _swig_go_0; 
-  
+
+  arg1 = _swig_go_0;
+
   ImGui::BulletText((char const *)arg1,arg2);
-  
-  
+
+
   // nothing argout
-  
-  
+
+
   free(arg1);
-  
+
 }
 
 
@@ -2361,17 +2361,17 @@ bool _wrap_Button__SWIG_0(_gostring_ _swig_go_0, ImVec2 *_swig_go_1) {
   ImVec2 *arg2 = 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   result = (bool)ImGui::Button((char const *)arg1,(ImVec2 const &)*arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -2380,16 +2380,16 @@ bool _wrap_Button__SWIG_1(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::Button((char const *)arg1);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -2398,16 +2398,16 @@ bool _wrap_SmallButton(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::SmallButton((char const *)arg1);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -2417,17 +2417,17 @@ bool _wrap_InvisibleButton(_gostring_ _swig_go_0, ImVec2 *_swig_go_1) {
   ImVec2 *arg2 = 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   result = (bool)ImGui::InvisibleButton((char const *)arg1,(ImVec2 const &)*arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -2437,17 +2437,17 @@ bool _wrap_ArrowButton(_gostring_ _swig_go_0, intgo _swig_go_1) {
   ImGuiDir arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDir)_swig_go_1; 
-  
+
+  arg2 = (ImGuiDir)_swig_go_1;
+
   result = (bool)ImGui::ArrowButton((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -2459,16 +2459,16 @@ void _wrap_Image__SWIG_0(ImTextureID _swig_go_0, ImVec2 *_swig_go_1, ImVec2 *_sw
   ImVec2 *arg4 = 0 ;
   ImVec4 *arg5 = 0 ;
   ImVec4 *arg6 = 0 ;
-  
-  arg1 = *(ImTextureID *)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = *(ImVec4 **)&_swig_go_4; 
-  arg6 = *(ImVec4 **)&_swig_go_5; 
-  
+
+  arg1 = *(ImTextureID *)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = *(ImVec4 **)&_swig_go_4;
+  arg6 = *(ImVec4 **)&_swig_go_5;
+
   ImGui::Image(arg1,(ImVec2 const &)*arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4,(ImVec4 const &)*arg5,(ImVec4 const &)*arg6);
-  
+
 }
 
 
@@ -2478,15 +2478,15 @@ void _wrap_Image__SWIG_1(ImTextureID _swig_go_0, ImVec2 *_swig_go_1, ImVec2 *_sw
   ImVec2 *arg3 = 0 ;
   ImVec2 *arg4 = 0 ;
   ImVec4 *arg5 = 0 ;
-  
-  arg1 = *(ImTextureID *)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = *(ImVec4 **)&_swig_go_4; 
-  
+
+  arg1 = *(ImTextureID *)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = *(ImVec4 **)&_swig_go_4;
+
   ImGui::Image(arg1,(ImVec2 const &)*arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4,(ImVec4 const &)*arg5);
-  
+
 }
 
 
@@ -2495,14 +2495,14 @@ void _wrap_Image__SWIG_2(ImTextureID _swig_go_0, ImVec2 *_swig_go_1, ImVec2 *_sw
   ImVec2 *arg2 = 0 ;
   ImVec2 *arg3 = 0 ;
   ImVec2 *arg4 = 0 ;
-  
-  arg1 = *(ImTextureID *)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  
+
+  arg1 = *(ImTextureID *)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+
   ImGui::Image(arg1,(ImVec2 const &)*arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4);
-  
+
 }
 
 
@@ -2510,25 +2510,25 @@ void _wrap_Image__SWIG_3(ImTextureID _swig_go_0, ImVec2 *_swig_go_1, ImVec2 *_sw
   ImTextureID arg1 = (ImTextureID) 0 ;
   ImVec2 *arg2 = 0 ;
   ImVec2 *arg3 = 0 ;
-  
-  arg1 = *(ImTextureID *)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  
+
+  arg1 = *(ImTextureID *)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+
   ImGui::Image(arg1,(ImVec2 const &)*arg2,(ImVec2 const &)*arg3);
-  
+
 }
 
 
 void _wrap_Image__SWIG_4(ImTextureID _swig_go_0, ImVec2 *_swig_go_1) {
   ImTextureID arg1 = (ImTextureID) 0 ;
   ImVec2 *arg2 = 0 ;
-  
-  arg1 = *(ImTextureID *)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImTextureID *)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   ImGui::Image(arg1,(ImVec2 const &)*arg2);
-  
+
 }
 
 
@@ -2542,17 +2542,17 @@ bool _wrap_ImageButton__SWIG_0(ImTextureID _swig_go_0, ImVec2 *_swig_go_1, ImVec
   ImVec4 *arg7 = 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImTextureID *)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  arg6 = *(ImVec4 **)&_swig_go_5; 
-  arg7 = *(ImVec4 **)&_swig_go_6; 
-  
+
+  arg1 = *(ImTextureID *)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = (int)_swig_go_4;
+  arg6 = *(ImVec4 **)&_swig_go_5;
+  arg7 = *(ImVec4 **)&_swig_go_6;
+
   result = (bool)ImGui::ImageButton(arg1,(ImVec2 const &)*arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4,arg5,(ImVec4 const &)*arg6,(ImVec4 const &)*arg7);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -2566,16 +2566,16 @@ bool _wrap_ImageButton__SWIG_1(ImTextureID _swig_go_0, ImVec2 *_swig_go_1, ImVec
   ImVec4 *arg6 = 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImTextureID *)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  arg6 = *(ImVec4 **)&_swig_go_5; 
-  
+
+  arg1 = *(ImTextureID *)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = (int)_swig_go_4;
+  arg6 = *(ImVec4 **)&_swig_go_5;
+
   result = (bool)ImGui::ImageButton(arg1,(ImVec2 const &)*arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4,arg5,(ImVec4 const &)*arg6);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -2588,15 +2588,15 @@ bool _wrap_ImageButton__SWIG_2(ImTextureID _swig_go_0, ImVec2 *_swig_go_1, ImVec
   int arg5 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImTextureID *)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg1 = *(ImTextureID *)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   result = (bool)ImGui::ImageButton(arg1,(ImVec2 const &)*arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4,arg5);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -2608,14 +2608,14 @@ bool _wrap_ImageButton__SWIG_3(ImTextureID _swig_go_0, ImVec2 *_swig_go_1, ImVec
   ImVec2 *arg4 = 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImTextureID *)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  
+
+  arg1 = *(ImTextureID *)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+
   result = (bool)ImGui::ImageButton(arg1,(ImVec2 const &)*arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -2626,13 +2626,13 @@ bool _wrap_ImageButton__SWIG_4(ImTextureID _swig_go_0, ImVec2 *_swig_go_1, ImVec
   ImVec2 *arg3 = 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImTextureID *)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  
+
+  arg1 = *(ImTextureID *)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+
   result = (bool)ImGui::ImageButton(arg1,(ImVec2 const &)*arg2,(ImVec2 const &)*arg3);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -2642,12 +2642,12 @@ bool _wrap_ImageButton__SWIG_5(ImTextureID _swig_go_0, ImVec2 *_swig_go_1) {
   ImVec2 *arg2 = 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImTextureID *)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImTextureID *)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   result = (bool)ImGui::ImageButton(arg1,(ImVec2 const &)*arg2);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -2657,17 +2657,17 @@ bool _wrap_Checkbox(_gostring_ _swig_go_0, bool *_swig_go_1) {
   bool *arg2 = (bool *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(bool **)&_swig_go_1; 
-  
+
+  arg2 = *(bool **)&_swig_go_1;
+
   result = (bool)ImGui::Checkbox((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -2678,18 +2678,18 @@ bool _wrap_CheckboxFlags(_gostring_ _swig_go_0, intgo *_swig_go_1, intgo _swig_g
   unsigned int arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(unsigned int **)&_swig_go_1; 
-  arg3 = (unsigned int)_swig_go_2; 
-  
+
+  arg2 = *(unsigned int **)&_swig_go_1;
+  arg3 = (unsigned int)_swig_go_2;
+
   result = (bool)ImGui::CheckboxFlags((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -2699,17 +2699,17 @@ bool _wrap_RadioButton__SWIG_0(_gostring_ _swig_go_0, bool _swig_go_1) {
   bool arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg2 = (bool)_swig_go_1;
+
   result = (bool)ImGui::RadioButton((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -2720,18 +2720,18 @@ bool _wrap_RadioButton__SWIG_1(_gostring_ _swig_go_0, intgo *_swig_go_1, intgo _
   int arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+
   result = (bool)ImGui::RadioButton((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -2740,46 +2740,46 @@ void _wrap_ProgressBar__SWIG_0(float _swig_go_0, ImVec2 *_swig_go_1, _gostring_ 
   float arg1 ;
   ImVec2 *arg2 = 0 ;
   char *arg3 = (char *) 0 ;
-  
-  arg1 = (float)_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = (float)_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   arg3 = (char *)malloc(_swig_go_2.n + 1);
   memcpy(arg3, _swig_go_2.p, _swig_go_2.n);
   arg3[_swig_go_2.n] = '\0';
-  
-  
+
+
   ImGui::ProgressBar(arg1,(ImVec2 const &)*arg2,(char const *)arg3);
-  
-  free(arg3); 
+
+  free(arg3);
 }
 
 
 void _wrap_ProgressBar__SWIG_1(float _swig_go_0, ImVec2 *_swig_go_1) {
   float arg1 ;
   ImVec2 *arg2 = 0 ;
-  
-  arg1 = (float)_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = (float)_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   ImGui::ProgressBar(arg1,(ImVec2 const &)*arg2);
-  
+
 }
 
 
 void _wrap_ProgressBar__SWIG_2(float _swig_go_0) {
   float arg1 ;
-  
-  arg1 = (float)_swig_go_0; 
-  
+
+  arg1 = (float)_swig_go_0;
+
   ImGui::ProgressBar(arg1);
-  
+
 }
 
 
 void _wrap_Bullet() {
   ImGui::Bullet();
-  
+
 }
 
 
@@ -2789,23 +2789,23 @@ bool _wrap_BeginCombo__SWIG_0(_gostring_ _swig_go_0, _gostring_ _swig_go_1, intg
   ImGuiComboFlags arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  arg3 = (ImGuiComboFlags)_swig_go_2; 
-  
+
+  arg3 = (ImGuiComboFlags)_swig_go_2;
+
   result = (bool)ImGui::BeginCombo((char const *)arg1,(char const *)arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg2); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg2);
   return _swig_go_result;
 }
 
@@ -2815,29 +2815,29 @@ bool _wrap_BeginCombo__SWIG_1(_gostring_ _swig_go_0, _gostring_ _swig_go_1) {
   char *arg2 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::BeginCombo((char const *)arg1,(char const *)arg2);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg2); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg2);
   return _swig_go_result;
 }
 
 
 void _wrap_EndCombo() {
   ImGui::EndCombo();
-  
+
 }
 
 
@@ -2849,20 +2849,20 @@ bool _wrap_Combo__SWIG_0(_gostring_ _swig_go_0, intgo *_swig_go_1, _gostring_* _
   int arg5 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = *(char ***)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = *(char ***)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   result = (bool)ImGui::Combo((char const *)arg1,arg2,(char const *const (*))arg3,arg4,arg5);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -2874,19 +2874,19 @@ bool _wrap_Combo__SWIG_1(_gostring_ _swig_go_0, intgo *_swig_go_1, _gostring_* _
   int arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = *(char ***)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = *(char ***)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   result = (bool)ImGui::Combo((char const *)arg1,arg2,(char const *const (*))arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -2898,24 +2898,24 @@ bool _wrap_Combo__SWIG_2(_gostring_ _swig_go_0, intgo *_swig_go_1, _gostring_ _s
   int arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+
   arg3 = (char *)malloc(_swig_go_2.n + 1);
   memcpy(arg3, _swig_go_2.p, _swig_go_2.n);
   arg3[_swig_go_2.n] = '\0';
-  
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg4 = (int)_swig_go_3;
+
   result = (bool)ImGui::Combo((char const *)arg1,arg2,(char const *)arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg3); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg3);
   return _swig_go_result;
 }
 
@@ -2926,23 +2926,23 @@ bool _wrap_Combo__SWIG_3(_gostring_ _swig_go_0, intgo *_swig_go_1, _gostring_ _s
   char *arg3 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+
   arg3 = (char *)malloc(_swig_go_2.n + 1);
   memcpy(arg3, _swig_go_2.p, _swig_go_2.n);
   arg3[_swig_go_2.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::Combo((char const *)arg1,arg2,(char const *)arg3);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg3); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg3);
   return _swig_go_result;
 }
 
@@ -2956,21 +2956,21 @@ bool _wrap_Combo__SWIG_4(_gostring_ _swig_go_0, intgo *_swig_go_1, void* _swig_g
   int arg6 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = *(bool (**)(void *,int,char const **))&_swig_go_2; 
-  arg4 = *(void **)&_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  arg6 = (int)_swig_go_5; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = *(bool (**)(void *,int,char const **))&_swig_go_2;
+  arg4 = *(void **)&_swig_go_3;
+  arg5 = (int)_swig_go_4;
+  arg6 = (int)_swig_go_5;
+
   result = (bool)ImGui::Combo((char const *)arg1,arg2,arg3,arg4,arg5,arg6);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -2983,20 +2983,20 @@ bool _wrap_Combo__SWIG_5(_gostring_ _swig_go_0, intgo *_swig_go_1, void* _swig_g
   int arg5 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = *(bool (**)(void *,int,char const **))&_swig_go_2; 
-  arg4 = *(void **)&_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = *(bool (**)(void *,int,char const **))&_swig_go_2;
+  arg4 = *(void **)&_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   result = (bool)ImGui::Combo((char const *)arg1,arg2,arg3,arg4,arg5);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -3011,27 +3011,27 @@ bool _wrap_DragFloat__SWIG_0(_gostring_ _swig_go_0, float *_swig_go_1, float _sw
   float arg7 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  arg7 = (float)_swig_go_6; 
-  
+
+  arg7 = (float)_swig_go_6;
+
   result = (bool)ImGui::DragFloat((char const *)arg1,arg2,arg3,arg4,arg5,(char const *)arg6,arg7);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg6); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg6);
   return _swig_go_result;
 }
 
@@ -3045,26 +3045,26 @@ bool _wrap_DragFloat__SWIG_1(_gostring_ _swig_go_0, float *_swig_go_1, float _sw
   char *arg6 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::DragFloat((char const *)arg1,arg2,arg3,arg4,arg5,(char const *)arg6);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg6); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg6);
   return _swig_go_result;
 }
 
@@ -3077,20 +3077,20 @@ bool _wrap_DragFloat__SWIG_2(_gostring_ _swig_go_0, float *_swig_go_1, float _sw
   float arg5 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+
   result = (bool)ImGui::DragFloat((char const *)arg1,arg2,arg3,arg4,arg5);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -3102,19 +3102,19 @@ bool _wrap_DragFloat__SWIG_3(_gostring_ _swig_go_0, float *_swig_go_1, float _sw
   float arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   result = (bool)ImGui::DragFloat((char const *)arg1,arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -3125,18 +3125,18 @@ bool _wrap_DragFloat__SWIG_4(_gostring_ _swig_go_0, float *_swig_go_1, float _sw
   float arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+
   result = (bool)ImGui::DragFloat((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -3146,17 +3146,17 @@ bool _wrap_DragFloat__SWIG_5(_gostring_ _swig_go_0, float *_swig_go_1) {
   float *arg2 = (float *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+
   result = (bool)ImGui::DragFloat((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -3171,27 +3171,27 @@ bool _wrap_DragFloat2__SWIG_0(_gostring_ _swig_go_0, float *_swig_go_1, float _s
   float arg7 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  arg7 = (float)_swig_go_6; 
-  
+
+  arg7 = (float)_swig_go_6;
+
   result = (bool)ImGui::DragFloat2((char const *)arg1,arg2,arg3,arg4,arg5,(char const *)arg6,arg7);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg6); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg6);
   return _swig_go_result;
 }
 
@@ -3205,26 +3205,26 @@ bool _wrap_DragFloat2__SWIG_1(_gostring_ _swig_go_0, float *_swig_go_1, float _s
   char *arg6 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::DragFloat2((char const *)arg1,arg2,arg3,arg4,arg5,(char const *)arg6);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg6); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg6);
   return _swig_go_result;
 }
 
@@ -3237,20 +3237,20 @@ bool _wrap_DragFloat2__SWIG_2(_gostring_ _swig_go_0, float *_swig_go_1, float _s
   float arg5 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+
   result = (bool)ImGui::DragFloat2((char const *)arg1,arg2,arg3,arg4,arg5);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -3262,19 +3262,19 @@ bool _wrap_DragFloat2__SWIG_3(_gostring_ _swig_go_0, float *_swig_go_1, float _s
   float arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   result = (bool)ImGui::DragFloat2((char const *)arg1,arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -3285,18 +3285,18 @@ bool _wrap_DragFloat2__SWIG_4(_gostring_ _swig_go_0, float *_swig_go_1, float _s
   float arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+
   result = (bool)ImGui::DragFloat2((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -3306,17 +3306,17 @@ bool _wrap_DragFloat2__SWIG_5(_gostring_ _swig_go_0, float *_swig_go_1) {
   float *arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+
   result = (bool)ImGui::DragFloat2((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -3331,27 +3331,27 @@ bool _wrap_DragFloat3__SWIG_0(_gostring_ _swig_go_0, float *_swig_go_1, float _s
   float arg7 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  arg7 = (float)_swig_go_6; 
-  
+
+  arg7 = (float)_swig_go_6;
+
   result = (bool)ImGui::DragFloat3((char const *)arg1,arg2,arg3,arg4,arg5,(char const *)arg6,arg7);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg6); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg6);
   return _swig_go_result;
 }
 
@@ -3365,26 +3365,26 @@ bool _wrap_DragFloat3__SWIG_1(_gostring_ _swig_go_0, float *_swig_go_1, float _s
   char *arg6 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::DragFloat3((char const *)arg1,arg2,arg3,arg4,arg5,(char const *)arg6);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg6); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg6);
   return _swig_go_result;
 }
 
@@ -3397,20 +3397,20 @@ bool _wrap_DragFloat3__SWIG_2(_gostring_ _swig_go_0, float *_swig_go_1, float _s
   float arg5 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+
   result = (bool)ImGui::DragFloat3((char const *)arg1,arg2,arg3,arg4,arg5);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -3422,19 +3422,19 @@ bool _wrap_DragFloat3__SWIG_3(_gostring_ _swig_go_0, float *_swig_go_1, float _s
   float arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   result = (bool)ImGui::DragFloat3((char const *)arg1,arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -3445,18 +3445,18 @@ bool _wrap_DragFloat3__SWIG_4(_gostring_ _swig_go_0, float *_swig_go_1, float _s
   float arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+
   result = (bool)ImGui::DragFloat3((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -3466,17 +3466,17 @@ bool _wrap_DragFloat3__SWIG_5(_gostring_ _swig_go_0, float *_swig_go_1) {
   float *arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+
   result = (bool)ImGui::DragFloat3((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -3491,27 +3491,27 @@ bool _wrap_DragFloat4__SWIG_0(_gostring_ _swig_go_0, float *_swig_go_1, float _s
   float arg7 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  arg7 = (float)_swig_go_6; 
-  
+
+  arg7 = (float)_swig_go_6;
+
   result = (bool)ImGui::DragFloat4((char const *)arg1,arg2,arg3,arg4,arg5,(char const *)arg6,arg7);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg6); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg6);
   return _swig_go_result;
 }
 
@@ -3525,26 +3525,26 @@ bool _wrap_DragFloat4__SWIG_1(_gostring_ _swig_go_0, float *_swig_go_1, float _s
   char *arg6 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::DragFloat4((char const *)arg1,arg2,arg3,arg4,arg5,(char const *)arg6);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg6); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg6);
   return _swig_go_result;
 }
 
@@ -3557,20 +3557,20 @@ bool _wrap_DragFloat4__SWIG_2(_gostring_ _swig_go_0, float *_swig_go_1, float _s
   float arg5 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+
   result = (bool)ImGui::DragFloat4((char const *)arg1,arg2,arg3,arg4,arg5);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -3582,19 +3582,19 @@ bool _wrap_DragFloat4__SWIG_3(_gostring_ _swig_go_0, float *_swig_go_1, float _s
   float arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   result = (bool)ImGui::DragFloat4((char const *)arg1,arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -3605,18 +3605,18 @@ bool _wrap_DragFloat4__SWIG_4(_gostring_ _swig_go_0, float *_swig_go_1, float _s
   float arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+
   result = (bool)ImGui::DragFloat4((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -3626,17 +3626,17 @@ bool _wrap_DragFloat4__SWIG_5(_gostring_ _swig_go_0, float *_swig_go_1) {
   float *arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+
   result = (bool)ImGui::DragFloat4((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -3653,34 +3653,34 @@ bool _wrap_DragFloatRange2__SWIG_0(_gostring_ _swig_go_0, float *_swig_go_1, flo
   float arg9 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = *(float **)&_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  arg6 = (float)_swig_go_5; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = *(float **)&_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+  arg6 = (float)_swig_go_5;
+
   arg7 = (char *)malloc(_swig_go_6.n + 1);
   memcpy(arg7, _swig_go_6.p, _swig_go_6.n);
   arg7[_swig_go_6.n] = '\0';
-  
-  
+
+
   arg8 = (char *)malloc(_swig_go_7.n + 1);
   memcpy(arg8, _swig_go_7.p, _swig_go_7.n);
   arg8[_swig_go_7.n] = '\0';
-  
-  arg9 = (float)_swig_go_8; 
-  
+
+  arg9 = (float)_swig_go_8;
+
   result = (bool)ImGui::DragFloatRange2((char const *)arg1,arg2,arg3,arg4,arg5,arg6,(char const *)arg7,(char const *)arg8,arg9);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg7); 
-  free(arg8); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg7);
+  free(arg8);
   return _swig_go_result;
 }
 
@@ -3696,33 +3696,33 @@ bool _wrap_DragFloatRange2__SWIG_1(_gostring_ _swig_go_0, float *_swig_go_1, flo
   char *arg8 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = *(float **)&_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  arg6 = (float)_swig_go_5; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = *(float **)&_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+  arg6 = (float)_swig_go_5;
+
   arg7 = (char *)malloc(_swig_go_6.n + 1);
   memcpy(arg7, _swig_go_6.p, _swig_go_6.n);
   arg7[_swig_go_6.n] = '\0';
-  
-  
+
+
   arg8 = (char *)malloc(_swig_go_7.n + 1);
   memcpy(arg8, _swig_go_7.p, _swig_go_7.n);
   arg8[_swig_go_7.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::DragFloatRange2((char const *)arg1,arg2,arg3,arg4,arg5,arg6,(char const *)arg7,(char const *)arg8);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg7); 
-  free(arg8); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg7);
+  free(arg8);
   return _swig_go_result;
 }
 
@@ -3737,27 +3737,27 @@ bool _wrap_DragFloatRange2__SWIG_2(_gostring_ _swig_go_0, float *_swig_go_1, flo
   char *arg7 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = *(float **)&_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  arg6 = (float)_swig_go_5; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = *(float **)&_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+  arg6 = (float)_swig_go_5;
+
   arg7 = (char *)malloc(_swig_go_6.n + 1);
   memcpy(arg7, _swig_go_6.p, _swig_go_6.n);
   arg7[_swig_go_6.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::DragFloatRange2((char const *)arg1,arg2,arg3,arg4,arg5,arg6,(char const *)arg7);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg7); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg7);
   return _swig_go_result;
 }
 
@@ -3771,21 +3771,21 @@ bool _wrap_DragFloatRange2__SWIG_3(_gostring_ _swig_go_0, float *_swig_go_1, flo
   float arg6 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = *(float **)&_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  arg6 = (float)_swig_go_5; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = *(float **)&_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+  arg6 = (float)_swig_go_5;
+
   result = (bool)ImGui::DragFloatRange2((char const *)arg1,arg2,arg3,arg4,arg5,arg6);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -3798,20 +3798,20 @@ bool _wrap_DragFloatRange2__SWIG_4(_gostring_ _swig_go_0, float *_swig_go_1, flo
   float arg5 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = *(float **)&_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = *(float **)&_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+
   result = (bool)ImGui::DragFloatRange2((char const *)arg1,arg2,arg3,arg4,arg5);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -3823,19 +3823,19 @@ bool _wrap_DragFloatRange2__SWIG_5(_gostring_ _swig_go_0, float *_swig_go_1, flo
   float arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = *(float **)&_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = *(float **)&_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   result = (bool)ImGui::DragFloatRange2((char const *)arg1,arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -3846,18 +3846,18 @@ bool _wrap_DragFloatRange2__SWIG_6(_gostring_ _swig_go_0, float *_swig_go_1, flo
   float *arg3 = (float *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = *(float **)&_swig_go_2; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = *(float **)&_swig_go_2;
+
   result = (bool)ImGui::DragFloatRange2((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -3871,26 +3871,26 @@ bool _wrap_DragInt__SWIG_0(_gostring_ _swig_go_0, intgo *_swig_go_1, float _swig
   char *arg6 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::DragInt((char const *)arg1,arg2,arg3,arg4,arg5,(char const *)arg6);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg6); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg6);
   return _swig_go_result;
 }
 
@@ -3903,20 +3903,20 @@ bool _wrap_DragInt__SWIG_1(_gostring_ _swig_go_0, intgo *_swig_go_1, float _swig
   int arg5 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   result = (bool)ImGui::DragInt((char const *)arg1,arg2,arg3,arg4,arg5);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -3928,19 +3928,19 @@ bool _wrap_DragInt__SWIG_2(_gostring_ _swig_go_0, intgo *_swig_go_1, float _swig
   int arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   result = (bool)ImGui::DragInt((char const *)arg1,arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -3951,18 +3951,18 @@ bool _wrap_DragInt__SWIG_3(_gostring_ _swig_go_0, intgo *_swig_go_1, float _swig
   float arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+
   result = (bool)ImGui::DragInt((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -3972,17 +3972,17 @@ bool _wrap_DragInt__SWIG_4(_gostring_ _swig_go_0, intgo *_swig_go_1) {
   int *arg2 = (int *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+
   result = (bool)ImGui::DragInt((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -3996,26 +3996,26 @@ bool _wrap_DragInt2__SWIG_0(_gostring_ _swig_go_0, intgo *_swig_go_1, float _swi
   char *arg6 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::DragInt2((char const *)arg1,arg2,arg3,arg4,arg5,(char const *)arg6);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg6); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg6);
   return _swig_go_result;
 }
 
@@ -4028,20 +4028,20 @@ bool _wrap_DragInt2__SWIG_1(_gostring_ _swig_go_0, intgo *_swig_go_1, float _swi
   int arg5 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   result = (bool)ImGui::DragInt2((char const *)arg1,arg2,arg3,arg4,arg5);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -4053,19 +4053,19 @@ bool _wrap_DragInt2__SWIG_2(_gostring_ _swig_go_0, intgo *_swig_go_1, float _swi
   int arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   result = (bool)ImGui::DragInt2((char const *)arg1,arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -4076,18 +4076,18 @@ bool _wrap_DragInt2__SWIG_3(_gostring_ _swig_go_0, intgo *_swig_go_1, float _swi
   float arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+
   result = (bool)ImGui::DragInt2((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -4097,17 +4097,17 @@ bool _wrap_DragInt2__SWIG_4(_gostring_ _swig_go_0, intgo *_swig_go_1) {
   int *arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+
   result = (bool)ImGui::DragInt2((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -4121,26 +4121,26 @@ bool _wrap_DragInt3__SWIG_0(_gostring_ _swig_go_0, intgo *_swig_go_1, float _swi
   char *arg6 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::DragInt3((char const *)arg1,arg2,arg3,arg4,arg5,(char const *)arg6);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg6); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg6);
   return _swig_go_result;
 }
 
@@ -4153,20 +4153,20 @@ bool _wrap_DragInt3__SWIG_1(_gostring_ _swig_go_0, intgo *_swig_go_1, float _swi
   int arg5 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   result = (bool)ImGui::DragInt3((char const *)arg1,arg2,arg3,arg4,arg5);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -4178,19 +4178,19 @@ bool _wrap_DragInt3__SWIG_2(_gostring_ _swig_go_0, intgo *_swig_go_1, float _swi
   int arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   result = (bool)ImGui::DragInt3((char const *)arg1,arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -4201,18 +4201,18 @@ bool _wrap_DragInt3__SWIG_3(_gostring_ _swig_go_0, intgo *_swig_go_1, float _swi
   float arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+
   result = (bool)ImGui::DragInt3((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -4222,17 +4222,17 @@ bool _wrap_DragInt3__SWIG_4(_gostring_ _swig_go_0, intgo *_swig_go_1) {
   int *arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+
   result = (bool)ImGui::DragInt3((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -4246,26 +4246,26 @@ bool _wrap_DragInt4__SWIG_0(_gostring_ _swig_go_0, intgo *_swig_go_1, float _swi
   char *arg6 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::DragInt4((char const *)arg1,arg2,arg3,arg4,arg5,(char const *)arg6);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg6); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg6);
   return _swig_go_result;
 }
 
@@ -4278,20 +4278,20 @@ bool _wrap_DragInt4__SWIG_1(_gostring_ _swig_go_0, intgo *_swig_go_1, float _swi
   int arg5 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   result = (bool)ImGui::DragInt4((char const *)arg1,arg2,arg3,arg4,arg5);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -4303,19 +4303,19 @@ bool _wrap_DragInt4__SWIG_2(_gostring_ _swig_go_0, intgo *_swig_go_1, float _swi
   int arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   result = (bool)ImGui::DragInt4((char const *)arg1,arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -4326,18 +4326,18 @@ bool _wrap_DragInt4__SWIG_3(_gostring_ _swig_go_0, intgo *_swig_go_1, float _swi
   float arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+
   result = (bool)ImGui::DragInt4((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -4347,17 +4347,17 @@ bool _wrap_DragInt4__SWIG_4(_gostring_ _swig_go_0, intgo *_swig_go_1) {
   int *arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+
   result = (bool)ImGui::DragInt4((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -4373,33 +4373,33 @@ bool _wrap_DragIntRange2__SWIG_0(_gostring_ _swig_go_0, intgo *_swig_go_1, intgo
   char *arg8 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = *(int **)&_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  arg6 = (int)_swig_go_5; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = *(int **)&_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+  arg6 = (int)_swig_go_5;
+
   arg7 = (char *)malloc(_swig_go_6.n + 1);
   memcpy(arg7, _swig_go_6.p, _swig_go_6.n);
   arg7[_swig_go_6.n] = '\0';
-  
-  
+
+
   arg8 = (char *)malloc(_swig_go_7.n + 1);
   memcpy(arg8, _swig_go_7.p, _swig_go_7.n);
   arg8[_swig_go_7.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::DragIntRange2((char const *)arg1,arg2,arg3,arg4,arg5,arg6,(char const *)arg7,(char const *)arg8);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg7); 
-  free(arg8); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg7);
+  free(arg8);
   return _swig_go_result;
 }
 
@@ -4414,27 +4414,27 @@ bool _wrap_DragIntRange2__SWIG_1(_gostring_ _swig_go_0, intgo *_swig_go_1, intgo
   char *arg7 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = *(int **)&_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  arg6 = (int)_swig_go_5; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = *(int **)&_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+  arg6 = (int)_swig_go_5;
+
   arg7 = (char *)malloc(_swig_go_6.n + 1);
   memcpy(arg7, _swig_go_6.p, _swig_go_6.n);
   arg7[_swig_go_6.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::DragIntRange2((char const *)arg1,arg2,arg3,arg4,arg5,arg6,(char const *)arg7);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg7); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg7);
   return _swig_go_result;
 }
 
@@ -4448,21 +4448,21 @@ bool _wrap_DragIntRange2__SWIG_2(_gostring_ _swig_go_0, intgo *_swig_go_1, intgo
   int arg6 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = *(int **)&_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  arg6 = (int)_swig_go_5; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = *(int **)&_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+  arg6 = (int)_swig_go_5;
+
   result = (bool)ImGui::DragIntRange2((char const *)arg1,arg2,arg3,arg4,arg5,arg6);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -4475,20 +4475,20 @@ bool _wrap_DragIntRange2__SWIG_3(_gostring_ _swig_go_0, intgo *_swig_go_1, intgo
   int arg5 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = *(int **)&_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = *(int **)&_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   result = (bool)ImGui::DragIntRange2((char const *)arg1,arg2,arg3,arg4,arg5);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -4500,19 +4500,19 @@ bool _wrap_DragIntRange2__SWIG_4(_gostring_ _swig_go_0, intgo *_swig_go_1, intgo
   float arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = *(int **)&_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = *(int **)&_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   result = (bool)ImGui::DragIntRange2((char const *)arg1,arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -4523,18 +4523,18 @@ bool _wrap_DragIntRange2__SWIG_5(_gostring_ _swig_go_0, intgo *_swig_go_1, intgo
   int *arg3 = (int *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = *(int **)&_swig_go_2; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = *(int **)&_swig_go_2;
+
   result = (bool)ImGui::DragIntRange2((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -4550,28 +4550,28 @@ bool _wrap_DragScalar__SWIG_0(_gostring_ _swig_go_0, intgo _swig_go_1, void *_sw
   float arg8 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDataType)_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = *(void **)&_swig_go_4; 
-  arg6 = *(void **)&_swig_go_5; 
-  
+
+  arg2 = (ImGuiDataType)_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = *(void **)&_swig_go_4;
+  arg6 = *(void **)&_swig_go_5;
+
   arg7 = (char *)malloc(_swig_go_6.n + 1);
   memcpy(arg7, _swig_go_6.p, _swig_go_6.n);
   arg7[_swig_go_6.n] = '\0';
-  
-  arg8 = (float)_swig_go_7; 
-  
+
+  arg8 = (float)_swig_go_7;
+
   result = (bool)ImGui::DragScalar((char const *)arg1,arg2,arg3,arg4,(void const *)arg5,(void const *)arg6,(char const *)arg7,arg8);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg7); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg7);
   return _swig_go_result;
 }
 
@@ -4586,27 +4586,27 @@ bool _wrap_DragScalar__SWIG_1(_gostring_ _swig_go_0, intgo _swig_go_1, void *_sw
   char *arg7 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDataType)_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = *(void **)&_swig_go_4; 
-  arg6 = *(void **)&_swig_go_5; 
-  
+
+  arg2 = (ImGuiDataType)_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = *(void **)&_swig_go_4;
+  arg6 = *(void **)&_swig_go_5;
+
   arg7 = (char *)malloc(_swig_go_6.n + 1);
   memcpy(arg7, _swig_go_6.p, _swig_go_6.n);
   arg7[_swig_go_6.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::DragScalar((char const *)arg1,arg2,arg3,arg4,(void const *)arg5,(void const *)arg6,(char const *)arg7);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg7); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg7);
   return _swig_go_result;
 }
 
@@ -4620,21 +4620,21 @@ bool _wrap_DragScalar__SWIG_2(_gostring_ _swig_go_0, intgo _swig_go_1, void *_sw
   void *arg6 = (void *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDataType)_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = *(void **)&_swig_go_4; 
-  arg6 = *(void **)&_swig_go_5; 
-  
+
+  arg2 = (ImGuiDataType)_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = *(void **)&_swig_go_4;
+  arg6 = *(void **)&_swig_go_5;
+
   result = (bool)ImGui::DragScalar((char const *)arg1,arg2,arg3,arg4,(void const *)arg5,(void const *)arg6);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -4647,20 +4647,20 @@ bool _wrap_DragScalar__SWIG_3(_gostring_ _swig_go_0, intgo _swig_go_1, void *_sw
   void *arg5 = (void *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDataType)_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = *(void **)&_swig_go_4; 
-  
+
+  arg2 = (ImGuiDataType)_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = *(void **)&_swig_go_4;
+
   result = (bool)ImGui::DragScalar((char const *)arg1,arg2,arg3,arg4,(void const *)arg5);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -4672,19 +4672,19 @@ bool _wrap_DragScalar__SWIG_4(_gostring_ _swig_go_0, intgo _swig_go_1, void *_sw
   float arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDataType)_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg2 = (ImGuiDataType)_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   result = (bool)ImGui::DragScalar((char const *)arg1,arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -4701,29 +4701,29 @@ bool _wrap_DragScalarN__SWIG_0(_gostring_ _swig_go_0, intgo _swig_go_1, void *_s
   float arg9 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDataType)_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  arg6 = *(void **)&_swig_go_5; 
-  arg7 = *(void **)&_swig_go_6; 
-  
+
+  arg2 = (ImGuiDataType)_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+  arg6 = *(void **)&_swig_go_5;
+  arg7 = *(void **)&_swig_go_6;
+
   arg8 = (char *)malloc(_swig_go_7.n + 1);
   memcpy(arg8, _swig_go_7.p, _swig_go_7.n);
   arg8[_swig_go_7.n] = '\0';
-  
-  arg9 = (float)_swig_go_8; 
-  
+
+  arg9 = (float)_swig_go_8;
+
   result = (bool)ImGui::DragScalarN((char const *)arg1,arg2,arg3,arg4,arg5,(void const *)arg6,(void const *)arg7,(char const *)arg8,arg9);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg8); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg8);
   return _swig_go_result;
 }
 
@@ -4739,28 +4739,28 @@ bool _wrap_DragScalarN__SWIG_1(_gostring_ _swig_go_0, intgo _swig_go_1, void *_s
   char *arg8 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDataType)_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  arg6 = *(void **)&_swig_go_5; 
-  arg7 = *(void **)&_swig_go_6; 
-  
+
+  arg2 = (ImGuiDataType)_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+  arg6 = *(void **)&_swig_go_5;
+  arg7 = *(void **)&_swig_go_6;
+
   arg8 = (char *)malloc(_swig_go_7.n + 1);
   memcpy(arg8, _swig_go_7.p, _swig_go_7.n);
   arg8[_swig_go_7.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::DragScalarN((char const *)arg1,arg2,arg3,arg4,arg5,(void const *)arg6,(void const *)arg7,(char const *)arg8);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg8); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg8);
   return _swig_go_result;
 }
 
@@ -4775,22 +4775,22 @@ bool _wrap_DragScalarN__SWIG_2(_gostring_ _swig_go_0, intgo _swig_go_1, void *_s
   void *arg7 = (void *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDataType)_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  arg6 = *(void **)&_swig_go_5; 
-  arg7 = *(void **)&_swig_go_6; 
-  
+
+  arg2 = (ImGuiDataType)_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+  arg6 = *(void **)&_swig_go_5;
+  arg7 = *(void **)&_swig_go_6;
+
   result = (bool)ImGui::DragScalarN((char const *)arg1,arg2,arg3,arg4,arg5,(void const *)arg6,(void const *)arg7);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -4804,21 +4804,21 @@ bool _wrap_DragScalarN__SWIG_3(_gostring_ _swig_go_0, intgo _swig_go_1, void *_s
   void *arg6 = (void *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDataType)_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  arg6 = *(void **)&_swig_go_5; 
-  
+
+  arg2 = (ImGuiDataType)_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+  arg6 = *(void **)&_swig_go_5;
+
   result = (bool)ImGui::DragScalarN((char const *)arg1,arg2,arg3,arg4,arg5,(void const *)arg6);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -4831,20 +4831,20 @@ bool _wrap_DragScalarN__SWIG_4(_gostring_ _swig_go_0, intgo _swig_go_1, void *_s
   float arg5 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDataType)_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  
+
+  arg2 = (ImGuiDataType)_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+
   result = (bool)ImGui::DragScalarN((char const *)arg1,arg2,arg3,arg4,arg5);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -4858,26 +4858,26 @@ bool _wrap_SliderFloat__SWIG_0(_gostring_ _swig_go_0, float *_swig_go_1, float _
   float arg6 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  arg6 = (float)_swig_go_5; 
-  
+
+  arg6 = (float)_swig_go_5;
+
   result = (bool)ImGui::SliderFloat((char const *)arg1,arg2,arg3,arg4,(char const *)arg5,arg6);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg5); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg5);
   return _swig_go_result;
 }
 
@@ -4890,25 +4890,25 @@ bool _wrap_SliderFloat__SWIG_1(_gostring_ _swig_go_0, float *_swig_go_1, float _
   char *arg5 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::SliderFloat((char const *)arg1,arg2,arg3,arg4,(char const *)arg5);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg5); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg5);
   return _swig_go_result;
 }
 
@@ -4920,19 +4920,19 @@ bool _wrap_SliderFloat__SWIG_2(_gostring_ _swig_go_0, float *_swig_go_1, float _
   float arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   result = (bool)ImGui::SliderFloat((char const *)arg1,arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -4946,26 +4946,26 @@ bool _wrap_SliderFloat2__SWIG_0(_gostring_ _swig_go_0, float *_swig_go_1, float 
   float arg6 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  arg6 = (float)_swig_go_5; 
-  
+
+  arg6 = (float)_swig_go_5;
+
   result = (bool)ImGui::SliderFloat2((char const *)arg1,arg2,arg3,arg4,(char const *)arg5,arg6);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg5); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg5);
   return _swig_go_result;
 }
 
@@ -4978,25 +4978,25 @@ bool _wrap_SliderFloat2__SWIG_1(_gostring_ _swig_go_0, float *_swig_go_1, float 
   char *arg5 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::SliderFloat2((char const *)arg1,arg2,arg3,arg4,(char const *)arg5);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg5); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg5);
   return _swig_go_result;
 }
 
@@ -5008,19 +5008,19 @@ bool _wrap_SliderFloat2__SWIG_2(_gostring_ _swig_go_0, float *_swig_go_1, float 
   float arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   result = (bool)ImGui::SliderFloat2((char const *)arg1,arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -5034,26 +5034,26 @@ bool _wrap_SliderFloat3__SWIG_0(_gostring_ _swig_go_0, float *_swig_go_1, float 
   float arg6 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  arg6 = (float)_swig_go_5; 
-  
+
+  arg6 = (float)_swig_go_5;
+
   result = (bool)ImGui::SliderFloat3((char const *)arg1,arg2,arg3,arg4,(char const *)arg5,arg6);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg5); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg5);
   return _swig_go_result;
 }
 
@@ -5066,25 +5066,25 @@ bool _wrap_SliderFloat3__SWIG_1(_gostring_ _swig_go_0, float *_swig_go_1, float 
   char *arg5 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::SliderFloat3((char const *)arg1,arg2,arg3,arg4,(char const *)arg5);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg5); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg5);
   return _swig_go_result;
 }
 
@@ -5096,19 +5096,19 @@ bool _wrap_SliderFloat3__SWIG_2(_gostring_ _swig_go_0, float *_swig_go_1, float 
   float arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   result = (bool)ImGui::SliderFloat3((char const *)arg1,arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -5122,26 +5122,26 @@ bool _wrap_SliderFloat4__SWIG_0(_gostring_ _swig_go_0, float *_swig_go_1, float 
   float arg6 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  arg6 = (float)_swig_go_5; 
-  
+
+  arg6 = (float)_swig_go_5;
+
   result = (bool)ImGui::SliderFloat4((char const *)arg1,arg2,arg3,arg4,(char const *)arg5,arg6);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg5); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg5);
   return _swig_go_result;
 }
 
@@ -5154,25 +5154,25 @@ bool _wrap_SliderFloat4__SWIG_1(_gostring_ _swig_go_0, float *_swig_go_1, float 
   char *arg5 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::SliderFloat4((char const *)arg1,arg2,arg3,arg4,(char const *)arg5);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg5); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg5);
   return _swig_go_result;
 }
 
@@ -5184,85 +5184,116 @@ bool _wrap_SliderFloat4__SWIG_2(_gostring_ _swig_go_0, float *_swig_go_1, float 
   float arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   result = (bool)ImGui::SliderFloat4((char const *)arg1,arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
 
-bool _wrap_SliderAngle__SWIG_0(_gostring_ _swig_go_0, float *_swig_go_1, float _swig_go_2, float _swig_go_3) {
+bool _wrap_SliderAngle__SWIG_0(_gostring_ _swig_go_0, float *_swig_go_1, float _swig_go_2, float _swig_go_3, _gostring_ _swig_go_4) {
+  char *arg1 = (char *) 0 ;
+  float *arg2 = (float *) 0 ;
+  float arg3 ;
+  float arg4 ;
+  char *arg5 = (char *) 0 ;
+  bool result;
+  bool _swig_go_result;
+
+
+  arg1 = (char *)malloc(_swig_go_0.n + 1);
+  memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
+  arg1[_swig_go_0.n] = '\0';
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
+  arg5 = (char *)malloc(_swig_go_4.n + 1);
+  memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
+  arg5[_swig_go_4.n] = '\0';
+
+
+  result = (bool)ImGui::SliderAngle((char const *)arg1,arg2,arg3,arg4,(char const *)arg5);
+  _swig_go_result = result;
+  free(arg1);
+  free(arg5);
+  return _swig_go_result;
+}
+
+
+bool _wrap_SliderAngle__SWIG_1(_gostring_ _swig_go_0, float *_swig_go_1, float _swig_go_2, float _swig_go_3) {
   char *arg1 = (char *) 0 ;
   float *arg2 = (float *) 0 ;
   float arg3 ;
   float arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   result = (bool)ImGui::SliderAngle((char const *)arg1,arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
 
-bool _wrap_SliderAngle__SWIG_1(_gostring_ _swig_go_0, float *_swig_go_1, float _swig_go_2) {
+bool _wrap_SliderAngle__SWIG_2(_gostring_ _swig_go_0, float *_swig_go_1, float _swig_go_2) {
   char *arg1 = (char *) 0 ;
   float *arg2 = (float *) 0 ;
   float arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+
   result = (bool)ImGui::SliderAngle((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
 
-bool _wrap_SliderAngle__SWIG_2(_gostring_ _swig_go_0, float *_swig_go_1) {
+bool _wrap_SliderAngle__SWIG_3(_gostring_ _swig_go_0, float *_swig_go_1) {
   char *arg1 = (char *) 0 ;
   float *arg2 = (float *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+
   result = (bool)ImGui::SliderAngle((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -5275,25 +5306,25 @@ bool _wrap_SliderInt__SWIG_0(_gostring_ _swig_go_0, intgo *_swig_go_1, intgo _sw
   char *arg5 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::SliderInt((char const *)arg1,arg2,arg3,arg4,(char const *)arg5);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg5); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg5);
   return _swig_go_result;
 }
 
@@ -5305,19 +5336,19 @@ bool _wrap_SliderInt__SWIG_1(_gostring_ _swig_go_0, intgo *_swig_go_1, intgo _sw
   int arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   result = (bool)ImGui::SliderInt((char const *)arg1,arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -5330,25 +5361,25 @@ bool _wrap_SliderInt2__SWIG_0(_gostring_ _swig_go_0, intgo *_swig_go_1, intgo _s
   char *arg5 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::SliderInt2((char const *)arg1,arg2,arg3,arg4,(char const *)arg5);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg5); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg5);
   return _swig_go_result;
 }
 
@@ -5360,19 +5391,19 @@ bool _wrap_SliderInt2__SWIG_1(_gostring_ _swig_go_0, intgo *_swig_go_1, intgo _s
   int arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   result = (bool)ImGui::SliderInt2((char const *)arg1,arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -5385,25 +5416,25 @@ bool _wrap_SliderInt3__SWIG_0(_gostring_ _swig_go_0, intgo *_swig_go_1, intgo _s
   char *arg5 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::SliderInt3((char const *)arg1,arg2,arg3,arg4,(char const *)arg5);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg5); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg5);
   return _swig_go_result;
 }
 
@@ -5415,19 +5446,19 @@ bool _wrap_SliderInt3__SWIG_1(_gostring_ _swig_go_0, intgo *_swig_go_1, intgo _s
   int arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   result = (bool)ImGui::SliderInt3((char const *)arg1,arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -5440,25 +5471,25 @@ bool _wrap_SliderInt4__SWIG_0(_gostring_ _swig_go_0, intgo *_swig_go_1, intgo _s
   char *arg5 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::SliderInt4((char const *)arg1,arg2,arg3,arg4,(char const *)arg5);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg5); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg5);
   return _swig_go_result;
 }
 
@@ -5470,19 +5501,19 @@ bool _wrap_SliderInt4__SWIG_1(_gostring_ _swig_go_0, intgo *_swig_go_1, intgo _s
   int arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   result = (bool)ImGui::SliderInt4((char const *)arg1,arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -5497,27 +5528,27 @@ bool _wrap_SliderScalar__SWIG_0(_gostring_ _swig_go_0, intgo _swig_go_1, void *_
   float arg7 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDataType)_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = *(void **)&_swig_go_3; 
-  arg5 = *(void **)&_swig_go_4; 
-  
+
+  arg2 = (ImGuiDataType)_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = *(void **)&_swig_go_3;
+  arg5 = *(void **)&_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  arg7 = (float)_swig_go_6; 
-  
+
+  arg7 = (float)_swig_go_6;
+
   result = (bool)ImGui::SliderScalar((char const *)arg1,arg2,arg3,(void const *)arg4,(void const *)arg5,(char const *)arg6,arg7);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg6); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg6);
   return _swig_go_result;
 }
 
@@ -5531,26 +5562,26 @@ bool _wrap_SliderScalar__SWIG_1(_gostring_ _swig_go_0, intgo _swig_go_1, void *_
   char *arg6 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDataType)_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = *(void **)&_swig_go_3; 
-  arg5 = *(void **)&_swig_go_4; 
-  
+
+  arg2 = (ImGuiDataType)_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = *(void **)&_swig_go_3;
+  arg5 = *(void **)&_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::SliderScalar((char const *)arg1,arg2,arg3,(void const *)arg4,(void const *)arg5,(char const *)arg6);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg6); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg6);
   return _swig_go_result;
 }
 
@@ -5563,20 +5594,20 @@ bool _wrap_SliderScalar__SWIG_2(_gostring_ _swig_go_0, intgo _swig_go_1, void *_
   void *arg5 = (void *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDataType)_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = *(void **)&_swig_go_3; 
-  arg5 = *(void **)&_swig_go_4; 
-  
+
+  arg2 = (ImGuiDataType)_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = *(void **)&_swig_go_3;
+  arg5 = *(void **)&_swig_go_4;
+
   result = (bool)ImGui::SliderScalar((char const *)arg1,arg2,arg3,(void const *)arg4,(void const *)arg5);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -5592,28 +5623,28 @@ bool _wrap_SliderScalarN__SWIG_0(_gostring_ _swig_go_0, intgo _swig_go_1, void *
   float arg8 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDataType)_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = *(void **)&_swig_go_4; 
-  arg6 = *(void **)&_swig_go_5; 
-  
+
+  arg2 = (ImGuiDataType)_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = *(void **)&_swig_go_4;
+  arg6 = *(void **)&_swig_go_5;
+
   arg7 = (char *)malloc(_swig_go_6.n + 1);
   memcpy(arg7, _swig_go_6.p, _swig_go_6.n);
   arg7[_swig_go_6.n] = '\0';
-  
-  arg8 = (float)_swig_go_7; 
-  
+
+  arg8 = (float)_swig_go_7;
+
   result = (bool)ImGui::SliderScalarN((char const *)arg1,arg2,arg3,arg4,(void const *)arg5,(void const *)arg6,(char const *)arg7,arg8);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg7); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg7);
   return _swig_go_result;
 }
 
@@ -5628,27 +5659,27 @@ bool _wrap_SliderScalarN__SWIG_1(_gostring_ _swig_go_0, intgo _swig_go_1, void *
   char *arg7 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDataType)_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = *(void **)&_swig_go_4; 
-  arg6 = *(void **)&_swig_go_5; 
-  
+
+  arg2 = (ImGuiDataType)_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = *(void **)&_swig_go_4;
+  arg6 = *(void **)&_swig_go_5;
+
   arg7 = (char *)malloc(_swig_go_6.n + 1);
   memcpy(arg7, _swig_go_6.p, _swig_go_6.n);
   arg7[_swig_go_6.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::SliderScalarN((char const *)arg1,arg2,arg3,arg4,(void const *)arg5,(void const *)arg6,(char const *)arg7);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg7); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg7);
   return _swig_go_result;
 }
 
@@ -5662,21 +5693,21 @@ bool _wrap_SliderScalarN__SWIG_2(_gostring_ _swig_go_0, intgo _swig_go_1, void *
   void *arg6 = (void *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDataType)_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = *(void **)&_swig_go_4; 
-  arg6 = *(void **)&_swig_go_5; 
-  
+
+  arg2 = (ImGuiDataType)_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = *(void **)&_swig_go_4;
+  arg6 = *(void **)&_swig_go_5;
+
   result = (bool)ImGui::SliderScalarN((char const *)arg1,arg2,arg3,arg4,(void const *)arg5,(void const *)arg6);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -5691,27 +5722,27 @@ bool _wrap_VSliderFloat__SWIG_0(_gostring_ _swig_go_0, ImVec2 *_swig_go_1, float
   float arg7 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(float **)&_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  
+
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(float **)&_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  arg7 = (float)_swig_go_6; 
-  
+
+  arg7 = (float)_swig_go_6;
+
   result = (bool)ImGui::VSliderFloat((char const *)arg1,(ImVec2 const &)*arg2,arg3,arg4,arg5,(char const *)arg6,arg7);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg6); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg6);
   return _swig_go_result;
 }
 
@@ -5725,26 +5756,26 @@ bool _wrap_VSliderFloat__SWIG_1(_gostring_ _swig_go_0, ImVec2 *_swig_go_1, float
   char *arg6 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(float **)&_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  
+
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(float **)&_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::VSliderFloat((char const *)arg1,(ImVec2 const &)*arg2,arg3,arg4,arg5,(char const *)arg6);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg6); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg6);
   return _swig_go_result;
 }
 
@@ -5757,20 +5788,20 @@ bool _wrap_VSliderFloat__SWIG_2(_gostring_ _swig_go_0, ImVec2 *_swig_go_1, float
   float arg5 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(float **)&_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  
+
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(float **)&_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+
   result = (bool)ImGui::VSliderFloat((char const *)arg1,(ImVec2 const &)*arg2,arg3,arg4,arg5);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -5784,26 +5815,26 @@ bool _wrap_VSliderInt__SWIG_0(_gostring_ _swig_go_0, ImVec2 *_swig_go_1, intgo *
   char *arg6 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(int **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(int **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::VSliderInt((char const *)arg1,(ImVec2 const &)*arg2,arg3,arg4,arg5,(char const *)arg6);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg6); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg6);
   return _swig_go_result;
 }
 
@@ -5816,20 +5847,20 @@ bool _wrap_VSliderInt__SWIG_1(_gostring_ _swig_go_0, ImVec2 *_swig_go_1, intgo *
   int arg5 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(int **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(int **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   result = (bool)ImGui::VSliderInt((char const *)arg1,(ImVec2 const &)*arg2,arg3,arg4,arg5);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -5845,28 +5876,28 @@ bool _wrap_VSliderScalar__SWIG_0(_gostring_ _swig_go_0, ImVec2 *_swig_go_1, intg
   float arg8 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = (ImGuiDataType)_swig_go_2; 
-  arg4 = *(void **)&_swig_go_3; 
-  arg5 = *(void **)&_swig_go_4; 
-  arg6 = *(void **)&_swig_go_5; 
-  
+
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = (ImGuiDataType)_swig_go_2;
+  arg4 = *(void **)&_swig_go_3;
+  arg5 = *(void **)&_swig_go_4;
+  arg6 = *(void **)&_swig_go_5;
+
   arg7 = (char *)malloc(_swig_go_6.n + 1);
   memcpy(arg7, _swig_go_6.p, _swig_go_6.n);
   arg7[_swig_go_6.n] = '\0';
-  
-  arg8 = (float)_swig_go_7; 
-  
+
+  arg8 = (float)_swig_go_7;
+
   result = (bool)ImGui::VSliderScalar((char const *)arg1,(ImVec2 const &)*arg2,arg3,arg4,(void const *)arg5,(void const *)arg6,(char const *)arg7,arg8);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg7); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg7);
   return _swig_go_result;
 }
 
@@ -5881,27 +5912,27 @@ bool _wrap_VSliderScalar__SWIG_1(_gostring_ _swig_go_0, ImVec2 *_swig_go_1, intg
   char *arg7 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = (ImGuiDataType)_swig_go_2; 
-  arg4 = *(void **)&_swig_go_3; 
-  arg5 = *(void **)&_swig_go_4; 
-  arg6 = *(void **)&_swig_go_5; 
-  
+
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = (ImGuiDataType)_swig_go_2;
+  arg4 = *(void **)&_swig_go_3;
+  arg5 = *(void **)&_swig_go_4;
+  arg6 = *(void **)&_swig_go_5;
+
   arg7 = (char *)malloc(_swig_go_6.n + 1);
   memcpy(arg7, _swig_go_6.p, _swig_go_6.n);
   arg7[_swig_go_6.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::VSliderScalar((char const *)arg1,(ImVec2 const &)*arg2,arg3,arg4,(void const *)arg5,(void const *)arg6,(char const *)arg7);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg7); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg7);
   return _swig_go_result;
 }
 
@@ -5915,21 +5946,21 @@ bool _wrap_VSliderScalar__SWIG_2(_gostring_ _swig_go_0, ImVec2 *_swig_go_1, intg
   void *arg6 = (void *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = (ImGuiDataType)_swig_go_2; 
-  arg4 = *(void **)&_swig_go_3; 
-  arg5 = *(void **)&_swig_go_4; 
-  arg6 = *(void **)&_swig_go_5; 
-  
+
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = (ImGuiDataType)_swig_go_2;
+  arg4 = *(void **)&_swig_go_3;
+  arg5 = *(void **)&_swig_go_4;
+  arg6 = *(void **)&_swig_go_5;
+
   result = (bool)ImGui::VSliderScalar((char const *)arg1,(ImVec2 const &)*arg2,arg3,arg4,(void const *)arg5,(void const *)arg6);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -5943,26 +5974,26 @@ bool _wrap_InputText__SWIG_0(_gostring_ _swig_go_0, _gostring_ _swig_go_1, long 
   void *arg6 = (void *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  arg3 = (size_t)_swig_go_2; 
-  arg4 = (ImGuiInputTextFlags)_swig_go_3; 
-  arg5 = *(ImGuiInputTextCallback *)&_swig_go_4; 
-  arg6 = *(void **)&_swig_go_5; 
-  
+
+  arg3 = (size_t)_swig_go_2;
+  arg4 = (ImGuiInputTextFlags)_swig_go_3;
+  arg5 = *(ImGuiInputTextCallback *)&_swig_go_4;
+  arg6 = *(void **)&_swig_go_5;
+
   result = (bool)ImGui::InputText((char const *)arg1,arg2,arg3,arg4,arg5,arg6);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg2); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg2);
   return _swig_go_result;
 }
 
@@ -5975,25 +6006,25 @@ bool _wrap_InputText__SWIG_1(_gostring_ _swig_go_0, _gostring_ _swig_go_1, long 
   ImGuiInputTextCallback arg5 = (ImGuiInputTextCallback) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  arg3 = (size_t)_swig_go_2; 
-  arg4 = (ImGuiInputTextFlags)_swig_go_3; 
-  arg5 = *(ImGuiInputTextCallback *)&_swig_go_4; 
-  
+
+  arg3 = (size_t)_swig_go_2;
+  arg4 = (ImGuiInputTextFlags)_swig_go_3;
+  arg5 = *(ImGuiInputTextCallback *)&_swig_go_4;
+
   result = (bool)ImGui::InputText((char const *)arg1,arg2,arg3,arg4,arg5);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg2); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg2);
   return _swig_go_result;
 }
 
@@ -6005,24 +6036,24 @@ bool _wrap_InputText__SWIG_2(_gostring_ _swig_go_0, _gostring_ _swig_go_1, long 
   ImGuiInputTextFlags arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  arg3 = (size_t)_swig_go_2; 
-  arg4 = (ImGuiInputTextFlags)_swig_go_3; 
-  
+
+  arg3 = (size_t)_swig_go_2;
+  arg4 = (ImGuiInputTextFlags)_swig_go_3;
+
   result = (bool)ImGui::InputText((char const *)arg1,arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg2); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg2);
   return _swig_go_result;
 }
 
@@ -6033,23 +6064,23 @@ bool _wrap_InputText__SWIG_3(_gostring_ _swig_go_0, _gostring_ _swig_go_1, long 
   size_t arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  arg3 = (size_t)_swig_go_2; 
-  
+
+  arg3 = (size_t)_swig_go_2;
+
   result = (bool)ImGui::InputText((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg2); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg2);
   return _swig_go_result;
 }
 
@@ -6064,27 +6095,27 @@ bool _wrap_InputTextMultiline__SWIG_0(_gostring_ _swig_go_0, _gostring_ _swig_go
   void *arg7 = (void *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  arg3 = (size_t)_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = (ImGuiInputTextFlags)_swig_go_4; 
-  arg6 = *(ImGuiInputTextCallback *)&_swig_go_5; 
-  arg7 = *(void **)&_swig_go_6; 
-  
+
+  arg3 = (size_t)_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = (ImGuiInputTextFlags)_swig_go_4;
+  arg6 = *(ImGuiInputTextCallback *)&_swig_go_5;
+  arg7 = *(void **)&_swig_go_6;
+
   result = (bool)ImGui::InputTextMultiline((char const *)arg1,arg2,arg3,(ImVec2 const &)*arg4,arg5,arg6,arg7);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg2); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg2);
   return _swig_go_result;
 }
 
@@ -6098,26 +6129,26 @@ bool _wrap_InputTextMultiline__SWIG_1(_gostring_ _swig_go_0, _gostring_ _swig_go
   ImGuiInputTextCallback arg6 = (ImGuiInputTextCallback) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  arg3 = (size_t)_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = (ImGuiInputTextFlags)_swig_go_4; 
-  arg6 = *(ImGuiInputTextCallback *)&_swig_go_5; 
-  
+
+  arg3 = (size_t)_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = (ImGuiInputTextFlags)_swig_go_4;
+  arg6 = *(ImGuiInputTextCallback *)&_swig_go_5;
+
   result = (bool)ImGui::InputTextMultiline((char const *)arg1,arg2,arg3,(ImVec2 const &)*arg4,arg5,arg6);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg2); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg2);
   return _swig_go_result;
 }
 
@@ -6130,25 +6161,25 @@ bool _wrap_InputTextMultiline__SWIG_2(_gostring_ _swig_go_0, _gostring_ _swig_go
   ImGuiInputTextFlags arg5 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  arg3 = (size_t)_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = (ImGuiInputTextFlags)_swig_go_4; 
-  
+
+  arg3 = (size_t)_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = (ImGuiInputTextFlags)_swig_go_4;
+
   result = (bool)ImGui::InputTextMultiline((char const *)arg1,arg2,arg3,(ImVec2 const &)*arg4,arg5);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg2); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg2);
   return _swig_go_result;
 }
 
@@ -6160,24 +6191,24 @@ bool _wrap_InputTextMultiline__SWIG_3(_gostring_ _swig_go_0, _gostring_ _swig_go
   ImVec2 *arg4 = 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  arg3 = (size_t)_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  
+
+  arg3 = (size_t)_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+
   result = (bool)ImGui::InputTextMultiline((char const *)arg1,arg2,arg3,(ImVec2 const &)*arg4);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg2); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg2);
   return _swig_go_result;
 }
 
@@ -6188,23 +6219,23 @@ bool _wrap_InputTextMultiline__SWIG_4(_gostring_ _swig_go_0, _gostring_ _swig_go
   size_t arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  arg3 = (size_t)_swig_go_2; 
-  
+
+  arg3 = (size_t)_swig_go_2;
+
   result = (bool)ImGui::InputTextMultiline((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg2); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg2);
   return _swig_go_result;
 }
 
@@ -6218,26 +6249,26 @@ bool _wrap_InputFloat__SWIG_0(_gostring_ _swig_go_0, float *_swig_go_1, float _s
   ImGuiInputTextFlags arg6 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  arg6 = (ImGuiInputTextFlags)_swig_go_5; 
-  
+
+  arg6 = (ImGuiInputTextFlags)_swig_go_5;
+
   result = (bool)ImGui::InputFloat((char const *)arg1,arg2,arg3,arg4,(char const *)arg5,arg6);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg5); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg5);
   return _swig_go_result;
 }
 
@@ -6250,25 +6281,25 @@ bool _wrap_InputFloat__SWIG_1(_gostring_ _swig_go_0, float *_swig_go_1, float _s
   char *arg5 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::InputFloat((char const *)arg1,arg2,arg3,arg4,(char const *)arg5);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg5); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg5);
   return _swig_go_result;
 }
 
@@ -6280,19 +6311,19 @@ bool _wrap_InputFloat__SWIG_2(_gostring_ _swig_go_0, float *_swig_go_1, float _s
   float arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   result = (bool)ImGui::InputFloat((char const *)arg1,arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -6303,18 +6334,18 @@ bool _wrap_InputFloat__SWIG_3(_gostring_ _swig_go_0, float *_swig_go_1, float _s
   float arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+
   result = (bool)ImGui::InputFloat((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -6324,17 +6355,17 @@ bool _wrap_InputFloat__SWIG_4(_gostring_ _swig_go_0, float *_swig_go_1) {
   float *arg2 = (float *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+
   result = (bool)ImGui::InputFloat((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -6346,24 +6377,24 @@ bool _wrap_InputFloat2__SWIG_0(_gostring_ _swig_go_0, float *_swig_go_1, _gostri
   ImGuiInputTextFlags arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+
   arg3 = (char *)malloc(_swig_go_2.n + 1);
   memcpy(arg3, _swig_go_2.p, _swig_go_2.n);
   arg3[_swig_go_2.n] = '\0';
-  
-  arg4 = (ImGuiInputTextFlags)_swig_go_3; 
-  
+
+  arg4 = (ImGuiInputTextFlags)_swig_go_3;
+
   result = (bool)ImGui::InputFloat2((char const *)arg1,arg2,(char const *)arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg3); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg3);
   return _swig_go_result;
 }
 
@@ -6374,23 +6405,23 @@ bool _wrap_InputFloat2__SWIG_1(_gostring_ _swig_go_0, float *_swig_go_1, _gostri
   char *arg3 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+
   arg3 = (char *)malloc(_swig_go_2.n + 1);
   memcpy(arg3, _swig_go_2.p, _swig_go_2.n);
   arg3[_swig_go_2.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::InputFloat2((char const *)arg1,arg2,(char const *)arg3);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg3); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg3);
   return _swig_go_result;
 }
 
@@ -6400,17 +6431,17 @@ bool _wrap_InputFloat2__SWIG_2(_gostring_ _swig_go_0, float *_swig_go_1) {
   float *arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+
   result = (bool)ImGui::InputFloat2((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -6422,24 +6453,24 @@ bool _wrap_InputFloat3__SWIG_0(_gostring_ _swig_go_0, float *_swig_go_1, _gostri
   ImGuiInputTextFlags arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+
   arg3 = (char *)malloc(_swig_go_2.n + 1);
   memcpy(arg3, _swig_go_2.p, _swig_go_2.n);
   arg3[_swig_go_2.n] = '\0';
-  
-  arg4 = (ImGuiInputTextFlags)_swig_go_3; 
-  
+
+  arg4 = (ImGuiInputTextFlags)_swig_go_3;
+
   result = (bool)ImGui::InputFloat3((char const *)arg1,arg2,(char const *)arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg3); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg3);
   return _swig_go_result;
 }
 
@@ -6450,23 +6481,23 @@ bool _wrap_InputFloat3__SWIG_1(_gostring_ _swig_go_0, float *_swig_go_1, _gostri
   char *arg3 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+
   arg3 = (char *)malloc(_swig_go_2.n + 1);
   memcpy(arg3, _swig_go_2.p, _swig_go_2.n);
   arg3[_swig_go_2.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::InputFloat3((char const *)arg1,arg2,(char const *)arg3);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg3); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg3);
   return _swig_go_result;
 }
 
@@ -6476,17 +6507,17 @@ bool _wrap_InputFloat3__SWIG_2(_gostring_ _swig_go_0, float *_swig_go_1) {
   float *arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+
   result = (bool)ImGui::InputFloat3((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -6498,24 +6529,24 @@ bool _wrap_InputFloat4__SWIG_0(_gostring_ _swig_go_0, float *_swig_go_1, _gostri
   ImGuiInputTextFlags arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+
   arg3 = (char *)malloc(_swig_go_2.n + 1);
   memcpy(arg3, _swig_go_2.p, _swig_go_2.n);
   arg3[_swig_go_2.n] = '\0';
-  
-  arg4 = (ImGuiInputTextFlags)_swig_go_3; 
-  
+
+  arg4 = (ImGuiInputTextFlags)_swig_go_3;
+
   result = (bool)ImGui::InputFloat4((char const *)arg1,arg2,(char const *)arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg3); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg3);
   return _swig_go_result;
 }
 
@@ -6526,23 +6557,23 @@ bool _wrap_InputFloat4__SWIG_1(_gostring_ _swig_go_0, float *_swig_go_1, _gostri
   char *arg3 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+
   arg3 = (char *)malloc(_swig_go_2.n + 1);
   memcpy(arg3, _swig_go_2.p, _swig_go_2.n);
   arg3[_swig_go_2.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::InputFloat4((char const *)arg1,arg2,(char const *)arg3);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg3); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg3);
   return _swig_go_result;
 }
 
@@ -6552,17 +6583,17 @@ bool _wrap_InputFloat4__SWIG_2(_gostring_ _swig_go_0, float *_swig_go_1) {
   float *arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+
   result = (bool)ImGui::InputFloat4((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -6575,20 +6606,20 @@ bool _wrap_InputInt__SWIG_0(_gostring_ _swig_go_0, intgo *_swig_go_1, intgo _swi
   ImGuiInputTextFlags arg5 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (ImGuiInputTextFlags)_swig_go_4; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (ImGuiInputTextFlags)_swig_go_4;
+
   result = (bool)ImGui::InputInt((char const *)arg1,arg2,arg3,arg4,arg5);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -6600,19 +6631,19 @@ bool _wrap_InputInt__SWIG_1(_gostring_ _swig_go_0, intgo *_swig_go_1, intgo _swi
   int arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   result = (bool)ImGui::InputInt((char const *)arg1,arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -6623,18 +6654,18 @@ bool _wrap_InputInt__SWIG_2(_gostring_ _swig_go_0, intgo *_swig_go_1, intgo _swi
   int arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+
   result = (bool)ImGui::InputInt((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -6644,17 +6675,17 @@ bool _wrap_InputInt__SWIG_3(_gostring_ _swig_go_0, intgo *_swig_go_1) {
   int *arg2 = (int *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+
   result = (bool)ImGui::InputInt((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -6665,18 +6696,18 @@ bool _wrap_InputInt2__SWIG_0(_gostring_ _swig_go_0, intgo *_swig_go_1, intgo _sw
   ImGuiInputTextFlags arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (ImGuiInputTextFlags)_swig_go_2; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (ImGuiInputTextFlags)_swig_go_2;
+
   result = (bool)ImGui::InputInt2((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -6686,17 +6717,17 @@ bool _wrap_InputInt2__SWIG_1(_gostring_ _swig_go_0, intgo *_swig_go_1) {
   int *arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+
   result = (bool)ImGui::InputInt2((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -6707,18 +6738,18 @@ bool _wrap_InputInt3__SWIG_0(_gostring_ _swig_go_0, intgo *_swig_go_1, intgo _sw
   ImGuiInputTextFlags arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (ImGuiInputTextFlags)_swig_go_2; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (ImGuiInputTextFlags)_swig_go_2;
+
   result = (bool)ImGui::InputInt3((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -6728,17 +6759,17 @@ bool _wrap_InputInt3__SWIG_1(_gostring_ _swig_go_0, intgo *_swig_go_1) {
   int *arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+
   result = (bool)ImGui::InputInt3((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -6749,18 +6780,18 @@ bool _wrap_InputInt4__SWIG_0(_gostring_ _swig_go_0, intgo *_swig_go_1, intgo _sw
   ImGuiInputTextFlags arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = (ImGuiInputTextFlags)_swig_go_2; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = (ImGuiInputTextFlags)_swig_go_2;
+
   result = (bool)ImGui::InputInt4((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -6770,17 +6801,17 @@ bool _wrap_InputInt4__SWIG_1(_gostring_ _swig_go_0, intgo *_swig_go_1) {
   int *arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+
   result = (bool)ImGui::InputInt4((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -6794,26 +6825,26 @@ bool _wrap_InputDouble__SWIG_0(_gostring_ _swig_go_0, double *_swig_go_1, double
   ImGuiInputTextFlags arg6 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(double **)&_swig_go_1; 
-  arg3 = (double)_swig_go_2; 
-  arg4 = (double)_swig_go_3; 
-  
+
+  arg2 = *(double **)&_swig_go_1;
+  arg3 = (double)_swig_go_2;
+  arg4 = (double)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  arg6 = (ImGuiInputTextFlags)_swig_go_5; 
-  
+
+  arg6 = (ImGuiInputTextFlags)_swig_go_5;
+
   result = (bool)ImGui::InputDouble((char const *)arg1,arg2,arg3,arg4,(char const *)arg5,arg6);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg5); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg5);
   return _swig_go_result;
 }
 
@@ -6826,25 +6857,25 @@ bool _wrap_InputDouble__SWIG_1(_gostring_ _swig_go_0, double *_swig_go_1, double
   char *arg5 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(double **)&_swig_go_1; 
-  arg3 = (double)_swig_go_2; 
-  arg4 = (double)_swig_go_3; 
-  
+
+  arg2 = *(double **)&_swig_go_1;
+  arg3 = (double)_swig_go_2;
+  arg4 = (double)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::InputDouble((char const *)arg1,arg2,arg3,arg4,(char const *)arg5);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg5); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg5);
   return _swig_go_result;
 }
 
@@ -6856,19 +6887,19 @@ bool _wrap_InputDouble__SWIG_2(_gostring_ _swig_go_0, double *_swig_go_1, double
   double arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(double **)&_swig_go_1; 
-  arg3 = (double)_swig_go_2; 
-  arg4 = (double)_swig_go_3; 
-  
+
+  arg2 = *(double **)&_swig_go_1;
+  arg3 = (double)_swig_go_2;
+  arg4 = (double)_swig_go_3;
+
   result = (bool)ImGui::InputDouble((char const *)arg1,arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -6879,18 +6910,18 @@ bool _wrap_InputDouble__SWIG_3(_gostring_ _swig_go_0, double *_swig_go_1, double
   double arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(double **)&_swig_go_1; 
-  arg3 = (double)_swig_go_2; 
-  
+
+  arg2 = *(double **)&_swig_go_1;
+  arg3 = (double)_swig_go_2;
+
   result = (bool)ImGui::InputDouble((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -6900,17 +6931,17 @@ bool _wrap_InputDouble__SWIG_4(_gostring_ _swig_go_0, double *_swig_go_1) {
   double *arg2 = (double *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(double **)&_swig_go_1; 
-  
+
+  arg2 = *(double **)&_swig_go_1;
+
   result = (bool)ImGui::InputDouble((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -6925,27 +6956,27 @@ bool _wrap_InputScalar__SWIG_0(_gostring_ _swig_go_0, intgo _swig_go_1, void *_s
   ImGuiInputTextFlags arg7 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDataType)_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = *(void **)&_swig_go_3; 
-  arg5 = *(void **)&_swig_go_4; 
-  
+
+  arg2 = (ImGuiDataType)_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = *(void **)&_swig_go_3;
+  arg5 = *(void **)&_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  arg7 = (ImGuiInputTextFlags)_swig_go_6; 
-  
+
+  arg7 = (ImGuiInputTextFlags)_swig_go_6;
+
   result = (bool)ImGui::InputScalar((char const *)arg1,arg2,arg3,(void const *)arg4,(void const *)arg5,(char const *)arg6,arg7);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg6); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg6);
   return _swig_go_result;
 }
 
@@ -6959,26 +6990,26 @@ bool _wrap_InputScalar__SWIG_1(_gostring_ _swig_go_0, intgo _swig_go_1, void *_s
   char *arg6 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDataType)_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = *(void **)&_swig_go_3; 
-  arg5 = *(void **)&_swig_go_4; 
-  
+
+  arg2 = (ImGuiDataType)_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = *(void **)&_swig_go_3;
+  arg5 = *(void **)&_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::InputScalar((char const *)arg1,arg2,arg3,(void const *)arg4,(void const *)arg5,(char const *)arg6);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg6); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg6);
   return _swig_go_result;
 }
 
@@ -6991,20 +7022,20 @@ bool _wrap_InputScalar__SWIG_2(_gostring_ _swig_go_0, intgo _swig_go_1, void *_s
   void *arg5 = (void *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDataType)_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = *(void **)&_swig_go_3; 
-  arg5 = *(void **)&_swig_go_4; 
-  
+
+  arg2 = (ImGuiDataType)_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = *(void **)&_swig_go_3;
+  arg5 = *(void **)&_swig_go_4;
+
   result = (bool)ImGui::InputScalar((char const *)arg1,arg2,arg3,(void const *)arg4,(void const *)arg5);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7016,19 +7047,19 @@ bool _wrap_InputScalar__SWIG_3(_gostring_ _swig_go_0, intgo _swig_go_1, void *_s
   void *arg4 = (void *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDataType)_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = *(void **)&_swig_go_3; 
-  
+
+  arg2 = (ImGuiDataType)_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = *(void **)&_swig_go_3;
+
   result = (bool)ImGui::InputScalar((char const *)arg1,arg2,arg3,(void const *)arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7039,18 +7070,18 @@ bool _wrap_InputScalar__SWIG_4(_gostring_ _swig_go_0, intgo _swig_go_1, void *_s
   void *arg3 = (void *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDataType)_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  
+
+  arg2 = (ImGuiDataType)_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+
   result = (bool)ImGui::InputScalar((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7066,28 +7097,28 @@ bool _wrap_InputScalarN__SWIG_0(_gostring_ _swig_go_0, intgo _swig_go_1, void *_
   ImGuiInputTextFlags arg8 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDataType)_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = *(void **)&_swig_go_4; 
-  arg6 = *(void **)&_swig_go_5; 
-  
+
+  arg2 = (ImGuiDataType)_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = *(void **)&_swig_go_4;
+  arg6 = *(void **)&_swig_go_5;
+
   arg7 = (char *)malloc(_swig_go_6.n + 1);
   memcpy(arg7, _swig_go_6.p, _swig_go_6.n);
   arg7[_swig_go_6.n] = '\0';
-  
-  arg8 = (ImGuiInputTextFlags)_swig_go_7; 
-  
+
+  arg8 = (ImGuiInputTextFlags)_swig_go_7;
+
   result = (bool)ImGui::InputScalarN((char const *)arg1,arg2,arg3,arg4,(void const *)arg5,(void const *)arg6,(char const *)arg7,arg8);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg7); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg7);
   return _swig_go_result;
 }
 
@@ -7102,27 +7133,27 @@ bool _wrap_InputScalarN__SWIG_1(_gostring_ _swig_go_0, intgo _swig_go_1, void *_
   char *arg7 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDataType)_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = *(void **)&_swig_go_4; 
-  arg6 = *(void **)&_swig_go_5; 
-  
+
+  arg2 = (ImGuiDataType)_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = *(void **)&_swig_go_4;
+  arg6 = *(void **)&_swig_go_5;
+
   arg7 = (char *)malloc(_swig_go_6.n + 1);
   memcpy(arg7, _swig_go_6.p, _swig_go_6.n);
   arg7[_swig_go_6.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::InputScalarN((char const *)arg1,arg2,arg3,arg4,(void const *)arg5,(void const *)arg6,(char const *)arg7);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg7); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg7);
   return _swig_go_result;
 }
 
@@ -7136,21 +7167,21 @@ bool _wrap_InputScalarN__SWIG_2(_gostring_ _swig_go_0, intgo _swig_go_1, void *_
   void *arg6 = (void *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDataType)_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = *(void **)&_swig_go_4; 
-  arg6 = *(void **)&_swig_go_5; 
-  
+
+  arg2 = (ImGuiDataType)_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = *(void **)&_swig_go_4;
+  arg6 = *(void **)&_swig_go_5;
+
   result = (bool)ImGui::InputScalarN((char const *)arg1,arg2,arg3,arg4,(void const *)arg5,(void const *)arg6);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7163,20 +7194,20 @@ bool _wrap_InputScalarN__SWIG_3(_gostring_ _swig_go_0, intgo _swig_go_1, void *_
   void *arg5 = (void *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDataType)_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = *(void **)&_swig_go_4; 
-  
+
+  arg2 = (ImGuiDataType)_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = *(void **)&_swig_go_4;
+
   result = (bool)ImGui::InputScalarN((char const *)arg1,arg2,arg3,arg4,(void const *)arg5);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7188,19 +7219,19 @@ bool _wrap_InputScalarN__SWIG_4(_gostring_ _swig_go_0, intgo _swig_go_1, void *_
   int arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDataType)_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = (ImGuiDataType)_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   result = (bool)ImGui::InputScalarN((char const *)arg1,arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7211,18 +7242,18 @@ bool _wrap_ColorEdit3__SWIG_0(_gostring_ _swig_go_0, float *_swig_go_1, intgo _s
   ImGuiColorEditFlags arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (ImGuiColorEditFlags)_swig_go_2; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (ImGuiColorEditFlags)_swig_go_2;
+
   result = (bool)ImGui::ColorEdit3((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7232,17 +7263,17 @@ bool _wrap_ColorEdit3__SWIG_1(_gostring_ _swig_go_0, float *_swig_go_1) {
   float *arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+
   result = (bool)ImGui::ColorEdit3((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7253,18 +7284,18 @@ bool _wrap_ColorEdit4__SWIG_0(_gostring_ _swig_go_0, float *_swig_go_1, intgo _s
   ImGuiColorEditFlags arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (ImGuiColorEditFlags)_swig_go_2; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (ImGuiColorEditFlags)_swig_go_2;
+
   result = (bool)ImGui::ColorEdit4((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7274,17 +7305,17 @@ bool _wrap_ColorEdit4__SWIG_1(_gostring_ _swig_go_0, float *_swig_go_1) {
   float *arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+
   result = (bool)ImGui::ColorEdit4((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7295,18 +7326,18 @@ bool _wrap_ColorPicker3__SWIG_0(_gostring_ _swig_go_0, float *_swig_go_1, intgo 
   ImGuiColorEditFlags arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (ImGuiColorEditFlags)_swig_go_2; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (ImGuiColorEditFlags)_swig_go_2;
+
   result = (bool)ImGui::ColorPicker3((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7316,17 +7347,17 @@ bool _wrap_ColorPicker3__SWIG_1(_gostring_ _swig_go_0, float *_swig_go_1) {
   float *arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+
   result = (bool)ImGui::ColorPicker3((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7338,19 +7369,19 @@ bool _wrap_ColorPicker4__SWIG_0(_gostring_ _swig_go_0, float *_swig_go_1, intgo 
   float *arg4 = (float *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (ImGuiColorEditFlags)_swig_go_2; 
-  arg4 = *(float **)&_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (ImGuiColorEditFlags)_swig_go_2;
+  arg4 = *(float **)&_swig_go_3;
+
   result = (bool)ImGui::ColorPicker4((char const *)arg1,arg2,arg3,(float const *)arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7361,18 +7392,18 @@ bool _wrap_ColorPicker4__SWIG_1(_gostring_ _swig_go_0, float *_swig_go_1, intgo 
   ImGuiColorEditFlags arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (ImGuiColorEditFlags)_swig_go_2; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (ImGuiColorEditFlags)_swig_go_2;
+
   result = (bool)ImGui::ColorPicker4((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7382,17 +7413,17 @@ bool _wrap_ColorPicker4__SWIG_2(_gostring_ _swig_go_0, float *_swig_go_1) {
   float *arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+
   result = (bool)ImGui::ColorPicker4((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7405,25 +7436,25 @@ bool _wrap_ColorButton__SWIG_0(_gostring_ _swig_go_0, ImVec4 *_swig_go_1, intgo 
   ImVec2 *argp4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(ImVec4 **)&_swig_go_1; 
-  arg3 = (ImGuiColorEditFlags)_swig_go_2; 
-  
+
+  arg2 = *(ImVec4 **)&_swig_go_1;
+  arg3 = (ImGuiColorEditFlags)_swig_go_2;
+
   argp4 = (ImVec2 *)_swig_go_3;
   if (argp4 == NULL) {
     _swig_gopanic("Attempt to dereference null ImVec2");
   }
   arg4 = (ImVec2)*argp4;
-  
-  
+
+
   result = (bool)ImGui::ColorButton((char const *)arg1,(ImVec4 const &)*arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7434,18 +7465,18 @@ bool _wrap_ColorButton__SWIG_1(_gostring_ _swig_go_0, ImVec4 *_swig_go_1, intgo 
   ImGuiColorEditFlags arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(ImVec4 **)&_swig_go_1; 
-  arg3 = (ImGuiColorEditFlags)_swig_go_2; 
-  
+
+  arg2 = *(ImVec4 **)&_swig_go_1;
+  arg3 = (ImGuiColorEditFlags)_swig_go_2;
+
   result = (bool)ImGui::ColorButton((char const *)arg1,(ImVec4 const &)*arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7455,28 +7486,28 @@ bool _wrap_ColorButton__SWIG_2(_gostring_ _swig_go_0, ImVec4 *_swig_go_1) {
   ImVec4 *arg2 = 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(ImVec4 **)&_swig_go_1; 
-  
+
+  arg2 = *(ImVec4 **)&_swig_go_1;
+
   result = (bool)ImGui::ColorButton((char const *)arg1,(ImVec4 const &)*arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
 
 void _wrap_SetColorEditOptions(intgo _swig_go_0) {
   ImGuiColorEditFlags arg1 ;
-  
-  arg1 = (ImGuiColorEditFlags)_swig_go_0; 
-  
+
+  arg1 = (ImGuiColorEditFlags)_swig_go_0;
+
   ImGui::SetColorEditOptions(arg1);
-  
+
 }
 
 
@@ -7484,16 +7515,16 @@ bool _wrap_TreeNode__SWIG_0(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::TreeNode((char const *)arg1);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7504,23 +7535,23 @@ bool _wrap_TreeNode__SWIG_1(_gostring_ _swig_go_0, char *_swig_go_1) {
   void *arg3 = 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = _swig_go_1; 
-  
+
+  arg2 = _swig_go_1;
+
   result = (bool)ImGui::TreeNode((char const *)arg1,(char const *)arg2,arg3);
-  _swig_go_result = result; 
-  
+  _swig_go_result = result;
+
   // nothing argout
-  
-  free(arg1); 
-  
+
+  free(arg1);
+
   free(arg2);
-  
+
   return _swig_go_result;
 }
 
@@ -7531,18 +7562,18 @@ bool _wrap_TreeNode__SWIG_2(void *_swig_go_0, char *_swig_go_1) {
   void *arg3 = 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(void **)&_swig_go_0; 
-  arg2 = _swig_go_1; 
-  
+
+  arg1 = *(void **)&_swig_go_0;
+  arg2 = _swig_go_1;
+
   result = (bool)ImGui::TreeNode((void const *)arg1,(char const *)arg2,arg3);
-  _swig_go_result = result; 
-  
+  _swig_go_result = result;
+
   // nothing argout
-  
-  
+
+
   free(arg2);
-  
+
   return _swig_go_result;
 }
 
@@ -7552,17 +7583,17 @@ bool _wrap_TreeNodeEx__SWIG_0(_gostring_ _swig_go_0, intgo _swig_go_1) {
   ImGuiTreeNodeFlags arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiTreeNodeFlags)_swig_go_1; 
-  
+
+  arg2 = (ImGuiTreeNodeFlags)_swig_go_1;
+
   result = (bool)ImGui::TreeNodeEx((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7571,16 +7602,16 @@ bool _wrap_TreeNodeEx__SWIG_1(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::TreeNodeEx((char const *)arg1);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7592,24 +7623,24 @@ bool _wrap_TreeNodeEx__SWIG_2(_gostring_ _swig_go_0, intgo _swig_go_1, char *_sw
   void *arg4 = 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiTreeNodeFlags)_swig_go_1; 
-  arg3 = _swig_go_2; 
-  
+
+  arg2 = (ImGuiTreeNodeFlags)_swig_go_1;
+  arg3 = _swig_go_2;
+
   result = (bool)ImGui::TreeNodeEx((char const *)arg1,arg2,(char const *)arg3,arg4);
-  _swig_go_result = result; 
-  
+  _swig_go_result = result;
+
   // nothing argout
-  
-  free(arg1); 
-  
+
+  free(arg1);
+
   free(arg3);
-  
+
   return _swig_go_result;
 }
 
@@ -7621,73 +7652,73 @@ bool _wrap_TreeNodeEx__SWIG_3(void *_swig_go_0, intgo _swig_go_1, char *_swig_go
   void *arg4 = 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(void **)&_swig_go_0; 
-  arg2 = (ImGuiTreeNodeFlags)_swig_go_1; 
-  arg3 = _swig_go_2; 
-  
+
+  arg1 = *(void **)&_swig_go_0;
+  arg2 = (ImGuiTreeNodeFlags)_swig_go_1;
+  arg3 = _swig_go_2;
+
   result = (bool)ImGui::TreeNodeEx((void const *)arg1,arg2,(char const *)arg3,arg4);
-  _swig_go_result = result; 
-  
+  _swig_go_result = result;
+
   // nothing argout
-  
-  
+
+
   free(arg3);
-  
+
   return _swig_go_result;
 }
 
 
 void _wrap_TreePush__SWIG_0(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   ImGui::TreePush((char const *)arg1);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
 void _wrap_TreePush__SWIG_1(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
-  
-  arg1 = *(void **)&_swig_go_0; 
-  
+
+  arg1 = *(void **)&_swig_go_0;
+
   ImGui::TreePush((void const *)arg1);
-  
+
 }
 
 
 void _wrap_TreePush__SWIG_2() {
   ImGui::TreePush();
-  
+
 }
 
 
 void _wrap_TreePop() {
   ImGui::TreePop();
-  
+
 }
 
 
 void _wrap_TreeAdvanceToLabelPos() {
   ImGui::TreeAdvanceToLabelPos();
-  
+
 }
 
 
 float _wrap_GetTreeNodeToLabelSpacing() {
   float result;
   float _swig_go_result;
-  
-  
+
+
   result = (float)ImGui::GetTreeNodeToLabelSpacing();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -7695,22 +7726,22 @@ float _wrap_GetTreeNodeToLabelSpacing() {
 void _wrap_SetNextTreeNodeOpen__SWIG_0(bool _swig_go_0, intgo _swig_go_1) {
   bool arg1 ;
   ImGuiCond arg2 ;
-  
-  arg1 = (bool)_swig_go_0; 
-  arg2 = (ImGuiCond)_swig_go_1; 
-  
+
+  arg1 = (bool)_swig_go_0;
+  arg2 = (ImGuiCond)_swig_go_1;
+
   ImGui::SetNextTreeNodeOpen(arg1,arg2);
-  
+
 }
 
 
 void _wrap_SetNextTreeNodeOpen__SWIG_1(bool _swig_go_0) {
   bool arg1 ;
-  
-  arg1 = (bool)_swig_go_0; 
-  
+
+  arg1 = (bool)_swig_go_0;
+
   ImGui::SetNextTreeNodeOpen(arg1);
-  
+
 }
 
 
@@ -7719,17 +7750,17 @@ bool _wrap_CollapsingHeader__SWIG_0(_gostring_ _swig_go_0, intgo _swig_go_1) {
   ImGuiTreeNodeFlags arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiTreeNodeFlags)_swig_go_1; 
-  
+
+  arg2 = (ImGuiTreeNodeFlags)_swig_go_1;
+
   result = (bool)ImGui::CollapsingHeader((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7738,16 +7769,16 @@ bool _wrap_CollapsingHeader__SWIG_1(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::CollapsingHeader((char const *)arg1);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7758,18 +7789,18 @@ bool _wrap_CollapsingHeader__SWIG_2(_gostring_ _swig_go_0, bool *_swig_go_1, int
   ImGuiTreeNodeFlags arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(bool **)&_swig_go_1; 
-  arg3 = (ImGuiTreeNodeFlags)_swig_go_2; 
-  
+
+  arg2 = *(bool **)&_swig_go_1;
+  arg3 = (ImGuiTreeNodeFlags)_swig_go_2;
+
   result = (bool)ImGui::CollapsingHeader((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7779,17 +7810,17 @@ bool _wrap_CollapsingHeader__SWIG_3(_gostring_ _swig_go_0, bool *_swig_go_1) {
   bool *arg2 = (bool *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(bool **)&_swig_go_1; 
-  
+
+  arg2 = *(bool **)&_swig_go_1;
+
   result = (bool)ImGui::CollapsingHeader((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7801,19 +7832,19 @@ bool _wrap_Selectable__SWIG_0(_gostring_ _swig_go_0, bool _swig_go_1, intgo _swi
   ImVec2 *arg4 = 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (bool)_swig_go_1; 
-  arg3 = (ImGuiSelectableFlags)_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  
+
+  arg2 = (bool)_swig_go_1;
+  arg3 = (ImGuiSelectableFlags)_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+
   result = (bool)ImGui::Selectable((char const *)arg1,arg2,arg3,(ImVec2 const &)*arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7824,18 +7855,18 @@ bool _wrap_Selectable__SWIG_1(_gostring_ _swig_go_0, bool _swig_go_1, intgo _swi
   ImGuiSelectableFlags arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (bool)_swig_go_1; 
-  arg3 = (ImGuiSelectableFlags)_swig_go_2; 
-  
+
+  arg2 = (bool)_swig_go_1;
+  arg3 = (ImGuiSelectableFlags)_swig_go_2;
+
   result = (bool)ImGui::Selectable((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7845,17 +7876,17 @@ bool _wrap_Selectable__SWIG_2(_gostring_ _swig_go_0, bool _swig_go_1) {
   bool arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg2 = (bool)_swig_go_1;
+
   result = (bool)ImGui::Selectable((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7864,16 +7895,16 @@ bool _wrap_Selectable__SWIG_3(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::Selectable((char const *)arg1);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7885,19 +7916,19 @@ bool _wrap_Selectable__SWIG_4(_gostring_ _swig_go_0, bool *_swig_go_1, intgo _sw
   ImVec2 *arg4 = 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(bool **)&_swig_go_1; 
-  arg3 = (ImGuiSelectableFlags)_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  
+
+  arg2 = *(bool **)&_swig_go_1;
+  arg3 = (ImGuiSelectableFlags)_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+
   result = (bool)ImGui::Selectable((char const *)arg1,arg2,arg3,(ImVec2 const &)*arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7908,18 +7939,18 @@ bool _wrap_Selectable__SWIG_5(_gostring_ _swig_go_0, bool *_swig_go_1, intgo _sw
   ImGuiSelectableFlags arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(bool **)&_swig_go_1; 
-  arg3 = (ImGuiSelectableFlags)_swig_go_2; 
-  
+
+  arg2 = *(bool **)&_swig_go_1;
+  arg3 = (ImGuiSelectableFlags)_swig_go_2;
+
   result = (bool)ImGui::Selectable((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7929,17 +7960,17 @@ bool _wrap_Selectable__SWIG_6(_gostring_ _swig_go_0, bool *_swig_go_1) {
   bool *arg2 = (bool *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(bool **)&_swig_go_1; 
-  
+
+  arg2 = *(bool **)&_swig_go_1;
+
   result = (bool)ImGui::Selectable((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7952,20 +7983,20 @@ bool _wrap_ListBox__SWIG_0(_gostring_ _swig_go_0, intgo *_swig_go_1, _gostring_*
   int arg5 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = *(char ***)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = *(char ***)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   result = (bool)ImGui::ListBox((char const *)arg1,arg2,(char const *const (*))arg3,arg4,arg5);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -7977,19 +8008,19 @@ bool _wrap_ListBox__SWIG_1(_gostring_ _swig_go_0, intgo *_swig_go_1, _gostring_*
   int arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = *(char ***)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = *(char ***)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   result = (bool)ImGui::ListBox((char const *)arg1,arg2,(char const *const (*))arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -8003,21 +8034,21 @@ bool _wrap_ListBox__SWIG_2(_gostring_ _swig_go_0, intgo *_swig_go_1, void* _swig
   int arg6 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = *(bool (**)(void *,int,char const **))&_swig_go_2; 
-  arg4 = *(void **)&_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  arg6 = (int)_swig_go_5; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = *(bool (**)(void *,int,char const **))&_swig_go_2;
+  arg4 = *(void **)&_swig_go_3;
+  arg5 = (int)_swig_go_4;
+  arg6 = (int)_swig_go_5;
+
   result = (bool)ImGui::ListBox((char const *)arg1,arg2,arg3,arg4,arg5,arg6);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -8030,20 +8061,20 @@ bool _wrap_ListBox__SWIG_3(_gostring_ _swig_go_0, intgo *_swig_go_1, void* _swig
   int arg5 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = *(bool (**)(void *,int,char const **))&_swig_go_2; 
-  arg4 = *(void **)&_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = *(bool (**)(void *,int,char const **))&_swig_go_2;
+  arg4 = *(void **)&_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   result = (bool)ImGui::ListBox((char const *)arg1,arg2,arg3,arg4,arg5);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -8053,17 +8084,17 @@ bool _wrap_ListBoxHeader__SWIG_0(_gostring_ _swig_go_0, ImVec2 *_swig_go_1) {
   ImVec2 *arg2 = 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   result = (bool)ImGui::ListBoxHeader((char const *)arg1,(ImVec2 const &)*arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -8072,16 +8103,16 @@ bool _wrap_ListBoxHeader__SWIG_1(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::ListBoxHeader((char const *)arg1);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -8092,18 +8123,18 @@ bool _wrap_ListBoxHeader__SWIG_2(_gostring_ _swig_go_0, intgo _swig_go_1, intgo 
   int arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (int)_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  
+
+  arg2 = (int)_swig_go_1;
+  arg3 = (int)_swig_go_2;
+
   result = (bool)ImGui::ListBoxHeader((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -8113,24 +8144,24 @@ bool _wrap_ListBoxHeader__SWIG_3(_gostring_ _swig_go_0, intgo _swig_go_1) {
   int arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg2 = (int)_swig_go_1;
+
   result = (bool)ImGui::ListBoxHeader((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
 
 void _wrap_ListBoxFooter() {
   ImGui::ListBoxFooter();
-  
+
 }
 
 
@@ -8145,35 +8176,35 @@ void _wrap_PlotLines__SWIG_0(_gostring_ _swig_go_0, float *_swig_go_1, intgo _sw
   ImVec2 arg8 ;
   int arg9 ;
   ImVec2 *argp8 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  arg6 = (float)_swig_go_5; 
-  arg7 = (float)_swig_go_6; 
-  
+
+  arg6 = (float)_swig_go_5;
+  arg7 = (float)_swig_go_6;
+
   argp8 = (ImVec2 *)_swig_go_7;
   if (argp8 == NULL) {
     _swig_gopanic("Attempt to dereference null ImVec2");
   }
   arg8 = (ImVec2)*argp8;
-  
-  arg9 = (int)_swig_go_8; 
-  
+
+  arg9 = (int)_swig_go_8;
+
   ImGui::PlotLines((char const *)arg1,(float const *)arg2,arg3,arg4,(char const *)arg5,arg6,arg7,arg8,arg9);
-  
-  free(arg1); 
-  free(arg5); 
+
+  free(arg1);
+  free(arg5);
 }
 
 
@@ -8187,34 +8218,34 @@ void _wrap_PlotLines__SWIG_1(_gostring_ _swig_go_0, float *_swig_go_1, intgo _sw
   float arg7 ;
   ImVec2 arg8 ;
   ImVec2 *argp8 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  arg6 = (float)_swig_go_5; 
-  arg7 = (float)_swig_go_6; 
-  
+
+  arg6 = (float)_swig_go_5;
+  arg7 = (float)_swig_go_6;
+
   argp8 = (ImVec2 *)_swig_go_7;
   if (argp8 == NULL) {
     _swig_gopanic("Attempt to dereference null ImVec2");
   }
   arg8 = (ImVec2)*argp8;
-  
-  
+
+
   ImGui::PlotLines((char const *)arg1,(float const *)arg2,arg3,arg4,(char const *)arg5,arg6,arg7,arg8);
-  
-  free(arg1); 
-  free(arg5); 
+
+  free(arg1);
+  free(arg5);
 }
 
 
@@ -8226,27 +8257,27 @@ void _wrap_PlotLines__SWIG_2(_gostring_ _swig_go_0, float *_swig_go_1, intgo _sw
   char *arg5 = (char *) 0 ;
   float arg6 ;
   float arg7 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  arg6 = (float)_swig_go_5; 
-  arg7 = (float)_swig_go_6; 
-  
+
+  arg6 = (float)_swig_go_5;
+  arg7 = (float)_swig_go_6;
+
   ImGui::PlotLines((char const *)arg1,(float const *)arg2,arg3,arg4,(char const *)arg5,arg6,arg7);
-  
-  free(arg1); 
-  free(arg5); 
+
+  free(arg1);
+  free(arg5);
 }
 
 
@@ -8257,26 +8288,26 @@ void _wrap_PlotLines__SWIG_3(_gostring_ _swig_go_0, float *_swig_go_1, intgo _sw
   int arg4 ;
   char *arg5 = (char *) 0 ;
   float arg6 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  arg6 = (float)_swig_go_5; 
-  
+
+  arg6 = (float)_swig_go_5;
+
   ImGui::PlotLines((char const *)arg1,(float const *)arg2,arg3,arg4,(char const *)arg5,arg6);
-  
-  free(arg1); 
-  free(arg5); 
+
+  free(arg1);
+  free(arg5);
 }
 
 
@@ -8286,25 +8317,25 @@ void _wrap_PlotLines__SWIG_4(_gostring_ _swig_go_0, float *_swig_go_1, intgo _sw
   int arg3 ;
   int arg4 ;
   char *arg5 = (char *) 0 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  
+
+
   ImGui::PlotLines((char const *)arg1,(float const *)arg2,arg3,arg4,(char const *)arg5);
-  
-  free(arg1); 
-  free(arg5); 
+
+  free(arg1);
+  free(arg5);
 }
 
 
@@ -8313,19 +8344,19 @@ void _wrap_PlotLines__SWIG_5(_gostring_ _swig_go_0, float *_swig_go_1, intgo _sw
   float *arg2 = (float *) 0 ;
   int arg3 ;
   int arg4 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   ImGui::PlotLines((char const *)arg1,(float const *)arg2,arg3,arg4);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
@@ -8333,18 +8364,18 @@ void _wrap_PlotLines__SWIG_6(_gostring_ _swig_go_0, float *_swig_go_1, intgo _sw
   char *arg1 = (char *) 0 ;
   float *arg2 = (float *) 0 ;
   int arg3 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+
   ImGui::PlotLines((char const *)arg1,(float const *)arg2,arg3);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
@@ -8359,35 +8390,35 @@ void _wrap_PlotLines__SWIG_7(_gostring_ _swig_go_0, void* _swig_go_1, void *_swi
   float arg8 ;
   ImVec2 arg9 ;
   ImVec2 *argp9 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float (**)(void *,int))&_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg2 = *(float (**)(void *,int))&_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  arg7 = (float)_swig_go_6; 
-  arg8 = (float)_swig_go_7; 
-  
+
+  arg7 = (float)_swig_go_6;
+  arg8 = (float)_swig_go_7;
+
   argp9 = (ImVec2 *)_swig_go_8;
   if (argp9 == NULL) {
     _swig_gopanic("Attempt to dereference null ImVec2");
   }
   arg9 = (ImVec2)*argp9;
-  
-  
+
+
   ImGui::PlotLines((char const *)arg1,arg2,arg3,arg4,arg5,(char const *)arg6,arg7,arg8,arg9);
-  
-  free(arg1); 
-  free(arg6); 
+
+  free(arg1);
+  free(arg6);
 }
 
 
@@ -8400,28 +8431,28 @@ void _wrap_PlotLines__SWIG_8(_gostring_ _swig_go_0, void* _swig_go_1, void *_swi
   char *arg6 = (char *) 0 ;
   float arg7 ;
   float arg8 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float (**)(void *,int))&_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg2 = *(float (**)(void *,int))&_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  arg7 = (float)_swig_go_6; 
-  arg8 = (float)_swig_go_7; 
-  
+
+  arg7 = (float)_swig_go_6;
+  arg8 = (float)_swig_go_7;
+
   ImGui::PlotLines((char const *)arg1,arg2,arg3,arg4,arg5,(char const *)arg6,arg7,arg8);
-  
-  free(arg1); 
-  free(arg6); 
+
+  free(arg1);
+  free(arg6);
 }
 
 
@@ -8433,27 +8464,27 @@ void _wrap_PlotLines__SWIG_9(_gostring_ _swig_go_0, void* _swig_go_1, void *_swi
   int arg5 ;
   char *arg6 = (char *) 0 ;
   float arg7 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float (**)(void *,int))&_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg2 = *(float (**)(void *,int))&_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  arg7 = (float)_swig_go_6; 
-  
+
+  arg7 = (float)_swig_go_6;
+
   ImGui::PlotLines((char const *)arg1,arg2,arg3,arg4,arg5,(char const *)arg6,arg7);
-  
-  free(arg1); 
-  free(arg6); 
+
+  free(arg1);
+  free(arg6);
 }
 
 
@@ -8464,26 +8495,26 @@ void _wrap_PlotLines__SWIG_10(_gostring_ _swig_go_0, void* _swig_go_1, void *_sw
   int arg4 ;
   int arg5 ;
   char *arg6 = (char *) 0 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float (**)(void *,int))&_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg2 = *(float (**)(void *,int))&_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  
+
+
   ImGui::PlotLines((char const *)arg1,arg2,arg3,arg4,arg5,(char const *)arg6);
-  
-  free(arg1); 
-  free(arg6); 
+
+  free(arg1);
+  free(arg6);
 }
 
 
@@ -8493,20 +8524,20 @@ void _wrap_PlotLines__SWIG_11(_gostring_ _swig_go_0, void* _swig_go_1, void *_sw
   void *arg3 = (void *) 0 ;
   int arg4 ;
   int arg5 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float (**)(void *,int))&_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg2 = *(float (**)(void *,int))&_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   ImGui::PlotLines((char const *)arg1,arg2,arg3,arg4,arg5);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
@@ -8515,19 +8546,19 @@ void _wrap_PlotLines__SWIG_12(_gostring_ _swig_go_0, void* _swig_go_1, void *_sw
   float (*arg2)(void *,int) = (float (*)(void *,int)) 0 ;
   void *arg3 = (void *) 0 ;
   int arg4 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float (**)(void *,int))&_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(float (**)(void *,int))&_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   ImGui::PlotLines((char const *)arg1,arg2,arg3,arg4);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
@@ -8542,35 +8573,35 @@ void _wrap_PlotHistogram__SWIG_0(_gostring_ _swig_go_0, float *_swig_go_1, intgo
   ImVec2 arg8 ;
   int arg9 ;
   ImVec2 *argp8 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  arg6 = (float)_swig_go_5; 
-  arg7 = (float)_swig_go_6; 
-  
+
+  arg6 = (float)_swig_go_5;
+  arg7 = (float)_swig_go_6;
+
   argp8 = (ImVec2 *)_swig_go_7;
   if (argp8 == NULL) {
     _swig_gopanic("Attempt to dereference null ImVec2");
   }
   arg8 = (ImVec2)*argp8;
-  
-  arg9 = (int)_swig_go_8; 
-  
+
+  arg9 = (int)_swig_go_8;
+
   ImGui::PlotHistogram((char const *)arg1,(float const *)arg2,arg3,arg4,(char const *)arg5,arg6,arg7,arg8,arg9);
-  
-  free(arg1); 
-  free(arg5); 
+
+  free(arg1);
+  free(arg5);
 }
 
 
@@ -8584,34 +8615,34 @@ void _wrap_PlotHistogram__SWIG_1(_gostring_ _swig_go_0, float *_swig_go_1, intgo
   float arg7 ;
   ImVec2 arg8 ;
   ImVec2 *argp8 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  arg6 = (float)_swig_go_5; 
-  arg7 = (float)_swig_go_6; 
-  
+
+  arg6 = (float)_swig_go_5;
+  arg7 = (float)_swig_go_6;
+
   argp8 = (ImVec2 *)_swig_go_7;
   if (argp8 == NULL) {
     _swig_gopanic("Attempt to dereference null ImVec2");
   }
   arg8 = (ImVec2)*argp8;
-  
-  
+
+
   ImGui::PlotHistogram((char const *)arg1,(float const *)arg2,arg3,arg4,(char const *)arg5,arg6,arg7,arg8);
-  
-  free(arg1); 
-  free(arg5); 
+
+  free(arg1);
+  free(arg5);
 }
 
 
@@ -8623,27 +8654,27 @@ void _wrap_PlotHistogram__SWIG_2(_gostring_ _swig_go_0, float *_swig_go_1, intgo
   char *arg5 = (char *) 0 ;
   float arg6 ;
   float arg7 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  arg6 = (float)_swig_go_5; 
-  arg7 = (float)_swig_go_6; 
-  
+
+  arg6 = (float)_swig_go_5;
+  arg7 = (float)_swig_go_6;
+
   ImGui::PlotHistogram((char const *)arg1,(float const *)arg2,arg3,arg4,(char const *)arg5,arg6,arg7);
-  
-  free(arg1); 
-  free(arg5); 
+
+  free(arg1);
+  free(arg5);
 }
 
 
@@ -8654,26 +8685,26 @@ void _wrap_PlotHistogram__SWIG_3(_gostring_ _swig_go_0, float *_swig_go_1, intgo
   int arg4 ;
   char *arg5 = (char *) 0 ;
   float arg6 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  arg6 = (float)_swig_go_5; 
-  
+
+  arg6 = (float)_swig_go_5;
+
   ImGui::PlotHistogram((char const *)arg1,(float const *)arg2,arg3,arg4,(char const *)arg5,arg6);
-  
-  free(arg1); 
-  free(arg5); 
+
+  free(arg1);
+  free(arg5);
 }
 
 
@@ -8683,25 +8714,25 @@ void _wrap_PlotHistogram__SWIG_4(_gostring_ _swig_go_0, float *_swig_go_1, intgo
   int arg3 ;
   int arg4 ;
   char *arg5 = (char *) 0 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  
+
+
   ImGui::PlotHistogram((char const *)arg1,(float const *)arg2,arg3,arg4,(char const *)arg5);
-  
-  free(arg1); 
-  free(arg5); 
+
+  free(arg1);
+  free(arg5);
 }
 
 
@@ -8710,19 +8741,19 @@ void _wrap_PlotHistogram__SWIG_5(_gostring_ _swig_go_0, float *_swig_go_1, intgo
   float *arg2 = (float *) 0 ;
   int arg3 ;
   int arg4 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   ImGui::PlotHistogram((char const *)arg1,(float const *)arg2,arg3,arg4);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
@@ -8730,18 +8761,18 @@ void _wrap_PlotHistogram__SWIG_6(_gostring_ _swig_go_0, float *_swig_go_1, intgo
   char *arg1 = (char *) 0 ;
   float *arg2 = (float *) 0 ;
   int arg3 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  
+
+  arg2 = *(float **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+
   ImGui::PlotHistogram((char const *)arg1,(float const *)arg2,arg3);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
@@ -8756,35 +8787,35 @@ void _wrap_PlotHistogram__SWIG_7(_gostring_ _swig_go_0, void* _swig_go_1, void *
   float arg8 ;
   ImVec2 arg9 ;
   ImVec2 *argp9 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float (**)(void *,int))&_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg2 = *(float (**)(void *,int))&_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  arg7 = (float)_swig_go_6; 
-  arg8 = (float)_swig_go_7; 
-  
+
+  arg7 = (float)_swig_go_6;
+  arg8 = (float)_swig_go_7;
+
   argp9 = (ImVec2 *)_swig_go_8;
   if (argp9 == NULL) {
     _swig_gopanic("Attempt to dereference null ImVec2");
   }
   arg9 = (ImVec2)*argp9;
-  
-  
+
+
   ImGui::PlotHistogram((char const *)arg1,arg2,arg3,arg4,arg5,(char const *)arg6,arg7,arg8,arg9);
-  
-  free(arg1); 
-  free(arg6); 
+
+  free(arg1);
+  free(arg6);
 }
 
 
@@ -8797,28 +8828,28 @@ void _wrap_PlotHistogram__SWIG_8(_gostring_ _swig_go_0, void* _swig_go_1, void *
   char *arg6 = (char *) 0 ;
   float arg7 ;
   float arg8 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float (**)(void *,int))&_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg2 = *(float (**)(void *,int))&_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  arg7 = (float)_swig_go_6; 
-  arg8 = (float)_swig_go_7; 
-  
+
+  arg7 = (float)_swig_go_6;
+  arg8 = (float)_swig_go_7;
+
   ImGui::PlotHistogram((char const *)arg1,arg2,arg3,arg4,arg5,(char const *)arg6,arg7,arg8);
-  
-  free(arg1); 
-  free(arg6); 
+
+  free(arg1);
+  free(arg6);
 }
 
 
@@ -8830,27 +8861,27 @@ void _wrap_PlotHistogram__SWIG_9(_gostring_ _swig_go_0, void* _swig_go_1, void *
   int arg5 ;
   char *arg6 = (char *) 0 ;
   float arg7 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float (**)(void *,int))&_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg2 = *(float (**)(void *,int))&_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  arg7 = (float)_swig_go_6; 
-  
+
+  arg7 = (float)_swig_go_6;
+
   ImGui::PlotHistogram((char const *)arg1,arg2,arg3,arg4,arg5,(char const *)arg6,arg7);
-  
-  free(arg1); 
-  free(arg6); 
+
+  free(arg1);
+  free(arg6);
 }
 
 
@@ -8861,26 +8892,26 @@ void _wrap_PlotHistogram__SWIG_10(_gostring_ _swig_go_0, void* _swig_go_1, void 
   int arg4 ;
   int arg5 ;
   char *arg6 = (char *) 0 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float (**)(void *,int))&_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg2 = *(float (**)(void *,int))&_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  
+
+
   ImGui::PlotHistogram((char const *)arg1,arg2,arg3,arg4,arg5,(char const *)arg6);
-  
-  free(arg1); 
-  free(arg6); 
+
+  free(arg1);
+  free(arg6);
 }
 
 
@@ -8890,20 +8921,20 @@ void _wrap_PlotHistogram__SWIG_11(_gostring_ _swig_go_0, void* _swig_go_1, void 
   void *arg3 = (void *) 0 ;
   int arg4 ;
   int arg5 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float (**)(void *,int))&_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg2 = *(float (**)(void *,int))&_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   ImGui::PlotHistogram((char const *)arg1,arg2,arg3,arg4,arg5);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
@@ -8912,70 +8943,70 @@ void _wrap_PlotHistogram__SWIG_12(_gostring_ _swig_go_0, void* _swig_go_1, void 
   float (*arg2)(void *,int) = (float (*)(void *,int)) 0 ;
   void *arg3 = (void *) 0 ;
   int arg4 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(float (**)(void *,int))&_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg2 = *(float (**)(void *,int))&_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   ImGui::PlotHistogram((char const *)arg1,arg2,arg3,arg4);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
 void _wrap_Value__SWIG_0(_gostring_ _swig_go_0, bool _swig_go_1) {
   char *arg1 = (char *) 0 ;
   bool arg2 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg2 = (bool)_swig_go_1;
+
   ImGui::Value((char const *)arg1,arg2);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
 void _wrap_Value__SWIG_1(_gostring_ _swig_go_0, intgo _swig_go_1) {
   char *arg1 = (char *) 0 ;
   int arg2 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg2 = (int)_swig_go_1;
+
   ImGui::Value((char const *)arg1,arg2);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
 void _wrap_ValueUnsigned(_gostring_ _swig_go_0, intgo _swig_go_1) {
   char *arg1 = (char *) 0 ;
   unsigned int arg2 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (unsigned int)_swig_go_1; 
-  
+
+  arg2 = (unsigned int)_swig_go_1;
+
   ImGui::Value((char const *)arg1,arg2);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
@@ -8983,74 +9014,74 @@ void _wrap_Value__SWIG_2(_gostring_ _swig_go_0, float _swig_go_1, _gostring_ _sw
   char *arg1 = (char *) 0 ;
   float arg2 ;
   char *arg3 = (char *) 0 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg2 = (float)_swig_go_1;
+
   arg3 = (char *)malloc(_swig_go_2.n + 1);
   memcpy(arg3, _swig_go_2.p, _swig_go_2.n);
   arg3[_swig_go_2.n] = '\0';
-  
-  
+
+
   ImGui::Value((char const *)arg1,arg2,(char const *)arg3);
-  
-  free(arg1); 
-  free(arg3); 
+
+  free(arg1);
+  free(arg3);
 }
 
 
 void _wrap_Value__SWIG_3(_gostring_ _swig_go_0, float _swig_go_1) {
   char *arg1 = (char *) 0 ;
   float arg2 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg2 = (float)_swig_go_1;
+
   ImGui::Value((char const *)arg1,arg2);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
 bool _wrap_BeginMainMenuBar() {
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   result = (bool)ImGui::BeginMainMenuBar();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
 
 void _wrap_EndMainMenuBar() {
   ImGui::EndMainMenuBar();
-  
+
 }
 
 
 bool _wrap_BeginMenuBar() {
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   result = (bool)ImGui::BeginMenuBar();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
 
 void _wrap_EndMenuBar() {
   ImGui::EndMenuBar();
-  
+
 }
 
 
@@ -9059,17 +9090,17 @@ bool _wrap_BeginMenu__SWIG_0(_gostring_ _swig_go_0, bool _swig_go_1) {
   bool arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg2 = (bool)_swig_go_1;
+
   result = (bool)ImGui::BeginMenu((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -9078,23 +9109,23 @@ bool _wrap_BeginMenu__SWIG_1(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::BeginMenu((char const *)arg1);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
 
 void _wrap_EndMenu() {
   ImGui::EndMenu();
-  
+
 }
 
 
@@ -9105,24 +9136,24 @@ bool _wrap_MenuItem__SWIG_0(_gostring_ _swig_go_0, _gostring_ _swig_go_1, bool _
   bool arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  arg3 = (bool)_swig_go_2; 
-  arg4 = (bool)_swig_go_3; 
-  
+
+  arg3 = (bool)_swig_go_2;
+  arg4 = (bool)_swig_go_3;
+
   result = (bool)ImGui::MenuItem((char const *)arg1,(char const *)arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg2); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg2);
   return _swig_go_result;
 }
 
@@ -9133,23 +9164,23 @@ bool _wrap_MenuItem__SWIG_1(_gostring_ _swig_go_0, _gostring_ _swig_go_1, bool _
   bool arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  arg3 = (bool)_swig_go_2; 
-  
+
+  arg3 = (bool)_swig_go_2;
+
   result = (bool)ImGui::MenuItem((char const *)arg1,(char const *)arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg2); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg2);
   return _swig_go_result;
 }
 
@@ -9159,22 +9190,22 @@ bool _wrap_MenuItem__SWIG_2(_gostring_ _swig_go_0, _gostring_ _swig_go_1) {
   char *arg2 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::MenuItem((char const *)arg1,(char const *)arg2);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg2); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg2);
   return _swig_go_result;
 }
 
@@ -9183,16 +9214,16 @@ bool _wrap_MenuItem__SWIG_3(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::MenuItem((char const *)arg1);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -9204,24 +9235,24 @@ bool _wrap_MenuItem__SWIG_4(_gostring_ _swig_go_0, _gostring_ _swig_go_1, bool *
   bool arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  arg3 = *(bool **)&_swig_go_2; 
-  arg4 = (bool)_swig_go_3; 
-  
+
+  arg3 = *(bool **)&_swig_go_2;
+  arg4 = (bool)_swig_go_3;
+
   result = (bool)ImGui::MenuItem((char const *)arg1,(char const *)arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg2); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg2);
   return _swig_go_result;
 }
 
@@ -9232,68 +9263,68 @@ bool _wrap_MenuItem__SWIG_5(_gostring_ _swig_go_0, _gostring_ _swig_go_1, bool *
   bool *arg3 = (bool *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  arg3 = *(bool **)&_swig_go_2; 
-  
+
+  arg3 = *(bool **)&_swig_go_2;
+
   result = (bool)ImGui::MenuItem((char const *)arg1,(char const *)arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
-  free(arg2); 
+  _swig_go_result = result;
+  free(arg1);
+  free(arg2);
   return _swig_go_result;
 }
 
 
 void _wrap_BeginTooltip() {
   ImGui::BeginTooltip();
-  
+
 }
 
 
 void _wrap_EndTooltip() {
   ImGui::EndTooltip();
-  
+
 }
 
 
 void _wrap_SetTooltip(char *_swig_go_0) {
   char *arg1 = (char *) 0 ;
   void *arg2 = 0 ;
-  
-  arg1 = _swig_go_0; 
-  
+
+  arg1 = _swig_go_0;
+
   ImGui::SetTooltip((char const *)arg1,arg2);
-  
-  
+
+
   // nothing argout
-  
-  
+
+
   free(arg1);
-  
+
 }
 
 
 void _wrap_OpenPopup(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   ImGui::OpenPopup((char const *)arg1);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
@@ -9302,17 +9333,17 @@ bool _wrap_BeginPopup__SWIG_0(_gostring_ _swig_go_0, intgo _swig_go_1) {
   ImGuiWindowFlags arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiWindowFlags)_swig_go_1; 
-  
+
+  arg2 = (ImGuiWindowFlags)_swig_go_1;
+
   result = (bool)ImGui::BeginPopup((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -9321,16 +9352,16 @@ bool _wrap_BeginPopup__SWIG_1(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::BeginPopup((char const *)arg1);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -9340,17 +9371,17 @@ bool _wrap_BeginPopupContextItem__SWIG_0(_gostring_ _swig_go_0, intgo _swig_go_1
   int arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg2 = (int)_swig_go_1;
+
   result = (bool)ImGui::BeginPopupContextItem((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -9359,16 +9390,16 @@ bool _wrap_BeginPopupContextItem__SWIG_1(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::BeginPopupContextItem((char const *)arg1);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -9376,10 +9407,10 @@ bool _wrap_BeginPopupContextItem__SWIG_1(_gostring_ _swig_go_0) {
 bool _wrap_BeginPopupContextItem__SWIG_2() {
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   result = (bool)ImGui::BeginPopupContextItem();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -9390,18 +9421,18 @@ bool _wrap_BeginPopupContextWindow__SWIG_0(_gostring_ _swig_go_0, intgo _swig_go
   bool arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (int)_swig_go_1; 
-  arg3 = (bool)_swig_go_2; 
-  
+
+  arg2 = (int)_swig_go_1;
+  arg3 = (bool)_swig_go_2;
+
   result = (bool)ImGui::BeginPopupContextWindow((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -9411,17 +9442,17 @@ bool _wrap_BeginPopupContextWindow__SWIG_1(_gostring_ _swig_go_0, intgo _swig_go
   int arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg2 = (int)_swig_go_1;
+
   result = (bool)ImGui::BeginPopupContextWindow((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -9430,16 +9461,16 @@ bool _wrap_BeginPopupContextWindow__SWIG_2(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::BeginPopupContextWindow((char const *)arg1);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -9447,10 +9478,10 @@ bool _wrap_BeginPopupContextWindow__SWIG_2(_gostring_ _swig_go_0) {
 bool _wrap_BeginPopupContextWindow__SWIG_3() {
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   result = (bool)ImGui::BeginPopupContextWindow();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -9460,17 +9491,17 @@ bool _wrap_BeginPopupContextVoid__SWIG_0(_gostring_ _swig_go_0, intgo _swig_go_1
   int arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg2 = (int)_swig_go_1;
+
   result = (bool)ImGui::BeginPopupContextVoid((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -9479,16 +9510,16 @@ bool _wrap_BeginPopupContextVoid__SWIG_1(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::BeginPopupContextVoid((char const *)arg1);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -9496,10 +9527,10 @@ bool _wrap_BeginPopupContextVoid__SWIG_1(_gostring_ _swig_go_0) {
 bool _wrap_BeginPopupContextVoid__SWIG_2() {
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   result = (bool)ImGui::BeginPopupContextVoid();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -9510,18 +9541,18 @@ bool _wrap_BeginPopupModal__SWIG_0(_gostring_ _swig_go_0, bool *_swig_go_1, intg
   ImGuiWindowFlags arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(bool **)&_swig_go_1; 
-  arg3 = (ImGuiWindowFlags)_swig_go_2; 
-  
+
+  arg2 = *(bool **)&_swig_go_1;
+  arg3 = (ImGuiWindowFlags)_swig_go_2;
+
   result = (bool)ImGui::BeginPopupModal((char const *)arg1,arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -9531,17 +9562,17 @@ bool _wrap_BeginPopupModal__SWIG_1(_gostring_ _swig_go_0, bool *_swig_go_1) {
   bool *arg2 = (bool *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(bool **)&_swig_go_1; 
-  
+
+  arg2 = *(bool **)&_swig_go_1;
+
   result = (bool)ImGui::BeginPopupModal((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -9550,23 +9581,23 @@ bool _wrap_BeginPopupModal__SWIG_2(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::BeginPopupModal((char const *)arg1);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
 
 void _wrap_EndPopup() {
   ImGui::EndPopup();
-  
+
 }
 
 
@@ -9575,17 +9606,17 @@ bool _wrap_OpenPopupOnItemClick__SWIG_0(_gostring_ _swig_go_0, intgo _swig_go_1)
   int arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg2 = (int)_swig_go_1;
+
   result = (bool)ImGui::OpenPopupOnItemClick((char const *)arg1,arg2);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -9594,16 +9625,16 @@ bool _wrap_OpenPopupOnItemClick__SWIG_1(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::OpenPopupOnItemClick((char const *)arg1);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -9611,10 +9642,10 @@ bool _wrap_OpenPopupOnItemClick__SWIG_1(_gostring_ _swig_go_0) {
 bool _wrap_OpenPopupOnItemClick__SWIG_2() {
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   result = (bool)ImGui::OpenPopupOnItemClick();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -9623,23 +9654,23 @@ bool _wrap_IsPopupOpen(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   result = (bool)ImGui::IsPopupOpen((char const *)arg1);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
 
 void _wrap_CloseCurrentPopup() {
   ImGui::CloseCurrentPopup();
-  
+
 }
 
 
@@ -9647,67 +9678,67 @@ void _wrap_Columns__SWIG_0(intgo _swig_go_0, _gostring_ _swig_go_1, bool _swig_g
   int arg1 ;
   char *arg2 = (char *) 0 ;
   bool arg3 ;
-  
-  arg1 = (int)_swig_go_0; 
-  
+
+  arg1 = (int)_swig_go_0;
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  arg3 = (bool)_swig_go_2; 
-  
+
+  arg3 = (bool)_swig_go_2;
+
   ImGui::Columns(arg1,(char const *)arg2,arg3);
-  
-  free(arg2); 
+
+  free(arg2);
 }
 
 
 void _wrap_Columns__SWIG_1(intgo _swig_go_0, _gostring_ _swig_go_1) {
   int arg1 ;
   char *arg2 = (char *) 0 ;
-  
-  arg1 = (int)_swig_go_0; 
-  
+
+  arg1 = (int)_swig_go_0;
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  
+
+
   ImGui::Columns(arg1,(char const *)arg2);
-  
-  free(arg2); 
+
+  free(arg2);
 }
 
 
 void _wrap_Columns__SWIG_2(intgo _swig_go_0) {
   int arg1 ;
-  
-  arg1 = (int)_swig_go_0; 
-  
+
+  arg1 = (int)_swig_go_0;
+
   ImGui::Columns(arg1);
-  
+
 }
 
 
 void _wrap_Columns__SWIG_3() {
   ImGui::Columns();
-  
+
 }
 
 
 void _wrap_NextColumn() {
   ImGui::NextColumn();
-  
+
 }
 
 
 intgo _wrap_GetColumnIndex() {
   int result;
   intgo _swig_go_result;
-  
-  
+
+
   result = (int)ImGui::GetColumnIndex();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -9716,11 +9747,11 @@ float _wrap_GetColumnWidth__SWIG_0(intgo _swig_go_0) {
   int arg1 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = (int)_swig_go_0; 
-  
+
+  arg1 = (int)_swig_go_0;
+
   result = (float)ImGui::GetColumnWidth(arg1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -9728,10 +9759,10 @@ float _wrap_GetColumnWidth__SWIG_0(intgo _swig_go_0) {
 float _wrap_GetColumnWidth__SWIG_1() {
   float result;
   float _swig_go_result;
-  
-  
+
+
   result = (float)ImGui::GetColumnWidth();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -9739,12 +9770,12 @@ float _wrap_GetColumnWidth__SWIG_1() {
 void _wrap_SetColumnWidth(intgo _swig_go_0, float _swig_go_1) {
   int arg1 ;
   float arg2 ;
-  
-  arg1 = (int)_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = (int)_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   ImGui::SetColumnWidth(arg1,arg2);
-  
+
 }
 
 
@@ -9752,11 +9783,11 @@ float _wrap_GetColumnOffset__SWIG_0(intgo _swig_go_0) {
   int arg1 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = (int)_swig_go_0; 
-  
+
+  arg1 = (int)_swig_go_0;
+
   result = (float)ImGui::GetColumnOffset(arg1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -9764,10 +9795,10 @@ float _wrap_GetColumnOffset__SWIG_0(intgo _swig_go_0) {
 float _wrap_GetColumnOffset__SWIG_1() {
   float result;
   float _swig_go_result;
-  
-  
+
+
   result = (float)ImGui::GetColumnOffset();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -9775,117 +9806,242 @@ float _wrap_GetColumnOffset__SWIG_1() {
 void _wrap_SetColumnOffset(intgo _swig_go_0, float _swig_go_1) {
   int arg1 ;
   float arg2 ;
-  
-  arg1 = (int)_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = (int)_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   ImGui::SetColumnOffset(arg1,arg2);
-  
+
 }
 
 
 intgo _wrap_GetColumnsCount() {
   int result;
   intgo _swig_go_result;
-  
-  
+
+
   result = (int)ImGui::GetColumnsCount();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
+}
+
+
+bool _wrap_BeginTabBar__SWIG_0(_gostring_ _swig_go_0, intgo _swig_go_1) {
+  char *arg1 = (char *) 0 ;
+  ImGuiTabBarFlags arg2 ;
+  bool result;
+  bool _swig_go_result;
+
+
+  arg1 = (char *)malloc(_swig_go_0.n + 1);
+  memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
+  arg1[_swig_go_0.n] = '\0';
+
+  arg2 = (ImGuiTabBarFlags)_swig_go_1;
+
+  result = (bool)ImGui::BeginTabBar((char const *)arg1,arg2);
+  _swig_go_result = result;
+  free(arg1);
+  return _swig_go_result;
+}
+
+
+bool _wrap_BeginTabBar__SWIG_1(_gostring_ _swig_go_0) {
+  char *arg1 = (char *) 0 ;
+  bool result;
+  bool _swig_go_result;
+
+
+  arg1 = (char *)malloc(_swig_go_0.n + 1);
+  memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
+  arg1[_swig_go_0.n] = '\0';
+
+
+  result = (bool)ImGui::BeginTabBar((char const *)arg1);
+  _swig_go_result = result;
+  free(arg1);
+  return _swig_go_result;
+}
+
+
+void _wrap_EndTabBar() {
+  ImGui::EndTabBar();
+
+}
+
+
+bool _wrap_BeginTabItem__SWIG_0(_gostring_ _swig_go_0, bool *_swig_go_1, intgo _swig_go_2) {
+  char *arg1 = (char *) 0 ;
+  bool *arg2 = (bool *) 0 ;
+  ImGuiTabItemFlags arg3 ;
+  bool result;
+  bool _swig_go_result;
+
+
+  arg1 = (char *)malloc(_swig_go_0.n + 1);
+  memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
+  arg1[_swig_go_0.n] = '\0';
+
+  arg2 = *(bool **)&_swig_go_1;
+  arg3 = (ImGuiTabItemFlags)_swig_go_2;
+
+  result = (bool)ImGui::BeginTabItem((char const *)arg1,arg2,arg3);
+  _swig_go_result = result;
+  free(arg1);
+  return _swig_go_result;
+}
+
+
+bool _wrap_BeginTabItem__SWIG_1(_gostring_ _swig_go_0, bool *_swig_go_1) {
+  char *arg1 = (char *) 0 ;
+  bool *arg2 = (bool *) 0 ;
+  bool result;
+  bool _swig_go_result;
+
+
+  arg1 = (char *)malloc(_swig_go_0.n + 1);
+  memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
+  arg1[_swig_go_0.n] = '\0';
+
+  arg2 = *(bool **)&_swig_go_1;
+
+  result = (bool)ImGui::BeginTabItem((char const *)arg1,arg2);
+  _swig_go_result = result;
+  free(arg1);
+  return _swig_go_result;
+}
+
+
+bool _wrap_BeginTabItem__SWIG_2(_gostring_ _swig_go_0) {
+  char *arg1 = (char *) 0 ;
+  bool result;
+  bool _swig_go_result;
+
+
+  arg1 = (char *)malloc(_swig_go_0.n + 1);
+  memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
+  arg1[_swig_go_0.n] = '\0';
+
+
+  result = (bool)ImGui::BeginTabItem((char const *)arg1);
+  _swig_go_result = result;
+  free(arg1);
+  return _swig_go_result;
+}
+
+
+void _wrap_EndTabItem() {
+  ImGui::EndTabItem();
+
+}
+
+
+void _wrap_SetTabItemClosed(_gostring_ _swig_go_0) {
+  char *arg1 = (char *) 0 ;
+
+
+  arg1 = (char *)malloc(_swig_go_0.n + 1);
+  memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
+  arg1[_swig_go_0.n] = '\0';
+
+
+  ImGui::SetTabItemClosed((char const *)arg1);
+
+  free(arg1);
 }
 
 
 void _wrap_LogToTTY__SWIG_0(intgo _swig_go_0) {
   int arg1 ;
-  
-  arg1 = (int)_swig_go_0; 
-  
+
+  arg1 = (int)_swig_go_0;
+
   ImGui::LogToTTY(arg1);
-  
+
 }
 
 
 void _wrap_LogToTTY__SWIG_1() {
   ImGui::LogToTTY();
-  
+
 }
 
 
 void _wrap_LogToFile__SWIG_0(intgo _swig_go_0, _gostring_ _swig_go_1) {
   int arg1 ;
   char *arg2 = (char *) 0 ;
-  
-  arg1 = (int)_swig_go_0; 
-  
+
+  arg1 = (int)_swig_go_0;
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  
+
+
   ImGui::LogToFile(arg1,(char const *)arg2);
-  
-  free(arg2); 
+
+  free(arg2);
 }
 
 
 void _wrap_LogToFile__SWIG_1(intgo _swig_go_0) {
   int arg1 ;
-  
-  arg1 = (int)_swig_go_0; 
-  
+
+  arg1 = (int)_swig_go_0;
+
   ImGui::LogToFile(arg1);
-  
+
 }
 
 
 void _wrap_LogToFile__SWIG_2() {
   ImGui::LogToFile();
-  
+
 }
 
 
 void _wrap_LogToClipboard__SWIG_0(intgo _swig_go_0) {
   int arg1 ;
-  
-  arg1 = (int)_swig_go_0; 
-  
+
+  arg1 = (int)_swig_go_0;
+
   ImGui::LogToClipboard(arg1);
-  
+
 }
 
 
 void _wrap_LogToClipboard__SWIG_1() {
   ImGui::LogToClipboard();
-  
+
 }
 
 
 void _wrap_LogFinish() {
   ImGui::LogFinish();
-  
+
 }
 
 
 void _wrap_LogButtons() {
   ImGui::LogButtons();
-  
+
 }
 
 
 void _wrap_LogText(char *_swig_go_0) {
   char *arg1 = (char *) 0 ;
   void *arg2 = 0 ;
-  
-  arg1 = _swig_go_0; 
-  
+
+  arg1 = _swig_go_0;
+
   ImGui::LogText((char const *)arg1,arg2);
-  
-  
+
+
   // nothing argout
-  
-  
+
+
   free(arg1);
-  
+
 }
 
 
@@ -9893,11 +10049,11 @@ bool _wrap_BeginDragDropSource__SWIG_0(intgo _swig_go_0) {
   ImGuiDragDropFlags arg1 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = (ImGuiDragDropFlags)_swig_go_0; 
-  
+
+  arg1 = (ImGuiDragDropFlags)_swig_go_0;
+
   result = (bool)ImGui::BeginDragDropSource(arg1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -9905,10 +10061,10 @@ bool _wrap_BeginDragDropSource__SWIG_0(intgo _swig_go_0) {
 bool _wrap_BeginDragDropSource__SWIG_1() {
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   result = (bool)ImGui::BeginDragDropSource();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -9920,19 +10076,19 @@ bool _wrap_SetDragDropPayload__SWIG_0(_gostring_ _swig_go_0, void *_swig_go_1, l
   ImGuiCond arg4 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(void **)&_swig_go_1; 
-  arg3 = (size_t)_swig_go_2; 
-  arg4 = (ImGuiCond)_swig_go_3; 
-  
+
+  arg2 = *(void **)&_swig_go_1;
+  arg3 = (size_t)_swig_go_2;
+  arg4 = (ImGuiCond)_swig_go_3;
+
   result = (bool)ImGui::SetDragDropPayload((char const *)arg1,(void const *)arg2,arg3,arg4);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -9943,35 +10099,35 @@ bool _wrap_SetDragDropPayload__SWIG_1(_gostring_ _swig_go_0, void *_swig_go_1, l
   size_t arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = *(void **)&_swig_go_1; 
-  arg3 = (size_t)_swig_go_2; 
-  
+
+  arg2 = *(void **)&_swig_go_1;
+  arg3 = (size_t)_swig_go_2;
+
   result = (bool)ImGui::SetDragDropPayload((char const *)arg1,(void const *)arg2,arg3);
-  _swig_go_result = result; 
-  free(arg1); 
+  _swig_go_result = result;
+  free(arg1);
   return _swig_go_result;
 }
 
 
 void _wrap_EndDragDropSource() {
   ImGui::EndDragDropSource();
-  
+
 }
 
 
 bool _wrap_BeginDragDropTarget() {
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   result = (bool)ImGui::BeginDragDropTarget();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -9981,17 +10137,17 @@ ImGuiPayload *_wrap_AcceptDragDropPayload__SWIG_0(_gostring_ _swig_go_0, intgo _
   ImGuiDragDropFlags arg2 ;
   ImGuiPayload *result = 0 ;
   ImGuiPayload *_swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (ImGuiDragDropFlags)_swig_go_1; 
-  
+
+  arg2 = (ImGuiDragDropFlags)_swig_go_1;
+
   result = (ImGuiPayload *)ImGui::AcceptDragDropPayload((char const *)arg1,arg2);
-  *(ImGuiPayload **)&_swig_go_result = (ImGuiPayload *)result; 
-  free(arg1); 
+  *(ImGuiPayload **)&_swig_go_result = (ImGuiPayload *)result;
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -10000,23 +10156,34 @@ ImGuiPayload *_wrap_AcceptDragDropPayload__SWIG_1(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   ImGuiPayload *result = 0 ;
   ImGuiPayload *_swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   result = (ImGuiPayload *)ImGui::AcceptDragDropPayload((char const *)arg1);
-  *(ImGuiPayload **)&_swig_go_result = (ImGuiPayload *)result; 
-  free(arg1); 
+  *(ImGuiPayload **)&_swig_go_result = (ImGuiPayload *)result;
+  free(arg1);
   return _swig_go_result;
 }
 
 
 void _wrap_EndDragDropTarget() {
   ImGui::EndDragDropTarget();
-  
+
+}
+
+
+ImGuiPayload *_wrap_GetDragDropPayload() {
+  ImGuiPayload *result = 0 ;
+  ImGuiPayload *_swig_go_result;
+
+
+  result = (ImGuiPayload *)ImGui::GetDragDropPayload();
+  *(ImGuiPayload **)&_swig_go_result = (ImGuiPayload *)result;
+  return _swig_go_result;
 }
 
 
@@ -10024,41 +10191,41 @@ void _wrap_PushClipRect(ImVec2 *_swig_go_0, ImVec2 *_swig_go_1, bool _swig_go_2)
   ImVec2 *arg1 = 0 ;
   ImVec2 *arg2 = 0 ;
   bool arg3 ;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = (bool)_swig_go_2; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = (bool)_swig_go_2;
+
   ImGui::PushClipRect((ImVec2 const &)*arg1,(ImVec2 const &)*arg2,arg3);
-  
+
 }
 
 
 void _wrap_PopClipRect() {
   ImGui::PopClipRect();
-  
+
 }
 
 
 void _wrap_SetItemDefaultFocus() {
   ImGui::SetItemDefaultFocus();
-  
+
 }
 
 
 void _wrap_SetKeyboardFocusHere__SWIG_0(intgo _swig_go_0) {
   int arg1 ;
-  
-  arg1 = (int)_swig_go_0; 
-  
+
+  arg1 = (int)_swig_go_0;
+
   ImGui::SetKeyboardFocusHere(arg1);
-  
+
 }
 
 
 void _wrap_SetKeyboardFocusHere__SWIG_1() {
   ImGui::SetKeyboardFocusHere();
-  
+
 }
 
 
@@ -10066,11 +10233,11 @@ bool _wrap_IsItemHovered__SWIG_0(intgo _swig_go_0) {
   ImGuiHoveredFlags arg1 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = (ImGuiHoveredFlags)_swig_go_0; 
-  
+
+  arg1 = (ImGuiHoveredFlags)_swig_go_0;
+
   result = (bool)ImGui::IsItemHovered(arg1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10078,10 +10245,10 @@ bool _wrap_IsItemHovered__SWIG_0(intgo _swig_go_0) {
 bool _wrap_IsItemHovered__SWIG_1() {
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   result = (bool)ImGui::IsItemHovered();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10089,10 +10256,10 @@ bool _wrap_IsItemHovered__SWIG_1() {
 bool _wrap_IsItemActive() {
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   result = (bool)ImGui::IsItemActive();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10100,10 +10267,10 @@ bool _wrap_IsItemActive() {
 bool _wrap_IsItemFocused() {
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   result = (bool)ImGui::IsItemFocused();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10112,11 +10279,11 @@ bool _wrap_IsItemClicked__SWIG_0(intgo _swig_go_0) {
   int arg1 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = (int)_swig_go_0; 
-  
+
+  arg1 = (int)_swig_go_0;
+
   result = (bool)ImGui::IsItemClicked(arg1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10124,10 +10291,10 @@ bool _wrap_IsItemClicked__SWIG_0(intgo _swig_go_0) {
 bool _wrap_IsItemClicked__SWIG_1() {
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   result = (bool)ImGui::IsItemClicked();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10135,10 +10302,10 @@ bool _wrap_IsItemClicked__SWIG_1() {
 bool _wrap_IsItemVisible() {
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   result = (bool)ImGui::IsItemVisible();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10146,10 +10313,21 @@ bool _wrap_IsItemVisible() {
 bool _wrap_IsItemEdited() {
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   result = (bool)ImGui::IsItemEdited();
-  _swig_go_result = result; 
+  _swig_go_result = result;
+  return _swig_go_result;
+}
+
+
+bool _wrap_IsItemActivated() {
+  bool result;
+  bool _swig_go_result;
+
+
+  result = (bool)ImGui::IsItemActivated();
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10157,10 +10335,10 @@ bool _wrap_IsItemEdited() {
 bool _wrap_IsItemDeactivated() {
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   result = (bool)ImGui::IsItemDeactivated();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10168,10 +10346,10 @@ bool _wrap_IsItemDeactivated() {
 bool _wrap_IsItemDeactivatedAfterEdit() {
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   result = (bool)ImGui::IsItemDeactivatedAfterEdit();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10179,10 +10357,10 @@ bool _wrap_IsItemDeactivatedAfterEdit() {
 bool _wrap_IsAnyItemHovered() {
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   result = (bool)ImGui::IsAnyItemHovered();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10190,10 +10368,10 @@ bool _wrap_IsAnyItemHovered() {
 bool _wrap_IsAnyItemActive() {
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   result = (bool)ImGui::IsAnyItemActive();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10201,10 +10379,10 @@ bool _wrap_IsAnyItemActive() {
 bool _wrap_IsAnyItemFocused() {
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   result = (bool)ImGui::IsAnyItemFocused();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10212,10 +10390,10 @@ bool _wrap_IsAnyItemFocused() {
 ImVec2 *_wrap_GetItemRectMin() {
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  
+
+
   result = ImGui::GetItemRectMin();
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
   return _swig_go_result;
 }
 
@@ -10223,10 +10401,10 @@ ImVec2 *_wrap_GetItemRectMin() {
 ImVec2 *_wrap_GetItemRectMax() {
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  
+
+
   result = ImGui::GetItemRectMax();
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
   return _swig_go_result;
 }
 
@@ -10234,17 +10412,17 @@ ImVec2 *_wrap_GetItemRectMax() {
 ImVec2 *_wrap_GetItemRectSize() {
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  
+
+
   result = ImGui::GetItemRectSize();
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
   return _swig_go_result;
 }
 
 
 void _wrap_SetItemAllowOverlap() {
   ImGui::SetItemAllowOverlap();
-  
+
 }
 
 
@@ -10252,11 +10430,11 @@ bool _wrap_IsRectVisible__SWIG_0(ImVec2 *_swig_go_0) {
   ImVec2 *arg1 = 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+
   result = (bool)ImGui::IsRectVisible((ImVec2 const &)*arg1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10266,12 +10444,12 @@ bool _wrap_IsRectVisible__SWIG_1(ImVec2 *_swig_go_0, ImVec2 *_swig_go_1) {
   ImVec2 *arg2 = 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   result = (bool)ImGui::IsRectVisible((ImVec2 const &)*arg1,(ImVec2 const &)*arg2);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10279,10 +10457,10 @@ bool _wrap_IsRectVisible__SWIG_1(ImVec2 *_swig_go_0, ImVec2 *_swig_go_1) {
 double _wrap_GetTime() {
   double result;
   double _swig_go_result;
-  
-  
+
+
   result = (double)ImGui::GetTime();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10290,10 +10468,10 @@ double _wrap_GetTime() {
 intgo _wrap_GetFrameCount() {
   int result;
   intgo _swig_go_result;
-  
-  
+
+
   result = (int)ImGui::GetFrameCount();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10301,10 +10479,10 @@ intgo _wrap_GetFrameCount() {
 ImDrawList *_wrap_GetOverlayDrawList() {
   ImDrawList *result = 0 ;
   ImDrawList *_swig_go_result;
-  
-  
+
+
   result = (ImDrawList *)ImGui::GetOverlayDrawList();
-  *(ImDrawList **)&_swig_go_result = (ImDrawList *)result; 
+  *(ImDrawList **)&_swig_go_result = (ImDrawList *)result;
   return _swig_go_result;
 }
 
@@ -10312,10 +10490,10 @@ ImDrawList *_wrap_GetOverlayDrawList() {
 ImDrawListSharedData *_wrap_GetDrawListSharedData() {
   ImDrawListSharedData *result = 0 ;
   ImDrawListSharedData *_swig_go_result;
-  
-  
+
+
   result = (ImDrawListSharedData *)ImGui::GetDrawListSharedData();
-  *(ImDrawListSharedData **)&_swig_go_result = (ImDrawListSharedData *)result; 
+  *(ImDrawListSharedData **)&_swig_go_result = (ImDrawListSharedData *)result;
   return _swig_go_result;
 }
 
@@ -10324,32 +10502,32 @@ _gostring_ _wrap_GetStyleColorName(intgo _swig_go_0) {
   ImGuiCol arg1 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
-  
-  arg1 = (ImGuiCol)_swig_go_0; 
-  
+
+  arg1 = (ImGuiCol)_swig_go_0;
+
   result = (char *)ImGui::GetStyleColorName(arg1);
-  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0);
   return _swig_go_result;
 }
 
 
 void _wrap_SetStateStorage(ImGuiStorage *_swig_go_0) {
   ImGuiStorage *arg1 = (ImGuiStorage *) 0 ;
-  
-  arg1 = *(ImGuiStorage **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStorage **)&_swig_go_0;
+
   ImGui::SetStateStorage(arg1);
-  
+
 }
 
 
 ImGuiStorage *_wrap_GetStateStorage() {
   ImGuiStorage *result = 0 ;
   ImGuiStorage *_swig_go_result;
-  
-  
+
+
   result = (ImGuiStorage *)ImGui::GetStateStorage();
-  *(ImGuiStorage **)&_swig_go_result = (ImGuiStorage *)result; 
+  *(ImGuiStorage **)&_swig_go_result = (ImGuiStorage *)result;
   return _swig_go_result;
 }
 
@@ -10361,24 +10539,24 @@ ImVec2 *_wrap_CalcTextSize__SWIG_0(_gostring_ _swig_go_0, _gostring_ _swig_go_1,
   float arg4 ;
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  arg3 = (bool)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg3 = (bool)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   result = ImGui::CalcTextSize((char const *)arg1,(char const *)arg2,arg3,arg4);
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
-  free(arg1); 
-  free(arg2); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
+  free(arg1);
+  free(arg2);
   return _swig_go_result;
 }
 
@@ -10389,23 +10567,23 @@ ImVec2 *_wrap_CalcTextSize__SWIG_1(_gostring_ _swig_go_0, _gostring_ _swig_go_1,
   bool arg3 ;
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  arg3 = (bool)_swig_go_2; 
-  
+
+  arg3 = (bool)_swig_go_2;
+
   result = ImGui::CalcTextSize((char const *)arg1,(char const *)arg2,arg3);
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
-  free(arg1); 
-  free(arg2); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
+  free(arg1);
+  free(arg2);
   return _swig_go_result;
 }
 
@@ -10415,22 +10593,22 @@ ImVec2 *_wrap_CalcTextSize__SWIG_2(_gostring_ _swig_go_0, _gostring_ _swig_go_1)
   char *arg2 = (char *) 0 ;
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  
+
+
   result = ImGui::CalcTextSize((char const *)arg1,(char const *)arg2);
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
-  free(arg1); 
-  free(arg2); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
+  free(arg1);
+  free(arg2);
   return _swig_go_result;
 }
 
@@ -10439,16 +10617,16 @@ ImVec2 *_wrap_CalcTextSize__SWIG_3(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   result = ImGui::CalcTextSize((char const *)arg1);
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
-  free(arg1); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
+  free(arg1);
   return _swig_go_result;
 }
 
@@ -10458,14 +10636,14 @@ void _wrap_CalcListClipping(intgo _swig_go_0, float _swig_go_1, intgo *_swig_go_
   float arg2 ;
   int *arg3 = (int *) 0 ;
   int *arg4 = (int *) 0 ;
-  
-  arg1 = (int)_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  arg3 = *(int **)&_swig_go_2; 
-  arg4 = *(int **)&_swig_go_3; 
-  
+
+  arg1 = (int)_swig_go_0;
+  arg2 = (float)_swig_go_1;
+  arg3 = *(int **)&_swig_go_2;
+  arg4 = *(int **)&_swig_go_3;
+
   ImGui::CalcListClipping(arg1,arg2,arg3,arg4);
-  
+
 }
 
 
@@ -10475,13 +10653,13 @@ bool _wrap_BeginChildFrame__SWIG_0(intgo _swig_go_0, ImVec2 *_swig_go_1, intgo _
   ImGuiWindowFlags arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = (ImGuiID)_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = (ImGuiWindowFlags)_swig_go_2; 
-  
+
+  arg1 = (ImGuiID)_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = (ImGuiWindowFlags)_swig_go_2;
+
   result = (bool)ImGui::BeginChildFrame(arg1,(ImVec2 const &)*arg2,arg3);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10491,19 +10669,19 @@ bool _wrap_BeginChildFrame__SWIG_1(intgo _swig_go_0, ImVec2 *_swig_go_1) {
   ImVec2 *arg2 = 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = (ImGuiID)_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = (ImGuiID)_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   result = (bool)ImGui::BeginChildFrame(arg1,(ImVec2 const &)*arg2);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
 
 void _wrap_EndChildFrame() {
   ImGui::EndChildFrame();
-  
+
 }
 
 
@@ -10511,11 +10689,11 @@ ImVec4 *_wrap_ColorConvertU32ToFloat4(intgo _swig_go_0) {
   ImU32 arg1 ;
   ImVec4 result;
   ImVec4 *_swig_go_result;
-  
-  arg1 = (ImU32)_swig_go_0; 
-  
+
+  arg1 = (ImU32)_swig_go_0;
+
   result = ImGui::ColorConvertU32ToFloat4(arg1);
-  *(ImVec4 **)&_swig_go_result = new ImVec4(result); 
+  *(ImVec4 **)&_swig_go_result = new ImVec4(result);
   return _swig_go_result;
 }
 
@@ -10524,11 +10702,11 @@ intgo _wrap_ColorConvertFloat4ToU32(ImVec4 *_swig_go_0) {
   ImVec4 *arg1 = 0 ;
   ImU32 result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImVec4 **)&_swig_go_0; 
-  
+
+  arg1 = *(ImVec4 **)&_swig_go_0;
+
   result = (ImU32)ImGui::ColorConvertFloat4ToU32((ImVec4 const &)*arg1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10540,16 +10718,16 @@ void _wrap_ColorConvertRGBtoHSV(float _swig_go_0, float _swig_go_1, float _swig_
   float *arg4 = 0 ;
   float *arg5 = 0 ;
   float *arg6 = 0 ;
-  
-  arg1 = (float)_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = *(float **)&_swig_go_3; 
-  arg5 = *(float **)&_swig_go_4; 
-  arg6 = *(float **)&_swig_go_5; 
-  
+
+  arg1 = (float)_swig_go_0;
+  arg2 = (float)_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = *(float **)&_swig_go_3;
+  arg5 = *(float **)&_swig_go_4;
+  arg6 = *(float **)&_swig_go_5;
+
   ImGui::ColorConvertRGBtoHSV(arg1,arg2,arg3,*arg4,*arg5,*arg6);
-  
+
 }
 
 
@@ -10560,16 +10738,16 @@ void _wrap_ColorConvertHSVtoRGB(float _swig_go_0, float _swig_go_1, float _swig_
   float *arg4 = 0 ;
   float *arg5 = 0 ;
   float *arg6 = 0 ;
-  
-  arg1 = (float)_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = *(float **)&_swig_go_3; 
-  arg5 = *(float **)&_swig_go_4; 
-  arg6 = *(float **)&_swig_go_5; 
-  
+
+  arg1 = (float)_swig_go_0;
+  arg2 = (float)_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = *(float **)&_swig_go_3;
+  arg5 = *(float **)&_swig_go_4;
+  arg6 = *(float **)&_swig_go_5;
+
   ImGui::ColorConvertHSVtoRGB(arg1,arg2,arg3,*arg4,*arg5,*arg6);
-  
+
 }
 
 
@@ -10577,11 +10755,11 @@ intgo _wrap_GetKeyIndex(intgo _swig_go_0) {
   ImGuiKey arg1 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = (ImGuiKey)_swig_go_0; 
-  
+
+  arg1 = (ImGuiKey)_swig_go_0;
+
   result = (int)ImGui::GetKeyIndex(arg1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10590,11 +10768,11 @@ bool _wrap_IsKeyDown(intgo _swig_go_0) {
   int arg1 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = (int)_swig_go_0; 
-  
+
+  arg1 = (int)_swig_go_0;
+
   result = (bool)ImGui::IsKeyDown(arg1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10604,12 +10782,12 @@ bool _wrap_IsKeyPressed__SWIG_0(intgo _swig_go_0, bool _swig_go_1) {
   bool arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = (int)_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = (int)_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   result = (bool)ImGui::IsKeyPressed(arg1,arg2);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10618,11 +10796,11 @@ bool _wrap_IsKeyPressed__SWIG_1(intgo _swig_go_0) {
   int arg1 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = (int)_swig_go_0; 
-  
+
+  arg1 = (int)_swig_go_0;
+
   result = (bool)ImGui::IsKeyPressed(arg1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10631,11 +10809,11 @@ bool _wrap_IsKeyReleased(intgo _swig_go_0) {
   int arg1 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = (int)_swig_go_0; 
-  
+
+  arg1 = (int)_swig_go_0;
+
   result = (bool)ImGui::IsKeyReleased(arg1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10646,13 +10824,13 @@ intgo _wrap_GetKeyPressedAmount(intgo _swig_go_0, float _swig_go_1, float _swig_
   float arg3 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = (int)_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  
+
+  arg1 = (int)_swig_go_0;
+  arg2 = (float)_swig_go_1;
+  arg3 = (float)_swig_go_2;
+
   result = (int)ImGui::GetKeyPressedAmount(arg1,arg2,arg3);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10661,11 +10839,11 @@ bool _wrap_IsMouseDown(intgo _swig_go_0) {
   int arg1 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = (int)_swig_go_0; 
-  
+
+  arg1 = (int)_swig_go_0;
+
   result = (bool)ImGui::IsMouseDown(arg1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10673,10 +10851,10 @@ bool _wrap_IsMouseDown(intgo _swig_go_0) {
 bool _wrap_IsAnyMouseDown() {
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   result = (bool)ImGui::IsAnyMouseDown();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10686,12 +10864,12 @@ bool _wrap_IsMouseClicked__SWIG_0(intgo _swig_go_0, bool _swig_go_1) {
   bool arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = (int)_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = (int)_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   result = (bool)ImGui::IsMouseClicked(arg1,arg2);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10700,11 +10878,11 @@ bool _wrap_IsMouseClicked__SWIG_1(intgo _swig_go_0) {
   int arg1 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = (int)_swig_go_0; 
-  
+
+  arg1 = (int)_swig_go_0;
+
   result = (bool)ImGui::IsMouseClicked(arg1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10713,11 +10891,11 @@ bool _wrap_IsMouseDoubleClicked(intgo _swig_go_0) {
   int arg1 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = (int)_swig_go_0; 
-  
+
+  arg1 = (int)_swig_go_0;
+
   result = (bool)ImGui::IsMouseDoubleClicked(arg1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10726,11 +10904,11 @@ bool _wrap_IsMouseReleased(intgo _swig_go_0) {
   int arg1 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = (int)_swig_go_0; 
-  
+
+  arg1 = (int)_swig_go_0;
+
   result = (bool)ImGui::IsMouseReleased(arg1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10740,12 +10918,12 @@ bool _wrap_IsMouseDragging__SWIG_0(intgo _swig_go_0, float _swig_go_1) {
   float arg2 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = (int)_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = (int)_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   result = (bool)ImGui::IsMouseDragging(arg1,arg2);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10754,11 +10932,11 @@ bool _wrap_IsMouseDragging__SWIG_1(intgo _swig_go_0) {
   int arg1 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = (int)_swig_go_0; 
-  
+
+  arg1 = (int)_swig_go_0;
+
   result = (bool)ImGui::IsMouseDragging(arg1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10766,10 +10944,10 @@ bool _wrap_IsMouseDragging__SWIG_1(intgo _swig_go_0) {
 bool _wrap_IsMouseDragging__SWIG_2() {
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   result = (bool)ImGui::IsMouseDragging();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10780,13 +10958,13 @@ bool _wrap_IsMouseHoveringRect__SWIG_0(ImVec2 *_swig_go_0, ImVec2 *_swig_go_1, b
   bool arg3 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = (bool)_swig_go_2; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = (bool)_swig_go_2;
+
   result = (bool)ImGui::IsMouseHoveringRect((ImVec2 const &)*arg1,(ImVec2 const &)*arg2,arg3);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10796,12 +10974,12 @@ bool _wrap_IsMouseHoveringRect__SWIG_1(ImVec2 *_swig_go_0, ImVec2 *_swig_go_1) {
   ImVec2 *arg2 = 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   result = (bool)ImGui::IsMouseHoveringRect((ImVec2 const &)*arg1,(ImVec2 const &)*arg2);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10810,11 +10988,11 @@ bool _wrap_IsMousePosValid__SWIG_0(ImVec2 *_swig_go_0) {
   ImVec2 *arg1 = (ImVec2 *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImVec2 **)&_swig_go_0; 
-  
+
+  arg1 = *(ImVec2 **)&_swig_go_0;
+
   result = (bool)ImGui::IsMousePosValid((ImVec2 const *)arg1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10822,10 +11000,10 @@ bool _wrap_IsMousePosValid__SWIG_0(ImVec2 *_swig_go_0) {
 bool _wrap_IsMousePosValid__SWIG_1() {
   bool result;
   bool _swig_go_result;
-  
-  
+
+
   result = (bool)ImGui::IsMousePosValid();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -10833,10 +11011,10 @@ bool _wrap_IsMousePosValid__SWIG_1() {
 ImVec2 *_wrap_GetMousePos() {
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  
+
+
   result = ImGui::GetMousePos();
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
   return _swig_go_result;
 }
 
@@ -10844,10 +11022,10 @@ ImVec2 *_wrap_GetMousePos() {
 ImVec2 *_wrap_GetMousePosOnOpeningCurrentPopup() {
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  
+
+
   result = ImGui::GetMousePosOnOpeningCurrentPopup();
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
   return _swig_go_result;
 }
 
@@ -10857,12 +11035,12 @@ ImVec2 *_wrap_GetMouseDragDelta__SWIG_0(intgo _swig_go_0, float _swig_go_1) {
   float arg2 ;
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  arg1 = (int)_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = (int)_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   result = ImGui::GetMouseDragDelta(arg1,arg2);
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
   return _swig_go_result;
 }
 
@@ -10871,11 +11049,11 @@ ImVec2 *_wrap_GetMouseDragDelta__SWIG_1(intgo _swig_go_0) {
   int arg1 ;
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  arg1 = (int)_swig_go_0; 
-  
+
+  arg1 = (int)_swig_go_0;
+
   result = ImGui::GetMouseDragDelta(arg1);
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
   return _swig_go_result;
 }
 
@@ -10883,168 +11061,168 @@ ImVec2 *_wrap_GetMouseDragDelta__SWIG_1(intgo _swig_go_0) {
 ImVec2 *_wrap_GetMouseDragDelta__SWIG_2() {
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  
+
+
   result = ImGui::GetMouseDragDelta();
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
   return _swig_go_result;
 }
 
 
 void _wrap_ResetMouseDragDelta__SWIG_0(intgo _swig_go_0) {
   int arg1 ;
-  
-  arg1 = (int)_swig_go_0; 
-  
+
+  arg1 = (int)_swig_go_0;
+
   ImGui::ResetMouseDragDelta(arg1);
-  
+
 }
 
 
 void _wrap_ResetMouseDragDelta__SWIG_1() {
   ImGui::ResetMouseDragDelta();
-  
+
 }
 
 
 intgo _wrap_GetMouseCursor() {
   ImGuiMouseCursor result;
   intgo _swig_go_result;
-  
-  
+
+
   result = (ImGuiMouseCursor)ImGui::GetMouseCursor();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
 
 void _wrap_SetMouseCursor(intgo _swig_go_0) {
   ImGuiMouseCursor arg1 ;
-  
-  arg1 = (ImGuiMouseCursor)_swig_go_0; 
-  
+
+  arg1 = (ImGuiMouseCursor)_swig_go_0;
+
   ImGui::SetMouseCursor(arg1);
-  
+
 }
 
 
 void _wrap_CaptureKeyboardFromApp__SWIG_0(bool _swig_go_0) {
   bool arg1 ;
-  
-  arg1 = (bool)_swig_go_0; 
-  
+
+  arg1 = (bool)_swig_go_0;
+
   ImGui::CaptureKeyboardFromApp(arg1);
-  
+
 }
 
 
 void _wrap_CaptureKeyboardFromApp__SWIG_1() {
   ImGui::CaptureKeyboardFromApp();
-  
+
 }
 
 
 void _wrap_CaptureMouseFromApp__SWIG_0(bool _swig_go_0) {
   bool arg1 ;
-  
-  arg1 = (bool)_swig_go_0; 
-  
+
+  arg1 = (bool)_swig_go_0;
+
   ImGui::CaptureMouseFromApp(arg1);
-  
+
 }
 
 
 void _wrap_CaptureMouseFromApp__SWIG_1() {
   ImGui::CaptureMouseFromApp();
-  
+
 }
 
 
 _gostring_ _wrap_GetClipboardText() {
   char *result = 0 ;
   _gostring_ _swig_go_result;
-  
-  
+
+
   result = (char *)ImGui::GetClipboardText();
-  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0);
   return _swig_go_result;
 }
 
 
 void _wrap_SetClipboardText(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   ImGui::SetClipboardText((char const *)arg1);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
 void _wrap_LoadIniSettingsFromDisk(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   ImGui::LoadIniSettingsFromDisk((char const *)arg1);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
 void _wrap_LoadIniSettingsFromMemory__SWIG_0(_gostring_ _swig_go_0, long long _swig_go_1) {
   char *arg1 = (char *) 0 ;
   size_t arg2 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  arg2 = (size_t)_swig_go_1; 
-  
+
+  arg2 = (size_t)_swig_go_1;
+
   ImGui::LoadIniSettingsFromMemory((char const *)arg1,arg2);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
 void _wrap_LoadIniSettingsFromMemory__SWIG_1(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   ImGui::LoadIniSettingsFromMemory((char const *)arg1);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
 void _wrap_SaveIniSettingsToDisk(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
-  
-  
+
+
   arg1 = (char *)malloc(_swig_go_0.n + 1);
   memcpy(arg1, _swig_go_0.p, _swig_go_0.n);
   arg1[_swig_go_0.n] = '\0';
-  
-  
+
+
   ImGui::SaveIniSettingsToDisk((char const *)arg1);
-  
-  free(arg1); 
+
+  free(arg1);
 }
 
 
@@ -11052,11 +11230,11 @@ _gostring_ _wrap_SaveIniSettingsToMemory__SWIG_0(long long *_swig_go_0) {
   size_t *arg1 = (size_t *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
-  
-  arg1 = *(size_t **)&_swig_go_0; 
-  
+
+  arg1 = *(size_t **)&_swig_go_0;
+
   result = (char *)ImGui::SaveIniSettingsToMemory(arg1);
-  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0);
   return _swig_go_result;
 }
 
@@ -11064,10 +11242,10 @@ _gostring_ _wrap_SaveIniSettingsToMemory__SWIG_0(long long *_swig_go_0) {
 _gostring_ _wrap_SaveIniSettingsToMemory__SWIG_1() {
   char *result = 0 ;
   _gostring_ _swig_go_result;
-  
-  
+
+
   result = (char *)ImGui::SaveIniSettingsToMemory();
-  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0);
   return _swig_go_result;
 }
 
@@ -11076,25 +11254,25 @@ void _wrap_SetAllocatorFunctions__SWIG_0(void* _swig_go_0, void* _swig_go_1, voi
   void *(*arg1)(size_t,void *) = (void *(*)(size_t,void *)) 0 ;
   void (*arg2)(void *,void *) = (void (*)(void *,void *)) 0 ;
   void *arg3 = (void *) 0 ;
-  
-  arg1 = *(void *(**)(size_t,void *))&_swig_go_0; 
-  arg2 = *(void (**)(void *,void *))&_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  
+
+  arg1 = *(void *(**)(size_t,void *))&_swig_go_0;
+  arg2 = *(void (**)(void *,void *))&_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+
   ImGui::SetAllocatorFunctions(arg1,arg2,arg3);
-  
+
 }
 
 
 void _wrap_SetAllocatorFunctions__SWIG_1(void* _swig_go_0, void* _swig_go_1) {
   void *(*arg1)(size_t,void *) = (void *(*)(size_t,void *)) 0 ;
   void (*arg2)(void *,void *) = (void (*)(void *,void *)) 0 ;
-  
-  arg1 = *(void *(**)(size_t,void *))&_swig_go_0; 
-  arg2 = *(void (**)(void *,void *))&_swig_go_1; 
-  
+
+  arg1 = *(void *(**)(size_t,void *))&_swig_go_0;
+  arg2 = *(void (**)(void *,void *))&_swig_go_1;
+
   ImGui::SetAllocatorFunctions(arg1,arg2);
-  
+
 }
 
 
@@ -11102,33 +11280,33 @@ void *_wrap_MemAlloc(long long _swig_go_0) {
   size_t arg1 ;
   void *result = 0 ;
   void *_swig_go_result;
-  
-  arg1 = (size_t)_swig_go_0; 
-  
+
+  arg1 = (size_t)_swig_go_0;
+
   result = (void *)ImGui::MemAlloc(arg1);
-  *(void **)&_swig_go_result = (void *)result; 
+  *(void **)&_swig_go_result = (void *)result;
   return _swig_go_result;
 }
 
 
 void _wrap_MemFree(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
-  
-  arg1 = *(void **)&_swig_go_0; 
-  
+
+  arg1 = *(void **)&_swig_go_0;
+
   ImGui::MemFree(arg1);
-  
+
 }
 
 
 intgo _wrap_WindowFlags_None() {
   ImGuiWindowFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiWindowFlags_None;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11136,11 +11314,11 @@ intgo _wrap_WindowFlags_None() {
 intgo _wrap_WindowFlags_NoTitleBar() {
   ImGuiWindowFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiWindowFlags_NoTitleBar;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11148,11 +11326,11 @@ intgo _wrap_WindowFlags_NoTitleBar() {
 intgo _wrap_WindowFlags_NoResize() {
   ImGuiWindowFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiWindowFlags_NoResize;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11160,11 +11338,11 @@ intgo _wrap_WindowFlags_NoResize() {
 intgo _wrap_WindowFlags_NoMove() {
   ImGuiWindowFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiWindowFlags_NoMove;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11172,11 +11350,11 @@ intgo _wrap_WindowFlags_NoMove() {
 intgo _wrap_WindowFlags_NoScrollbar() {
   ImGuiWindowFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiWindowFlags_NoScrollbar;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11184,11 +11362,11 @@ intgo _wrap_WindowFlags_NoScrollbar() {
 intgo _wrap_WindowFlags_NoScrollWithMouse() {
   ImGuiWindowFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiWindowFlags_NoScrollWithMouse;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11196,11 +11374,11 @@ intgo _wrap_WindowFlags_NoScrollWithMouse() {
 intgo _wrap_WindowFlags_NoCollapse() {
   ImGuiWindowFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiWindowFlags_NoCollapse;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11208,11 +11386,23 @@ intgo _wrap_WindowFlags_NoCollapse() {
 intgo _wrap_WindowFlags_AlwaysAutoResize() {
   ImGuiWindowFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiWindowFlags_AlwaysAutoResize;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_WindowFlags_NoBackground() {
+  ImGuiWindowFlags_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiWindowFlags_NoBackground;
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11220,23 +11410,23 @@ intgo _wrap_WindowFlags_AlwaysAutoResize() {
 intgo _wrap_WindowFlags_NoSavedSettings() {
   ImGuiWindowFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiWindowFlags_NoSavedSettings;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
 
-intgo _wrap_WindowFlags_NoInputs() {
+intgo _wrap_WindowFlags_NoMouseInputs() {
   ImGuiWindowFlags_ result;
   intgo _swig_go_result;
-  
-  
-  result = ImGuiWindowFlags_NoInputs;
-  
-  _swig_go_result = (intgo)result; 
+
+
+  result = ImGuiWindowFlags_NoMouseInputs;
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11244,11 +11434,11 @@ intgo _wrap_WindowFlags_NoInputs() {
 intgo _wrap_WindowFlags_MenuBar() {
   ImGuiWindowFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiWindowFlags_MenuBar;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11256,11 +11446,11 @@ intgo _wrap_WindowFlags_MenuBar() {
 intgo _wrap_WindowFlags_HorizontalScrollbar() {
   ImGuiWindowFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiWindowFlags_HorizontalScrollbar;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11268,11 +11458,11 @@ intgo _wrap_WindowFlags_HorizontalScrollbar() {
 intgo _wrap_WindowFlags_NoFocusOnAppearing() {
   ImGuiWindowFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiWindowFlags_NoFocusOnAppearing;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11280,11 +11470,11 @@ intgo _wrap_WindowFlags_NoFocusOnAppearing() {
 intgo _wrap_WindowFlags_NoBringToFrontOnFocus() {
   ImGuiWindowFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiWindowFlags_NoBringToFrontOnFocus;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11292,11 +11482,11 @@ intgo _wrap_WindowFlags_NoBringToFrontOnFocus() {
 intgo _wrap_WindowFlags_AlwaysVerticalScrollbar() {
   ImGuiWindowFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiWindowFlags_AlwaysVerticalScrollbar;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11304,11 +11494,11 @@ intgo _wrap_WindowFlags_AlwaysVerticalScrollbar() {
 intgo _wrap_WindowFlags_AlwaysHorizontalScrollbar() {
   ImGuiWindowFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiWindowFlags_AlwaysHorizontalScrollbar;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11316,11 +11506,11 @@ intgo _wrap_WindowFlags_AlwaysHorizontalScrollbar() {
 intgo _wrap_WindowFlags_AlwaysUseWindowPadding() {
   ImGuiWindowFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiWindowFlags_AlwaysUseWindowPadding;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11328,11 +11518,11 @@ intgo _wrap_WindowFlags_AlwaysUseWindowPadding() {
 intgo _wrap_WindowFlags_NoNavInputs() {
   ImGuiWindowFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiWindowFlags_NoNavInputs;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11340,11 +11530,23 @@ intgo _wrap_WindowFlags_NoNavInputs() {
 intgo _wrap_WindowFlags_NoNavFocus() {
   ImGuiWindowFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiWindowFlags_NoNavFocus;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_WindowFlags_UnsavedDocument() {
+  ImGuiWindowFlags_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiWindowFlags_UnsavedDocument;
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11352,11 +11554,35 @@ intgo _wrap_WindowFlags_NoNavFocus() {
 intgo _wrap_WindowFlags_NoNav() {
   ImGuiWindowFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiWindowFlags_NoNav;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_WindowFlags_NoDecoration() {
+  ImGuiWindowFlags_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiWindowFlags_NoDecoration;
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_WindowFlags_NoInputs() {
+  ImGuiWindowFlags_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiWindowFlags_NoInputs;
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11364,11 +11590,11 @@ intgo _wrap_WindowFlags_NoNav() {
 intgo _wrap_WindowFlags_NavFlattened() {
   ImGuiWindowFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiWindowFlags_NavFlattened;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11376,11 +11602,11 @@ intgo _wrap_WindowFlags_NavFlattened() {
 intgo _wrap_WindowFlags_ChildWindow() {
   ImGuiWindowFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiWindowFlags_ChildWindow;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11388,11 +11614,11 @@ intgo _wrap_WindowFlags_ChildWindow() {
 intgo _wrap_WindowFlags_Tooltip() {
   ImGuiWindowFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiWindowFlags_Tooltip;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11400,11 +11626,11 @@ intgo _wrap_WindowFlags_Tooltip() {
 intgo _wrap_WindowFlags_Popup() {
   ImGuiWindowFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiWindowFlags_Popup;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11412,11 +11638,11 @@ intgo _wrap_WindowFlags_Popup() {
 intgo _wrap_WindowFlags_Modal() {
   ImGuiWindowFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiWindowFlags_Modal;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11424,11 +11650,11 @@ intgo _wrap_WindowFlags_Modal() {
 intgo _wrap_WindowFlags_ChildMenu() {
   ImGuiWindowFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiWindowFlags_ChildMenu;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11436,11 +11662,11 @@ intgo _wrap_WindowFlags_ChildMenu() {
 intgo _wrap_InputTextFlags_None() {
   ImGuiInputTextFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiInputTextFlags_None;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11448,11 +11674,11 @@ intgo _wrap_InputTextFlags_None() {
 intgo _wrap_InputTextFlags_CharsDecimal() {
   ImGuiInputTextFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiInputTextFlags_CharsDecimal;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11460,11 +11686,11 @@ intgo _wrap_InputTextFlags_CharsDecimal() {
 intgo _wrap_InputTextFlags_CharsHexadecimal() {
   ImGuiInputTextFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiInputTextFlags_CharsHexadecimal;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11472,11 +11698,11 @@ intgo _wrap_InputTextFlags_CharsHexadecimal() {
 intgo _wrap_InputTextFlags_CharsUppercase() {
   ImGuiInputTextFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiInputTextFlags_CharsUppercase;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11484,11 +11710,11 @@ intgo _wrap_InputTextFlags_CharsUppercase() {
 intgo _wrap_InputTextFlags_CharsNoBlank() {
   ImGuiInputTextFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiInputTextFlags_CharsNoBlank;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11496,11 +11722,11 @@ intgo _wrap_InputTextFlags_CharsNoBlank() {
 intgo _wrap_InputTextFlags_AutoSelectAll() {
   ImGuiInputTextFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiInputTextFlags_AutoSelectAll;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11508,11 +11734,11 @@ intgo _wrap_InputTextFlags_AutoSelectAll() {
 intgo _wrap_InputTextFlags_EnterReturnsTrue() {
   ImGuiInputTextFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiInputTextFlags_EnterReturnsTrue;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11520,11 +11746,11 @@ intgo _wrap_InputTextFlags_EnterReturnsTrue() {
 intgo _wrap_InputTextFlags_CallbackCompletion() {
   ImGuiInputTextFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiInputTextFlags_CallbackCompletion;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11532,11 +11758,11 @@ intgo _wrap_InputTextFlags_CallbackCompletion() {
 intgo _wrap_InputTextFlags_CallbackHistory() {
   ImGuiInputTextFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiInputTextFlags_CallbackHistory;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11544,11 +11770,11 @@ intgo _wrap_InputTextFlags_CallbackHistory() {
 intgo _wrap_InputTextFlags_CallbackAlways() {
   ImGuiInputTextFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiInputTextFlags_CallbackAlways;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11556,11 +11782,11 @@ intgo _wrap_InputTextFlags_CallbackAlways() {
 intgo _wrap_InputTextFlags_CallbackCharFilter() {
   ImGuiInputTextFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiInputTextFlags_CallbackCharFilter;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11568,11 +11794,11 @@ intgo _wrap_InputTextFlags_CallbackCharFilter() {
 intgo _wrap_InputTextFlags_AllowTabInput() {
   ImGuiInputTextFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiInputTextFlags_AllowTabInput;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11580,11 +11806,11 @@ intgo _wrap_InputTextFlags_AllowTabInput() {
 intgo _wrap_InputTextFlags_CtrlEnterForNewLine() {
   ImGuiInputTextFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiInputTextFlags_CtrlEnterForNewLine;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11592,11 +11818,11 @@ intgo _wrap_InputTextFlags_CtrlEnterForNewLine() {
 intgo _wrap_InputTextFlags_NoHorizontalScroll() {
   ImGuiInputTextFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiInputTextFlags_NoHorizontalScroll;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11604,11 +11830,11 @@ intgo _wrap_InputTextFlags_NoHorizontalScroll() {
 intgo _wrap_InputTextFlags_AlwaysInsertMode() {
   ImGuiInputTextFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiInputTextFlags_AlwaysInsertMode;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11616,11 +11842,11 @@ intgo _wrap_InputTextFlags_AlwaysInsertMode() {
 intgo _wrap_InputTextFlags_ReadOnly() {
   ImGuiInputTextFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiInputTextFlags_ReadOnly;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11628,11 +11854,11 @@ intgo _wrap_InputTextFlags_ReadOnly() {
 intgo _wrap_InputTextFlags_Password() {
   ImGuiInputTextFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiInputTextFlags_Password;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11640,11 +11866,11 @@ intgo _wrap_InputTextFlags_Password() {
 intgo _wrap_InputTextFlags_NoUndoRedo() {
   ImGuiInputTextFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiInputTextFlags_NoUndoRedo;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11652,11 +11878,11 @@ intgo _wrap_InputTextFlags_NoUndoRedo() {
 intgo _wrap_InputTextFlags_CharsScientific() {
   ImGuiInputTextFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiInputTextFlags_CharsScientific;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11664,11 +11890,11 @@ intgo _wrap_InputTextFlags_CharsScientific() {
 intgo _wrap_InputTextFlags_CallbackResize() {
   ImGuiInputTextFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiInputTextFlags_CallbackResize;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11676,11 +11902,11 @@ intgo _wrap_InputTextFlags_CallbackResize() {
 intgo _wrap_InputTextFlags_Multiline() {
   ImGuiInputTextFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiInputTextFlags_Multiline;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11688,11 +11914,11 @@ intgo _wrap_InputTextFlags_Multiline() {
 intgo _wrap_TreeNodeFlags_None() {
   ImGuiTreeNodeFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiTreeNodeFlags_None;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11700,11 +11926,11 @@ intgo _wrap_TreeNodeFlags_None() {
 intgo _wrap_TreeNodeFlags_Selected() {
   ImGuiTreeNodeFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiTreeNodeFlags_Selected;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11712,11 +11938,11 @@ intgo _wrap_TreeNodeFlags_Selected() {
 intgo _wrap_TreeNodeFlags_Framed() {
   ImGuiTreeNodeFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiTreeNodeFlags_Framed;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11724,11 +11950,11 @@ intgo _wrap_TreeNodeFlags_Framed() {
 intgo _wrap_TreeNodeFlags_AllowItemOverlap() {
   ImGuiTreeNodeFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiTreeNodeFlags_AllowItemOverlap;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11736,11 +11962,11 @@ intgo _wrap_TreeNodeFlags_AllowItemOverlap() {
 intgo _wrap_TreeNodeFlags_NoTreePushOnOpen() {
   ImGuiTreeNodeFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiTreeNodeFlags_NoTreePushOnOpen;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11748,11 +11974,11 @@ intgo _wrap_TreeNodeFlags_NoTreePushOnOpen() {
 intgo _wrap_TreeNodeFlags_NoAutoOpenOnLog() {
   ImGuiTreeNodeFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiTreeNodeFlags_NoAutoOpenOnLog;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11760,11 +11986,11 @@ intgo _wrap_TreeNodeFlags_NoAutoOpenOnLog() {
 intgo _wrap_TreeNodeFlags_DefaultOpen() {
   ImGuiTreeNodeFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiTreeNodeFlags_DefaultOpen;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11772,11 +11998,11 @@ intgo _wrap_TreeNodeFlags_DefaultOpen() {
 intgo _wrap_TreeNodeFlags_OpenOnDoubleClick() {
   ImGuiTreeNodeFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiTreeNodeFlags_OpenOnDoubleClick;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11784,11 +12010,11 @@ intgo _wrap_TreeNodeFlags_OpenOnDoubleClick() {
 intgo _wrap_TreeNodeFlags_OpenOnArrow() {
   ImGuiTreeNodeFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiTreeNodeFlags_OpenOnArrow;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11796,11 +12022,11 @@ intgo _wrap_TreeNodeFlags_OpenOnArrow() {
 intgo _wrap_TreeNodeFlags_Leaf() {
   ImGuiTreeNodeFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiTreeNodeFlags_Leaf;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11808,11 +12034,11 @@ intgo _wrap_TreeNodeFlags_Leaf() {
 intgo _wrap_TreeNodeFlags_Bullet() {
   ImGuiTreeNodeFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiTreeNodeFlags_Bullet;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11820,11 +12046,11 @@ intgo _wrap_TreeNodeFlags_Bullet() {
 intgo _wrap_TreeNodeFlags_FramePadding() {
   ImGuiTreeNodeFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiTreeNodeFlags_FramePadding;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11832,11 +12058,11 @@ intgo _wrap_TreeNodeFlags_FramePadding() {
 intgo _wrap_TreeNodeFlags_NavLeftJumpsBackHere() {
   ImGuiTreeNodeFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiTreeNodeFlags_NavLeftJumpsBackHere;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11844,11 +12070,11 @@ intgo _wrap_TreeNodeFlags_NavLeftJumpsBackHere() {
 intgo _wrap_TreeNodeFlags_CollapsingHeader() {
   ImGuiTreeNodeFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiTreeNodeFlags_CollapsingHeader;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11856,11 +12082,11 @@ intgo _wrap_TreeNodeFlags_CollapsingHeader() {
 intgo _wrap_SelectableFlags_None() {
   ImGuiSelectableFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiSelectableFlags_None;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11868,11 +12094,11 @@ intgo _wrap_SelectableFlags_None() {
 intgo _wrap_SelectableFlags_DontClosePopups() {
   ImGuiSelectableFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiSelectableFlags_DontClosePopups;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11880,11 +12106,11 @@ intgo _wrap_SelectableFlags_DontClosePopups() {
 intgo _wrap_SelectableFlags_SpanAllColumns() {
   ImGuiSelectableFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiSelectableFlags_SpanAllColumns;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11892,11 +12118,11 @@ intgo _wrap_SelectableFlags_SpanAllColumns() {
 intgo _wrap_SelectableFlags_AllowDoubleClick() {
   ImGuiSelectableFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiSelectableFlags_AllowDoubleClick;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11904,11 +12130,11 @@ intgo _wrap_SelectableFlags_AllowDoubleClick() {
 intgo _wrap_SelectableFlags_Disabled() {
   ImGuiSelectableFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiSelectableFlags_Disabled;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11916,11 +12142,11 @@ intgo _wrap_SelectableFlags_Disabled() {
 intgo _wrap_ComboFlags_None() {
   ImGuiComboFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiComboFlags_None;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11928,11 +12154,11 @@ intgo _wrap_ComboFlags_None() {
 intgo _wrap_ComboFlags_PopupAlignLeft() {
   ImGuiComboFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiComboFlags_PopupAlignLeft;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11940,11 +12166,11 @@ intgo _wrap_ComboFlags_PopupAlignLeft() {
 intgo _wrap_ComboFlags_HeightSmall() {
   ImGuiComboFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiComboFlags_HeightSmall;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11952,11 +12178,11 @@ intgo _wrap_ComboFlags_HeightSmall() {
 intgo _wrap_ComboFlags_HeightRegular() {
   ImGuiComboFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiComboFlags_HeightRegular;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11964,11 +12190,11 @@ intgo _wrap_ComboFlags_HeightRegular() {
 intgo _wrap_ComboFlags_HeightLarge() {
   ImGuiComboFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiComboFlags_HeightLarge;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11976,11 +12202,11 @@ intgo _wrap_ComboFlags_HeightLarge() {
 intgo _wrap_ComboFlags_HeightLargest() {
   ImGuiComboFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiComboFlags_HeightLargest;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -11988,11 +12214,11 @@ intgo _wrap_ComboFlags_HeightLargest() {
 intgo _wrap_ComboFlags_NoArrowButton() {
   ImGuiComboFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiComboFlags_NoArrowButton;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12000,11 +12226,11 @@ intgo _wrap_ComboFlags_NoArrowButton() {
 intgo _wrap_ComboFlags_NoPreview() {
   ImGuiComboFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiComboFlags_NoPreview;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12012,11 +12238,203 @@ intgo _wrap_ComboFlags_NoPreview() {
 intgo _wrap_ComboFlags_HeightMask_() {
   ImGuiComboFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiComboFlags_HeightMask_;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_TabBarFlags_None() {
+  ImGuiTabBarFlags_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiTabBarFlags_None;
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_TabBarFlags_Reorderable() {
+  ImGuiTabBarFlags_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiTabBarFlags_Reorderable;
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_TabBarFlags_AutoSelectNewTabs() {
+  ImGuiTabBarFlags_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiTabBarFlags_AutoSelectNewTabs;
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_TabBarFlags_TabListPopupButton() {
+  ImGuiTabBarFlags_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiTabBarFlags_TabListPopupButton;
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_TabBarFlags_NoCloseWithMiddleMouseButton() {
+  ImGuiTabBarFlags_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiTabBarFlags_NoCloseWithMiddleMouseButton;
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_TabBarFlags_NoTabListScrollingButtons() {
+  ImGuiTabBarFlags_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiTabBarFlags_NoTabListScrollingButtons;
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_TabBarFlags_NoTooltip() {
+  ImGuiTabBarFlags_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiTabBarFlags_NoTooltip;
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_TabBarFlags_FittingPolicyResizeDown() {
+  ImGuiTabBarFlags_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiTabBarFlags_FittingPolicyResizeDown;
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_TabBarFlags_FittingPolicyScroll() {
+  ImGuiTabBarFlags_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiTabBarFlags_FittingPolicyScroll;
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_TabBarFlags_FittingPolicyMask_() {
+  ImGuiTabBarFlags_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiTabBarFlags_FittingPolicyMask_;
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_TabBarFlags_FittingPolicyDefault_() {
+  ImGuiTabBarFlags_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiTabBarFlags_FittingPolicyDefault_;
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_TabItemFlags_None() {
+  ImGuiTabItemFlags_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiTabItemFlags_None;
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_TabItemFlags_UnsavedDocument() {
+  ImGuiTabItemFlags_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiTabItemFlags_UnsavedDocument;
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_TabItemFlags_SetSelected() {
+  ImGuiTabItemFlags_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiTabItemFlags_SetSelected;
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_TabItemFlags_NoCloseWithMiddleMouseButton() {
+  ImGuiTabItemFlags_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiTabItemFlags_NoCloseWithMiddleMouseButton;
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_TabItemFlags_NoPushId() {
+  ImGuiTabItemFlags_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiTabItemFlags_NoPushId;
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12024,11 +12442,11 @@ intgo _wrap_ComboFlags_HeightMask_() {
 intgo _wrap_FocusedFlags_None() {
   ImGuiFocusedFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiFocusedFlags_None;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12036,11 +12454,11 @@ intgo _wrap_FocusedFlags_None() {
 intgo _wrap_FocusedFlags_ChildWindows() {
   ImGuiFocusedFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiFocusedFlags_ChildWindows;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12048,11 +12466,11 @@ intgo _wrap_FocusedFlags_ChildWindows() {
 intgo _wrap_FocusedFlags_RootWindow() {
   ImGuiFocusedFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiFocusedFlags_RootWindow;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12060,11 +12478,11 @@ intgo _wrap_FocusedFlags_RootWindow() {
 intgo _wrap_FocusedFlags_AnyWindow() {
   ImGuiFocusedFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiFocusedFlags_AnyWindow;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12072,11 +12490,11 @@ intgo _wrap_FocusedFlags_AnyWindow() {
 intgo _wrap_FocusedFlags_RootAndChildWindows() {
   ImGuiFocusedFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiFocusedFlags_RootAndChildWindows;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12084,11 +12502,11 @@ intgo _wrap_FocusedFlags_RootAndChildWindows() {
 intgo _wrap_HoveredFlags_None() {
   ImGuiHoveredFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiHoveredFlags_None;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12096,11 +12514,11 @@ intgo _wrap_HoveredFlags_None() {
 intgo _wrap_HoveredFlags_ChildWindows() {
   ImGuiHoveredFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiHoveredFlags_ChildWindows;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12108,11 +12526,11 @@ intgo _wrap_HoveredFlags_ChildWindows() {
 intgo _wrap_HoveredFlags_RootWindow() {
   ImGuiHoveredFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiHoveredFlags_RootWindow;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12120,11 +12538,11 @@ intgo _wrap_HoveredFlags_RootWindow() {
 intgo _wrap_HoveredFlags_AnyWindow() {
   ImGuiHoveredFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiHoveredFlags_AnyWindow;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12132,11 +12550,11 @@ intgo _wrap_HoveredFlags_AnyWindow() {
 intgo _wrap_HoveredFlags_AllowWhenBlockedByPopup() {
   ImGuiHoveredFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiHoveredFlags_AllowWhenBlockedByPopup;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12144,11 +12562,11 @@ intgo _wrap_HoveredFlags_AllowWhenBlockedByPopup() {
 intgo _wrap_HoveredFlags_AllowWhenBlockedByActiveItem() {
   ImGuiHoveredFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiHoveredFlags_AllowWhenBlockedByActiveItem;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12156,11 +12574,11 @@ intgo _wrap_HoveredFlags_AllowWhenBlockedByActiveItem() {
 intgo _wrap_HoveredFlags_AllowWhenOverlapped() {
   ImGuiHoveredFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiHoveredFlags_AllowWhenOverlapped;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12168,11 +12586,11 @@ intgo _wrap_HoveredFlags_AllowWhenOverlapped() {
 intgo _wrap_HoveredFlags_AllowWhenDisabled() {
   ImGuiHoveredFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiHoveredFlags_AllowWhenDisabled;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12180,11 +12598,11 @@ intgo _wrap_HoveredFlags_AllowWhenDisabled() {
 intgo _wrap_HoveredFlags_RectOnly() {
   ImGuiHoveredFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiHoveredFlags_RectOnly;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12192,11 +12610,11 @@ intgo _wrap_HoveredFlags_RectOnly() {
 intgo _wrap_HoveredFlags_RootAndChildWindows() {
   ImGuiHoveredFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiHoveredFlags_RootAndChildWindows;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12204,11 +12622,11 @@ intgo _wrap_HoveredFlags_RootAndChildWindows() {
 intgo _wrap_DragDropFlags_None() {
   ImGuiDragDropFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiDragDropFlags_None;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12216,11 +12634,11 @@ intgo _wrap_DragDropFlags_None() {
 intgo _wrap_DragDropFlags_SourceNoPreviewTooltip() {
   ImGuiDragDropFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiDragDropFlags_SourceNoPreviewTooltip;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12228,11 +12646,11 @@ intgo _wrap_DragDropFlags_SourceNoPreviewTooltip() {
 intgo _wrap_DragDropFlags_SourceNoDisableHover() {
   ImGuiDragDropFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiDragDropFlags_SourceNoDisableHover;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12240,11 +12658,11 @@ intgo _wrap_DragDropFlags_SourceNoDisableHover() {
 intgo _wrap_DragDropFlags_SourceNoHoldToOpenOthers() {
   ImGuiDragDropFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiDragDropFlags_SourceNoHoldToOpenOthers;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12252,11 +12670,11 @@ intgo _wrap_DragDropFlags_SourceNoHoldToOpenOthers() {
 intgo _wrap_DragDropFlags_SourceAllowNullID() {
   ImGuiDragDropFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiDragDropFlags_SourceAllowNullID;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12264,11 +12682,11 @@ intgo _wrap_DragDropFlags_SourceAllowNullID() {
 intgo _wrap_DragDropFlags_SourceExtern() {
   ImGuiDragDropFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiDragDropFlags_SourceExtern;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12276,11 +12694,11 @@ intgo _wrap_DragDropFlags_SourceExtern() {
 intgo _wrap_DragDropFlags_SourceAutoExpirePayload() {
   ImGuiDragDropFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiDragDropFlags_SourceAutoExpirePayload;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12288,11 +12706,11 @@ intgo _wrap_DragDropFlags_SourceAutoExpirePayload() {
 intgo _wrap_DragDropFlags_AcceptBeforeDelivery() {
   ImGuiDragDropFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiDragDropFlags_AcceptBeforeDelivery;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12300,11 +12718,11 @@ intgo _wrap_DragDropFlags_AcceptBeforeDelivery() {
 intgo _wrap_DragDropFlags_AcceptNoDrawDefaultRect() {
   ImGuiDragDropFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiDragDropFlags_AcceptNoDrawDefaultRect;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12312,11 +12730,11 @@ intgo _wrap_DragDropFlags_AcceptNoDrawDefaultRect() {
 intgo _wrap_DragDropFlags_AcceptNoPreviewTooltip() {
   ImGuiDragDropFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiDragDropFlags_AcceptNoPreviewTooltip;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12324,11 +12742,11 @@ intgo _wrap_DragDropFlags_AcceptNoPreviewTooltip() {
 intgo _wrap_DragDropFlags_AcceptPeekOnly() {
   ImGuiDragDropFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiDragDropFlags_AcceptPeekOnly;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12336,11 +12754,11 @@ intgo _wrap_DragDropFlags_AcceptPeekOnly() {
 intgo _wrap_DataType_S32() {
   ImGuiDataType_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiDataType_S32;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12348,11 +12766,11 @@ intgo _wrap_DataType_S32() {
 intgo _wrap_DataType_U32() {
   ImGuiDataType_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiDataType_U32;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12360,11 +12778,11 @@ intgo _wrap_DataType_U32() {
 intgo _wrap_DataType_S64() {
   ImGuiDataType_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiDataType_S64;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12372,11 +12790,11 @@ intgo _wrap_DataType_S64() {
 intgo _wrap_DataType_U64() {
   ImGuiDataType_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiDataType_U64;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12384,11 +12802,11 @@ intgo _wrap_DataType_U64() {
 intgo _wrap_DataType_Float() {
   ImGuiDataType_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiDataType_Float;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12396,11 +12814,11 @@ intgo _wrap_DataType_Float() {
 intgo _wrap_DataType_Double() {
   ImGuiDataType_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiDataType_Double;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12408,11 +12826,11 @@ intgo _wrap_DataType_Double() {
 intgo _wrap_DataType_COUNT() {
   ImGuiDataType_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiDataType_COUNT;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12420,11 +12838,11 @@ intgo _wrap_DataType_COUNT() {
 intgo _wrap_Dir_None() {
   ImGuiDir_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiDir_None;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12432,11 +12850,11 @@ intgo _wrap_Dir_None() {
 intgo _wrap_Dir_Left() {
   ImGuiDir_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiDir_Left;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12444,11 +12862,11 @@ intgo _wrap_Dir_Left() {
 intgo _wrap_Dir_Right() {
   ImGuiDir_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiDir_Right;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12456,11 +12874,11 @@ intgo _wrap_Dir_Right() {
 intgo _wrap_Dir_Up() {
   ImGuiDir_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiDir_Up;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12468,11 +12886,11 @@ intgo _wrap_Dir_Up() {
 intgo _wrap_Dir_Down() {
   ImGuiDir_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiDir_Down;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12480,11 +12898,11 @@ intgo _wrap_Dir_Down() {
 intgo _wrap_Dir_COUNT() {
   ImGuiDir_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiDir_COUNT;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12492,11 +12910,11 @@ intgo _wrap_Dir_COUNT() {
 intgo _wrap_Key_Tab() {
   ImGuiKey_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiKey_Tab;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12504,11 +12922,11 @@ intgo _wrap_Key_Tab() {
 intgo _wrap_Key_LeftArrow() {
   ImGuiKey_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiKey_LeftArrow;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12516,11 +12934,11 @@ intgo _wrap_Key_LeftArrow() {
 intgo _wrap_Key_RightArrow() {
   ImGuiKey_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiKey_RightArrow;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12528,11 +12946,11 @@ intgo _wrap_Key_RightArrow() {
 intgo _wrap_Key_UpArrow() {
   ImGuiKey_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiKey_UpArrow;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12540,11 +12958,11 @@ intgo _wrap_Key_UpArrow() {
 intgo _wrap_Key_DownArrow() {
   ImGuiKey_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiKey_DownArrow;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12552,11 +12970,11 @@ intgo _wrap_Key_DownArrow() {
 intgo _wrap_Key_PageUp() {
   ImGuiKey_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiKey_PageUp;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12564,11 +12982,11 @@ intgo _wrap_Key_PageUp() {
 intgo _wrap_Key_PageDown() {
   ImGuiKey_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiKey_PageDown;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12576,11 +12994,11 @@ intgo _wrap_Key_PageDown() {
 intgo _wrap_Key_Home() {
   ImGuiKey_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiKey_Home;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12588,11 +13006,11 @@ intgo _wrap_Key_Home() {
 intgo _wrap_Key_End() {
   ImGuiKey_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiKey_End;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12600,11 +13018,11 @@ intgo _wrap_Key_End() {
 intgo _wrap_Key_Insert() {
   ImGuiKey_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiKey_Insert;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12612,11 +13030,11 @@ intgo _wrap_Key_Insert() {
 intgo _wrap_Key_Delete() {
   ImGuiKey_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiKey_Delete;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12624,11 +13042,11 @@ intgo _wrap_Key_Delete() {
 intgo _wrap_Key_Backspace() {
   ImGuiKey_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiKey_Backspace;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12636,11 +13054,11 @@ intgo _wrap_Key_Backspace() {
 intgo _wrap_Key_Space() {
   ImGuiKey_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiKey_Space;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12648,11 +13066,11 @@ intgo _wrap_Key_Space() {
 intgo _wrap_Key_Enter() {
   ImGuiKey_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiKey_Enter;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12660,11 +13078,11 @@ intgo _wrap_Key_Enter() {
 intgo _wrap_Key_Escape() {
   ImGuiKey_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiKey_Escape;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12672,11 +13090,11 @@ intgo _wrap_Key_Escape() {
 intgo _wrap_Key_A() {
   ImGuiKey_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiKey_A;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12684,11 +13102,11 @@ intgo _wrap_Key_A() {
 intgo _wrap_Key_C() {
   ImGuiKey_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiKey_C;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12696,11 +13114,11 @@ intgo _wrap_Key_C() {
 intgo _wrap_Key_V() {
   ImGuiKey_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiKey_V;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12708,11 +13126,11 @@ intgo _wrap_Key_V() {
 intgo _wrap_Key_X() {
   ImGuiKey_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiKey_X;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12720,11 +13138,11 @@ intgo _wrap_Key_X() {
 intgo _wrap_Key_Y() {
   ImGuiKey_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiKey_Y;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12732,11 +13150,11 @@ intgo _wrap_Key_Y() {
 intgo _wrap_Key_Z() {
   ImGuiKey_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiKey_Z;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12744,11 +13162,11 @@ intgo _wrap_Key_Z() {
 intgo _wrap_Key_COUNT() {
   ImGuiKey_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiKey_COUNT;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12756,11 +13174,11 @@ intgo _wrap_Key_COUNT() {
 intgo _wrap_NavInput_Activate() {
   ImGuiNavInput_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiNavInput_Activate;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12768,11 +13186,11 @@ intgo _wrap_NavInput_Activate() {
 intgo _wrap_NavInput_Cancel() {
   ImGuiNavInput_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiNavInput_Cancel;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12780,11 +13198,11 @@ intgo _wrap_NavInput_Cancel() {
 intgo _wrap_NavInput_Input() {
   ImGuiNavInput_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiNavInput_Input;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12792,11 +13210,11 @@ intgo _wrap_NavInput_Input() {
 intgo _wrap_NavInput_Menu() {
   ImGuiNavInput_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiNavInput_Menu;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12804,11 +13222,11 @@ intgo _wrap_NavInput_Menu() {
 intgo _wrap_NavInput_DpadLeft() {
   ImGuiNavInput_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiNavInput_DpadLeft;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12816,11 +13234,11 @@ intgo _wrap_NavInput_DpadLeft() {
 intgo _wrap_NavInput_DpadRight() {
   ImGuiNavInput_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiNavInput_DpadRight;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12828,11 +13246,11 @@ intgo _wrap_NavInput_DpadRight() {
 intgo _wrap_NavInput_DpadUp() {
   ImGuiNavInput_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiNavInput_DpadUp;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12840,11 +13258,11 @@ intgo _wrap_NavInput_DpadUp() {
 intgo _wrap_NavInput_DpadDown() {
   ImGuiNavInput_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiNavInput_DpadDown;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12852,11 +13270,11 @@ intgo _wrap_NavInput_DpadDown() {
 intgo _wrap_NavInput_LStickLeft() {
   ImGuiNavInput_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiNavInput_LStickLeft;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12864,11 +13282,11 @@ intgo _wrap_NavInput_LStickLeft() {
 intgo _wrap_NavInput_LStickRight() {
   ImGuiNavInput_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiNavInput_LStickRight;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12876,11 +13294,11 @@ intgo _wrap_NavInput_LStickRight() {
 intgo _wrap_NavInput_LStickUp() {
   ImGuiNavInput_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiNavInput_LStickUp;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12888,11 +13306,11 @@ intgo _wrap_NavInput_LStickUp() {
 intgo _wrap_NavInput_LStickDown() {
   ImGuiNavInput_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiNavInput_LStickDown;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12900,11 +13318,11 @@ intgo _wrap_NavInput_LStickDown() {
 intgo _wrap_NavInput_FocusPrev() {
   ImGuiNavInput_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiNavInput_FocusPrev;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12912,11 +13330,11 @@ intgo _wrap_NavInput_FocusPrev() {
 intgo _wrap_NavInput_FocusNext() {
   ImGuiNavInput_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiNavInput_FocusNext;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12924,11 +13342,11 @@ intgo _wrap_NavInput_FocusNext() {
 intgo _wrap_NavInput_TweakSlow() {
   ImGuiNavInput_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiNavInput_TweakSlow;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12936,11 +13354,11 @@ intgo _wrap_NavInput_TweakSlow() {
 intgo _wrap_NavInput_TweakFast() {
   ImGuiNavInput_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiNavInput_TweakFast;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12948,11 +13366,11 @@ intgo _wrap_NavInput_TweakFast() {
 intgo _wrap_NavInput_KeyMenu_() {
   ImGuiNavInput_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiNavInput_KeyMenu_;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12960,11 +13378,11 @@ intgo _wrap_NavInput_KeyMenu_() {
 intgo _wrap_NavInput_KeyLeft_() {
   ImGuiNavInput_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiNavInput_KeyLeft_;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12972,11 +13390,11 @@ intgo _wrap_NavInput_KeyLeft_() {
 intgo _wrap_NavInput_KeyRight_() {
   ImGuiNavInput_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiNavInput_KeyRight_;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12984,11 +13402,11 @@ intgo _wrap_NavInput_KeyRight_() {
 intgo _wrap_NavInput_KeyUp_() {
   ImGuiNavInput_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiNavInput_KeyUp_;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -12996,11 +13414,11 @@ intgo _wrap_NavInput_KeyUp_() {
 intgo _wrap_NavInput_KeyDown_() {
   ImGuiNavInput_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiNavInput_KeyDown_;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13008,11 +13426,11 @@ intgo _wrap_NavInput_KeyDown_() {
 intgo _wrap_NavInput_COUNT() {
   ImGuiNavInput_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiNavInput_COUNT;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13020,11 +13438,23 @@ intgo _wrap_NavInput_COUNT() {
 intgo _wrap_NavInput_InternalStart_() {
   ImGuiNavInput_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiNavInput_InternalStart_;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_ConfigFlags_None() {
+  ImGuiConfigFlags_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiConfigFlags_None;
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13032,11 +13462,11 @@ intgo _wrap_NavInput_InternalStart_() {
 intgo _wrap_ConfigFlags_NavEnableKeyboard() {
   ImGuiConfigFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiConfigFlags_NavEnableKeyboard;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13044,11 +13474,11 @@ intgo _wrap_ConfigFlags_NavEnableKeyboard() {
 intgo _wrap_ConfigFlags_NavEnableGamepad() {
   ImGuiConfigFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiConfigFlags_NavEnableGamepad;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13056,11 +13486,11 @@ intgo _wrap_ConfigFlags_NavEnableGamepad() {
 intgo _wrap_ConfigFlags_NavEnableSetMousePos() {
   ImGuiConfigFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiConfigFlags_NavEnableSetMousePos;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13068,11 +13498,11 @@ intgo _wrap_ConfigFlags_NavEnableSetMousePos() {
 intgo _wrap_ConfigFlags_NavNoCaptureKeyboard() {
   ImGuiConfigFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiConfigFlags_NavNoCaptureKeyboard;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13080,11 +13510,11 @@ intgo _wrap_ConfigFlags_NavNoCaptureKeyboard() {
 intgo _wrap_ConfigFlags_NoMouse() {
   ImGuiConfigFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiConfigFlags_NoMouse;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13092,11 +13522,11 @@ intgo _wrap_ConfigFlags_NoMouse() {
 intgo _wrap_ConfigFlags_NoMouseCursorChange() {
   ImGuiConfigFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiConfigFlags_NoMouseCursorChange;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13104,11 +13534,11 @@ intgo _wrap_ConfigFlags_NoMouseCursorChange() {
 intgo _wrap_ConfigFlags_IsSRGB() {
   ImGuiConfigFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiConfigFlags_IsSRGB;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13116,11 +13546,23 @@ intgo _wrap_ConfigFlags_IsSRGB() {
 intgo _wrap_ConfigFlags_IsTouchScreen() {
   ImGuiConfigFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiConfigFlags_IsTouchScreen;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_BackendFlags_None() {
+  ImGuiBackendFlags_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiBackendFlags_None;
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13128,11 +13570,11 @@ intgo _wrap_ConfigFlags_IsTouchScreen() {
 intgo _wrap_BackendFlags_HasGamepad() {
   ImGuiBackendFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiBackendFlags_HasGamepad;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13140,11 +13582,11 @@ intgo _wrap_BackendFlags_HasGamepad() {
 intgo _wrap_BackendFlags_HasMouseCursors() {
   ImGuiBackendFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiBackendFlags_HasMouseCursors;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13152,11 +13594,11 @@ intgo _wrap_BackendFlags_HasMouseCursors() {
 intgo _wrap_BackendFlags_HasSetMousePos() {
   ImGuiBackendFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiBackendFlags_HasSetMousePos;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13164,11 +13606,11 @@ intgo _wrap_BackendFlags_HasSetMousePos() {
 intgo _wrap_Col_Text() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_Text;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13176,11 +13618,11 @@ intgo _wrap_Col_Text() {
 intgo _wrap_Col_TextDisabled() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_TextDisabled;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13188,11 +13630,11 @@ intgo _wrap_Col_TextDisabled() {
 intgo _wrap_Col_WindowBg() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_WindowBg;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13200,11 +13642,11 @@ intgo _wrap_Col_WindowBg() {
 intgo _wrap_Col_ChildBg() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_ChildBg;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13212,11 +13654,11 @@ intgo _wrap_Col_ChildBg() {
 intgo _wrap_Col_PopupBg() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_PopupBg;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13224,11 +13666,11 @@ intgo _wrap_Col_PopupBg() {
 intgo _wrap_Col_Border() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_Border;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13236,11 +13678,11 @@ intgo _wrap_Col_Border() {
 intgo _wrap_Col_BorderShadow() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_BorderShadow;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13248,11 +13690,11 @@ intgo _wrap_Col_BorderShadow() {
 intgo _wrap_Col_FrameBg() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_FrameBg;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13260,11 +13702,11 @@ intgo _wrap_Col_FrameBg() {
 intgo _wrap_Col_FrameBgHovered() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_FrameBgHovered;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13272,11 +13714,11 @@ intgo _wrap_Col_FrameBgHovered() {
 intgo _wrap_Col_FrameBgActive() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_FrameBgActive;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13284,11 +13726,11 @@ intgo _wrap_Col_FrameBgActive() {
 intgo _wrap_Col_TitleBg() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_TitleBg;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13296,11 +13738,11 @@ intgo _wrap_Col_TitleBg() {
 intgo _wrap_Col_TitleBgActive() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_TitleBgActive;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13308,11 +13750,11 @@ intgo _wrap_Col_TitleBgActive() {
 intgo _wrap_Col_TitleBgCollapsed() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_TitleBgCollapsed;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13320,11 +13762,11 @@ intgo _wrap_Col_TitleBgCollapsed() {
 intgo _wrap_Col_MenuBarBg() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_MenuBarBg;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13332,11 +13774,11 @@ intgo _wrap_Col_MenuBarBg() {
 intgo _wrap_Col_ScrollbarBg() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_ScrollbarBg;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13344,11 +13786,11 @@ intgo _wrap_Col_ScrollbarBg() {
 intgo _wrap_Col_ScrollbarGrab() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_ScrollbarGrab;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13356,11 +13798,11 @@ intgo _wrap_Col_ScrollbarGrab() {
 intgo _wrap_Col_ScrollbarGrabHovered() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_ScrollbarGrabHovered;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13368,11 +13810,11 @@ intgo _wrap_Col_ScrollbarGrabHovered() {
 intgo _wrap_Col_ScrollbarGrabActive() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_ScrollbarGrabActive;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13380,11 +13822,11 @@ intgo _wrap_Col_ScrollbarGrabActive() {
 intgo _wrap_Col_CheckMark() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_CheckMark;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13392,11 +13834,11 @@ intgo _wrap_Col_CheckMark() {
 intgo _wrap_Col_SliderGrab() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_SliderGrab;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13404,11 +13846,11 @@ intgo _wrap_Col_SliderGrab() {
 intgo _wrap_Col_SliderGrabActive() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_SliderGrabActive;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13416,11 +13858,11 @@ intgo _wrap_Col_SliderGrabActive() {
 intgo _wrap_Col_Button() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_Button;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13428,11 +13870,11 @@ intgo _wrap_Col_Button() {
 intgo _wrap_Col_ButtonHovered() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_ButtonHovered;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13440,11 +13882,11 @@ intgo _wrap_Col_ButtonHovered() {
 intgo _wrap_Col_ButtonActive() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_ButtonActive;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13452,11 +13894,11 @@ intgo _wrap_Col_ButtonActive() {
 intgo _wrap_Col_Header() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_Header;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13464,11 +13906,11 @@ intgo _wrap_Col_Header() {
 intgo _wrap_Col_HeaderHovered() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_HeaderHovered;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13476,11 +13918,11 @@ intgo _wrap_Col_HeaderHovered() {
 intgo _wrap_Col_HeaderActive() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_HeaderActive;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13488,11 +13930,11 @@ intgo _wrap_Col_HeaderActive() {
 intgo _wrap_Col_Separator() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_Separator;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13500,11 +13942,11 @@ intgo _wrap_Col_Separator() {
 intgo _wrap_Col_SeparatorHovered() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_SeparatorHovered;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13512,11 +13954,11 @@ intgo _wrap_Col_SeparatorHovered() {
 intgo _wrap_Col_SeparatorActive() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_SeparatorActive;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13524,11 +13966,11 @@ intgo _wrap_Col_SeparatorActive() {
 intgo _wrap_Col_ResizeGrip() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_ResizeGrip;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13536,11 +13978,11 @@ intgo _wrap_Col_ResizeGrip() {
 intgo _wrap_Col_ResizeGripHovered() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_ResizeGripHovered;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13548,11 +13990,71 @@ intgo _wrap_Col_ResizeGripHovered() {
 intgo _wrap_Col_ResizeGripActive() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_ResizeGripActive;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_Col_Tab() {
+  ImGuiCol_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiCol_Tab;
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_Col_TabHovered() {
+  ImGuiCol_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiCol_TabHovered;
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_Col_TabActive() {
+  ImGuiCol_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiCol_TabActive;
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_Col_TabUnfocused() {
+  ImGuiCol_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiCol_TabUnfocused;
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_Col_TabUnfocusedActive() {
+  ImGuiCol_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiCol_TabUnfocusedActive;
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13560,11 +14062,11 @@ intgo _wrap_Col_ResizeGripActive() {
 intgo _wrap_Col_PlotLines() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_PlotLines;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13572,11 +14074,11 @@ intgo _wrap_Col_PlotLines() {
 intgo _wrap_Col_PlotLinesHovered() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_PlotLinesHovered;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13584,11 +14086,11 @@ intgo _wrap_Col_PlotLinesHovered() {
 intgo _wrap_Col_PlotHistogram() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_PlotHistogram;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13596,11 +14098,11 @@ intgo _wrap_Col_PlotHistogram() {
 intgo _wrap_Col_PlotHistogramHovered() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_PlotHistogramHovered;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13608,11 +14110,11 @@ intgo _wrap_Col_PlotHistogramHovered() {
 intgo _wrap_Col_TextSelectedBg() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_TextSelectedBg;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13620,11 +14122,11 @@ intgo _wrap_Col_TextSelectedBg() {
 intgo _wrap_Col_DragDropTarget() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_DragDropTarget;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13632,11 +14134,11 @@ intgo _wrap_Col_DragDropTarget() {
 intgo _wrap_Col_NavHighlight() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_NavHighlight;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13644,11 +14146,11 @@ intgo _wrap_Col_NavHighlight() {
 intgo _wrap_Col_NavWindowingHighlight() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_NavWindowingHighlight;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13656,11 +14158,11 @@ intgo _wrap_Col_NavWindowingHighlight() {
 intgo _wrap_Col_NavWindowingDimBg() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_NavWindowingDimBg;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13668,11 +14170,11 @@ intgo _wrap_Col_NavWindowingDimBg() {
 intgo _wrap_Col_ModalWindowDimBg() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_ModalWindowDimBg;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13680,11 +14182,11 @@ intgo _wrap_Col_ModalWindowDimBg() {
 intgo _wrap_Col_COUNT() {
   ImGuiCol_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCol_COUNT;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13692,11 +14194,11 @@ intgo _wrap_Col_COUNT() {
 intgo _wrap_StyleVar_Alpha() {
   ImGuiStyleVar_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiStyleVar_Alpha;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13704,11 +14206,11 @@ intgo _wrap_StyleVar_Alpha() {
 intgo _wrap_StyleVar_WindowPadding() {
   ImGuiStyleVar_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiStyleVar_WindowPadding;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13716,11 +14218,11 @@ intgo _wrap_StyleVar_WindowPadding() {
 intgo _wrap_StyleVar_WindowRounding() {
   ImGuiStyleVar_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiStyleVar_WindowRounding;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13728,11 +14230,11 @@ intgo _wrap_StyleVar_WindowRounding() {
 intgo _wrap_StyleVar_WindowBorderSize() {
   ImGuiStyleVar_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiStyleVar_WindowBorderSize;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13740,11 +14242,11 @@ intgo _wrap_StyleVar_WindowBorderSize() {
 intgo _wrap_StyleVar_WindowMinSize() {
   ImGuiStyleVar_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiStyleVar_WindowMinSize;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13752,11 +14254,11 @@ intgo _wrap_StyleVar_WindowMinSize() {
 intgo _wrap_StyleVar_WindowTitleAlign() {
   ImGuiStyleVar_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiStyleVar_WindowTitleAlign;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13764,11 +14266,11 @@ intgo _wrap_StyleVar_WindowTitleAlign() {
 intgo _wrap_StyleVar_ChildRounding() {
   ImGuiStyleVar_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiStyleVar_ChildRounding;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13776,11 +14278,11 @@ intgo _wrap_StyleVar_ChildRounding() {
 intgo _wrap_StyleVar_ChildBorderSize() {
   ImGuiStyleVar_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiStyleVar_ChildBorderSize;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13788,11 +14290,11 @@ intgo _wrap_StyleVar_ChildBorderSize() {
 intgo _wrap_StyleVar_PopupRounding() {
   ImGuiStyleVar_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiStyleVar_PopupRounding;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13800,11 +14302,11 @@ intgo _wrap_StyleVar_PopupRounding() {
 intgo _wrap_StyleVar_PopupBorderSize() {
   ImGuiStyleVar_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiStyleVar_PopupBorderSize;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13812,11 +14314,11 @@ intgo _wrap_StyleVar_PopupBorderSize() {
 intgo _wrap_StyleVar_FramePadding() {
   ImGuiStyleVar_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiStyleVar_FramePadding;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13824,11 +14326,11 @@ intgo _wrap_StyleVar_FramePadding() {
 intgo _wrap_StyleVar_FrameRounding() {
   ImGuiStyleVar_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiStyleVar_FrameRounding;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13836,11 +14338,11 @@ intgo _wrap_StyleVar_FrameRounding() {
 intgo _wrap_StyleVar_FrameBorderSize() {
   ImGuiStyleVar_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiStyleVar_FrameBorderSize;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13848,11 +14350,11 @@ intgo _wrap_StyleVar_FrameBorderSize() {
 intgo _wrap_StyleVar_ItemSpacing() {
   ImGuiStyleVar_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiStyleVar_ItemSpacing;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13860,11 +14362,11 @@ intgo _wrap_StyleVar_ItemSpacing() {
 intgo _wrap_StyleVar_ItemInnerSpacing() {
   ImGuiStyleVar_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiStyleVar_ItemInnerSpacing;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13872,11 +14374,11 @@ intgo _wrap_StyleVar_ItemInnerSpacing() {
 intgo _wrap_StyleVar_IndentSpacing() {
   ImGuiStyleVar_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiStyleVar_IndentSpacing;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13884,11 +14386,11 @@ intgo _wrap_StyleVar_IndentSpacing() {
 intgo _wrap_StyleVar_ScrollbarSize() {
   ImGuiStyleVar_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiStyleVar_ScrollbarSize;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13896,11 +14398,11 @@ intgo _wrap_StyleVar_ScrollbarSize() {
 intgo _wrap_StyleVar_ScrollbarRounding() {
   ImGuiStyleVar_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiStyleVar_ScrollbarRounding;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13908,11 +14410,11 @@ intgo _wrap_StyleVar_ScrollbarRounding() {
 intgo _wrap_StyleVar_GrabMinSize() {
   ImGuiStyleVar_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiStyleVar_GrabMinSize;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13920,11 +14422,23 @@ intgo _wrap_StyleVar_GrabMinSize() {
 intgo _wrap_StyleVar_GrabRounding() {
   ImGuiStyleVar_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiStyleVar_GrabRounding;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_StyleVar_TabRounding() {
+  ImGuiStyleVar_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiStyleVar_TabRounding;
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13932,11 +14446,23 @@ intgo _wrap_StyleVar_GrabRounding() {
 intgo _wrap_StyleVar_ButtonTextAlign() {
   ImGuiStyleVar_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiStyleVar_ButtonTextAlign;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_StyleVar_SelectableTextAlign() {
+  ImGuiStyleVar_ result;
+  intgo _swig_go_result;
+
+
+  result = ImGuiStyleVar_SelectableTextAlign;
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13944,11 +14470,11 @@ intgo _wrap_StyleVar_ButtonTextAlign() {
 intgo _wrap_StyleVar_COUNT() {
   ImGuiStyleVar_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiStyleVar_COUNT;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13956,11 +14482,11 @@ intgo _wrap_StyleVar_COUNT() {
 intgo _wrap_ColorEditFlags_None() {
   ImGuiColorEditFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiColorEditFlags_None;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13968,11 +14494,11 @@ intgo _wrap_ColorEditFlags_None() {
 intgo _wrap_ColorEditFlags_NoAlpha() {
   ImGuiColorEditFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiColorEditFlags_NoAlpha;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13980,11 +14506,11 @@ intgo _wrap_ColorEditFlags_NoAlpha() {
 intgo _wrap_ColorEditFlags_NoPicker() {
   ImGuiColorEditFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiColorEditFlags_NoPicker;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -13992,11 +14518,11 @@ intgo _wrap_ColorEditFlags_NoPicker() {
 intgo _wrap_ColorEditFlags_NoOptions() {
   ImGuiColorEditFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiColorEditFlags_NoOptions;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14004,11 +14530,11 @@ intgo _wrap_ColorEditFlags_NoOptions() {
 intgo _wrap_ColorEditFlags_NoSmallPreview() {
   ImGuiColorEditFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiColorEditFlags_NoSmallPreview;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14016,11 +14542,11 @@ intgo _wrap_ColorEditFlags_NoSmallPreview() {
 intgo _wrap_ColorEditFlags_NoInputs() {
   ImGuiColorEditFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiColorEditFlags_NoInputs;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14028,11 +14554,11 @@ intgo _wrap_ColorEditFlags_NoInputs() {
 intgo _wrap_ColorEditFlags_NoTooltip() {
   ImGuiColorEditFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiColorEditFlags_NoTooltip;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14040,11 +14566,11 @@ intgo _wrap_ColorEditFlags_NoTooltip() {
 intgo _wrap_ColorEditFlags_NoLabel() {
   ImGuiColorEditFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiColorEditFlags_NoLabel;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14052,11 +14578,11 @@ intgo _wrap_ColorEditFlags_NoLabel() {
 intgo _wrap_ColorEditFlags_NoSidePreview() {
   ImGuiColorEditFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiColorEditFlags_NoSidePreview;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14064,11 +14590,11 @@ intgo _wrap_ColorEditFlags_NoSidePreview() {
 intgo _wrap_ColorEditFlags_NoDragDrop() {
   ImGuiColorEditFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiColorEditFlags_NoDragDrop;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14076,11 +14602,11 @@ intgo _wrap_ColorEditFlags_NoDragDrop() {
 intgo _wrap_ColorEditFlags_AlphaBar() {
   ImGuiColorEditFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiColorEditFlags_AlphaBar;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14088,11 +14614,11 @@ intgo _wrap_ColorEditFlags_AlphaBar() {
 intgo _wrap_ColorEditFlags_AlphaPreview() {
   ImGuiColorEditFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiColorEditFlags_AlphaPreview;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14100,11 +14626,11 @@ intgo _wrap_ColorEditFlags_AlphaPreview() {
 intgo _wrap_ColorEditFlags_AlphaPreviewHalf() {
   ImGuiColorEditFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiColorEditFlags_AlphaPreviewHalf;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14112,11 +14638,11 @@ intgo _wrap_ColorEditFlags_AlphaPreviewHalf() {
 intgo _wrap_ColorEditFlags_HDR() {
   ImGuiColorEditFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiColorEditFlags_HDR;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14124,11 +14650,11 @@ intgo _wrap_ColorEditFlags_HDR() {
 intgo _wrap_ColorEditFlags_RGB() {
   ImGuiColorEditFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiColorEditFlags_RGB;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14136,11 +14662,11 @@ intgo _wrap_ColorEditFlags_RGB() {
 intgo _wrap_ColorEditFlags_HSV() {
   ImGuiColorEditFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiColorEditFlags_HSV;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14148,11 +14674,11 @@ intgo _wrap_ColorEditFlags_HSV() {
 intgo _wrap_ColorEditFlags_HEX() {
   ImGuiColorEditFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiColorEditFlags_HEX;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14160,11 +14686,11 @@ intgo _wrap_ColorEditFlags_HEX() {
 intgo _wrap_ColorEditFlags_Uint8() {
   ImGuiColorEditFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiColorEditFlags_Uint8;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14172,11 +14698,11 @@ intgo _wrap_ColorEditFlags_Uint8() {
 intgo _wrap_ColorEditFlags_Float() {
   ImGuiColorEditFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiColorEditFlags_Float;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14184,11 +14710,11 @@ intgo _wrap_ColorEditFlags_Float() {
 intgo _wrap_ColorEditFlags_PickerHueBar() {
   ImGuiColorEditFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiColorEditFlags_PickerHueBar;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14196,11 +14722,11 @@ intgo _wrap_ColorEditFlags_PickerHueBar() {
 intgo _wrap_ColorEditFlags_PickerHueWheel() {
   ImGuiColorEditFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiColorEditFlags_PickerHueWheel;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14208,11 +14734,11 @@ intgo _wrap_ColorEditFlags_PickerHueWheel() {
 intgo _wrap_ColorEditFlags__InputsMask() {
   ImGuiColorEditFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiColorEditFlags__InputsMask;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14220,11 +14746,11 @@ intgo _wrap_ColorEditFlags__InputsMask() {
 intgo _wrap_ColorEditFlags__DataTypeMask() {
   ImGuiColorEditFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiColorEditFlags__DataTypeMask;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14232,11 +14758,11 @@ intgo _wrap_ColorEditFlags__DataTypeMask() {
 intgo _wrap_ColorEditFlags__PickerMask() {
   ImGuiColorEditFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiColorEditFlags__PickerMask;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14244,11 +14770,11 @@ intgo _wrap_ColorEditFlags__PickerMask() {
 intgo _wrap_ColorEditFlags__OptionsDefault() {
   ImGuiColorEditFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiColorEditFlags__OptionsDefault;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14256,11 +14782,11 @@ intgo _wrap_ColorEditFlags__OptionsDefault() {
 intgo _wrap_MouseCursor_None() {
   ImGuiMouseCursor_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiMouseCursor_None;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14268,11 +14794,11 @@ intgo _wrap_MouseCursor_None() {
 intgo _wrap_MouseCursor_Arrow() {
   ImGuiMouseCursor_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiMouseCursor_Arrow;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14280,11 +14806,11 @@ intgo _wrap_MouseCursor_Arrow() {
 intgo _wrap_MouseCursor_TextInput() {
   ImGuiMouseCursor_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiMouseCursor_TextInput;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14292,11 +14818,11 @@ intgo _wrap_MouseCursor_TextInput() {
 intgo _wrap_MouseCursor_ResizeAll() {
   ImGuiMouseCursor_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiMouseCursor_ResizeAll;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14304,11 +14830,11 @@ intgo _wrap_MouseCursor_ResizeAll() {
 intgo _wrap_MouseCursor_ResizeNS() {
   ImGuiMouseCursor_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiMouseCursor_ResizeNS;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14316,11 +14842,11 @@ intgo _wrap_MouseCursor_ResizeNS() {
 intgo _wrap_MouseCursor_ResizeEW() {
   ImGuiMouseCursor_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiMouseCursor_ResizeEW;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14328,11 +14854,11 @@ intgo _wrap_MouseCursor_ResizeEW() {
 intgo _wrap_MouseCursor_ResizeNESW() {
   ImGuiMouseCursor_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiMouseCursor_ResizeNESW;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14340,11 +14866,11 @@ intgo _wrap_MouseCursor_ResizeNESW() {
 intgo _wrap_MouseCursor_ResizeNWSE() {
   ImGuiMouseCursor_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiMouseCursor_ResizeNWSE;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14352,11 +14878,11 @@ intgo _wrap_MouseCursor_ResizeNWSE() {
 intgo _wrap_MouseCursor_Hand() {
   ImGuiMouseCursor_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiMouseCursor_Hand;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14364,11 +14890,11 @@ intgo _wrap_MouseCursor_Hand() {
 intgo _wrap_MouseCursor_COUNT() {
   ImGuiMouseCursor_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiMouseCursor_COUNT;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14376,11 +14902,11 @@ intgo _wrap_MouseCursor_COUNT() {
 intgo _wrap_Cond_Always() {
   ImGuiCond_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCond_Always;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14388,11 +14914,11 @@ intgo _wrap_Cond_Always() {
 intgo _wrap_Cond_Once() {
   ImGuiCond_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCond_Once;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14400,11 +14926,11 @@ intgo _wrap_Cond_Once() {
 intgo _wrap_Cond_FirstUseEver() {
   ImGuiCond_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCond_FirstUseEver;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14412,11 +14938,11 @@ intgo _wrap_Cond_FirstUseEver() {
 intgo _wrap_Cond_Appearing() {
   ImGuiCond_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImGuiCond_Appearing;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -14424,12 +14950,12 @@ intgo _wrap_Cond_Appearing() {
 void _wrap_Style_Alpha_set(ImGuiStyle *_swig_go_0, float _swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->Alpha = arg2;
-  
+
 }
 
 
@@ -14437,11 +14963,11 @@ float _wrap_Style_Alpha_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (float) ((arg1)->Alpha);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -14449,12 +14975,12 @@ float _wrap_Style_Alpha_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_WindowPadding_set(ImGuiStyle *_swig_go_0, ImVec2 *_swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   ImVec2 *arg2 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   if (arg1) (arg1)->WindowPadding = *arg2;
-  
+
 }
 
 
@@ -14462,11 +14988,11 @@ ImVec2 *_wrap_Style_WindowPadding_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   ImVec2 *result = 0 ;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (ImVec2 *)& ((arg1)->WindowPadding);
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
   return _swig_go_result;
 }
 
@@ -14474,12 +15000,12 @@ ImVec2 *_wrap_Style_WindowPadding_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_WindowRounding_set(ImGuiStyle *_swig_go_0, float _swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->WindowRounding = arg2;
-  
+
 }
 
 
@@ -14487,11 +15013,11 @@ float _wrap_Style_WindowRounding_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (float) ((arg1)->WindowRounding);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -14499,12 +15025,12 @@ float _wrap_Style_WindowRounding_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_WindowBorderSize_set(ImGuiStyle *_swig_go_0, float _swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->WindowBorderSize = arg2;
-  
+
 }
 
 
@@ -14512,11 +15038,11 @@ float _wrap_Style_WindowBorderSize_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (float) ((arg1)->WindowBorderSize);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -14524,12 +15050,12 @@ float _wrap_Style_WindowBorderSize_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_WindowMinSize_set(ImGuiStyle *_swig_go_0, ImVec2 *_swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   ImVec2 *arg2 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   if (arg1) (arg1)->WindowMinSize = *arg2;
-  
+
 }
 
 
@@ -14537,11 +15063,11 @@ ImVec2 *_wrap_Style_WindowMinSize_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   ImVec2 *result = 0 ;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (ImVec2 *)& ((arg1)->WindowMinSize);
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
   return _swig_go_result;
 }
 
@@ -14549,12 +15075,12 @@ ImVec2 *_wrap_Style_WindowMinSize_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_WindowTitleAlign_set(ImGuiStyle *_swig_go_0, ImVec2 *_swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   ImVec2 *arg2 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   if (arg1) (arg1)->WindowTitleAlign = *arg2;
-  
+
 }
 
 
@@ -14562,11 +15088,11 @@ ImVec2 *_wrap_Style_WindowTitleAlign_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   ImVec2 *result = 0 ;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (ImVec2 *)& ((arg1)->WindowTitleAlign);
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
   return _swig_go_result;
 }
 
@@ -14574,12 +15100,12 @@ ImVec2 *_wrap_Style_WindowTitleAlign_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_ChildRounding_set(ImGuiStyle *_swig_go_0, float _swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->ChildRounding = arg2;
-  
+
 }
 
 
@@ -14587,11 +15113,11 @@ float _wrap_Style_ChildRounding_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (float) ((arg1)->ChildRounding);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -14599,12 +15125,12 @@ float _wrap_Style_ChildRounding_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_ChildBorderSize_set(ImGuiStyle *_swig_go_0, float _swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->ChildBorderSize = arg2;
-  
+
 }
 
 
@@ -14612,11 +15138,11 @@ float _wrap_Style_ChildBorderSize_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (float) ((arg1)->ChildBorderSize);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -14624,12 +15150,12 @@ float _wrap_Style_ChildBorderSize_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_PopupRounding_set(ImGuiStyle *_swig_go_0, float _swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->PopupRounding = arg2;
-  
+
 }
 
 
@@ -14637,11 +15163,11 @@ float _wrap_Style_PopupRounding_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (float) ((arg1)->PopupRounding);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -14649,12 +15175,12 @@ float _wrap_Style_PopupRounding_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_PopupBorderSize_set(ImGuiStyle *_swig_go_0, float _swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->PopupBorderSize = arg2;
-  
+
 }
 
 
@@ -14662,11 +15188,11 @@ float _wrap_Style_PopupBorderSize_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (float) ((arg1)->PopupBorderSize);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -14674,12 +15200,12 @@ float _wrap_Style_PopupBorderSize_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_FramePadding_set(ImGuiStyle *_swig_go_0, ImVec2 *_swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   ImVec2 *arg2 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   if (arg1) (arg1)->FramePadding = *arg2;
-  
+
 }
 
 
@@ -14687,11 +15213,11 @@ ImVec2 *_wrap_Style_FramePadding_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   ImVec2 *result = 0 ;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (ImVec2 *)& ((arg1)->FramePadding);
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
   return _swig_go_result;
 }
 
@@ -14699,12 +15225,12 @@ ImVec2 *_wrap_Style_FramePadding_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_FrameRounding_set(ImGuiStyle *_swig_go_0, float _swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->FrameRounding = arg2;
-  
+
 }
 
 
@@ -14712,11 +15238,11 @@ float _wrap_Style_FrameRounding_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (float) ((arg1)->FrameRounding);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -14724,12 +15250,12 @@ float _wrap_Style_FrameRounding_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_FrameBorderSize_set(ImGuiStyle *_swig_go_0, float _swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->FrameBorderSize = arg2;
-  
+
 }
 
 
@@ -14737,11 +15263,11 @@ float _wrap_Style_FrameBorderSize_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (float) ((arg1)->FrameBorderSize);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -14749,12 +15275,12 @@ float _wrap_Style_FrameBorderSize_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_ItemSpacing_set(ImGuiStyle *_swig_go_0, ImVec2 *_swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   ImVec2 *arg2 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   if (arg1) (arg1)->ItemSpacing = *arg2;
-  
+
 }
 
 
@@ -14762,11 +15288,11 @@ ImVec2 *_wrap_Style_ItemSpacing_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   ImVec2 *result = 0 ;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (ImVec2 *)& ((arg1)->ItemSpacing);
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
   return _swig_go_result;
 }
 
@@ -14774,12 +15300,12 @@ ImVec2 *_wrap_Style_ItemSpacing_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_ItemInnerSpacing_set(ImGuiStyle *_swig_go_0, ImVec2 *_swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   ImVec2 *arg2 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   if (arg1) (arg1)->ItemInnerSpacing = *arg2;
-  
+
 }
 
 
@@ -14787,11 +15313,11 @@ ImVec2 *_wrap_Style_ItemInnerSpacing_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   ImVec2 *result = 0 ;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (ImVec2 *)& ((arg1)->ItemInnerSpacing);
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
   return _swig_go_result;
 }
 
@@ -14799,12 +15325,12 @@ ImVec2 *_wrap_Style_ItemInnerSpacing_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_TouchExtraPadding_set(ImGuiStyle *_swig_go_0, ImVec2 *_swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   ImVec2 *arg2 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   if (arg1) (arg1)->TouchExtraPadding = *arg2;
-  
+
 }
 
 
@@ -14812,11 +15338,11 @@ ImVec2 *_wrap_Style_TouchExtraPadding_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   ImVec2 *result = 0 ;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (ImVec2 *)& ((arg1)->TouchExtraPadding);
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
   return _swig_go_result;
 }
 
@@ -14824,12 +15350,12 @@ ImVec2 *_wrap_Style_TouchExtraPadding_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_IndentSpacing_set(ImGuiStyle *_swig_go_0, float _swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->IndentSpacing = arg2;
-  
+
 }
 
 
@@ -14837,11 +15363,11 @@ float _wrap_Style_IndentSpacing_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (float) ((arg1)->IndentSpacing);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -14849,12 +15375,12 @@ float _wrap_Style_IndentSpacing_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_ColumnsMinSpacing_set(ImGuiStyle *_swig_go_0, float _swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->ColumnsMinSpacing = arg2;
-  
+
 }
 
 
@@ -14862,11 +15388,11 @@ float _wrap_Style_ColumnsMinSpacing_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (float) ((arg1)->ColumnsMinSpacing);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -14874,12 +15400,12 @@ float _wrap_Style_ColumnsMinSpacing_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_ScrollbarSize_set(ImGuiStyle *_swig_go_0, float _swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->ScrollbarSize = arg2;
-  
+
 }
 
 
@@ -14887,11 +15413,11 @@ float _wrap_Style_ScrollbarSize_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (float) ((arg1)->ScrollbarSize);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -14899,12 +15425,12 @@ float _wrap_Style_ScrollbarSize_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_ScrollbarRounding_set(ImGuiStyle *_swig_go_0, float _swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->ScrollbarRounding = arg2;
-  
+
 }
 
 
@@ -14912,11 +15438,11 @@ float _wrap_Style_ScrollbarRounding_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (float) ((arg1)->ScrollbarRounding);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -14924,12 +15450,12 @@ float _wrap_Style_ScrollbarRounding_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_GrabMinSize_set(ImGuiStyle *_swig_go_0, float _swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->GrabMinSize = arg2;
-  
+
 }
 
 
@@ -14937,11 +15463,11 @@ float _wrap_Style_GrabMinSize_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (float) ((arg1)->GrabMinSize);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -14949,12 +15475,12 @@ float _wrap_Style_GrabMinSize_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_GrabRounding_set(ImGuiStyle *_swig_go_0, float _swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->GrabRounding = arg2;
-  
+
 }
 
 
@@ -14962,11 +15488,61 @@ float _wrap_Style_GrabRounding_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (float) ((arg1)->GrabRounding);
-  _swig_go_result = result; 
+  _swig_go_result = result;
+  return _swig_go_result;
+}
+
+
+void _wrap_Style_TabRounding_set(ImGuiStyle *_swig_go_0, float _swig_go_1) {
+  ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
+  float arg2 ;
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
+  if (arg1) (arg1)->TabRounding = arg2;
+
+}
+
+
+float _wrap_Style_TabRounding_get(ImGuiStyle *_swig_go_0) {
+  ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
+  float result;
+  float _swig_go_result;
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
+  result = (float) ((arg1)->TabRounding);
+  _swig_go_result = result;
+  return _swig_go_result;
+}
+
+
+void _wrap_Style_TabBorderSize_set(ImGuiStyle *_swig_go_0, float _swig_go_1) {
+  ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
+  float arg2 ;
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
+  if (arg1) (arg1)->TabBorderSize = arg2;
+
+}
+
+
+float _wrap_Style_TabBorderSize_get(ImGuiStyle *_swig_go_0) {
+  ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
+  float result;
+  float _swig_go_result;
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
+  result = (float) ((arg1)->TabBorderSize);
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -14974,12 +15550,12 @@ float _wrap_Style_GrabRounding_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_ButtonTextAlign_set(ImGuiStyle *_swig_go_0, ImVec2 *_swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   ImVec2 *arg2 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   if (arg1) (arg1)->ButtonTextAlign = *arg2;
-  
+
 }
 
 
@@ -14987,11 +15563,36 @@ ImVec2 *_wrap_Style_ButtonTextAlign_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   ImVec2 *result = 0 ;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (ImVec2 *)& ((arg1)->ButtonTextAlign);
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
+  return _swig_go_result;
+}
+
+
+void _wrap_Style_SelectableTextAlign_set(ImGuiStyle *_swig_go_0, ImVec2 *_swig_go_1) {
+  ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
+  ImVec2 *arg2 = (ImVec2 *) 0 ;
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
+  if (arg1) (arg1)->SelectableTextAlign = *arg2;
+
+}
+
+
+ImVec2 *_wrap_Style_SelectableTextAlign_get(ImGuiStyle *_swig_go_0) {
+  ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
+  ImVec2 *result = 0 ;
+  ImVec2 *_swig_go_result;
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
+  result = (ImVec2 *)& ((arg1)->SelectableTextAlign);
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
   return _swig_go_result;
 }
 
@@ -14999,12 +15600,12 @@ ImVec2 *_wrap_Style_ButtonTextAlign_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_DisplayWindowPadding_set(ImGuiStyle *_swig_go_0, ImVec2 *_swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   ImVec2 *arg2 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   if (arg1) (arg1)->DisplayWindowPadding = *arg2;
-  
+
 }
 
 
@@ -15012,11 +15613,11 @@ ImVec2 *_wrap_Style_DisplayWindowPadding_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   ImVec2 *result = 0 ;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (ImVec2 *)& ((arg1)->DisplayWindowPadding);
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
   return _swig_go_result;
 }
 
@@ -15024,12 +15625,12 @@ ImVec2 *_wrap_Style_DisplayWindowPadding_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_DisplaySafeAreaPadding_set(ImGuiStyle *_swig_go_0, ImVec2 *_swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   ImVec2 *arg2 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   if (arg1) (arg1)->DisplaySafeAreaPadding = *arg2;
-  
+
 }
 
 
@@ -15037,11 +15638,11 @@ ImVec2 *_wrap_Style_DisplaySafeAreaPadding_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   ImVec2 *result = 0 ;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (ImVec2 *)& ((arg1)->DisplaySafeAreaPadding);
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
   return _swig_go_result;
 }
 
@@ -15049,12 +15650,12 @@ ImVec2 *_wrap_Style_DisplaySafeAreaPadding_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_MouseCursorScale_set(ImGuiStyle *_swig_go_0, float _swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->MouseCursorScale = arg2;
-  
+
 }
 
 
@@ -15062,11 +15663,11 @@ float _wrap_Style_MouseCursorScale_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (float) ((arg1)->MouseCursorScale);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -15074,12 +15675,12 @@ float _wrap_Style_MouseCursorScale_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_AntiAliasedLines_set(ImGuiStyle *_swig_go_0, bool _swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   bool arg2 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   if (arg1) (arg1)->AntiAliasedLines = arg2;
-  
+
 }
 
 
@@ -15087,11 +15688,11 @@ bool _wrap_Style_AntiAliasedLines_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (bool) ((arg1)->AntiAliasedLines);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -15099,12 +15700,12 @@ bool _wrap_Style_AntiAliasedLines_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_AntiAliasedFill_set(ImGuiStyle *_swig_go_0, bool _swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   bool arg2 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   if (arg1) (arg1)->AntiAliasedFill = arg2;
-  
+
 }
 
 
@@ -15112,11 +15713,11 @@ bool _wrap_Style_AntiAliasedFill_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (bool) ((arg1)->AntiAliasedFill);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -15124,12 +15725,12 @@ bool _wrap_Style_AntiAliasedFill_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_CurveTessellationTol_set(ImGuiStyle *_swig_go_0, float _swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->CurveTessellationTol = arg2;
-  
+
 }
 
 
@@ -15137,11 +15738,11 @@ float _wrap_Style_CurveTessellationTol_get(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (float) ((arg1)->CurveTessellationTol);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -15149,16 +15750,16 @@ float _wrap_Style_CurveTessellationTol_get(ImGuiStyle *_swig_go_0) {
 void _wrap_Style_Colors_set(ImGuiStyle *_swig_go_0, ImVec4 *_swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   ImVec4 *arg2 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = *(ImVec4 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = *(ImVec4 **)&_swig_go_1;
+
   {
     size_t ii;
     ImVec4 *b = (ImVec4 *) arg1->Colors;
     for (ii = 0; ii < (size_t)ImGuiCol_COUNT; ii++) b[ii] = *((ImVec4 *) arg2 + ii);
   }
-  
+
 }
 
 
@@ -15166,11 +15767,11 @@ ImVec4 (*_wrap_Style_Colors_get(ImGuiStyle *_swig_go_0))[ImGuiCol_COUNT] {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   ImVec4 *result = 0 ;
   ImVec4 (*_swig_go_result)[ImGuiCol_COUNT];
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   result = (ImVec4 *)(ImVec4 *) ((arg1)->Colors);
-  *(ImVec4 **)&_swig_go_result = result; 
+  *(ImVec4 **)&_swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -15178,10 +15779,10 @@ ImVec4 (*_wrap_Style_Colors_get(ImGuiStyle *_swig_go_0))[ImGuiCol_COUNT] {
 ImGuiStyle *_wrap_new_Style() {
   ImGuiStyle *result = 0 ;
   ImGuiStyle *_swig_go_result;
-  
-  
+
+
   result = (ImGuiStyle *)new ImGuiStyle();
-  *(ImGuiStyle **)&_swig_go_result = (ImGuiStyle *)result; 
+  *(ImGuiStyle **)&_swig_go_result = (ImGuiStyle *)result;
   return _swig_go_result;
 }
 
@@ -15189,34 +15790,34 @@ ImGuiStyle *_wrap_new_Style() {
 void _wrap_Style_ScaleAllSizes(ImGuiStyle *_swig_go_0, float _swig_go_1) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   (arg1)->ScaleAllSizes(arg2);
-  
+
 }
 
 
 void _wrap_delete_Style(ImGuiStyle *_swig_go_0) {
   ImGuiStyle *arg1 = (ImGuiStyle *) 0 ;
-  
-  arg1 = *(ImGuiStyle **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiStyle **)&_swig_go_0;
+
   delete arg1;
-  
+
 }
 
 
 void _wrap_IO_ConfigFlags_set(ImGuiIO *_swig_go_0, intgo _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   ImGuiConfigFlags arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (ImGuiConfigFlags)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (ImGuiConfigFlags)_swig_go_1;
+
   if (arg1) (arg1)->ConfigFlags = arg2;
-  
+
 }
 
 
@@ -15224,11 +15825,11 @@ intgo _wrap_IO_ConfigFlags_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   ImGuiConfigFlags result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (ImGuiConfigFlags) ((arg1)->ConfigFlags);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -15236,12 +15837,12 @@ intgo _wrap_IO_ConfigFlags_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_BackendFlags_set(ImGuiIO *_swig_go_0, intgo _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   ImGuiBackendFlags arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (ImGuiBackendFlags)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (ImGuiBackendFlags)_swig_go_1;
+
   if (arg1) (arg1)->BackendFlags = arg2;
-  
+
 }
 
 
@@ -15249,11 +15850,11 @@ intgo _wrap_IO_BackendFlags_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   ImGuiBackendFlags result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (ImGuiBackendFlags) ((arg1)->BackendFlags);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -15261,12 +15862,12 @@ intgo _wrap_IO_BackendFlags_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_DisplaySize_set(ImGuiIO *_swig_go_0, ImVec2 *_swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   ImVec2 *arg2 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   if (arg1) (arg1)->DisplaySize = *arg2;
-  
+
 }
 
 
@@ -15274,11 +15875,11 @@ ImVec2 *_wrap_IO_DisplaySize_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   ImVec2 *result = 0 ;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (ImVec2 *)& ((arg1)->DisplaySize);
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
   return _swig_go_result;
 }
 
@@ -15286,12 +15887,12 @@ ImVec2 *_wrap_IO_DisplaySize_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_DeltaTime_set(ImGuiIO *_swig_go_0, float _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->DeltaTime = arg2;
-  
+
 }
 
 
@@ -15299,11 +15900,11 @@ float _wrap_IO_DeltaTime_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (float) ((arg1)->DeltaTime);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -15311,12 +15912,12 @@ float _wrap_IO_DeltaTime_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_IniSavingRate_set(ImGuiIO *_swig_go_0, float _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->IniSavingRate = arg2;
-  
+
 }
 
 
@@ -15324,11 +15925,11 @@ float _wrap_IO_IniSavingRate_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (float) ((arg1)->IniSavingRate);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -15336,14 +15937,14 @@ float _wrap_IO_IniSavingRate_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_IniFilename_set(ImGuiIO *_swig_go_0, _gostring_ _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   char *arg2 = (char *) 0 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  
+
+
   {
     if (arg2) {
       arg1->IniFilename = (char const *) (new char[strlen((const char *)arg2)+1]);
@@ -15352,8 +15953,8 @@ void _wrap_IO_IniFilename_set(ImGuiIO *_swig_go_0, _gostring_ _swig_go_1) {
       arg1->IniFilename = 0;
     }
   }
-  
-  free(arg2); 
+
+  free(arg2);
 }
 
 
@@ -15361,11 +15962,11 @@ _gostring_ _wrap_IO_IniFilename_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (char *) ((arg1)->IniFilename);
-  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0);
   return _swig_go_result;
 }
 
@@ -15373,14 +15974,14 @@ _gostring_ _wrap_IO_IniFilename_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_LogFilename_set(ImGuiIO *_swig_go_0, _gostring_ _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   char *arg2 = (char *) 0 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  
+
+
   {
     if (arg2) {
       arg1->LogFilename = (char const *) (new char[strlen((const char *)arg2)+1]);
@@ -15389,8 +15990,8 @@ void _wrap_IO_LogFilename_set(ImGuiIO *_swig_go_0, _gostring_ _swig_go_1) {
       arg1->LogFilename = 0;
     }
   }
-  
-  free(arg2); 
+
+  free(arg2);
 }
 
 
@@ -15398,11 +15999,11 @@ _gostring_ _wrap_IO_LogFilename_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (char *) ((arg1)->LogFilename);
-  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0);
   return _swig_go_result;
 }
 
@@ -15410,12 +16011,12 @@ _gostring_ _wrap_IO_LogFilename_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_MouseDoubleClickTime_set(ImGuiIO *_swig_go_0, float _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->MouseDoubleClickTime = arg2;
-  
+
 }
 
 
@@ -15423,11 +16024,11 @@ float _wrap_IO_MouseDoubleClickTime_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (float) ((arg1)->MouseDoubleClickTime);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -15435,12 +16036,12 @@ float _wrap_IO_MouseDoubleClickTime_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_MouseDoubleClickMaxDist_set(ImGuiIO *_swig_go_0, float _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->MouseDoubleClickMaxDist = arg2;
-  
+
 }
 
 
@@ -15448,11 +16049,11 @@ float _wrap_IO_MouseDoubleClickMaxDist_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (float) ((arg1)->MouseDoubleClickMaxDist);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -15460,12 +16061,12 @@ float _wrap_IO_MouseDoubleClickMaxDist_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_MouseDragThreshold_set(ImGuiIO *_swig_go_0, float _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->MouseDragThreshold = arg2;
-  
+
 }
 
 
@@ -15473,11 +16074,11 @@ float _wrap_IO_MouseDragThreshold_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (float) ((arg1)->MouseDragThreshold);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -15485,16 +16086,16 @@ float _wrap_IO_MouseDragThreshold_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_KeyMap_set(ImGuiIO *_swig_go_0, intgo *_swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   int *arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = *(int **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = *(int **)&_swig_go_1;
+
   {
     size_t ii;
     int *b = (int *) arg1->KeyMap;
     for (ii = 0; ii < (size_t)ImGuiKey_COUNT; ii++) b[ii] = *((int *) arg2 + ii);
   }
-  
+
 }
 
 
@@ -15502,11 +16103,11 @@ intgo *_wrap_IO_KeyMap_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (int *)(int *) ((arg1)->KeyMap);
-  *(int **)&_swig_go_result = result; 
+  *(int **)&_swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -15514,12 +16115,12 @@ intgo *_wrap_IO_KeyMap_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_KeyRepeatDelay_set(ImGuiIO *_swig_go_0, float _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->KeyRepeatDelay = arg2;
-  
+
 }
 
 
@@ -15527,11 +16128,11 @@ float _wrap_IO_KeyRepeatDelay_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (float) ((arg1)->KeyRepeatDelay);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -15539,12 +16140,12 @@ float _wrap_IO_KeyRepeatDelay_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_KeyRepeatRate_set(ImGuiIO *_swig_go_0, float _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->KeyRepeatRate = arg2;
-  
+
 }
 
 
@@ -15552,11 +16153,11 @@ float _wrap_IO_KeyRepeatRate_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (float) ((arg1)->KeyRepeatRate);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -15564,12 +16165,12 @@ float _wrap_IO_KeyRepeatRate_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_UserData_set(ImGuiIO *_swig_go_0, void *_swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   void *arg2 = (void *) 0 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = *(void **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = *(void **)&_swig_go_1;
+
   if (arg1) (arg1)->UserData = arg2;
-  
+
 }
 
 
@@ -15577,11 +16178,11 @@ void *_wrap_IO_UserData_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   void *result = 0 ;
   void *_swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (void *) ((arg1)->UserData);
-  *(void **)&_swig_go_result = (void *)result; 
+  *(void **)&_swig_go_result = (void *)result;
   return _swig_go_result;
 }
 
@@ -15589,12 +16190,12 @@ void *_wrap_IO_UserData_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_Fonts_set(ImGuiIO *_swig_go_0, ImFontAtlas *_swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   ImFontAtlas *arg2 = (ImFontAtlas *) 0 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = *(ImFontAtlas **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = *(ImFontAtlas **)&_swig_go_1;
+
   if (arg1) (arg1)->Fonts = arg2;
-  
+
 }
 
 
@@ -15602,11 +16203,11 @@ ImFontAtlas *_wrap_IO_Fonts_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   ImFontAtlas *result = 0 ;
   ImFontAtlas *_swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (ImFontAtlas *) ((arg1)->Fonts);
-  *(ImFontAtlas **)&_swig_go_result = (ImFontAtlas *)result; 
+  *(ImFontAtlas **)&_swig_go_result = (ImFontAtlas *)result;
   return _swig_go_result;
 }
 
@@ -15614,12 +16215,12 @@ ImFontAtlas *_wrap_IO_Fonts_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_FontGlobalScale_set(ImGuiIO *_swig_go_0, float _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->FontGlobalScale = arg2;
-  
+
 }
 
 
@@ -15627,11 +16228,11 @@ float _wrap_IO_FontGlobalScale_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (float) ((arg1)->FontGlobalScale);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -15639,12 +16240,12 @@ float _wrap_IO_FontGlobalScale_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_FontAllowUserScaling_set(ImGuiIO *_swig_go_0, bool _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   if (arg1) (arg1)->FontAllowUserScaling = arg2;
-  
+
 }
 
 
@@ -15652,11 +16253,11 @@ bool _wrap_IO_FontAllowUserScaling_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (bool) ((arg1)->FontAllowUserScaling);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -15664,12 +16265,12 @@ bool _wrap_IO_FontAllowUserScaling_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_FontDefault_set(ImGuiIO *_swig_go_0, ImFont *_swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   ImFont *arg2 = (ImFont *) 0 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = *(ImFont **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = *(ImFont **)&_swig_go_1;
+
   if (arg1) (arg1)->FontDefault = arg2;
-  
+
 }
 
 
@@ -15677,11 +16278,11 @@ ImFont *_wrap_IO_FontDefault_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   ImFont *result = 0 ;
   ImFont *_swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (ImFont *) ((arg1)->FontDefault);
-  *(ImFont **)&_swig_go_result = (ImFont *)result; 
+  *(ImFont **)&_swig_go_result = (ImFont *)result;
   return _swig_go_result;
 }
 
@@ -15689,12 +16290,12 @@ ImFont *_wrap_IO_FontDefault_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_DisplayFramebufferScale_set(ImGuiIO *_swig_go_0, ImVec2 *_swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   ImVec2 *arg2 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   if (arg1) (arg1)->DisplayFramebufferScale = *arg2;
-  
+
 }
 
 
@@ -15702,61 +16303,11 @@ ImVec2 *_wrap_IO_DisplayFramebufferScale_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   ImVec2 *result = 0 ;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (ImVec2 *)& ((arg1)->DisplayFramebufferScale);
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_IO_DisplayVisibleMin_set(ImGuiIO *_swig_go_0, ImVec2 *_swig_go_1) {
-  ImGuiIO *arg1 = (ImGuiIO *) 0 ;
-  ImVec2 *arg2 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
-  if (arg1) (arg1)->DisplayVisibleMin = *arg2;
-  
-}
-
-
-ImVec2 *_wrap_IO_DisplayVisibleMin_get(ImGuiIO *_swig_go_0) {
-  ImGuiIO *arg1 = (ImGuiIO *) 0 ;
-  ImVec2 *result = 0 ;
-  ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
-  result = (ImVec2 *)& ((arg1)->DisplayVisibleMin);
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_IO_DisplayVisibleMax_set(ImGuiIO *_swig_go_0, ImVec2 *_swig_go_1) {
-  ImGuiIO *arg1 = (ImGuiIO *) 0 ;
-  ImVec2 *arg2 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
-  if (arg1) (arg1)->DisplayVisibleMax = *arg2;
-  
-}
-
-
-ImVec2 *_wrap_IO_DisplayVisibleMax_get(ImGuiIO *_swig_go_0) {
-  ImGuiIO *arg1 = (ImGuiIO *) 0 ;
-  ImVec2 *result = 0 ;
-  ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
-  result = (ImVec2 *)& ((arg1)->DisplayVisibleMax);
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
   return _swig_go_result;
 }
 
@@ -15764,12 +16315,12 @@ ImVec2 *_wrap_IO_DisplayVisibleMax_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_MouseDrawCursor_set(ImGuiIO *_swig_go_0, bool _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   if (arg1) (arg1)->MouseDrawCursor = arg2;
-  
+
 }
 
 
@@ -15777,11 +16328,11 @@ bool _wrap_IO_MouseDrawCursor_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (bool) ((arg1)->MouseDrawCursor);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -15789,12 +16340,12 @@ bool _wrap_IO_MouseDrawCursor_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_ConfigMacOSXBehaviors_set(ImGuiIO *_swig_go_0, bool _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   if (arg1) (arg1)->ConfigMacOSXBehaviors = arg2;
-  
+
 }
 
 
@@ -15802,11 +16353,11 @@ bool _wrap_IO_ConfigMacOSXBehaviors_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (bool) ((arg1)->ConfigMacOSXBehaviors);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -15814,12 +16365,12 @@ bool _wrap_IO_ConfigMacOSXBehaviors_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_ConfigInputTextCursorBlink_set(ImGuiIO *_swig_go_0, bool _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   if (arg1) (arg1)->ConfigInputTextCursorBlink = arg2;
-  
+
 }
 
 
@@ -15827,36 +16378,210 @@ bool _wrap_IO_ConfigInputTextCursorBlink_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (bool) ((arg1)->ConfigInputTextCursorBlink);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
 
-void _wrap_IO_ConfigResizeWindowsFromEdges_set(ImGuiIO *_swig_go_0, bool _swig_go_1) {
+void _wrap_IO_ConfigWindowsResizeFromEdges_set(ImGuiIO *_swig_go_0, bool _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
-  if (arg1) (arg1)->ConfigResizeWindowsFromEdges = arg2;
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
+  if (arg1) (arg1)->ConfigWindowsResizeFromEdges = arg2;
+
 }
 
 
-bool _wrap_IO_ConfigResizeWindowsFromEdges_get(ImGuiIO *_swig_go_0) {
+bool _wrap_IO_ConfigWindowsResizeFromEdges_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
-  result = (bool) ((arg1)->ConfigResizeWindowsFromEdges);
-  _swig_go_result = result; 
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
+  result = (bool) ((arg1)->ConfigWindowsResizeFromEdges);
+  _swig_go_result = result;
+  return _swig_go_result;
+}
+
+
+void _wrap_IO_ConfigWindowsMoveFromTitleBarOnly_set(ImGuiIO *_swig_go_0, bool _swig_go_1) {
+  ImGuiIO *arg1 = (ImGuiIO *) 0 ;
+  bool arg2 ;
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
+  if (arg1) (arg1)->ConfigWindowsMoveFromTitleBarOnly = arg2;
+
+}
+
+
+bool _wrap_IO_ConfigWindowsMoveFromTitleBarOnly_get(ImGuiIO *_swig_go_0) {
+  ImGuiIO *arg1 = (ImGuiIO *) 0 ;
+  bool result;
+  bool _swig_go_result;
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
+  result = (bool) ((arg1)->ConfigWindowsMoveFromTitleBarOnly);
+  _swig_go_result = result;
+  return _swig_go_result;
+}
+
+
+void _wrap_IO_BackendPlatformName_set(ImGuiIO *_swig_go_0, _gostring_ _swig_go_1) {
+  ImGuiIO *arg1 = (ImGuiIO *) 0 ;
+  char *arg2 = (char *) 0 ;
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+
+
+  {
+    if (arg2) {
+      arg1->BackendPlatformName = (char const *) (new char[strlen((const char *)arg2)+1]);
+      strcpy((char *)arg1->BackendPlatformName, (const char *)arg2);
+    } else {
+      arg1->BackendPlatformName = 0;
+    }
+  }
+
+  free(arg2);
+}
+
+
+_gostring_ _wrap_IO_BackendPlatformName_get(ImGuiIO *_swig_go_0) {
+  ImGuiIO *arg1 = (ImGuiIO *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
+  result = (char *) ((arg1)->BackendPlatformName);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0);
+  return _swig_go_result;
+}
+
+
+void _wrap_IO_BackendRendererName_set(ImGuiIO *_swig_go_0, _gostring_ _swig_go_1) {
+  ImGuiIO *arg1 = (ImGuiIO *) 0 ;
+  char *arg2 = (char *) 0 ;
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+
+
+  {
+    if (arg2) {
+      arg1->BackendRendererName = (char const *) (new char[strlen((const char *)arg2)+1]);
+      strcpy((char *)arg1->BackendRendererName, (const char *)arg2);
+    } else {
+      arg1->BackendRendererName = 0;
+    }
+  }
+
+  free(arg2);
+}
+
+
+_gostring_ _wrap_IO_BackendRendererName_get(ImGuiIO *_swig_go_0) {
+  ImGuiIO *arg1 = (ImGuiIO *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
+  result = (char *) ((arg1)->BackendRendererName);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0);
+  return _swig_go_result;
+}
+
+
+void _wrap_IO_BackendPlatformUserData_set(ImGuiIO *_swig_go_0, void *_swig_go_1) {
+  ImGuiIO *arg1 = (ImGuiIO *) 0 ;
+  void *arg2 = (void *) 0 ;
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = *(void **)&_swig_go_1;
+
+  if (arg1) (arg1)->BackendPlatformUserData = arg2;
+
+}
+
+
+void *_wrap_IO_BackendPlatformUserData_get(ImGuiIO *_swig_go_0) {
+  ImGuiIO *arg1 = (ImGuiIO *) 0 ;
+  void *result = 0 ;
+  void *_swig_go_result;
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
+  result = (void *) ((arg1)->BackendPlatformUserData);
+  *(void **)&_swig_go_result = (void *)result;
+  return _swig_go_result;
+}
+
+
+void _wrap_IO_BackendRendererUserData_set(ImGuiIO *_swig_go_0, void *_swig_go_1) {
+  ImGuiIO *arg1 = (ImGuiIO *) 0 ;
+  void *arg2 = (void *) 0 ;
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = *(void **)&_swig_go_1;
+
+  if (arg1) (arg1)->BackendRendererUserData = arg2;
+
+}
+
+
+void *_wrap_IO_BackendRendererUserData_get(ImGuiIO *_swig_go_0) {
+  ImGuiIO *arg1 = (ImGuiIO *) 0 ;
+  void *result = 0 ;
+  void *_swig_go_result;
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
+  result = (void *) ((arg1)->BackendRendererUserData);
+  *(void **)&_swig_go_result = (void *)result;
+  return _swig_go_result;
+}
+
+
+void _wrap_IO_BackendLanguageUserData_set(ImGuiIO *_swig_go_0, void *_swig_go_1) {
+  ImGuiIO *arg1 = (ImGuiIO *) 0 ;
+  void *arg2 = (void *) 0 ;
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = *(void **)&_swig_go_1;
+
+  if (arg1) (arg1)->BackendLanguageUserData = arg2;
+
+}
+
+
+void *_wrap_IO_BackendLanguageUserData_get(ImGuiIO *_swig_go_0) {
+  ImGuiIO *arg1 = (ImGuiIO *) 0 ;
+  void *result = 0 ;
+  void *_swig_go_result;
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
+  result = (void *) ((arg1)->BackendLanguageUserData);
+  *(void **)&_swig_go_result = (void *)result;
   return _swig_go_result;
 }
 
@@ -15864,12 +16589,12 @@ bool _wrap_IO_ConfigResizeWindowsFromEdges_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_GetClipboardTextFn_set(ImGuiIO *_swig_go_0, void* _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   char *(*arg2)(void *) = (char *(*)(void *)) 0 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = *(char *(**)(void *))&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = *(char *(**)(void *))&_swig_go_1;
+
   if (arg1) (arg1)->GetClipboardTextFn = (char const *(*)(void *))arg2;
-  
+
 }
 
 
@@ -15877,11 +16602,11 @@ void* _wrap_IO_GetClipboardTextFn_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   char *(*result)(void *) = 0 ;
   void* _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (char *(*)(void *)) ((arg1)->GetClipboardTextFn);
-  *(char *(**)(void *))&_swig_go_result = (char *(*)(void *))result; 
+  *(char *(**)(void *))&_swig_go_result = (char *(*)(void *))result;
   return _swig_go_result;
 }
 
@@ -15889,12 +16614,12 @@ void* _wrap_IO_GetClipboardTextFn_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_SetClipboardTextFn_set(ImGuiIO *_swig_go_0, void* _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   void (*arg2)(void *,char const *) = (void (*)(void *,char const *)) 0 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = *(void (**)(void *,char const *))&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = *(void (**)(void *,char const *))&_swig_go_1;
+
   if (arg1) (arg1)->SetClipboardTextFn = arg2;
-  
+
 }
 
 
@@ -15902,11 +16627,11 @@ void* _wrap_IO_SetClipboardTextFn_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   void (*result)(void *,char const *) = 0 ;
   void* _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (void (*)(void *,char const *)) ((arg1)->SetClipboardTextFn);
-  *(void (**)(void *,char const *))&_swig_go_result = (void (*)(void *,char const *))result; 
+  *(void (**)(void *,char const *))&_swig_go_result = (void (*)(void *,char const *))result;
   return _swig_go_result;
 }
 
@@ -15914,12 +16639,12 @@ void* _wrap_IO_SetClipboardTextFn_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_ClipboardUserData_set(ImGuiIO *_swig_go_0, void *_swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   void *arg2 = (void *) 0 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = *(void **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = *(void **)&_swig_go_1;
+
   if (arg1) (arg1)->ClipboardUserData = arg2;
-  
+
 }
 
 
@@ -15927,11 +16652,11 @@ void *_wrap_IO_ClipboardUserData_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   void *result = 0 ;
   void *_swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (void *) ((arg1)->ClipboardUserData);
-  *(void **)&_swig_go_result = (void *)result; 
+  *(void **)&_swig_go_result = (void *)result;
   return _swig_go_result;
 }
 
@@ -15939,12 +16664,12 @@ void *_wrap_IO_ClipboardUserData_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_ImeSetInputScreenPosFn_set(ImGuiIO *_swig_go_0, void* _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   void (*arg2)(int,int) = (void (*)(int,int)) 0 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = *(void (**)(int,int))&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = *(void (**)(int,int))&_swig_go_1;
+
   if (arg1) (arg1)->ImeSetInputScreenPosFn = arg2;
-  
+
 }
 
 
@@ -15952,11 +16677,11 @@ void* _wrap_IO_ImeSetInputScreenPosFn_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   void (*result)(int,int) = 0 ;
   void* _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (void (*)(int,int)) ((arg1)->ImeSetInputScreenPosFn);
-  *(void (**)(int,int))&_swig_go_result = (void (*)(int,int))result; 
+  *(void (**)(int,int))&_swig_go_result = (void (*)(int,int))result;
   return _swig_go_result;
 }
 
@@ -15964,12 +16689,12 @@ void* _wrap_IO_ImeSetInputScreenPosFn_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_ImeWindowHandle_set(ImGuiIO *_swig_go_0, void *_swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   void *arg2 = (void *) 0 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = *(void **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = *(void **)&_swig_go_1;
+
   if (arg1) (arg1)->ImeWindowHandle = arg2;
-  
+
 }
 
 
@@ -15977,11 +16702,11 @@ void *_wrap_IO_ImeWindowHandle_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   void *result = 0 ;
   void *_swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (void *) ((arg1)->ImeWindowHandle);
-  *(void **)&_swig_go_result = (void *)result; 
+  *(void **)&_swig_go_result = (void *)result;
   return _swig_go_result;
 }
 
@@ -15989,12 +16714,12 @@ void *_wrap_IO_ImeWindowHandle_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_MousePos_set(ImGuiIO *_swig_go_0, ImVec2 *_swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   ImVec2 *arg2 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   if (arg1) (arg1)->MousePos = *arg2;
-  
+
 }
 
 
@@ -16002,11 +16727,11 @@ ImVec2 *_wrap_IO_MousePos_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   ImVec2 *result = 0 ;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (ImVec2 *)& ((arg1)->MousePos);
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
   return _swig_go_result;
 }
 
@@ -16014,16 +16739,16 @@ ImVec2 *_wrap_IO_MousePos_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_MouseDown_set(ImGuiIO *_swig_go_0, bool *_swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool *arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = *(bool **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = *(bool **)&_swig_go_1;
+
   {
     size_t ii;
     bool *b = (bool *) arg1->MouseDown;
     for (ii = 0; ii < (size_t)5; ii++) b[ii] = *((bool *) arg2 + ii);
   }
-  
+
 }
 
 
@@ -16031,11 +16756,11 @@ _goslice_ _wrap_IO_MouseDown_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool *result = 0 ;
   _goslice_ _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (bool *)(bool *) ((arg1)->MouseDown);
-  _swig_go_result.array = result; _swig_go_result.len = 5; _swig_go_result.cap = 5; 
+  _swig_go_result.array = result; _swig_go_result.len = 5; _swig_go_result.cap = 5;
   return _swig_go_result;
 }
 
@@ -16043,12 +16768,12 @@ _goslice_ _wrap_IO_MouseDown_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_MouseWheel_set(ImGuiIO *_swig_go_0, float _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->MouseWheel = arg2;
-  
+
 }
 
 
@@ -16056,11 +16781,11 @@ float _wrap_IO_MouseWheel_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (float) ((arg1)->MouseWheel);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16068,12 +16793,12 @@ float _wrap_IO_MouseWheel_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_MouseWheelH_set(ImGuiIO *_swig_go_0, float _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->MouseWheelH = arg2;
-  
+
 }
 
 
@@ -16081,11 +16806,11 @@ float _wrap_IO_MouseWheelH_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (float) ((arg1)->MouseWheelH);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16093,12 +16818,12 @@ float _wrap_IO_MouseWheelH_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_KeyCtrl_set(ImGuiIO *_swig_go_0, bool _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   if (arg1) (arg1)->KeyCtrl = arg2;
-  
+
 }
 
 
@@ -16106,11 +16831,11 @@ bool _wrap_IO_KeyCtrl_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (bool) ((arg1)->KeyCtrl);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16118,12 +16843,12 @@ bool _wrap_IO_KeyCtrl_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_KeyShift_set(ImGuiIO *_swig_go_0, bool _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   if (arg1) (arg1)->KeyShift = arg2;
-  
+
 }
 
 
@@ -16131,11 +16856,11 @@ bool _wrap_IO_KeyShift_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (bool) ((arg1)->KeyShift);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16143,12 +16868,12 @@ bool _wrap_IO_KeyShift_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_KeyAlt_set(ImGuiIO *_swig_go_0, bool _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   if (arg1) (arg1)->KeyAlt = arg2;
-  
+
 }
 
 
@@ -16156,11 +16881,11 @@ bool _wrap_IO_KeyAlt_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (bool) ((arg1)->KeyAlt);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16168,12 +16893,12 @@ bool _wrap_IO_KeyAlt_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_KeySuper_set(ImGuiIO *_swig_go_0, bool _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   if (arg1) (arg1)->KeySuper = arg2;
-  
+
 }
 
 
@@ -16181,11 +16906,11 @@ bool _wrap_IO_KeySuper_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (bool) ((arg1)->KeySuper);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16193,16 +16918,16 @@ bool _wrap_IO_KeySuper_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_KeysDown_set(ImGuiIO *_swig_go_0, bool *_swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool *arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = *(bool **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = *(bool **)&_swig_go_1;
+
   {
     size_t ii;
     bool *b = (bool *) arg1->KeysDown;
     for (ii = 0; ii < (size_t)512; ii++) b[ii] = *((bool *) arg2 + ii);
   }
-  
+
 }
 
 
@@ -16210,40 +16935,11 @@ _goslice_ _wrap_IO_KeysDown_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool *result = 0 ;
   _goslice_ _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (bool *)(bool *) ((arg1)->KeysDown);
-  _swig_go_result.array = result; _swig_go_result.len = 512; _swig_go_result.cap = 512; 
-  return _swig_go_result;
-}
-
-
-void _wrap_IO_InputCharacters_set(ImGuiIO *_swig_go_0, short *_swig_go_1) {
-  ImGuiIO *arg1 = (ImGuiIO *) 0 ;
-  ImWchar *arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = *(ImWchar **)&_swig_go_1; 
-  
-  {
-    size_t ii;
-    ImWchar *b = (ImWchar *) arg1->InputCharacters;
-    for (ii = 0; ii < (size_t)16+1; ii++) b[ii] = *((ImWchar *) arg2 + ii);
-  }
-  
-}
-
-
-_goslice_ _wrap_IO_InputCharacters_get(ImGuiIO *_swig_go_0) {
-  ImGuiIO *arg1 = (ImGuiIO *) 0 ;
-  ImWchar *result = 0 ;
-  _goslice_ _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
-  result = (ImWchar *)(ImWchar *) ((arg1)->InputCharacters);
-  _swig_go_result.array = result; _swig_go_result.len = 16; _swig_go_result.cap = 16; 
+  _swig_go_result.array = result; _swig_go_result.len = 512; _swig_go_result.cap = 512;
   return _swig_go_result;
 }
 
@@ -16251,16 +16947,16 @@ _goslice_ _wrap_IO_InputCharacters_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_NavInputs_set(ImGuiIO *_swig_go_0, float *_swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   float *arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = *(float **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = *(float **)&_swig_go_1;
+
   {
     size_t ii;
     float *b = (float *) arg1->NavInputs;
     for (ii = 0; ii < (size_t)ImGuiNavInput_COUNT; ii++) b[ii] = *((float *) arg2 + ii);
   }
-  
+
 }
 
 
@@ -16268,11 +16964,11 @@ float *_wrap_IO_NavInputs_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   float *result = 0 ;
   float *_swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (float *)(float *) ((arg1)->NavInputs);
-  *(float **)&_swig_go_result = result; 
+  *(float **)&_swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16280,51 +16976,51 @@ float *_wrap_IO_NavInputs_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_AddInputCharacter(ImGuiIO *_swig_go_0, short _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   ImWchar arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (ImWchar)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (ImWchar)_swig_go_1;
+
   (arg1)->AddInputCharacter(arg2);
-  
+
 }
 
 
 void _wrap_IO_AddInputCharactersUTF8(ImGuiIO *_swig_go_0, _gostring_ _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   char *arg2 = (char *) 0 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  
+
+
   (arg1)->AddInputCharactersUTF8((char const *)arg2);
-  
-  free(arg2); 
+
+  free(arg2);
 }
 
 
 void _wrap_IO_ClearInputCharacters(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   (arg1)->ClearInputCharacters();
-  
+
 }
 
 
 void _wrap_IO_WantCaptureMouse_set(ImGuiIO *_swig_go_0, bool _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   if (arg1) (arg1)->WantCaptureMouse = arg2;
-  
+
 }
 
 
@@ -16332,11 +17028,11 @@ bool _wrap_IO_WantCaptureMouse_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (bool) ((arg1)->WantCaptureMouse);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16344,12 +17040,12 @@ bool _wrap_IO_WantCaptureMouse_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_WantCaptureKeyboard_set(ImGuiIO *_swig_go_0, bool _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   if (arg1) (arg1)->WantCaptureKeyboard = arg2;
-  
+
 }
 
 
@@ -16357,11 +17053,11 @@ bool _wrap_IO_WantCaptureKeyboard_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (bool) ((arg1)->WantCaptureKeyboard);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16369,12 +17065,12 @@ bool _wrap_IO_WantCaptureKeyboard_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_WantTextInput_set(ImGuiIO *_swig_go_0, bool _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   if (arg1) (arg1)->WantTextInput = arg2;
-  
+
 }
 
 
@@ -16382,11 +17078,11 @@ bool _wrap_IO_WantTextInput_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (bool) ((arg1)->WantTextInput);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16394,12 +17090,12 @@ bool _wrap_IO_WantTextInput_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_WantSetMousePos_set(ImGuiIO *_swig_go_0, bool _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   if (arg1) (arg1)->WantSetMousePos = arg2;
-  
+
 }
 
 
@@ -16407,11 +17103,11 @@ bool _wrap_IO_WantSetMousePos_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (bool) ((arg1)->WantSetMousePos);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16419,12 +17115,12 @@ bool _wrap_IO_WantSetMousePos_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_WantSaveIniSettings_set(ImGuiIO *_swig_go_0, bool _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   if (arg1) (arg1)->WantSaveIniSettings = arg2;
-  
+
 }
 
 
@@ -16432,11 +17128,11 @@ bool _wrap_IO_WantSaveIniSettings_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (bool) ((arg1)->WantSaveIniSettings);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16444,12 +17140,12 @@ bool _wrap_IO_WantSaveIniSettings_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_NavActive_set(ImGuiIO *_swig_go_0, bool _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   if (arg1) (arg1)->NavActive = arg2;
-  
+
 }
 
 
@@ -16457,11 +17153,11 @@ bool _wrap_IO_NavActive_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (bool) ((arg1)->NavActive);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16469,12 +17165,12 @@ bool _wrap_IO_NavActive_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_NavVisible_set(ImGuiIO *_swig_go_0, bool _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   if (arg1) (arg1)->NavVisible = arg2;
-  
+
 }
 
 
@@ -16482,11 +17178,11 @@ bool _wrap_IO_NavVisible_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (bool) ((arg1)->NavVisible);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16494,12 +17190,12 @@ bool _wrap_IO_NavVisible_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_Framerate_set(ImGuiIO *_swig_go_0, float _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->Framerate = arg2;
-  
+
 }
 
 
@@ -16507,11 +17203,11 @@ float _wrap_IO_Framerate_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (float) ((arg1)->Framerate);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16519,12 +17215,12 @@ float _wrap_IO_Framerate_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_MetricsRenderVertices_set(ImGuiIO *_swig_go_0, intgo _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   int arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   if (arg1) (arg1)->MetricsRenderVertices = arg2;
-  
+
 }
 
 
@@ -16532,11 +17228,11 @@ intgo _wrap_IO_MetricsRenderVertices_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (int) ((arg1)->MetricsRenderVertices);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16544,12 +17240,12 @@ intgo _wrap_IO_MetricsRenderVertices_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_MetricsRenderIndices_set(ImGuiIO *_swig_go_0, intgo _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   int arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   if (arg1) (arg1)->MetricsRenderIndices = arg2;
-  
+
 }
 
 
@@ -16557,11 +17253,11 @@ intgo _wrap_IO_MetricsRenderIndices_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (int) ((arg1)->MetricsRenderIndices);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16569,12 +17265,12 @@ intgo _wrap_IO_MetricsRenderIndices_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_MetricsRenderWindows_set(ImGuiIO *_swig_go_0, intgo _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   int arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   if (arg1) (arg1)->MetricsRenderWindows = arg2;
-  
+
 }
 
 
@@ -16582,11 +17278,11 @@ intgo _wrap_IO_MetricsRenderWindows_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (int) ((arg1)->MetricsRenderWindows);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16594,12 +17290,12 @@ intgo _wrap_IO_MetricsRenderWindows_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_MetricsActiveWindows_set(ImGuiIO *_swig_go_0, intgo _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   int arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   if (arg1) (arg1)->MetricsActiveWindows = arg2;
-  
+
 }
 
 
@@ -16607,11 +17303,11 @@ intgo _wrap_IO_MetricsActiveWindows_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (int) ((arg1)->MetricsActiveWindows);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16619,12 +17315,12 @@ intgo _wrap_IO_MetricsActiveWindows_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_MetricsActiveAllocations_set(ImGuiIO *_swig_go_0, intgo _swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   int arg2 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   if (arg1) (arg1)->MetricsActiveAllocations = arg2;
-  
+
 }
 
 
@@ -16632,11 +17328,11 @@ intgo _wrap_IO_MetricsActiveAllocations_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (int) ((arg1)->MetricsActiveAllocations);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16644,12 +17340,12 @@ intgo _wrap_IO_MetricsActiveAllocations_get(ImGuiIO *_swig_go_0) {
 void _wrap_IO_MouseDelta_set(ImGuiIO *_swig_go_0, ImVec2 *_swig_go_1) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   ImVec2 *arg2 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   if (arg1) (arg1)->MouseDelta = *arg2;
-  
+
 }
 
 
@@ -16657,11 +17353,11 @@ ImVec2 *_wrap_IO_MouseDelta_get(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
   ImVec2 *result = 0 ;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   result = (ImVec2 *)& ((arg1)->MouseDelta);
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
   return _swig_go_result;
 }
 
@@ -16669,33 +17365,33 @@ ImVec2 *_wrap_IO_MouseDelta_get(ImGuiIO *_swig_go_0) {
 ImGuiIO *_wrap_new_IO() {
   ImGuiIO *result = 0 ;
   ImGuiIO *_swig_go_result;
-  
-  
+
+
   result = (ImGuiIO *)new ImGuiIO();
-  *(ImGuiIO **)&_swig_go_result = (ImGuiIO *)result; 
+  *(ImGuiIO **)&_swig_go_result = (ImGuiIO *)result;
   return _swig_go_result;
 }
 
 
 void _wrap_delete_IO(ImGuiIO *_swig_go_0) {
   ImGuiIO *arg1 = (ImGuiIO *) 0 ;
-  
-  arg1 = *(ImGuiIO **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiIO **)&_swig_go_0;
+
   delete arg1;
-  
+
 }
 
 
 void _wrap_InputTextCallbackData_EventFlag_set(ImGuiInputTextCallbackData *_swig_go_0, intgo _swig_go_1) {
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   ImGuiInputTextFlags arg2 ;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  arg2 = (ImGuiInputTextFlags)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+  arg2 = (ImGuiInputTextFlags)_swig_go_1;
+
   if (arg1) (arg1)->EventFlag = arg2;
-  
+
 }
 
 
@@ -16703,11 +17399,11 @@ intgo _wrap_InputTextCallbackData_EventFlag_get(ImGuiInputTextCallbackData *_swi
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   ImGuiInputTextFlags result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+
   result = (ImGuiInputTextFlags) ((arg1)->EventFlag);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16715,12 +17411,12 @@ intgo _wrap_InputTextCallbackData_EventFlag_get(ImGuiInputTextCallbackData *_swi
 void _wrap_InputTextCallbackData_Flags_set(ImGuiInputTextCallbackData *_swig_go_0, intgo _swig_go_1) {
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   ImGuiInputTextFlags arg2 ;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  arg2 = (ImGuiInputTextFlags)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+  arg2 = (ImGuiInputTextFlags)_swig_go_1;
+
   if (arg1) (arg1)->Flags = arg2;
-  
+
 }
 
 
@@ -16728,11 +17424,11 @@ intgo _wrap_InputTextCallbackData_Flags_get(ImGuiInputTextCallbackData *_swig_go
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   ImGuiInputTextFlags result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+
   result = (ImGuiInputTextFlags) ((arg1)->Flags);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16740,12 +17436,12 @@ intgo _wrap_InputTextCallbackData_Flags_get(ImGuiInputTextCallbackData *_swig_go
 void _wrap_InputTextCallbackData_UserData_set(ImGuiInputTextCallbackData *_swig_go_0, void *_swig_go_1) {
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   void *arg2 = (void *) 0 ;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  arg2 = *(void **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+  arg2 = *(void **)&_swig_go_1;
+
   if (arg1) (arg1)->UserData = arg2;
-  
+
 }
 
 
@@ -16753,11 +17449,11 @@ void *_wrap_InputTextCallbackData_UserData_get(ImGuiInputTextCallbackData *_swig
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   void *result = 0 ;
   void *_swig_go_result;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+
   result = (void *) ((arg1)->UserData);
-  *(void **)&_swig_go_result = (void *)result; 
+  *(void **)&_swig_go_result = (void *)result;
   return _swig_go_result;
 }
 
@@ -16765,12 +17461,12 @@ void *_wrap_InputTextCallbackData_UserData_get(ImGuiInputTextCallbackData *_swig
 void _wrap_InputTextCallbackData_EventChar_set(ImGuiInputTextCallbackData *_swig_go_0, short _swig_go_1) {
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   ImWchar arg2 ;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  arg2 = (ImWchar)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+  arg2 = (ImWchar)_swig_go_1;
+
   if (arg1) (arg1)->EventChar = arg2;
-  
+
 }
 
 
@@ -16778,11 +17474,11 @@ short _wrap_InputTextCallbackData_EventChar_get(ImGuiInputTextCallbackData *_swi
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   ImWchar result;
   short _swig_go_result;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+
   result = (ImWchar) ((arg1)->EventChar);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16790,12 +17486,12 @@ short _wrap_InputTextCallbackData_EventChar_get(ImGuiInputTextCallbackData *_swi
 void _wrap_InputTextCallbackData_EventKey_set(ImGuiInputTextCallbackData *_swig_go_0, intgo _swig_go_1) {
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   ImGuiKey arg2 ;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  arg2 = (ImGuiKey)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+  arg2 = (ImGuiKey)_swig_go_1;
+
   if (arg1) (arg1)->EventKey = arg2;
-  
+
 }
 
 
@@ -16803,11 +17499,11 @@ intgo _wrap_InputTextCallbackData_EventKey_get(ImGuiInputTextCallbackData *_swig
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   ImGuiKey result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+
   result = (ImGuiKey) ((arg1)->EventKey);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16815,14 +17511,14 @@ intgo _wrap_InputTextCallbackData_EventKey_get(ImGuiInputTextCallbackData *_swig
 void _wrap_InputTextCallbackData_Buf_set(ImGuiInputTextCallbackData *_swig_go_0, _gostring_ _swig_go_1) {
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   char *arg2 = (char *) 0 ;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  
+
+
   {
     delete [] arg1->Buf;
     if (arg2) {
@@ -16832,8 +17528,8 @@ void _wrap_InputTextCallbackData_Buf_set(ImGuiInputTextCallbackData *_swig_go_0,
       arg1->Buf = 0;
     }
   }
-  
-  free(arg2); 
+
+  free(arg2);
 }
 
 
@@ -16841,11 +17537,11 @@ _gostring_ _wrap_InputTextCallbackData_Buf_get(ImGuiInputTextCallbackData *_swig
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+
   result = (char *) ((arg1)->Buf);
-  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0);
   return _swig_go_result;
 }
 
@@ -16853,12 +17549,12 @@ _gostring_ _wrap_InputTextCallbackData_Buf_get(ImGuiInputTextCallbackData *_swig
 void _wrap_InputTextCallbackData_BufTextLen_set(ImGuiInputTextCallbackData *_swig_go_0, intgo _swig_go_1) {
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   int arg2 ;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   if (arg1) (arg1)->BufTextLen = arg2;
-  
+
 }
 
 
@@ -16866,11 +17562,11 @@ intgo _wrap_InputTextCallbackData_BufTextLen_get(ImGuiInputTextCallbackData *_sw
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+
   result = (int) ((arg1)->BufTextLen);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16878,12 +17574,12 @@ intgo _wrap_InputTextCallbackData_BufTextLen_get(ImGuiInputTextCallbackData *_sw
 void _wrap_InputTextCallbackData_BufSize_set(ImGuiInputTextCallbackData *_swig_go_0, intgo _swig_go_1) {
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   int arg2 ;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   if (arg1) (arg1)->BufSize = arg2;
-  
+
 }
 
 
@@ -16891,11 +17587,11 @@ intgo _wrap_InputTextCallbackData_BufSize_get(ImGuiInputTextCallbackData *_swig_
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+
   result = (int) ((arg1)->BufSize);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16903,12 +17599,12 @@ intgo _wrap_InputTextCallbackData_BufSize_get(ImGuiInputTextCallbackData *_swig_
 void _wrap_InputTextCallbackData_BufDirty_set(ImGuiInputTextCallbackData *_swig_go_0, bool _swig_go_1) {
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   bool arg2 ;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   if (arg1) (arg1)->BufDirty = arg2;
-  
+
 }
 
 
@@ -16916,11 +17612,11 @@ bool _wrap_InputTextCallbackData_BufDirty_get(ImGuiInputTextCallbackData *_swig_
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+
   result = (bool) ((arg1)->BufDirty);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16928,12 +17624,12 @@ bool _wrap_InputTextCallbackData_BufDirty_get(ImGuiInputTextCallbackData *_swig_
 void _wrap_InputTextCallbackData_CursorPos_set(ImGuiInputTextCallbackData *_swig_go_0, intgo _swig_go_1) {
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   int arg2 ;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   if (arg1) (arg1)->CursorPos = arg2;
-  
+
 }
 
 
@@ -16941,11 +17637,11 @@ intgo _wrap_InputTextCallbackData_CursorPos_get(ImGuiInputTextCallbackData *_swi
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+
   result = (int) ((arg1)->CursorPos);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16953,12 +17649,12 @@ intgo _wrap_InputTextCallbackData_CursorPos_get(ImGuiInputTextCallbackData *_swi
 void _wrap_InputTextCallbackData_SelectionStart_set(ImGuiInputTextCallbackData *_swig_go_0, intgo _swig_go_1) {
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   int arg2 ;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   if (arg1) (arg1)->SelectionStart = arg2;
-  
+
 }
 
 
@@ -16966,11 +17662,11 @@ intgo _wrap_InputTextCallbackData_SelectionStart_get(ImGuiInputTextCallbackData 
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+
   result = (int) ((arg1)->SelectionStart);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -16978,12 +17674,12 @@ intgo _wrap_InputTextCallbackData_SelectionStart_get(ImGuiInputTextCallbackData 
 void _wrap_InputTextCallbackData_SelectionEnd_set(ImGuiInputTextCallbackData *_swig_go_0, intgo _swig_go_1) {
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   int arg2 ;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   if (arg1) (arg1)->SelectionEnd = arg2;
-  
+
 }
 
 
@@ -16991,11 +17687,11 @@ intgo _wrap_InputTextCallbackData_SelectionEnd_get(ImGuiInputTextCallbackData *_
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+
   result = (int) ((arg1)->SelectionEnd);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -17003,10 +17699,10 @@ intgo _wrap_InputTextCallbackData_SelectionEnd_get(ImGuiInputTextCallbackData *_
 ImGuiInputTextCallbackData *_wrap_new_InputTextCallbackData() {
   ImGuiInputTextCallbackData *result = 0 ;
   ImGuiInputTextCallbackData *_swig_go_result;
-  
-  
+
+
   result = (ImGuiInputTextCallbackData *)new ImGuiInputTextCallbackData();
-  *(ImGuiInputTextCallbackData **)&_swig_go_result = (ImGuiInputTextCallbackData *)result; 
+  *(ImGuiInputTextCallbackData **)&_swig_go_result = (ImGuiInputTextCallbackData *)result;
   return _swig_go_result;
 }
 
@@ -17015,13 +17711,13 @@ void _wrap_InputTextCallbackData_DeleteChars(ImGuiInputTextCallbackData *_swig_g
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   int arg2 ;
   int arg3 ;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+  arg3 = (int)_swig_go_2;
+
   (arg1)->DeleteChars(arg2,arg3);
-  
+
 }
 
 
@@ -17030,24 +17726,24 @@ void _wrap_InputTextCallbackData_InsertChars__SWIG_0(ImGuiInputTextCallbackData 
   int arg2 ;
   char *arg3 = (char *) 0 ;
   char *arg4 = (char *) 0 ;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   arg3 = (char *)malloc(_swig_go_2.n + 1);
   memcpy(arg3, _swig_go_2.p, _swig_go_2.n);
   arg3[_swig_go_2.n] = '\0';
-  
-  
+
+
   arg4 = (char *)malloc(_swig_go_3.n + 1);
   memcpy(arg4, _swig_go_3.p, _swig_go_3.n);
   arg4[_swig_go_3.n] = '\0';
-  
-  
+
+
   (arg1)->InsertChars(arg2,(char const *)arg3,(char const *)arg4);
-  
-  free(arg3); 
-  free(arg4); 
+
+  free(arg3);
+  free(arg4);
 }
 
 
@@ -17055,18 +17751,18 @@ void _wrap_InputTextCallbackData_InsertChars__SWIG_1(ImGuiInputTextCallbackData 
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   int arg2 ;
   char *arg3 = (char *) 0 ;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   arg3 = (char *)malloc(_swig_go_2.n + 1);
   memcpy(arg3, _swig_go_2.p, _swig_go_2.n);
   arg3[_swig_go_2.n] = '\0';
-  
-  
+
+
   (arg1)->InsertChars(arg2,(char const *)arg3);
-  
-  free(arg3); 
+
+  free(arg3);
 }
 
 
@@ -17074,34 +17770,34 @@ bool _wrap_InputTextCallbackData_HasSelection(ImGuiInputTextCallbackData *_swig_
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+
   result = (bool)((ImGuiInputTextCallbackData const *)arg1)->HasSelection();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
 
 void _wrap_delete_InputTextCallbackData(ImGuiInputTextCallbackData *_swig_go_0) {
   ImGuiInputTextCallbackData *arg1 = (ImGuiInputTextCallbackData *) 0 ;
-  
-  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiInputTextCallbackData **)&_swig_go_0;
+
   delete arg1;
-  
+
 }
 
 
 void _wrap_SizeCallbackData_UserData_set(ImGuiSizeCallbackData *_swig_go_0, void *_swig_go_1) {
   ImGuiSizeCallbackData *arg1 = (ImGuiSizeCallbackData *) 0 ;
   void *arg2 = (void *) 0 ;
-  
-  arg1 = *(ImGuiSizeCallbackData **)&_swig_go_0; 
-  arg2 = *(void **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiSizeCallbackData **)&_swig_go_0;
+  arg2 = *(void **)&_swig_go_1;
+
   if (arg1) (arg1)->UserData = arg2;
-  
+
 }
 
 
@@ -17109,11 +17805,11 @@ void *_wrap_SizeCallbackData_UserData_get(ImGuiSizeCallbackData *_swig_go_0) {
   ImGuiSizeCallbackData *arg1 = (ImGuiSizeCallbackData *) 0 ;
   void *result = 0 ;
   void *_swig_go_result;
-  
-  arg1 = *(ImGuiSizeCallbackData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiSizeCallbackData **)&_swig_go_0;
+
   result = (void *) ((arg1)->UserData);
-  *(void **)&_swig_go_result = (void *)result; 
+  *(void **)&_swig_go_result = (void *)result;
   return _swig_go_result;
 }
 
@@ -17121,12 +17817,12 @@ void *_wrap_SizeCallbackData_UserData_get(ImGuiSizeCallbackData *_swig_go_0) {
 void _wrap_SizeCallbackData_Pos_set(ImGuiSizeCallbackData *_swig_go_0, ImVec2 *_swig_go_1) {
   ImGuiSizeCallbackData *arg1 = (ImGuiSizeCallbackData *) 0 ;
   ImVec2 *arg2 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImGuiSizeCallbackData **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiSizeCallbackData **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   if (arg1) (arg1)->Pos = *arg2;
-  
+
 }
 
 
@@ -17134,11 +17830,11 @@ ImVec2 *_wrap_SizeCallbackData_Pos_get(ImGuiSizeCallbackData *_swig_go_0) {
   ImGuiSizeCallbackData *arg1 = (ImGuiSizeCallbackData *) 0 ;
   ImVec2 *result = 0 ;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImGuiSizeCallbackData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiSizeCallbackData **)&_swig_go_0;
+
   result = (ImVec2 *)& ((arg1)->Pos);
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
   return _swig_go_result;
 }
 
@@ -17146,12 +17842,12 @@ ImVec2 *_wrap_SizeCallbackData_Pos_get(ImGuiSizeCallbackData *_swig_go_0) {
 void _wrap_SizeCallbackData_CurrentSize_set(ImGuiSizeCallbackData *_swig_go_0, ImVec2 *_swig_go_1) {
   ImGuiSizeCallbackData *arg1 = (ImGuiSizeCallbackData *) 0 ;
   ImVec2 *arg2 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImGuiSizeCallbackData **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiSizeCallbackData **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   if (arg1) (arg1)->CurrentSize = *arg2;
-  
+
 }
 
 
@@ -17159,11 +17855,11 @@ ImVec2 *_wrap_SizeCallbackData_CurrentSize_get(ImGuiSizeCallbackData *_swig_go_0
   ImGuiSizeCallbackData *arg1 = (ImGuiSizeCallbackData *) 0 ;
   ImVec2 *result = 0 ;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImGuiSizeCallbackData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiSizeCallbackData **)&_swig_go_0;
+
   result = (ImVec2 *)& ((arg1)->CurrentSize);
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
   return _swig_go_result;
 }
 
@@ -17171,12 +17867,12 @@ ImVec2 *_wrap_SizeCallbackData_CurrentSize_get(ImGuiSizeCallbackData *_swig_go_0
 void _wrap_SizeCallbackData_DesiredSize_set(ImGuiSizeCallbackData *_swig_go_0, ImVec2 *_swig_go_1) {
   ImGuiSizeCallbackData *arg1 = (ImGuiSizeCallbackData *) 0 ;
   ImVec2 *arg2 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImGuiSizeCallbackData **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiSizeCallbackData **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   if (arg1) (arg1)->DesiredSize = *arg2;
-  
+
 }
 
 
@@ -17184,11 +17880,11 @@ ImVec2 *_wrap_SizeCallbackData_DesiredSize_get(ImGuiSizeCallbackData *_swig_go_0
   ImGuiSizeCallbackData *arg1 = (ImGuiSizeCallbackData *) 0 ;
   ImVec2 *result = 0 ;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImGuiSizeCallbackData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiSizeCallbackData **)&_swig_go_0;
+
   result = (ImVec2 *)& ((arg1)->DesiredSize);
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
   return _swig_go_result;
 }
 
@@ -17196,33 +17892,33 @@ ImVec2 *_wrap_SizeCallbackData_DesiredSize_get(ImGuiSizeCallbackData *_swig_go_0
 ImGuiSizeCallbackData *_wrap_new_SizeCallbackData() {
   ImGuiSizeCallbackData *result = 0 ;
   ImGuiSizeCallbackData *_swig_go_result;
-  
-  
+
+
   result = (ImGuiSizeCallbackData *)new ImGuiSizeCallbackData();
-  *(ImGuiSizeCallbackData **)&_swig_go_result = (ImGuiSizeCallbackData *)result; 
+  *(ImGuiSizeCallbackData **)&_swig_go_result = (ImGuiSizeCallbackData *)result;
   return _swig_go_result;
 }
 
 
 void _wrap_delete_SizeCallbackData(ImGuiSizeCallbackData *_swig_go_0) {
   ImGuiSizeCallbackData *arg1 = (ImGuiSizeCallbackData *) 0 ;
-  
-  arg1 = *(ImGuiSizeCallbackData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiSizeCallbackData **)&_swig_go_0;
+
   delete arg1;
-  
+
 }
 
 
 void _wrap_Payload_Data_set(ImGuiPayload *_swig_go_0, void *_swig_go_1) {
   ImGuiPayload *arg1 = (ImGuiPayload *) 0 ;
   void *arg2 = (void *) 0 ;
-  
-  arg1 = *(ImGuiPayload **)&_swig_go_0; 
-  arg2 = *(void **)&_swig_go_1; 
-  
+
+  arg1 = *(ImGuiPayload **)&_swig_go_0;
+  arg2 = *(void **)&_swig_go_1;
+
   if (arg1) (arg1)->Data = arg2;
-  
+
 }
 
 
@@ -17230,11 +17926,11 @@ void *_wrap_Payload_Data_get(ImGuiPayload *_swig_go_0) {
   ImGuiPayload *arg1 = (ImGuiPayload *) 0 ;
   void *result = 0 ;
   void *_swig_go_result;
-  
-  arg1 = *(ImGuiPayload **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiPayload **)&_swig_go_0;
+
   result = (void *) ((arg1)->Data);
-  *(void **)&_swig_go_result = (void *)result; 
+  *(void **)&_swig_go_result = (void *)result;
   return _swig_go_result;
 }
 
@@ -17242,12 +17938,12 @@ void *_wrap_Payload_Data_get(ImGuiPayload *_swig_go_0) {
 void _wrap_Payload_DataSize_set(ImGuiPayload *_swig_go_0, intgo _swig_go_1) {
   ImGuiPayload *arg1 = (ImGuiPayload *) 0 ;
   int arg2 ;
-  
-  arg1 = *(ImGuiPayload **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiPayload **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   if (arg1) (arg1)->DataSize = arg2;
-  
+
 }
 
 
@@ -17255,11 +17951,11 @@ intgo _wrap_Payload_DataSize_get(ImGuiPayload *_swig_go_0) {
   ImGuiPayload *arg1 = (ImGuiPayload *) 0 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImGuiPayload **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiPayload **)&_swig_go_0;
+
   result = (int) ((arg1)->DataSize);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -17267,12 +17963,12 @@ intgo _wrap_Payload_DataSize_get(ImGuiPayload *_swig_go_0) {
 void _wrap_Payload_SourceId_set(ImGuiPayload *_swig_go_0, intgo _swig_go_1) {
   ImGuiPayload *arg1 = (ImGuiPayload *) 0 ;
   ImGuiID arg2 ;
-  
-  arg1 = *(ImGuiPayload **)&_swig_go_0; 
-  arg2 = (ImGuiID)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiPayload **)&_swig_go_0;
+  arg2 = (ImGuiID)_swig_go_1;
+
   if (arg1) (arg1)->SourceId = arg2;
-  
+
 }
 
 
@@ -17280,11 +17976,11 @@ intgo _wrap_Payload_SourceId_get(ImGuiPayload *_swig_go_0) {
   ImGuiPayload *arg1 = (ImGuiPayload *) 0 ;
   ImGuiID result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImGuiPayload **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiPayload **)&_swig_go_0;
+
   result = (ImGuiID) ((arg1)->SourceId);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -17292,12 +17988,12 @@ intgo _wrap_Payload_SourceId_get(ImGuiPayload *_swig_go_0) {
 void _wrap_Payload_SourceParentId_set(ImGuiPayload *_swig_go_0, intgo _swig_go_1) {
   ImGuiPayload *arg1 = (ImGuiPayload *) 0 ;
   ImGuiID arg2 ;
-  
-  arg1 = *(ImGuiPayload **)&_swig_go_0; 
-  arg2 = (ImGuiID)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiPayload **)&_swig_go_0;
+  arg2 = (ImGuiID)_swig_go_1;
+
   if (arg1) (arg1)->SourceParentId = arg2;
-  
+
 }
 
 
@@ -17305,11 +18001,11 @@ intgo _wrap_Payload_SourceParentId_get(ImGuiPayload *_swig_go_0) {
   ImGuiPayload *arg1 = (ImGuiPayload *) 0 ;
   ImGuiID result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImGuiPayload **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiPayload **)&_swig_go_0;
+
   result = (ImGuiID) ((arg1)->SourceParentId);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -17317,12 +18013,12 @@ intgo _wrap_Payload_SourceParentId_get(ImGuiPayload *_swig_go_0) {
 void _wrap_Payload_DataFrameCount_set(ImGuiPayload *_swig_go_0, intgo _swig_go_1) {
   ImGuiPayload *arg1 = (ImGuiPayload *) 0 ;
   int arg2 ;
-  
-  arg1 = *(ImGuiPayload **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiPayload **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   if (arg1) (arg1)->DataFrameCount = arg2;
-  
+
 }
 
 
@@ -17330,11 +18026,11 @@ intgo _wrap_Payload_DataFrameCount_get(ImGuiPayload *_swig_go_0) {
   ImGuiPayload *arg1 = (ImGuiPayload *) 0 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImGuiPayload **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiPayload **)&_swig_go_0;
+
   result = (int) ((arg1)->DataFrameCount);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -17342,14 +18038,14 @@ intgo _wrap_Payload_DataFrameCount_get(ImGuiPayload *_swig_go_0) {
 void _wrap_Payload_DataType_set(ImGuiPayload *_swig_go_0, _gostring_ _swig_go_1) {
   ImGuiPayload *arg1 = (ImGuiPayload *) 0 ;
   char *arg2 ;
-  
-  arg1 = *(ImGuiPayload **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiPayload **)&_swig_go_0;
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  
+
+
   {
     if(arg2) {
       strncpy((char*)arg1->DataType, (const char *)arg2, 32+1-1);
@@ -17358,8 +18054,8 @@ void _wrap_Payload_DataType_set(ImGuiPayload *_swig_go_0, _gostring_ _swig_go_1)
       arg1->DataType[0] = 0;
     }
   }
-  
-  free(arg2); 
+
+  free(arg2);
 }
 
 
@@ -17367,11 +18063,11 @@ _gostring_ _wrap_Payload_DataType_get(ImGuiPayload *_swig_go_0) {
   ImGuiPayload *arg1 = (ImGuiPayload *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
-  
-  arg1 = *(ImGuiPayload **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiPayload **)&_swig_go_0;
+
   result = (char *)(char *) ((arg1)->DataType);
-  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0);
   return _swig_go_result;
 }
 
@@ -17379,12 +18075,12 @@ _gostring_ _wrap_Payload_DataType_get(ImGuiPayload *_swig_go_0) {
 void _wrap_Payload_Preview_set(ImGuiPayload *_swig_go_0, bool _swig_go_1) {
   ImGuiPayload *arg1 = (ImGuiPayload *) 0 ;
   bool arg2 ;
-  
-  arg1 = *(ImGuiPayload **)&_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiPayload **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   if (arg1) (arg1)->Preview = arg2;
-  
+
 }
 
 
@@ -17392,11 +18088,11 @@ bool _wrap_Payload_Preview_get(ImGuiPayload *_swig_go_0) {
   ImGuiPayload *arg1 = (ImGuiPayload *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImGuiPayload **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiPayload **)&_swig_go_0;
+
   result = (bool) ((arg1)->Preview);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -17404,12 +18100,12 @@ bool _wrap_Payload_Preview_get(ImGuiPayload *_swig_go_0) {
 void _wrap_Payload_Delivery_set(ImGuiPayload *_swig_go_0, bool _swig_go_1) {
   ImGuiPayload *arg1 = (ImGuiPayload *) 0 ;
   bool arg2 ;
-  
-  arg1 = *(ImGuiPayload **)&_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = *(ImGuiPayload **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   if (arg1) (arg1)->Delivery = arg2;
-  
+
 }
 
 
@@ -17417,11 +18113,11 @@ bool _wrap_Payload_Delivery_get(ImGuiPayload *_swig_go_0) {
   ImGuiPayload *arg1 = (ImGuiPayload *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImGuiPayload **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiPayload **)&_swig_go_0;
+
   result = (bool) ((arg1)->Delivery);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -17429,21 +18125,21 @@ bool _wrap_Payload_Delivery_get(ImGuiPayload *_swig_go_0) {
 ImGuiPayload *_wrap_new_Payload() {
   ImGuiPayload *result = 0 ;
   ImGuiPayload *_swig_go_result;
-  
-  
+
+
   result = (ImGuiPayload *)new ImGuiPayload();
-  *(ImGuiPayload **)&_swig_go_result = (ImGuiPayload *)result; 
+  *(ImGuiPayload **)&_swig_go_result = (ImGuiPayload *)result;
   return _swig_go_result;
 }
 
 
 void _wrap_Payload_Clear(ImGuiPayload *_swig_go_0) {
   ImGuiPayload *arg1 = (ImGuiPayload *) 0 ;
-  
-  arg1 = *(ImGuiPayload **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiPayload **)&_swig_go_0;
+
   (arg1)->Clear();
-  
+
 }
 
 
@@ -17452,17 +18148,17 @@ bool _wrap_Payload_IsDataType(ImGuiPayload *_swig_go_0, _gostring_ _swig_go_1) {
   char *arg2 = (char *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImGuiPayload **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiPayload **)&_swig_go_0;
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  
+
+
   result = (bool)((ImGuiPayload const *)arg1)->IsDataType((char const *)arg2);
-  _swig_go_result = result; 
-  free(arg2); 
+  _swig_go_result = result;
+  free(arg2);
   return _swig_go_result;
 }
 
@@ -17471,11 +18167,11 @@ bool _wrap_Payload_IsPreview(ImGuiPayload *_swig_go_0) {
   ImGuiPayload *arg1 = (ImGuiPayload *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImGuiPayload **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiPayload **)&_swig_go_0;
+
   result = (bool)((ImGuiPayload const *)arg1)->IsPreview();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -17484,34 +18180,282 @@ bool _wrap_Payload_IsDelivery(ImGuiPayload *_swig_go_0) {
   ImGuiPayload *arg1 = (ImGuiPayload *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImGuiPayload **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiPayload **)&_swig_go_0;
+
   result = (bool)((ImGuiPayload const *)arg1)->IsDelivery();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
 
 void _wrap_delete_Payload(ImGuiPayload *_swig_go_0) {
   ImGuiPayload *arg1 = (ImGuiPayload *) 0 ;
-  
-  arg1 = *(ImGuiPayload **)&_swig_go_0; 
-  
+
+  arg1 = *(ImGuiPayload **)&_swig_go_0;
+
   delete arg1;
-  
+
+}
+
+
+void _wrap_ListClipper_StartPosY_set(ImGuiListClipper *_swig_go_0, float _swig_go_1) {
+  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
+  float arg2 ;
+
+  arg1 = *(ImGuiListClipper **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
+  if (arg1) (arg1)->StartPosY = arg2;
+
+}
+
+
+float _wrap_ListClipper_StartPosY_get(ImGuiListClipper *_swig_go_0) {
+  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
+  float result;
+  float _swig_go_result;
+
+  arg1 = *(ImGuiListClipper **)&_swig_go_0;
+
+  result = (float) ((arg1)->StartPosY);
+  _swig_go_result = result;
+  return _swig_go_result;
+}
+
+
+void _wrap_ListClipper_ItemsHeight_set(ImGuiListClipper *_swig_go_0, float _swig_go_1) {
+  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
+  float arg2 ;
+
+  arg1 = *(ImGuiListClipper **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
+  if (arg1) (arg1)->ItemsHeight = arg2;
+
+}
+
+
+float _wrap_ListClipper_ItemsHeight_get(ImGuiListClipper *_swig_go_0) {
+  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
+  float result;
+  float _swig_go_result;
+
+  arg1 = *(ImGuiListClipper **)&_swig_go_0;
+
+  result = (float) ((arg1)->ItemsHeight);
+  _swig_go_result = result;
+  return _swig_go_result;
+}
+
+
+void _wrap_ListClipper_ItemsCount_set(ImGuiListClipper *_swig_go_0, intgo _swig_go_1) {
+  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
+  int arg2 ;
+
+  arg1 = *(ImGuiListClipper **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
+  if (arg1) (arg1)->ItemsCount = arg2;
+
+}
+
+
+intgo _wrap_ListClipper_ItemsCount_get(ImGuiListClipper *_swig_go_0) {
+  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
+  int result;
+  intgo _swig_go_result;
+
+  arg1 = *(ImGuiListClipper **)&_swig_go_0;
+
+  result = (int) ((arg1)->ItemsCount);
+  _swig_go_result = result;
+  return _swig_go_result;
+}
+
+
+void _wrap_ListClipper_StepNo_set(ImGuiListClipper *_swig_go_0, intgo _swig_go_1) {
+  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
+  int arg2 ;
+
+  arg1 = *(ImGuiListClipper **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
+  if (arg1) (arg1)->StepNo = arg2;
+
+}
+
+
+intgo _wrap_ListClipper_StepNo_get(ImGuiListClipper *_swig_go_0) {
+  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
+  int result;
+  intgo _swig_go_result;
+
+  arg1 = *(ImGuiListClipper **)&_swig_go_0;
+
+  result = (int) ((arg1)->StepNo);
+  _swig_go_result = result;
+  return _swig_go_result;
+}
+
+
+void _wrap_ListClipper_DisplayStart_set(ImGuiListClipper *_swig_go_0, intgo _swig_go_1) {
+  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
+  int arg2 ;
+
+  arg1 = *(ImGuiListClipper **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
+  if (arg1) (arg1)->DisplayStart = arg2;
+
+}
+
+
+intgo _wrap_ListClipper_DisplayStart_get(ImGuiListClipper *_swig_go_0) {
+  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
+  int result;
+  intgo _swig_go_result;
+
+  arg1 = *(ImGuiListClipper **)&_swig_go_0;
+
+  result = (int) ((arg1)->DisplayStart);
+  _swig_go_result = result;
+  return _swig_go_result;
+}
+
+
+void _wrap_ListClipper_DisplayEnd_set(ImGuiListClipper *_swig_go_0, intgo _swig_go_1) {
+  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
+  int arg2 ;
+
+  arg1 = *(ImGuiListClipper **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
+  if (arg1) (arg1)->DisplayEnd = arg2;
+
+}
+
+
+intgo _wrap_ListClipper_DisplayEnd_get(ImGuiListClipper *_swig_go_0) {
+  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
+  int result;
+  intgo _swig_go_result;
+
+  arg1 = *(ImGuiListClipper **)&_swig_go_0;
+
+  result = (int) ((arg1)->DisplayEnd);
+  _swig_go_result = result;
+  return _swig_go_result;
+}
+
+
+ImGuiListClipper *_wrap_new_ListClipper__SWIG_0(intgo _swig_go_0, float _swig_go_1) {
+  int arg1 ;
+  float arg2 ;
+  ImGuiListClipper *result = 0 ;
+  ImGuiListClipper *_swig_go_result;
+
+  arg1 = (int)_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
+  result = (ImGuiListClipper *)new ImGuiListClipper(arg1,arg2);
+  *(ImGuiListClipper **)&_swig_go_result = (ImGuiListClipper *)result;
+  return _swig_go_result;
+}
+
+
+ImGuiListClipper *_wrap_new_ListClipper__SWIG_1(intgo _swig_go_0) {
+  int arg1 ;
+  ImGuiListClipper *result = 0 ;
+  ImGuiListClipper *_swig_go_result;
+
+  arg1 = (int)_swig_go_0;
+
+  result = (ImGuiListClipper *)new ImGuiListClipper(arg1);
+  *(ImGuiListClipper **)&_swig_go_result = (ImGuiListClipper *)result;
+  return _swig_go_result;
+}
+
+
+ImGuiListClipper *_wrap_new_ListClipper__SWIG_2() {
+  ImGuiListClipper *result = 0 ;
+  ImGuiListClipper *_swig_go_result;
+
+
+  result = (ImGuiListClipper *)new ImGuiListClipper();
+  *(ImGuiListClipper **)&_swig_go_result = (ImGuiListClipper *)result;
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_ListClipper(ImGuiListClipper *_swig_go_0) {
+  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
+
+  arg1 = *(ImGuiListClipper **)&_swig_go_0;
+
+  delete arg1;
+
+}
+
+
+bool _wrap_ListClipper_Step(ImGuiListClipper *_swig_go_0) {
+  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
+  bool result;
+  bool _swig_go_result;
+
+  arg1 = *(ImGuiListClipper **)&_swig_go_0;
+
+  result = (bool)(arg1)->Step();
+  _swig_go_result = result;
+  return _swig_go_result;
+}
+
+
+void _wrap_ListClipper_Begin__SWIG_0(ImGuiListClipper *_swig_go_0, intgo _swig_go_1, float _swig_go_2) {
+  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
+  int arg2 ;
+  float arg3 ;
+
+  arg1 = *(ImGuiListClipper **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+  arg3 = (float)_swig_go_2;
+
+  (arg1)->Begin(arg2,arg3);
+
+}
+
+
+void _wrap_ListClipper_Begin__SWIG_1(ImGuiListClipper *_swig_go_0, intgo _swig_go_1) {
+  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
+  int arg2 ;
+
+  arg1 = *(ImGuiListClipper **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
+  (arg1)->Begin(arg2);
+
+}
+
+
+void _wrap_ListClipper_End(ImGuiListClipper *_swig_go_0) {
+  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
+
+  arg1 = *(ImGuiListClipper **)&_swig_go_0;
+
+  (arg1)->End();
+
 }
 
 
 void _wrap_Color_Value_set(ImColor *_swig_go_0, ImVec4 *_swig_go_1) {
   ImColor *arg1 = (ImColor *) 0 ;
   ImVec4 *arg2 = (ImVec4 *) 0 ;
-  
-  arg1 = *(ImColor **)&_swig_go_0; 
-  arg2 = *(ImVec4 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImColor **)&_swig_go_0;
+  arg2 = *(ImVec4 **)&_swig_go_1;
+
   if (arg1) (arg1)->Value = *arg2;
-  
+
 }
 
 
@@ -17519,11 +18463,11 @@ ImVec4 *_wrap_Color_Value_get(ImColor *_swig_go_0) {
   ImColor *arg1 = (ImColor *) 0 ;
   ImVec4 *result = 0 ;
   ImVec4 *_swig_go_result;
-  
-  arg1 = *(ImColor **)&_swig_go_0; 
-  
+
+  arg1 = *(ImColor **)&_swig_go_0;
+
   result = (ImVec4 *)& ((arg1)->Value);
-  *(ImVec4 **)&_swig_go_result = (ImVec4 *)result; 
+  *(ImVec4 **)&_swig_go_result = (ImVec4 *)result;
   return _swig_go_result;
 }
 
@@ -17531,10 +18475,10 @@ ImVec4 *_wrap_Color_Value_get(ImColor *_swig_go_0) {
 ImColor *_wrap_new_Color__SWIG_0() {
   ImColor *result = 0 ;
   ImColor *_swig_go_result;
-  
-  
+
+
   result = (ImColor *)new ImColor();
-  *(ImColor **)&_swig_go_result = (ImColor *)result; 
+  *(ImColor **)&_swig_go_result = (ImColor *)result;
   return _swig_go_result;
 }
 
@@ -17546,14 +18490,14 @@ ImColor *_wrap_new_Color__SWIG_1(intgo _swig_go_0, intgo _swig_go_1, intgo _swig
   int arg4 ;
   ImColor *result = 0 ;
   ImColor *_swig_go_result;
-  
-  arg1 = (int)_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg1 = (int)_swig_go_0;
+  arg2 = (int)_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   result = (ImColor *)new ImColor(arg1,arg2,arg3,arg4);
-  *(ImColor **)&_swig_go_result = (ImColor *)result; 
+  *(ImColor **)&_swig_go_result = (ImColor *)result;
   return _swig_go_result;
 }
 
@@ -17564,13 +18508,13 @@ ImColor *_wrap_new_Color__SWIG_2(intgo _swig_go_0, intgo _swig_go_1, intgo _swig
   int arg3 ;
   ImColor *result = 0 ;
   ImColor *_swig_go_result;
-  
-  arg1 = (int)_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  
+
+  arg1 = (int)_swig_go_0;
+  arg2 = (int)_swig_go_1;
+  arg3 = (int)_swig_go_2;
+
   result = (ImColor *)new ImColor(arg1,arg2,arg3);
-  *(ImColor **)&_swig_go_result = (ImColor *)result; 
+  *(ImColor **)&_swig_go_result = (ImColor *)result;
   return _swig_go_result;
 }
 
@@ -17579,11 +18523,11 @@ ImColor *_wrap_new_Color__SWIG_3(intgo _swig_go_0) {
   ImU32 arg1 ;
   ImColor *result = 0 ;
   ImColor *_swig_go_result;
-  
-  arg1 = (ImU32)_swig_go_0; 
-  
+
+  arg1 = (ImU32)_swig_go_0;
+
   result = (ImColor *)new ImColor(arg1);
-  *(ImColor **)&_swig_go_result = (ImColor *)result; 
+  *(ImColor **)&_swig_go_result = (ImColor *)result;
   return _swig_go_result;
 }
 
@@ -17595,14 +18539,14 @@ ImColor *_wrap_new_Color__SWIG_4(float _swig_go_0, float _swig_go_1, float _swig
   float arg4 ;
   ImColor *result = 0 ;
   ImColor *_swig_go_result;
-  
-  arg1 = (float)_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg1 = (float)_swig_go_0;
+  arg2 = (float)_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   result = (ImColor *)new ImColor(arg1,arg2,arg3,arg4);
-  *(ImColor **)&_swig_go_result = (ImColor *)result; 
+  *(ImColor **)&_swig_go_result = (ImColor *)result;
   return _swig_go_result;
 }
 
@@ -17613,13 +18557,13 @@ ImColor *_wrap_new_Color__SWIG_5(float _swig_go_0, float _swig_go_1, float _swig
   float arg3 ;
   ImColor *result = 0 ;
   ImColor *_swig_go_result;
-  
-  arg1 = (float)_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  
+
+  arg1 = (float)_swig_go_0;
+  arg2 = (float)_swig_go_1;
+  arg3 = (float)_swig_go_2;
+
   result = (ImColor *)new ImColor(arg1,arg2,arg3);
-  *(ImColor **)&_swig_go_result = (ImColor *)result; 
+  *(ImColor **)&_swig_go_result = (ImColor *)result;
   return _swig_go_result;
 }
 
@@ -17628,11 +18572,11 @@ ImColor *_wrap_new_Color__SWIG_6(ImVec4 *_swig_go_0) {
   ImVec4 *arg1 = 0 ;
   ImColor *result = 0 ;
   ImColor *_swig_go_result;
-  
-  arg1 = *(ImVec4 **)&_swig_go_0; 
-  
+
+  arg1 = *(ImVec4 **)&_swig_go_0;
+
   result = (ImColor *)new ImColor((ImVec4 const &)*arg1);
-  *(ImColor **)&_swig_go_result = (ImColor *)result; 
+  *(ImColor **)&_swig_go_result = (ImColor *)result;
   return _swig_go_result;
 }
 
@@ -17641,11 +18585,11 @@ intgo _wrap_Color_U32(ImColor *_swig_go_0) {
   ImColor *arg1 = (ImColor *) 0 ;
   ImU32 result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImColor **)&_swig_go_0; 
-  
+
+  arg1 = *(ImColor **)&_swig_go_0;
+
   result = (ImU32)((ImColor const *)arg1)->operator ImU32();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -17654,11 +18598,11 @@ ImVec4 *_wrap_Color_Vec4(ImColor *_swig_go_0) {
   ImColor *arg1 = (ImColor *) 0 ;
   ImVec4 result;
   ImVec4 *_swig_go_result;
-  
-  arg1 = *(ImColor **)&_swig_go_0; 
-  
+
+  arg1 = *(ImColor **)&_swig_go_0;
+
   result = ((ImColor const *)arg1)->operator ImVec4();
-  *(ImVec4 **)&_swig_go_result = new ImVec4(result); 
+  *(ImVec4 **)&_swig_go_result = new ImVec4(result);
   return _swig_go_result;
 }
 
@@ -17669,15 +18613,15 @@ void _wrap_Color_SetHSV__SWIG_0(ImColor *_swig_go_0, float _swig_go_1, float _sw
   float arg3 ;
   float arg4 ;
   float arg5 ;
-  
-  arg1 = *(ImColor **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  
+
+  arg1 = *(ImColor **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+
   (arg1)->SetHSV(arg2,arg3,arg4,arg5);
-  
+
 }
 
 
@@ -17686,14 +18630,14 @@ void _wrap_Color_SetHSV__SWIG_1(ImColor *_swig_go_0, float _swig_go_1, float _sw
   float arg2 ;
   float arg3 ;
   float arg4 ;
-  
-  arg1 = *(ImColor **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg1 = *(ImColor **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   (arg1)->SetHSV(arg2,arg3,arg4);
-  
+
 }
 
 
@@ -17704,14 +18648,14 @@ ImColor *_wrap_Color_HSV__SWIG_0(float _swig_go_0, float _swig_go_1, float _swig
   float arg4 ;
   ImColor result;
   ImColor *_swig_go_result;
-  
-  arg1 = (float)_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg1 = (float)_swig_go_0;
+  arg2 = (float)_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   result = ImColor::HSV(arg1,arg2,arg3,arg4);
-  *(ImColor **)&_swig_go_result = new ImColor(result); 
+  *(ImColor **)&_swig_go_result = new ImColor(result);
   return _swig_go_result;
 }
 
@@ -17722,284 +18666,36 @@ ImColor *_wrap_Color_HSV__SWIG_1(float _swig_go_0, float _swig_go_1, float _swig
   float arg3 ;
   ImColor result;
   ImColor *_swig_go_result;
-  
-  arg1 = (float)_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  
+
+  arg1 = (float)_swig_go_0;
+  arg2 = (float)_swig_go_1;
+  arg3 = (float)_swig_go_2;
+
   result = ImColor::HSV(arg1,arg2,arg3);
-  *(ImColor **)&_swig_go_result = new ImColor(result); 
+  *(ImColor **)&_swig_go_result = new ImColor(result);
   return _swig_go_result;
 }
 
 
 void _wrap_delete_Color(ImColor *_swig_go_0) {
   ImColor *arg1 = (ImColor *) 0 ;
-  
-  arg1 = *(ImColor **)&_swig_go_0; 
-  
+
+  arg1 = *(ImColor **)&_swig_go_0;
+
   delete arg1;
-  
-}
 
-
-void _wrap_ListClipper_StartPosY_set(ImGuiListClipper *_swig_go_0, float _swig_go_1) {
-  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
-  float arg2 ;
-  
-  arg1 = *(ImGuiListClipper **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
-  if (arg1) (arg1)->StartPosY = arg2;
-  
-}
-
-
-float _wrap_ListClipper_StartPosY_get(ImGuiListClipper *_swig_go_0) {
-  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
-  float result;
-  float _swig_go_result;
-  
-  arg1 = *(ImGuiListClipper **)&_swig_go_0; 
-  
-  result = (float) ((arg1)->StartPosY);
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_ListClipper_ItemsHeight_set(ImGuiListClipper *_swig_go_0, float _swig_go_1) {
-  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
-  float arg2 ;
-  
-  arg1 = *(ImGuiListClipper **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
-  if (arg1) (arg1)->ItemsHeight = arg2;
-  
-}
-
-
-float _wrap_ListClipper_ItemsHeight_get(ImGuiListClipper *_swig_go_0) {
-  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
-  float result;
-  float _swig_go_result;
-  
-  arg1 = *(ImGuiListClipper **)&_swig_go_0; 
-  
-  result = (float) ((arg1)->ItemsHeight);
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_ListClipper_ItemsCount_set(ImGuiListClipper *_swig_go_0, intgo _swig_go_1) {
-  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
-  int arg2 ;
-  
-  arg1 = *(ImGuiListClipper **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
-  if (arg1) (arg1)->ItemsCount = arg2;
-  
-}
-
-
-intgo _wrap_ListClipper_ItemsCount_get(ImGuiListClipper *_swig_go_0) {
-  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
-  int result;
-  intgo _swig_go_result;
-  
-  arg1 = *(ImGuiListClipper **)&_swig_go_0; 
-  
-  result = (int) ((arg1)->ItemsCount);
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_ListClipper_StepNo_set(ImGuiListClipper *_swig_go_0, intgo _swig_go_1) {
-  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
-  int arg2 ;
-  
-  arg1 = *(ImGuiListClipper **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
-  if (arg1) (arg1)->StepNo = arg2;
-  
-}
-
-
-intgo _wrap_ListClipper_StepNo_get(ImGuiListClipper *_swig_go_0) {
-  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
-  int result;
-  intgo _swig_go_result;
-  
-  arg1 = *(ImGuiListClipper **)&_swig_go_0; 
-  
-  result = (int) ((arg1)->StepNo);
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_ListClipper_DisplayStart_set(ImGuiListClipper *_swig_go_0, intgo _swig_go_1) {
-  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
-  int arg2 ;
-  
-  arg1 = *(ImGuiListClipper **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
-  if (arg1) (arg1)->DisplayStart = arg2;
-  
-}
-
-
-intgo _wrap_ListClipper_DisplayStart_get(ImGuiListClipper *_swig_go_0) {
-  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
-  int result;
-  intgo _swig_go_result;
-  
-  arg1 = *(ImGuiListClipper **)&_swig_go_0; 
-  
-  result = (int) ((arg1)->DisplayStart);
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_ListClipper_DisplayEnd_set(ImGuiListClipper *_swig_go_0, intgo _swig_go_1) {
-  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
-  int arg2 ;
-  
-  arg1 = *(ImGuiListClipper **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
-  if (arg1) (arg1)->DisplayEnd = arg2;
-  
-}
-
-
-intgo _wrap_ListClipper_DisplayEnd_get(ImGuiListClipper *_swig_go_0) {
-  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
-  int result;
-  intgo _swig_go_result;
-  
-  arg1 = *(ImGuiListClipper **)&_swig_go_0; 
-  
-  result = (int) ((arg1)->DisplayEnd);
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-ImGuiListClipper *_wrap_new_ListClipper__SWIG_0(intgo _swig_go_0, float _swig_go_1) {
-  int arg1 ;
-  float arg2 ;
-  ImGuiListClipper *result = 0 ;
-  ImGuiListClipper *_swig_go_result;
-  
-  arg1 = (int)_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
-  result = (ImGuiListClipper *)new ImGuiListClipper(arg1,arg2);
-  *(ImGuiListClipper **)&_swig_go_result = (ImGuiListClipper *)result; 
-  return _swig_go_result;
-}
-
-
-ImGuiListClipper *_wrap_new_ListClipper__SWIG_1(intgo _swig_go_0) {
-  int arg1 ;
-  ImGuiListClipper *result = 0 ;
-  ImGuiListClipper *_swig_go_result;
-  
-  arg1 = (int)_swig_go_0; 
-  
-  result = (ImGuiListClipper *)new ImGuiListClipper(arg1);
-  *(ImGuiListClipper **)&_swig_go_result = (ImGuiListClipper *)result; 
-  return _swig_go_result;
-}
-
-
-ImGuiListClipper *_wrap_new_ListClipper__SWIG_2() {
-  ImGuiListClipper *result = 0 ;
-  ImGuiListClipper *_swig_go_result;
-  
-  
-  result = (ImGuiListClipper *)new ImGuiListClipper();
-  *(ImGuiListClipper **)&_swig_go_result = (ImGuiListClipper *)result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_delete_ListClipper(ImGuiListClipper *_swig_go_0) {
-  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
-  
-  arg1 = *(ImGuiListClipper **)&_swig_go_0; 
-  
-  delete arg1;
-  
-}
-
-
-bool _wrap_ListClipper_Step(ImGuiListClipper *_swig_go_0) {
-  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
-  bool result;
-  bool _swig_go_result;
-  
-  arg1 = *(ImGuiListClipper **)&_swig_go_0; 
-  
-  result = (bool)(arg1)->Step();
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_ListClipper_Begin__SWIG_0(ImGuiListClipper *_swig_go_0, intgo _swig_go_1, float _swig_go_2) {
-  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
-  int arg2 ;
-  float arg3 ;
-  
-  arg1 = *(ImGuiListClipper **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  
-  (arg1)->Begin(arg2,arg3);
-  
-}
-
-
-void _wrap_ListClipper_Begin__SWIG_1(ImGuiListClipper *_swig_go_0, intgo _swig_go_1) {
-  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
-  int arg2 ;
-  
-  arg1 = *(ImGuiListClipper **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
-  (arg1)->Begin(arg2);
-  
-}
-
-
-void _wrap_ListClipper_End(ImGuiListClipper *_swig_go_0) {
-  ImGuiListClipper *arg1 = (ImGuiListClipper *) 0 ;
-  
-  arg1 = *(ImGuiListClipper **)&_swig_go_0; 
-  
-  (arg1)->End();
-  
 }
 
 
 void _wrap_DrawCmd_ElemCount_set(ImDrawCmd *_swig_go_0, intgo _swig_go_1) {
   ImDrawCmd *arg1 = (ImDrawCmd *) 0 ;
   unsigned int arg2 ;
-  
-  arg1 = *(ImDrawCmd **)&_swig_go_0; 
-  arg2 = (unsigned int)_swig_go_1; 
-  
+
+  arg1 = *(ImDrawCmd **)&_swig_go_0;
+  arg2 = (unsigned int)_swig_go_1;
+
   if (arg1) (arg1)->ElemCount = arg2;
-  
+
 }
 
 
@@ -18007,11 +18703,11 @@ intgo _wrap_DrawCmd_ElemCount_get(ImDrawCmd *_swig_go_0) {
   ImDrawCmd *arg1 = (ImDrawCmd *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImDrawCmd **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawCmd **)&_swig_go_0;
+
   result = (unsigned int) ((arg1)->ElemCount);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -18019,12 +18715,12 @@ intgo _wrap_DrawCmd_ElemCount_get(ImDrawCmd *_swig_go_0) {
 void _wrap_DrawCmd_ClipRect_set(ImDrawCmd *_swig_go_0, ImVec4 *_swig_go_1) {
   ImDrawCmd *arg1 = (ImDrawCmd *) 0 ;
   ImVec4 *arg2 = (ImVec4 *) 0 ;
-  
-  arg1 = *(ImDrawCmd **)&_swig_go_0; 
-  arg2 = *(ImVec4 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImDrawCmd **)&_swig_go_0;
+  arg2 = *(ImVec4 **)&_swig_go_1;
+
   if (arg1) (arg1)->ClipRect = *arg2;
-  
+
 }
 
 
@@ -18032,11 +18728,11 @@ ImVec4 *_wrap_DrawCmd_ClipRect_get(ImDrawCmd *_swig_go_0) {
   ImDrawCmd *arg1 = (ImDrawCmd *) 0 ;
   ImVec4 *result = 0 ;
   ImVec4 *_swig_go_result;
-  
-  arg1 = *(ImDrawCmd **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawCmd **)&_swig_go_0;
+
   result = (ImVec4 *)& ((arg1)->ClipRect);
-  *(ImVec4 **)&_swig_go_result = (ImVec4 *)result; 
+  *(ImVec4 **)&_swig_go_result = (ImVec4 *)result;
   return _swig_go_result;
 }
 
@@ -18044,12 +18740,12 @@ ImVec4 *_wrap_DrawCmd_ClipRect_get(ImDrawCmd *_swig_go_0) {
 void _wrap_DrawCmd_TextureId_set(ImDrawCmd *_swig_go_0, ImTextureID _swig_go_1) {
   ImDrawCmd *arg1 = (ImDrawCmd *) 0 ;
   ImTextureID arg2 = (ImTextureID) 0 ;
-  
-  arg1 = *(ImDrawCmd **)&_swig_go_0; 
-  arg2 = *(ImTextureID *)&_swig_go_1; 
-  
+
+  arg1 = *(ImDrawCmd **)&_swig_go_0;
+  arg2 = *(ImTextureID *)&_swig_go_1;
+
   if (arg1) (arg1)->TextureId = arg2;
-  
+
 }
 
 
@@ -18057,11 +18753,11 @@ ImTextureID _wrap_DrawCmd_TextureId_get(ImDrawCmd *_swig_go_0) {
   ImDrawCmd *arg1 = (ImDrawCmd *) 0 ;
   ImTextureID result;
   ImTextureID _swig_go_result;
-  
-  arg1 = *(ImDrawCmd **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawCmd **)&_swig_go_0;
+
   result = (ImTextureID) ((arg1)->TextureId);
-  *(ImTextureID *)&_swig_go_result = (ImTextureID)result; 
+  *(ImTextureID *)&_swig_go_result = (ImTextureID)result;
   return _swig_go_result;
 }
 
@@ -18069,12 +18765,12 @@ ImTextureID _wrap_DrawCmd_TextureId_get(ImDrawCmd *_swig_go_0) {
 void _wrap_DrawCmd_UserCallback_set(ImDrawCmd *_swig_go_0, void* _swig_go_1) {
   ImDrawCmd *arg1 = (ImDrawCmd *) 0 ;
   ImDrawCallback arg2 = (ImDrawCallback) 0 ;
-  
-  arg1 = *(ImDrawCmd **)&_swig_go_0; 
-  arg2 = *(ImDrawCallback *)&_swig_go_1; 
-  
+
+  arg1 = *(ImDrawCmd **)&_swig_go_0;
+  arg2 = *(ImDrawCallback *)&_swig_go_1;
+
   if (arg1) (arg1)->UserCallback = arg2;
-  
+
 }
 
 
@@ -18082,11 +18778,11 @@ void* _wrap_DrawCmd_UserCallback_get(ImDrawCmd *_swig_go_0) {
   ImDrawCmd *arg1 = (ImDrawCmd *) 0 ;
   ImDrawCallback result;
   void* _swig_go_result;
-  
-  arg1 = *(ImDrawCmd **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawCmd **)&_swig_go_0;
+
   result = (ImDrawCallback) ((arg1)->UserCallback);
-  *(ImDrawCallback *)&_swig_go_result = (ImDrawCallback)result; 
+  *(ImDrawCallback *)&_swig_go_result = (ImDrawCallback)result;
   return _swig_go_result;
 }
 
@@ -18094,12 +18790,12 @@ void* _wrap_DrawCmd_UserCallback_get(ImDrawCmd *_swig_go_0) {
 void _wrap_DrawCmd_UserCallbackData_set(ImDrawCmd *_swig_go_0, void *_swig_go_1) {
   ImDrawCmd *arg1 = (ImDrawCmd *) 0 ;
   void *arg2 = (void *) 0 ;
-  
-  arg1 = *(ImDrawCmd **)&_swig_go_0; 
-  arg2 = *(void **)&_swig_go_1; 
-  
+
+  arg1 = *(ImDrawCmd **)&_swig_go_0;
+  arg2 = *(void **)&_swig_go_1;
+
   if (arg1) (arg1)->UserCallbackData = arg2;
-  
+
 }
 
 
@@ -18107,11 +18803,11 @@ void *_wrap_DrawCmd_UserCallbackData_get(ImDrawCmd *_swig_go_0) {
   ImDrawCmd *arg1 = (ImDrawCmd *) 0 ;
   void *result = 0 ;
   void *_swig_go_result;
-  
-  arg1 = *(ImDrawCmd **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawCmd **)&_swig_go_0;
+
   result = (void *) ((arg1)->UserCallbackData);
-  *(void **)&_swig_go_result = (void *)result; 
+  *(void **)&_swig_go_result = (void *)result;
   return _swig_go_result;
 }
 
@@ -18119,43 +18815,43 @@ void *_wrap_DrawCmd_UserCallbackData_get(ImDrawCmd *_swig_go_0) {
 ImDrawCmd *_wrap_new_DrawCmd() {
   ImDrawCmd *result = 0 ;
   ImDrawCmd *_swig_go_result;
-  
-  
+
+
   result = (ImDrawCmd *)new ImDrawCmd();
-  *(ImDrawCmd **)&_swig_go_result = (ImDrawCmd *)result; 
+  *(ImDrawCmd **)&_swig_go_result = (ImDrawCmd *)result;
   return _swig_go_result;
 }
 
 
 void _wrap_delete_DrawCmd(ImDrawCmd *_swig_go_0) {
   ImDrawCmd *arg1 = (ImDrawCmd *) 0 ;
-  
-  arg1 = *(ImDrawCmd **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawCmd **)&_swig_go_0;
+
   delete arg1;
-  
+
 }
 
 
 void _wrap_DrawCmdUserCall(ImDrawList *_swig_go_0, ImDrawCmd *_swig_go_1) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImDrawCmd *arg2 = (ImDrawCmd *) 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImDrawCmd **)&_swig_go_1; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImDrawCmd **)&_swig_go_1;
+
   ImDrawCmdUserCall((ImDrawList const *)arg1,(ImDrawCmd const *)arg2);
-  
+
 }
 
 
 intgo _wrap_DrawIdxSize_get() {
   int result;
   intgo _swig_go_result;
-  
-  
+
+
   result = (int)(int)ImDrawIdxSize;
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -18163,12 +18859,12 @@ intgo _wrap_DrawIdxSize_get() {
 void _wrap_DrawVert_pos_set(ImDrawVert *_swig_go_0, ImVec2 *_swig_go_1) {
   ImDrawVert *arg1 = (ImDrawVert *) 0 ;
   ImVec2 *arg2 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImDrawVert **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImDrawVert **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   if (arg1) (arg1)->pos = *arg2;
-  
+
 }
 
 
@@ -18176,11 +18872,11 @@ ImVec2 *_wrap_DrawVert_pos_get(ImDrawVert *_swig_go_0) {
   ImDrawVert *arg1 = (ImDrawVert *) 0 ;
   ImVec2 *result = 0 ;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImDrawVert **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawVert **)&_swig_go_0;
+
   result = (ImVec2 *)& ((arg1)->pos);
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
   return _swig_go_result;
 }
 
@@ -18188,12 +18884,12 @@ ImVec2 *_wrap_DrawVert_pos_get(ImDrawVert *_swig_go_0) {
 void _wrap_DrawVert_uv_set(ImDrawVert *_swig_go_0, ImVec2 *_swig_go_1) {
   ImDrawVert *arg1 = (ImDrawVert *) 0 ;
   ImVec2 *arg2 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImDrawVert **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImDrawVert **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   if (arg1) (arg1)->uv = *arg2;
-  
+
 }
 
 
@@ -18201,11 +18897,11 @@ ImVec2 *_wrap_DrawVert_uv_get(ImDrawVert *_swig_go_0) {
   ImDrawVert *arg1 = (ImDrawVert *) 0 ;
   ImVec2 *result = 0 ;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImDrawVert **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawVert **)&_swig_go_0;
+
   result = (ImVec2 *)& ((arg1)->uv);
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
   return _swig_go_result;
 }
 
@@ -18213,12 +18909,12 @@ ImVec2 *_wrap_DrawVert_uv_get(ImDrawVert *_swig_go_0) {
 void _wrap_DrawVert_col_set(ImDrawVert *_swig_go_0, intgo _swig_go_1) {
   ImDrawVert *arg1 = (ImDrawVert *) 0 ;
   ImU32 arg2 ;
-  
-  arg1 = *(ImDrawVert **)&_swig_go_0; 
-  arg2 = (ImU32)_swig_go_1; 
-  
+
+  arg1 = *(ImDrawVert **)&_swig_go_0;
+  arg2 = (ImU32)_swig_go_1;
+
   if (arg1) (arg1)->col = arg2;
-  
+
 }
 
 
@@ -18226,11 +18922,11 @@ intgo _wrap_DrawVert_col_get(ImDrawVert *_swig_go_0) {
   ImDrawVert *arg1 = (ImDrawVert *) 0 ;
   ImU32 result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImDrawVert **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawVert **)&_swig_go_0;
+
   result = (ImU32) ((arg1)->col);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -18238,31 +18934,31 @@ intgo _wrap_DrawVert_col_get(ImDrawVert *_swig_go_0) {
 ImDrawVert *_wrap_new_DrawVert() {
   ImDrawVert *result = 0 ;
   ImDrawVert *_swig_go_result;
-  
-  
+
+
   result = (ImDrawVert *)new ImDrawVert();
-  *(ImDrawVert **)&_swig_go_result = (ImDrawVert *)result; 
+  *(ImDrawVert **)&_swig_go_result = (ImDrawVert *)result;
   return _swig_go_result;
 }
 
 
 void _wrap_delete_DrawVert(ImDrawVert *_swig_go_0) {
   ImDrawVert *arg1 = (ImDrawVert *) 0 ;
-  
-  arg1 = *(ImDrawVert **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawVert **)&_swig_go_0;
+
   delete arg1;
-  
+
 }
 
 
 intgo _wrap_DrawVertSize_get() {
   int result;
   intgo _swig_go_result;
-  
-  
+
+
   result = (int)(int)ImDrawVertSize;
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -18271,25 +18967,25 @@ void _wrap_DrawVertOffset(intgo *_swig_go_0, intgo *_swig_go_1, intgo *_swig_go_
   int *arg1 = (int *) 0 ;
   int *arg2 = (int *) 0 ;
   int *arg3 = (int *) 0 ;
-  
-  arg1 = *(int **)&_swig_go_0; 
-  arg2 = *(int **)&_swig_go_1; 
-  arg3 = *(int **)&_swig_go_2; 
-  
+
+  arg1 = *(int **)&_swig_go_0;
+  arg2 = *(int **)&_swig_go_1;
+  arg3 = *(int **)&_swig_go_2;
+
   ImDrawVertOffset(arg1,arg2,arg3);
-  
+
 }
 
 
 void _wrap_DrawChannel_CmdBuffer_set(ImDrawChannel *_swig_go_0, ImVector< ImDrawCmd > *_swig_go_1) {
   ImDrawChannel *arg1 = (ImDrawChannel *) 0 ;
   ImVector< ImDrawCmd > *arg2 = (ImVector< ImDrawCmd > *) 0 ;
-  
-  arg1 = *(ImDrawChannel **)&_swig_go_0; 
-  arg2 = *(ImVector< ImDrawCmd > **)&_swig_go_1; 
-  
+
+  arg1 = *(ImDrawChannel **)&_swig_go_0;
+  arg2 = *(ImVector< ImDrawCmd > **)&_swig_go_1;
+
   if (arg1) (arg1)->CmdBuffer = *arg2;
-  
+
 }
 
 
@@ -18297,43 +18993,36 @@ ImVector< ImDrawCmd > *_wrap_DrawChannel_CmdBuffer_get(ImDrawChannel *_swig_go_0
   ImDrawChannel *arg1 = (ImDrawChannel *) 0 ;
   ImVector< ImDrawCmd > *result = 0 ;
   ImVector< ImDrawCmd > *_swig_go_result;
-  
-  arg1 = *(ImDrawChannel **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawChannel **)&_swig_go_0;
+
   result = (ImVector< ImDrawCmd > *)& ((arg1)->CmdBuffer);
-  *(ImVector< ImDrawCmd > **)&_swig_go_result = (ImVector< ImDrawCmd > *)result; 
+  *(ImVector< ImDrawCmd > **)&_swig_go_result = (ImVector< ImDrawCmd > *)result;
   return _swig_go_result;
 }
 
 
 void _wrap_DrawChannel_IdxBuffer_set(ImDrawChannel *_swig_go_0, ImVector< unsigned short > *_swig_go_1) {
   ImDrawChannel *arg1 = (ImDrawChannel *) 0 ;
-  ImVector< ImDrawIdx > arg2 ;
-  ImVector< ImDrawIdx > *argp2 ;
-  
-  arg1 = *(ImDrawChannel **)&_swig_go_0; 
-  
-  argp2 = (ImVector< ImDrawIdx > *)_swig_go_1;
-  if (argp2 == NULL) {
-    _swig_gopanic("Attempt to dereference null ImVector< ImDrawIdx >");
-  }
-  arg2 = (ImVector< ImDrawIdx >)*argp2;
-  
-  
-  if (arg1) (arg1)->IdxBuffer = arg2;
-  
+  ImVector< ImDrawIdx > *arg2 = (ImVector< ImDrawIdx > *) 0 ;
+
+  arg1 = *(ImDrawChannel **)&_swig_go_0;
+  arg2 = *(ImVector< ImDrawIdx > **)&_swig_go_1;
+
+  if (arg1) (arg1)->IdxBuffer = *arg2;
+
 }
 
 
 ImVector< unsigned short > *_wrap_DrawChannel_IdxBuffer_get(ImDrawChannel *_swig_go_0) {
   ImDrawChannel *arg1 = (ImDrawChannel *) 0 ;
-  ImVector< ImDrawIdx > result;
+  ImVector< ImDrawIdx > *result = 0 ;
   ImVector< unsigned short > *_swig_go_result;
-  
-  arg1 = *(ImDrawChannel **)&_swig_go_0; 
-  
-  result =  ((arg1)->IdxBuffer);
-  *(ImVector< ImDrawIdx > **)&_swig_go_result = new ImVector< ImDrawIdx >(result); 
+
+  arg1 = *(ImDrawChannel **)&_swig_go_0;
+
+  result = (ImVector< ImDrawIdx > *)& ((arg1)->IdxBuffer);
+  *(ImVector< ImDrawIdx > **)&_swig_go_result = (ImVector< ImDrawIdx > *)result;
   return _swig_go_result;
 }
 
@@ -18341,32 +19030,32 @@ ImVector< unsigned short > *_wrap_DrawChannel_IdxBuffer_get(ImDrawChannel *_swig
 ImDrawChannel *_wrap_new_DrawChannel() {
   ImDrawChannel *result = 0 ;
   ImDrawChannel *_swig_go_result;
-  
-  
+
+
   result = (ImDrawChannel *)new ImDrawChannel();
-  *(ImDrawChannel **)&_swig_go_result = (ImDrawChannel *)result; 
+  *(ImDrawChannel **)&_swig_go_result = (ImDrawChannel *)result;
   return _swig_go_result;
 }
 
 
 void _wrap_delete_DrawChannel(ImDrawChannel *_swig_go_0) {
   ImDrawChannel *arg1 = (ImDrawChannel *) 0 ;
-  
-  arg1 = *(ImDrawChannel **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawChannel **)&_swig_go_0;
+
   delete arg1;
-  
+
 }
 
 
 intgo _wrap_DrawCornerFlags_TopLeft() {
   ImDrawCornerFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImDrawCornerFlags_TopLeft;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -18374,11 +19063,11 @@ intgo _wrap_DrawCornerFlags_TopLeft() {
 intgo _wrap_DrawCornerFlags_TopRight() {
   ImDrawCornerFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImDrawCornerFlags_TopRight;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -18386,11 +19075,11 @@ intgo _wrap_DrawCornerFlags_TopRight() {
 intgo _wrap_DrawCornerFlags_BotLeft() {
   ImDrawCornerFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImDrawCornerFlags_BotLeft;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -18398,11 +19087,11 @@ intgo _wrap_DrawCornerFlags_BotLeft() {
 intgo _wrap_DrawCornerFlags_BotRight() {
   ImDrawCornerFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImDrawCornerFlags_BotRight;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -18410,11 +19099,11 @@ intgo _wrap_DrawCornerFlags_BotRight() {
 intgo _wrap_DrawCornerFlags_Top() {
   ImDrawCornerFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImDrawCornerFlags_Top;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -18422,11 +19111,11 @@ intgo _wrap_DrawCornerFlags_Top() {
 intgo _wrap_DrawCornerFlags_Bot() {
   ImDrawCornerFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImDrawCornerFlags_Bot;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -18434,11 +19123,11 @@ intgo _wrap_DrawCornerFlags_Bot() {
 intgo _wrap_DrawCornerFlags_Left() {
   ImDrawCornerFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImDrawCornerFlags_Left;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -18446,11 +19135,11 @@ intgo _wrap_DrawCornerFlags_Left() {
 intgo _wrap_DrawCornerFlags_Right() {
   ImDrawCornerFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImDrawCornerFlags_Right;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -18458,11 +19147,23 @@ intgo _wrap_DrawCornerFlags_Right() {
 intgo _wrap_DrawCornerFlags_All() {
   ImDrawCornerFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImDrawCornerFlags_All;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
+  return _swig_go_result;
+}
+
+
+intgo _wrap_DrawListFlags_None() {
+  ImDrawListFlags_ result;
+  intgo _swig_go_result;
+
+
+  result = ImDrawListFlags_None;
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -18470,11 +19171,11 @@ intgo _wrap_DrawCornerFlags_All() {
 intgo _wrap_DrawListFlags_AntiAliasedLines() {
   ImDrawListFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImDrawListFlags_AntiAliasedLines;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -18482,11 +19183,11 @@ intgo _wrap_DrawListFlags_AntiAliasedLines() {
 intgo _wrap_DrawListFlags_AntiAliasedFill() {
   ImDrawListFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImDrawListFlags_AntiAliasedFill;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -18494,12 +19195,12 @@ intgo _wrap_DrawListFlags_AntiAliasedFill() {
 void _wrap_DrawList_CmdBuffer_set(ImDrawList *_swig_go_0, ImVector< ImDrawCmd > *_swig_go_1) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImVector< ImDrawCmd > *arg2 = (ImVector< ImDrawCmd > *) 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVector< ImDrawCmd > **)&_swig_go_1; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVector< ImDrawCmd > **)&_swig_go_1;
+
   if (arg1) (arg1)->CmdBuffer = *arg2;
-  
+
 }
 
 
@@ -18507,43 +19208,36 @@ ImVector< ImDrawCmd > *_wrap_DrawList_CmdBuffer_get(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImVector< ImDrawCmd > *result = 0 ;
   ImVector< ImDrawCmd > *_swig_go_result;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   result = (ImVector< ImDrawCmd > *)& ((arg1)->CmdBuffer);
-  *(ImVector< ImDrawCmd > **)&_swig_go_result = (ImVector< ImDrawCmd > *)result; 
+  *(ImVector< ImDrawCmd > **)&_swig_go_result = (ImVector< ImDrawCmd > *)result;
   return _swig_go_result;
 }
 
 
 void _wrap_DrawList_IdxBuffer_set(ImDrawList *_swig_go_0, ImVector< unsigned short > *_swig_go_1) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
-  ImVector< ImDrawIdx > arg2 ;
-  ImVector< ImDrawIdx > *argp2 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
-  argp2 = (ImVector< ImDrawIdx > *)_swig_go_1;
-  if (argp2 == NULL) {
-    _swig_gopanic("Attempt to dereference null ImVector< ImDrawIdx >");
-  }
-  arg2 = (ImVector< ImDrawIdx >)*argp2;
-  
-  
-  if (arg1) (arg1)->IdxBuffer = arg2;
-  
+  ImVector< ImDrawIdx > *arg2 = (ImVector< ImDrawIdx > *) 0 ;
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVector< ImDrawIdx > **)&_swig_go_1;
+
+  if (arg1) (arg1)->IdxBuffer = *arg2;
+
 }
 
 
 ImVector< unsigned short > *_wrap_DrawList_IdxBuffer_get(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
-  ImVector< ImDrawIdx > result;
+  ImVector< ImDrawIdx > *result = 0 ;
   ImVector< unsigned short > *_swig_go_result;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
-  result =  ((arg1)->IdxBuffer);
-  *(ImVector< ImDrawIdx > **)&_swig_go_result = new ImVector< ImDrawIdx >(result); 
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
+  result = (ImVector< ImDrawIdx > *)& ((arg1)->IdxBuffer);
+  *(ImVector< ImDrawIdx > **)&_swig_go_result = (ImVector< ImDrawIdx > *)result;
   return _swig_go_result;
 }
 
@@ -18551,12 +19245,12 @@ ImVector< unsigned short > *_wrap_DrawList_IdxBuffer_get(ImDrawList *_swig_go_0)
 void _wrap_DrawList_VtxBuffer_set(ImDrawList *_swig_go_0, ImVector< ImDrawVert > *_swig_go_1) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImVector< ImDrawVert > *arg2 = (ImVector< ImDrawVert > *) 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVector< ImDrawVert > **)&_swig_go_1; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVector< ImDrawVert > **)&_swig_go_1;
+
   if (arg1) (arg1)->VtxBuffer = *arg2;
-  
+
 }
 
 
@@ -18564,11 +19258,11 @@ ImVector< ImDrawVert > *_wrap_DrawList_VtxBuffer_get(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImVector< ImDrawVert > *result = 0 ;
   ImVector< ImDrawVert > *_swig_go_result;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   result = (ImVector< ImDrawVert > *)& ((arg1)->VtxBuffer);
-  *(ImVector< ImDrawVert > **)&_swig_go_result = (ImVector< ImDrawVert > *)result; 
+  *(ImVector< ImDrawVert > **)&_swig_go_result = (ImVector< ImDrawVert > *)result;
   return _swig_go_result;
 }
 
@@ -18576,12 +19270,12 @@ ImVector< ImDrawVert > *_wrap_DrawList_VtxBuffer_get(ImDrawList *_swig_go_0) {
 void _wrap_DrawList_Flags_set(ImDrawList *_swig_go_0, intgo _swig_go_1) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImDrawListFlags arg2 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = (ImDrawListFlags)_swig_go_1; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = (ImDrawListFlags)_swig_go_1;
+
   if (arg1) (arg1)->Flags = arg2;
-  
+
 }
 
 
@@ -18589,11 +19283,11 @@ intgo _wrap_DrawList_Flags_get(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImDrawListFlags result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   result = (ImDrawListFlags) ((arg1)->Flags);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -18601,12 +19295,12 @@ intgo _wrap_DrawList_Flags_get(ImDrawList *_swig_go_0) {
 void _wrap_DrawList__Data_set(ImDrawList *_swig_go_0, ImDrawListSharedData *_swig_go_1) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImDrawListSharedData *arg2 = (ImDrawListSharedData *) 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImDrawListSharedData **)&_swig_go_1; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImDrawListSharedData **)&_swig_go_1;
+
   if (arg1) (arg1)->_Data = (ImDrawListSharedData const *)arg2;
-  
+
 }
 
 
@@ -18614,11 +19308,11 @@ ImDrawListSharedData *_wrap_DrawList__Data_get(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImDrawListSharedData *result = 0 ;
   ImDrawListSharedData *_swig_go_result;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   result = (ImDrawListSharedData *) ((arg1)->_Data);
-  *(ImDrawListSharedData **)&_swig_go_result = (ImDrawListSharedData *)result; 
+  *(ImDrawListSharedData **)&_swig_go_result = (ImDrawListSharedData *)result;
   return _swig_go_result;
 }
 
@@ -18626,14 +19320,14 @@ ImDrawListSharedData *_wrap_DrawList__Data_get(ImDrawList *_swig_go_0) {
 void _wrap_DrawList__OwnerName_set(ImDrawList *_swig_go_0, _gostring_ _swig_go_1) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   char *arg2 = (char *) 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  
+
+
   {
     if (arg2) {
       arg1->_OwnerName = (char const *) (new char[strlen((const char *)arg2)+1]);
@@ -18642,8 +19336,8 @@ void _wrap_DrawList__OwnerName_set(ImDrawList *_swig_go_0, _gostring_ _swig_go_1
       arg1->_OwnerName = 0;
     }
   }
-  
-  free(arg2); 
+
+  free(arg2);
 }
 
 
@@ -18651,11 +19345,11 @@ _gostring_ _wrap_DrawList__OwnerName_get(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   result = (char *) ((arg1)->_OwnerName);
-  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0);
   return _swig_go_result;
 }
 
@@ -18663,12 +19357,12 @@ _gostring_ _wrap_DrawList__OwnerName_get(ImDrawList *_swig_go_0) {
 void _wrap_DrawList__VtxCurrentIdx_set(ImDrawList *_swig_go_0, intgo _swig_go_1) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   unsigned int arg2 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = (unsigned int)_swig_go_1; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = (unsigned int)_swig_go_1;
+
   if (arg1) (arg1)->_VtxCurrentIdx = arg2;
-  
+
 }
 
 
@@ -18676,11 +19370,11 @@ intgo _wrap_DrawList__VtxCurrentIdx_get(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   result = (unsigned int) ((arg1)->_VtxCurrentIdx);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -18688,12 +19382,12 @@ intgo _wrap_DrawList__VtxCurrentIdx_get(ImDrawList *_swig_go_0) {
 void _wrap_DrawList__VtxWritePtr_set(ImDrawList *_swig_go_0, ImDrawVert *_swig_go_1) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImDrawVert *arg2 = (ImDrawVert *) 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImDrawVert **)&_swig_go_1; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImDrawVert **)&_swig_go_1;
+
   if (arg1) (arg1)->_VtxWritePtr = arg2;
-  
+
 }
 
 
@@ -18701,11 +19395,11 @@ ImDrawVert *_wrap_DrawList__VtxWritePtr_get(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImDrawVert *result = 0 ;
   ImDrawVert *_swig_go_result;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   result = (ImDrawVert *) ((arg1)->_VtxWritePtr);
-  *(ImDrawVert **)&_swig_go_result = (ImDrawVert *)result; 
+  *(ImDrawVert **)&_swig_go_result = (ImDrawVert *)result;
   return _swig_go_result;
 }
 
@@ -18713,12 +19407,12 @@ ImDrawVert *_wrap_DrawList__VtxWritePtr_get(ImDrawList *_swig_go_0) {
 void _wrap_DrawList__IdxWritePtr_set(ImDrawList *_swig_go_0, short *_swig_go_1) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImDrawIdx *arg2 = (ImDrawIdx *) 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImDrawIdx **)&_swig_go_1; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImDrawIdx **)&_swig_go_1;
+
   if (arg1) (arg1)->_IdxWritePtr = arg2;
-  
+
 }
 
 
@@ -18726,11 +19420,11 @@ short *_wrap_DrawList__IdxWritePtr_get(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImDrawIdx *result = 0 ;
   short *_swig_go_result;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   result = (ImDrawIdx *) ((arg1)->_IdxWritePtr);
-  *(ImDrawIdx **)&_swig_go_result = (ImDrawIdx *)result; 
+  *(ImDrawIdx **)&_swig_go_result = (ImDrawIdx *)result;
   return _swig_go_result;
 }
 
@@ -18738,12 +19432,12 @@ short *_wrap_DrawList__IdxWritePtr_get(ImDrawList *_swig_go_0) {
 void _wrap_DrawList__ClipRectStack_set(ImDrawList *_swig_go_0, ImVector< ImVec4 > *_swig_go_1) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImVector< ImVec4 > *arg2 = (ImVector< ImVec4 > *) 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVector< ImVec4 > **)&_swig_go_1; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVector< ImVec4 > **)&_swig_go_1;
+
   if (arg1) (arg1)->_ClipRectStack = *arg2;
-  
+
 }
 
 
@@ -18751,43 +19445,36 @@ ImVector< ImVec4 > *_wrap_DrawList__ClipRectStack_get(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImVector< ImVec4 > *result = 0 ;
   ImVector< ImVec4 > *_swig_go_result;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   result = (ImVector< ImVec4 > *)& ((arg1)->_ClipRectStack);
-  *(ImVector< ImVec4 > **)&_swig_go_result = (ImVector< ImVec4 > *)result; 
+  *(ImVector< ImVec4 > **)&_swig_go_result = (ImVector< ImVec4 > *)result;
   return _swig_go_result;
 }
 
 
 void _wrap_DrawList__TextureIdStack_set(ImDrawList *_swig_go_0, ImVector< void * > *_swig_go_1) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
-  ImVector< ImTextureID > arg2 ;
-  ImVector< ImTextureID > *argp2 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
-  argp2 = (ImVector< ImTextureID > *)_swig_go_1;
-  if (argp2 == NULL) {
-    _swig_gopanic("Attempt to dereference null ImVector< ImTextureID >");
-  }
-  arg2 = (ImVector< ImTextureID >)*argp2;
-  
-  
-  if (arg1) (arg1)->_TextureIdStack = arg2;
-  
+  ImVector< ImTextureID > *arg2 = (ImVector< ImTextureID > *) 0 ;
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVector< ImTextureID > **)&_swig_go_1;
+
+  if (arg1) (arg1)->_TextureIdStack = *arg2;
+
 }
 
 
 ImVector< void * > *_wrap_DrawList__TextureIdStack_get(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
-  ImVector< ImTextureID > result;
+  ImVector< ImTextureID > *result = 0 ;
   ImVector< void * > *_swig_go_result;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
-  result =  ((arg1)->_TextureIdStack);
-  *(ImVector< ImTextureID > **)&_swig_go_result = new ImVector< ImTextureID >(result); 
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
+  result = (ImVector< ImTextureID > *)& ((arg1)->_TextureIdStack);
+  *(ImVector< ImTextureID > **)&_swig_go_result = (ImVector< ImTextureID > *)result;
   return _swig_go_result;
 }
 
@@ -18795,12 +19482,12 @@ ImVector< void * > *_wrap_DrawList__TextureIdStack_get(ImDrawList *_swig_go_0) {
 void _wrap_DrawList__Path_set(ImDrawList *_swig_go_0, ImVector< ImVec2 > *_swig_go_1) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImVector< ImVec2 > *arg2 = (ImVector< ImVec2 > *) 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVector< ImVec2 > **)&_swig_go_1; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVector< ImVec2 > **)&_swig_go_1;
+
   if (arg1) (arg1)->_Path = *arg2;
-  
+
 }
 
 
@@ -18808,11 +19495,11 @@ ImVector< ImVec2 > *_wrap_DrawList__Path_get(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImVector< ImVec2 > *result = 0 ;
   ImVector< ImVec2 > *_swig_go_result;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   result = (ImVector< ImVec2 > *)& ((arg1)->_Path);
-  *(ImVector< ImVec2 > **)&_swig_go_result = (ImVector< ImVec2 > *)result; 
+  *(ImVector< ImVec2 > **)&_swig_go_result = (ImVector< ImVec2 > *)result;
   return _swig_go_result;
 }
 
@@ -18820,12 +19507,12 @@ ImVector< ImVec2 > *_wrap_DrawList__Path_get(ImDrawList *_swig_go_0) {
 void _wrap_DrawList__ChannelsCurrent_set(ImDrawList *_swig_go_0, intgo _swig_go_1) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   int arg2 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   if (arg1) (arg1)->_ChannelsCurrent = arg2;
-  
+
 }
 
 
@@ -18833,11 +19520,11 @@ intgo _wrap_DrawList__ChannelsCurrent_get(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   result = (int) ((arg1)->_ChannelsCurrent);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -18845,12 +19532,12 @@ intgo _wrap_DrawList__ChannelsCurrent_get(ImDrawList *_swig_go_0) {
 void _wrap_DrawList__ChannelsCount_set(ImDrawList *_swig_go_0, intgo _swig_go_1) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   int arg2 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   if (arg1) (arg1)->_ChannelsCount = arg2;
-  
+
 }
 
 
@@ -18858,11 +19545,11 @@ intgo _wrap_DrawList__ChannelsCount_get(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   result = (int) ((arg1)->_ChannelsCount);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -18870,12 +19557,12 @@ intgo _wrap_DrawList__ChannelsCount_get(ImDrawList *_swig_go_0) {
 void _wrap_DrawList__Channels_set(ImDrawList *_swig_go_0, ImVector< ImDrawChannel > *_swig_go_1) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImVector< ImDrawChannel > *arg2 = (ImVector< ImDrawChannel > *) 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVector< ImDrawChannel > **)&_swig_go_1; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVector< ImDrawChannel > **)&_swig_go_1;
+
   if (arg1) (arg1)->_Channels = *arg2;
-  
+
 }
 
 
@@ -18883,11 +19570,11 @@ ImVector< ImDrawChannel > *_wrap_DrawList__Channels_get(ImDrawList *_swig_go_0) 
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImVector< ImDrawChannel > *result = 0 ;
   ImVector< ImDrawChannel > *_swig_go_result;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   result = (ImVector< ImDrawChannel > *)& ((arg1)->_Channels);
-  *(ImVector< ImDrawChannel > **)&_swig_go_result = (ImVector< ImDrawChannel > *)result; 
+  *(ImVector< ImDrawChannel > **)&_swig_go_result = (ImVector< ImDrawChannel > *)result;
   return _swig_go_result;
 }
 
@@ -18896,22 +19583,22 @@ ImDrawList *_wrap_new_DrawList(ImDrawListSharedData *_swig_go_0) {
   ImDrawListSharedData *arg1 = (ImDrawListSharedData *) 0 ;
   ImDrawList *result = 0 ;
   ImDrawList *_swig_go_result;
-  
-  arg1 = *(ImDrawListSharedData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawListSharedData **)&_swig_go_0;
+
   result = (ImDrawList *)new ImDrawList((ImDrawListSharedData const *)arg1);
-  *(ImDrawList **)&_swig_go_result = (ImDrawList *)result; 
+  *(ImDrawList **)&_swig_go_result = (ImDrawList *)result;
   return _swig_go_result;
 }
 
 
 void _wrap_delete_DrawList(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   delete arg1;
-  
+
 }
 
 
@@ -18922,26 +19609,26 @@ void _wrap_DrawList_PushClipRect__SWIG_0(ImDrawList *_swig_go_0, ImVec2 *_swig_g
   bool arg4 ;
   ImVec2 *argp2 ;
   ImVec2 *argp3 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   argp2 = (ImVec2 *)_swig_go_1;
   if (argp2 == NULL) {
     _swig_gopanic("Attempt to dereference null ImVec2");
   }
   arg2 = (ImVec2)*argp2;
-  
-  
+
+
   argp3 = (ImVec2 *)_swig_go_2;
   if (argp3 == NULL) {
     _swig_gopanic("Attempt to dereference null ImVec2");
   }
   arg3 = (ImVec2)*argp3;
-  
-  arg4 = (bool)_swig_go_3; 
-  
+
+  arg4 = (bool)_swig_go_3;
+
   (arg1)->PushClipRect(arg2,arg3,arg4);
-  
+
 }
 
 
@@ -18951,67 +19638,67 @@ void _wrap_DrawList_PushClipRect__SWIG_1(ImDrawList *_swig_go_0, ImVec2 *_swig_g
   ImVec2 arg3 ;
   ImVec2 *argp2 ;
   ImVec2 *argp3 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   argp2 = (ImVec2 *)_swig_go_1;
   if (argp2 == NULL) {
     _swig_gopanic("Attempt to dereference null ImVec2");
   }
   arg2 = (ImVec2)*argp2;
-  
-  
+
+
   argp3 = (ImVec2 *)_swig_go_2;
   if (argp3 == NULL) {
     _swig_gopanic("Attempt to dereference null ImVec2");
   }
   arg3 = (ImVec2)*argp3;
-  
-  
+
+
   (arg1)->PushClipRect(arg2,arg3);
-  
+
 }
 
 
 void _wrap_DrawList_PushClipRectFullScreen(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   (arg1)->PushClipRectFullScreen();
-  
+
 }
 
 
 void _wrap_DrawList_PopClipRect(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   (arg1)->PopClipRect();
-  
+
 }
 
 
 void _wrap_DrawList_PushTextureID(ImDrawList *_swig_go_0, ImTextureID _swig_go_1) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImTextureID arg2 = (ImTextureID) 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImTextureID *)&_swig_go_1; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImTextureID *)&_swig_go_1;
+
   (arg1)->PushTextureID(arg2);
-  
+
 }
 
 
 void _wrap_DrawList_PopTextureID(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   (arg1)->PopTextureID();
-  
+
 }
 
 
@@ -19019,11 +19706,11 @@ ImVec2 *_wrap_DrawList_GetClipRectMin(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   result = ((ImDrawList const *)arg1)->GetClipRectMin();
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
   return _swig_go_result;
 }
 
@@ -19032,11 +19719,11 @@ ImVec2 *_wrap_DrawList_GetClipRectMax(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   result = ((ImDrawList const *)arg1)->GetClipRectMax();
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
   return _swig_go_result;
 }
 
@@ -19047,15 +19734,15 @@ void _wrap_DrawList_AddLine__SWIG_0(ImDrawList *_swig_go_0, ImVec2 *_swig_go_1, 
   ImVec2 *arg3 = 0 ;
   ImU32 arg4 ;
   float arg5 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = (ImU32)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = (ImU32)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+
   (arg1)->AddLine((ImVec2 const &)*arg2,(ImVec2 const &)*arg3,arg4,arg5);
-  
+
 }
 
 
@@ -19064,14 +19751,14 @@ void _wrap_DrawList_AddLine__SWIG_1(ImDrawList *_swig_go_0, ImVec2 *_swig_go_1, 
   ImVec2 *arg2 = 0 ;
   ImVec2 *arg3 = 0 ;
   ImU32 arg4 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = (ImU32)_swig_go_3; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = (ImU32)_swig_go_3;
+
   (arg1)->AddLine((ImVec2 const &)*arg2,(ImVec2 const &)*arg3,arg4);
-  
+
 }
 
 
@@ -19083,17 +19770,17 @@ void _wrap_DrawList_AddRect__SWIG_0(ImDrawList *_swig_go_0, ImVec2 *_swig_go_1, 
   float arg5 ;
   int arg6 ;
   float arg7 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = (ImU32)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  arg6 = (int)_swig_go_5; 
-  arg7 = (float)_swig_go_6; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = (ImU32)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+  arg6 = (int)_swig_go_5;
+  arg7 = (float)_swig_go_6;
+
   (arg1)->AddRect((ImVec2 const &)*arg2,(ImVec2 const &)*arg3,arg4,arg5,arg6,arg7);
-  
+
 }
 
 
@@ -19104,16 +19791,16 @@ void _wrap_DrawList_AddRect__SWIG_1(ImDrawList *_swig_go_0, ImVec2 *_swig_go_1, 
   ImU32 arg4 ;
   float arg5 ;
   int arg6 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = (ImU32)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  arg6 = (int)_swig_go_5; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = (ImU32)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+  arg6 = (int)_swig_go_5;
+
   (arg1)->AddRect((ImVec2 const &)*arg2,(ImVec2 const &)*arg3,arg4,arg5,arg6);
-  
+
 }
 
 
@@ -19123,15 +19810,15 @@ void _wrap_DrawList_AddRect__SWIG_2(ImDrawList *_swig_go_0, ImVec2 *_swig_go_1, 
   ImVec2 *arg3 = 0 ;
   ImU32 arg4 ;
   float arg5 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = (ImU32)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = (ImU32)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+
   (arg1)->AddRect((ImVec2 const &)*arg2,(ImVec2 const &)*arg3,arg4,arg5);
-  
+
 }
 
 
@@ -19140,14 +19827,14 @@ void _wrap_DrawList_AddRect__SWIG_3(ImDrawList *_swig_go_0, ImVec2 *_swig_go_1, 
   ImVec2 *arg2 = 0 ;
   ImVec2 *arg3 = 0 ;
   ImU32 arg4 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = (ImU32)_swig_go_3; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = (ImU32)_swig_go_3;
+
   (arg1)->AddRect((ImVec2 const &)*arg2,(ImVec2 const &)*arg3,arg4);
-  
+
 }
 
 
@@ -19158,16 +19845,16 @@ void _wrap_DrawList_AddRectFilled__SWIG_0(ImDrawList *_swig_go_0, ImVec2 *_swig_
   ImU32 arg4 ;
   float arg5 ;
   int arg6 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = (ImU32)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  arg6 = (int)_swig_go_5; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = (ImU32)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+  arg6 = (int)_swig_go_5;
+
   (arg1)->AddRectFilled((ImVec2 const &)*arg2,(ImVec2 const &)*arg3,arg4,arg5,arg6);
-  
+
 }
 
 
@@ -19177,15 +19864,15 @@ void _wrap_DrawList_AddRectFilled__SWIG_1(ImDrawList *_swig_go_0, ImVec2 *_swig_
   ImVec2 *arg3 = 0 ;
   ImU32 arg4 ;
   float arg5 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = (ImU32)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = (ImU32)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+
   (arg1)->AddRectFilled((ImVec2 const &)*arg2,(ImVec2 const &)*arg3,arg4,arg5);
-  
+
 }
 
 
@@ -19194,14 +19881,14 @@ void _wrap_DrawList_AddRectFilled__SWIG_2(ImDrawList *_swig_go_0, ImVec2 *_swig_
   ImVec2 *arg2 = 0 ;
   ImVec2 *arg3 = 0 ;
   ImU32 arg4 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = (ImU32)_swig_go_3; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = (ImU32)_swig_go_3;
+
   (arg1)->AddRectFilled((ImVec2 const &)*arg2,(ImVec2 const &)*arg3,arg4);
-  
+
 }
 
 
@@ -19213,17 +19900,17 @@ void _wrap_DrawList_AddRectFilledMultiColor(ImDrawList *_swig_go_0, ImVec2 *_swi
   ImU32 arg5 ;
   ImU32 arg6 ;
   ImU32 arg7 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = (ImU32)_swig_go_3; 
-  arg5 = (ImU32)_swig_go_4; 
-  arg6 = (ImU32)_swig_go_5; 
-  arg7 = (ImU32)_swig_go_6; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = (ImU32)_swig_go_3;
+  arg5 = (ImU32)_swig_go_4;
+  arg6 = (ImU32)_swig_go_5;
+  arg7 = (ImU32)_swig_go_6;
+
   (arg1)->AddRectFilledMultiColor((ImVec2 const &)*arg2,(ImVec2 const &)*arg3,arg4,arg5,arg6,arg7);
-  
+
 }
 
 
@@ -19235,17 +19922,17 @@ void _wrap_DrawList_AddQuad__SWIG_0(ImDrawList *_swig_go_0, ImVec2 *_swig_go_1, 
   ImVec2 *arg5 = 0 ;
   ImU32 arg6 ;
   float arg7 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = *(ImVec2 **)&_swig_go_4; 
-  arg6 = (ImU32)_swig_go_5; 
-  arg7 = (float)_swig_go_6; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = *(ImVec2 **)&_swig_go_4;
+  arg6 = (ImU32)_swig_go_5;
+  arg7 = (float)_swig_go_6;
+
   (arg1)->AddQuad((ImVec2 const &)*arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4,(ImVec2 const &)*arg5,arg6,arg7);
-  
+
 }
 
 
@@ -19256,16 +19943,16 @@ void _wrap_DrawList_AddQuad__SWIG_1(ImDrawList *_swig_go_0, ImVec2 *_swig_go_1, 
   ImVec2 *arg4 = 0 ;
   ImVec2 *arg5 = 0 ;
   ImU32 arg6 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = *(ImVec2 **)&_swig_go_4; 
-  arg6 = (ImU32)_swig_go_5; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = *(ImVec2 **)&_swig_go_4;
+  arg6 = (ImU32)_swig_go_5;
+
   (arg1)->AddQuad((ImVec2 const &)*arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4,(ImVec2 const &)*arg5,arg6);
-  
+
 }
 
 
@@ -19276,16 +19963,16 @@ void _wrap_DrawList_AddQuadFilled(ImDrawList *_swig_go_0, ImVec2 *_swig_go_1, Im
   ImVec2 *arg4 = 0 ;
   ImVec2 *arg5 = 0 ;
   ImU32 arg6 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = *(ImVec2 **)&_swig_go_4; 
-  arg6 = (ImU32)_swig_go_5; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = *(ImVec2 **)&_swig_go_4;
+  arg6 = (ImU32)_swig_go_5;
+
   (arg1)->AddQuadFilled((ImVec2 const &)*arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4,(ImVec2 const &)*arg5,arg6);
-  
+
 }
 
 
@@ -19296,16 +19983,16 @@ void _wrap_DrawList_AddTriangle__SWIG_0(ImDrawList *_swig_go_0, ImVec2 *_swig_go
   ImVec2 *arg4 = 0 ;
   ImU32 arg5 ;
   float arg6 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = (ImU32)_swig_go_4; 
-  arg6 = (float)_swig_go_5; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = (ImU32)_swig_go_4;
+  arg6 = (float)_swig_go_5;
+
   (arg1)->AddTriangle((ImVec2 const &)*arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4,arg5,arg6);
-  
+
 }
 
 
@@ -19315,15 +20002,15 @@ void _wrap_DrawList_AddTriangle__SWIG_1(ImDrawList *_swig_go_0, ImVec2 *_swig_go
   ImVec2 *arg3 = 0 ;
   ImVec2 *arg4 = 0 ;
   ImU32 arg5 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = (ImU32)_swig_go_4; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = (ImU32)_swig_go_4;
+
   (arg1)->AddTriangle((ImVec2 const &)*arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4,arg5);
-  
+
 }
 
 
@@ -19333,15 +20020,15 @@ void _wrap_DrawList_AddTriangleFilled(ImDrawList *_swig_go_0, ImVec2 *_swig_go_1
   ImVec2 *arg3 = 0 ;
   ImVec2 *arg4 = 0 ;
   ImU32 arg5 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = (ImU32)_swig_go_4; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = (ImU32)_swig_go_4;
+
   (arg1)->AddTriangleFilled((ImVec2 const &)*arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4,arg5);
-  
+
 }
 
 
@@ -19352,16 +20039,16 @@ void _wrap_DrawList_AddCircle__SWIG_0(ImDrawList *_swig_go_0, ImVec2 *_swig_go_1
   ImU32 arg4 ;
   int arg5 ;
   float arg6 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (ImU32)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  arg6 = (float)_swig_go_5; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (ImU32)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+  arg6 = (float)_swig_go_5;
+
   (arg1)->AddCircle((ImVec2 const &)*arg2,arg3,arg4,arg5,arg6);
-  
+
 }
 
 
@@ -19371,15 +20058,15 @@ void _wrap_DrawList_AddCircle__SWIG_1(ImDrawList *_swig_go_0, ImVec2 *_swig_go_1
   float arg3 ;
   ImU32 arg4 ;
   int arg5 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (ImU32)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (ImU32)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   (arg1)->AddCircle((ImVec2 const &)*arg2,arg3,arg4,arg5);
-  
+
 }
 
 
@@ -19388,14 +20075,14 @@ void _wrap_DrawList_AddCircle__SWIG_2(ImDrawList *_swig_go_0, ImVec2 *_swig_go_1
   ImVec2 *arg2 = 0 ;
   float arg3 ;
   ImU32 arg4 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (ImU32)_swig_go_3; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (ImU32)_swig_go_3;
+
   (arg1)->AddCircle((ImVec2 const &)*arg2,arg3,arg4);
-  
+
 }
 
 
@@ -19405,15 +20092,15 @@ void _wrap_DrawList_AddCircleFilled__SWIG_0(ImDrawList *_swig_go_0, ImVec2 *_swi
   float arg3 ;
   ImU32 arg4 ;
   int arg5 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (ImU32)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (ImU32)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   (arg1)->AddCircleFilled((ImVec2 const &)*arg2,arg3,arg4,arg5);
-  
+
 }
 
 
@@ -19422,14 +20109,14 @@ void _wrap_DrawList_AddCircleFilled__SWIG_1(ImDrawList *_swig_go_0, ImVec2 *_swi
   ImVec2 *arg2 = 0 ;
   float arg3 ;
   ImU32 arg4 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (ImU32)_swig_go_3; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (ImU32)_swig_go_3;
+
   (arg1)->AddCircleFilled((ImVec2 const &)*arg2,arg3,arg4);
-  
+
 }
 
 
@@ -19439,25 +20126,25 @@ void _wrap_DrawList_AddText__SWIG_0(ImDrawList *_swig_go_0, ImVec2 *_swig_go_1, 
   ImU32 arg3 ;
   char *arg4 = (char *) 0 ;
   char *arg5 = (char *) 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = (ImU32)_swig_go_2; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = (ImU32)_swig_go_2;
+
   arg4 = (char *)malloc(_swig_go_3.n + 1);
   memcpy(arg4, _swig_go_3.p, _swig_go_3.n);
   arg4[_swig_go_3.n] = '\0';
-  
-  
+
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  
+
+
   (arg1)->AddText((ImVec2 const &)*arg2,arg3,(char const *)arg4,(char const *)arg5);
-  
-  free(arg4); 
-  free(arg5); 
+
+  free(arg4);
+  free(arg5);
 }
 
 
@@ -19466,19 +20153,19 @@ void _wrap_DrawList_AddText__SWIG_1(ImDrawList *_swig_go_0, ImVec2 *_swig_go_1, 
   ImVec2 *arg2 = 0 ;
   ImU32 arg3 ;
   char *arg4 = (char *) 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = (ImU32)_swig_go_2; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = (ImU32)_swig_go_2;
+
   arg4 = (char *)malloc(_swig_go_3.n + 1);
   memcpy(arg4, _swig_go_3.p, _swig_go_3.n);
   arg4[_swig_go_3.n] = '\0';
-  
-  
+
+
   (arg1)->AddText((ImVec2 const &)*arg2,arg3,(char const *)arg4);
-  
-  free(arg4); 
+
+  free(arg4);
 }
 
 
@@ -19492,29 +20179,29 @@ void _wrap_DrawList_AddText__SWIG_2(ImDrawList *_swig_go_0, ImFont *_swig_go_1, 
   char *arg7 = (char *) 0 ;
   float arg8 ;
   ImVec4 *arg9 = (ImVec4 *) 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImFont **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = (ImU32)_swig_go_4; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImFont **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = (ImU32)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  
+
+
   arg7 = (char *)malloc(_swig_go_6.n + 1);
   memcpy(arg7, _swig_go_6.p, _swig_go_6.n);
   arg7[_swig_go_6.n] = '\0';
-  
-  arg8 = (float)_swig_go_7; 
-  arg9 = *(ImVec4 **)&_swig_go_8; 
-  
+
+  arg8 = (float)_swig_go_7;
+  arg9 = *(ImVec4 **)&_swig_go_8;
+
   (arg1)->AddText((ImFont const *)arg2,arg3,(ImVec2 const &)*arg4,arg5,(char const *)arg6,(char const *)arg7,arg8,(ImVec4 const *)arg9);
-  
-  free(arg6); 
-  free(arg7); 
+
+  free(arg6);
+  free(arg7);
 }
 
 
@@ -19527,28 +20214,28 @@ void _wrap_DrawList_AddText__SWIG_3(ImDrawList *_swig_go_0, ImFont *_swig_go_1, 
   char *arg6 = (char *) 0 ;
   char *arg7 = (char *) 0 ;
   float arg8 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImFont **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = (ImU32)_swig_go_4; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImFont **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = (ImU32)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  
+
+
   arg7 = (char *)malloc(_swig_go_6.n + 1);
   memcpy(arg7, _swig_go_6.p, _swig_go_6.n);
   arg7[_swig_go_6.n] = '\0';
-  
-  arg8 = (float)_swig_go_7; 
-  
+
+  arg8 = (float)_swig_go_7;
+
   (arg1)->AddText((ImFont const *)arg2,arg3,(ImVec2 const &)*arg4,arg5,(char const *)arg6,(char const *)arg7,arg8);
-  
-  free(arg6); 
-  free(arg7); 
+
+  free(arg6);
+  free(arg7);
 }
 
 
@@ -19560,27 +20247,27 @@ void _wrap_DrawList_AddText__SWIG_4(ImDrawList *_swig_go_0, ImFont *_swig_go_1, 
   ImU32 arg5 ;
   char *arg6 = (char *) 0 ;
   char *arg7 = (char *) 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImFont **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = (ImU32)_swig_go_4; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImFont **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = (ImU32)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  
+
+
   arg7 = (char *)malloc(_swig_go_6.n + 1);
   memcpy(arg7, _swig_go_6.p, _swig_go_6.n);
   arg7[_swig_go_6.n] = '\0';
-  
-  
+
+
   (arg1)->AddText((ImFont const *)arg2,arg3,(ImVec2 const &)*arg4,arg5,(char const *)arg6,(char const *)arg7);
-  
-  free(arg6); 
-  free(arg7); 
+
+  free(arg6);
+  free(arg7);
 }
 
 
@@ -19591,21 +20278,21 @@ void _wrap_DrawList_AddText__SWIG_5(ImDrawList *_swig_go_0, ImFont *_swig_go_1, 
   ImVec2 *arg4 = 0 ;
   ImU32 arg5 ;
   char *arg6 = (char *) 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImFont **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = (ImU32)_swig_go_4; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImFont **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = (ImU32)_swig_go_4;
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  
+
+
   (arg1)->AddText((ImFont const *)arg2,arg3,(ImVec2 const &)*arg4,arg5,(char const *)arg6);
-  
-  free(arg6); 
+
+  free(arg6);
 }
 
 
@@ -19617,17 +20304,17 @@ void _wrap_DrawList_AddImage__SWIG_0(ImDrawList *_swig_go_0, ImTextureID _swig_g
   ImVec2 *arg5 = 0 ;
   ImVec2 *arg6 = 0 ;
   ImU32 arg7 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImTextureID *)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = *(ImVec2 **)&_swig_go_4; 
-  arg6 = *(ImVec2 **)&_swig_go_5; 
-  arg7 = (ImU32)_swig_go_6; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImTextureID *)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = *(ImVec2 **)&_swig_go_4;
+  arg6 = *(ImVec2 **)&_swig_go_5;
+  arg7 = (ImU32)_swig_go_6;
+
   (arg1)->AddImage(arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4,(ImVec2 const &)*arg5,(ImVec2 const &)*arg6,arg7);
-  
+
 }
 
 
@@ -19638,16 +20325,16 @@ void _wrap_DrawList_AddImage__SWIG_1(ImDrawList *_swig_go_0, ImTextureID _swig_g
   ImVec2 *arg4 = 0 ;
   ImVec2 *arg5 = 0 ;
   ImVec2 *arg6 = 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImTextureID *)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = *(ImVec2 **)&_swig_go_4; 
-  arg6 = *(ImVec2 **)&_swig_go_5; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImTextureID *)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = *(ImVec2 **)&_swig_go_4;
+  arg6 = *(ImVec2 **)&_swig_go_5;
+
   (arg1)->AddImage(arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4,(ImVec2 const &)*arg5,(ImVec2 const &)*arg6);
-  
+
 }
 
 
@@ -19657,15 +20344,15 @@ void _wrap_DrawList_AddImage__SWIG_2(ImDrawList *_swig_go_0, ImTextureID _swig_g
   ImVec2 *arg3 = 0 ;
   ImVec2 *arg4 = 0 ;
   ImVec2 *arg5 = 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImTextureID *)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = *(ImVec2 **)&_swig_go_4; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImTextureID *)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = *(ImVec2 **)&_swig_go_4;
+
   (arg1)->AddImage(arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4,(ImVec2 const &)*arg5);
-  
+
 }
 
 
@@ -19674,14 +20361,14 @@ void _wrap_DrawList_AddImage__SWIG_3(ImDrawList *_swig_go_0, ImTextureID _swig_g
   ImTextureID arg2 = (ImTextureID) 0 ;
   ImVec2 *arg3 = 0 ;
   ImVec2 *arg4 = 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImTextureID *)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImTextureID *)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+
   (arg1)->AddImage(arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4);
-  
+
 }
 
 
@@ -19697,21 +20384,21 @@ void _wrap_DrawList_AddImageQuad__SWIG_0(ImDrawList *_swig_go_0, ImTextureID _sw
   ImVec2 *arg9 = 0 ;
   ImVec2 *arg10 = 0 ;
   ImU32 arg11 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImTextureID *)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = *(ImVec2 **)&_swig_go_4; 
-  arg6 = *(ImVec2 **)&_swig_go_5; 
-  arg7 = *(ImVec2 **)&_swig_go_6; 
-  arg8 = *(ImVec2 **)&_swig_go_7; 
-  arg9 = *(ImVec2 **)&_swig_go_8; 
-  arg10 = *(ImVec2 **)&_swig_go_9; 
-  arg11 = (ImU32)_swig_go_10; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImTextureID *)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = *(ImVec2 **)&_swig_go_4;
+  arg6 = *(ImVec2 **)&_swig_go_5;
+  arg7 = *(ImVec2 **)&_swig_go_6;
+  arg8 = *(ImVec2 **)&_swig_go_7;
+  arg9 = *(ImVec2 **)&_swig_go_8;
+  arg10 = *(ImVec2 **)&_swig_go_9;
+  arg11 = (ImU32)_swig_go_10;
+
   (arg1)->AddImageQuad(arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4,(ImVec2 const &)*arg5,(ImVec2 const &)*arg6,(ImVec2 const &)*arg7,(ImVec2 const &)*arg8,(ImVec2 const &)*arg9,(ImVec2 const &)*arg10,arg11);
-  
+
 }
 
 
@@ -19726,20 +20413,20 @@ void _wrap_DrawList_AddImageQuad__SWIG_1(ImDrawList *_swig_go_0, ImTextureID _sw
   ImVec2 *arg8 = 0 ;
   ImVec2 *arg9 = 0 ;
   ImVec2 *arg10 = 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImTextureID *)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = *(ImVec2 **)&_swig_go_4; 
-  arg6 = *(ImVec2 **)&_swig_go_5; 
-  arg7 = *(ImVec2 **)&_swig_go_6; 
-  arg8 = *(ImVec2 **)&_swig_go_7; 
-  arg9 = *(ImVec2 **)&_swig_go_8; 
-  arg10 = *(ImVec2 **)&_swig_go_9; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImTextureID *)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = *(ImVec2 **)&_swig_go_4;
+  arg6 = *(ImVec2 **)&_swig_go_5;
+  arg7 = *(ImVec2 **)&_swig_go_6;
+  arg8 = *(ImVec2 **)&_swig_go_7;
+  arg9 = *(ImVec2 **)&_swig_go_8;
+  arg10 = *(ImVec2 **)&_swig_go_9;
+
   (arg1)->AddImageQuad(arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4,(ImVec2 const &)*arg5,(ImVec2 const &)*arg6,(ImVec2 const &)*arg7,(ImVec2 const &)*arg8,(ImVec2 const &)*arg9,(ImVec2 const &)*arg10);
-  
+
 }
 
 
@@ -19753,19 +20440,19 @@ void _wrap_DrawList_AddImageQuad__SWIG_2(ImDrawList *_swig_go_0, ImTextureID _sw
   ImVec2 *arg7 = 0 ;
   ImVec2 *arg8 = 0 ;
   ImVec2 *arg9 = 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImTextureID *)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = *(ImVec2 **)&_swig_go_4; 
-  arg6 = *(ImVec2 **)&_swig_go_5; 
-  arg7 = *(ImVec2 **)&_swig_go_6; 
-  arg8 = *(ImVec2 **)&_swig_go_7; 
-  arg9 = *(ImVec2 **)&_swig_go_8; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImTextureID *)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = *(ImVec2 **)&_swig_go_4;
+  arg6 = *(ImVec2 **)&_swig_go_5;
+  arg7 = *(ImVec2 **)&_swig_go_6;
+  arg8 = *(ImVec2 **)&_swig_go_7;
+  arg9 = *(ImVec2 **)&_swig_go_8;
+
   (arg1)->AddImageQuad(arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4,(ImVec2 const &)*arg5,(ImVec2 const &)*arg6,(ImVec2 const &)*arg7,(ImVec2 const &)*arg8,(ImVec2 const &)*arg9);
-  
+
 }
 
 
@@ -19778,18 +20465,18 @@ void _wrap_DrawList_AddImageQuad__SWIG_3(ImDrawList *_swig_go_0, ImTextureID _sw
   ImVec2 *arg6 = 0 ;
   ImVec2 *arg7 = 0 ;
   ImVec2 *arg8 = 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImTextureID *)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = *(ImVec2 **)&_swig_go_4; 
-  arg6 = *(ImVec2 **)&_swig_go_5; 
-  arg7 = *(ImVec2 **)&_swig_go_6; 
-  arg8 = *(ImVec2 **)&_swig_go_7; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImTextureID *)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = *(ImVec2 **)&_swig_go_4;
+  arg6 = *(ImVec2 **)&_swig_go_5;
+  arg7 = *(ImVec2 **)&_swig_go_6;
+  arg8 = *(ImVec2 **)&_swig_go_7;
+
   (arg1)->AddImageQuad(arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4,(ImVec2 const &)*arg5,(ImVec2 const &)*arg6,(ImVec2 const &)*arg7,(ImVec2 const &)*arg8);
-  
+
 }
 
 
@@ -19801,17 +20488,17 @@ void _wrap_DrawList_AddImageQuad__SWIG_4(ImDrawList *_swig_go_0, ImTextureID _sw
   ImVec2 *arg5 = 0 ;
   ImVec2 *arg6 = 0 ;
   ImVec2 *arg7 = 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImTextureID *)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = *(ImVec2 **)&_swig_go_4; 
-  arg6 = *(ImVec2 **)&_swig_go_5; 
-  arg7 = *(ImVec2 **)&_swig_go_6; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImTextureID *)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = *(ImVec2 **)&_swig_go_4;
+  arg6 = *(ImVec2 **)&_swig_go_5;
+  arg7 = *(ImVec2 **)&_swig_go_6;
+
   (arg1)->AddImageQuad(arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4,(ImVec2 const &)*arg5,(ImVec2 const &)*arg6,(ImVec2 const &)*arg7);
-  
+
 }
 
 
@@ -19822,16 +20509,16 @@ void _wrap_DrawList_AddImageQuad__SWIG_5(ImDrawList *_swig_go_0, ImTextureID _sw
   ImVec2 *arg4 = 0 ;
   ImVec2 *arg5 = 0 ;
   ImVec2 *arg6 = 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImTextureID *)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = *(ImVec2 **)&_swig_go_4; 
-  arg6 = *(ImVec2 **)&_swig_go_5; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImTextureID *)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = *(ImVec2 **)&_swig_go_4;
+  arg6 = *(ImVec2 **)&_swig_go_5;
+
   (arg1)->AddImageQuad(arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4,(ImVec2 const &)*arg5,(ImVec2 const &)*arg6);
-  
+
 }
 
 
@@ -19845,19 +20532,19 @@ void _wrap_DrawList_AddImageRounded__SWIG_0(ImDrawList *_swig_go_0, ImTextureID 
   ImU32 arg7 ;
   float arg8 ;
   int arg9 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImTextureID *)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = *(ImVec2 **)&_swig_go_4; 
-  arg6 = *(ImVec2 **)&_swig_go_5; 
-  arg7 = (ImU32)_swig_go_6; 
-  arg8 = (float)_swig_go_7; 
-  arg9 = (int)_swig_go_8; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImTextureID *)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = *(ImVec2 **)&_swig_go_4;
+  arg6 = *(ImVec2 **)&_swig_go_5;
+  arg7 = (ImU32)_swig_go_6;
+  arg8 = (float)_swig_go_7;
+  arg9 = (int)_swig_go_8;
+
   (arg1)->AddImageRounded(arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4,(ImVec2 const &)*arg5,(ImVec2 const &)*arg6,arg7,arg8,arg9);
-  
+
 }
 
 
@@ -19870,18 +20557,18 @@ void _wrap_DrawList_AddImageRounded__SWIG_1(ImDrawList *_swig_go_0, ImTextureID 
   ImVec2 *arg6 = 0 ;
   ImU32 arg7 ;
   float arg8 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImTextureID *)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = *(ImVec2 **)&_swig_go_4; 
-  arg6 = *(ImVec2 **)&_swig_go_5; 
-  arg7 = (ImU32)_swig_go_6; 
-  arg8 = (float)_swig_go_7; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImTextureID *)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = *(ImVec2 **)&_swig_go_4;
+  arg6 = *(ImVec2 **)&_swig_go_5;
+  arg7 = (ImU32)_swig_go_6;
+  arg8 = (float)_swig_go_7;
+
   (arg1)->AddImageRounded(arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4,(ImVec2 const &)*arg5,(ImVec2 const &)*arg6,arg7,arg8);
-  
+
 }
 
 
@@ -19892,16 +20579,16 @@ void _wrap_DrawList_AddPolyline(ImDrawList *_swig_go_0, ImVec2 *_swig_go_1, intg
   ImU32 arg4 ;
   bool arg5 ;
   float arg6 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (ImU32)_swig_go_3; 
-  arg5 = (bool)_swig_go_4; 
-  arg6 = (float)_swig_go_5; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (ImU32)_swig_go_3;
+  arg5 = (bool)_swig_go_4;
+  arg6 = (float)_swig_go_5;
+
   (arg1)->AddPolyline((ImVec2 const *)arg2,arg3,arg4,arg5,arg6);
-  
+
 }
 
 
@@ -19910,14 +20597,14 @@ void _wrap_DrawList_AddConvexPolyFilled(ImDrawList *_swig_go_0, ImVec2 *_swig_go
   ImVec2 *arg2 = (ImVec2 *) 0 ;
   int arg3 ;
   ImU32 arg4 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (ImU32)_swig_go_3; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (ImU32)_swig_go_3;
+
   (arg1)->AddConvexPolyFilled((ImVec2 const *)arg2,arg3,arg4);
-  
+
 }
 
 
@@ -19930,18 +20617,18 @@ void _wrap_DrawList_AddBezierCurve__SWIG_0(ImDrawList *_swig_go_0, ImVec2 *_swig
   ImU32 arg6 ;
   float arg7 ;
   int arg8 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = *(ImVec2 **)&_swig_go_4; 
-  arg6 = (ImU32)_swig_go_5; 
-  arg7 = (float)_swig_go_6; 
-  arg8 = (int)_swig_go_7; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = *(ImVec2 **)&_swig_go_4;
+  arg6 = (ImU32)_swig_go_5;
+  arg7 = (float)_swig_go_6;
+  arg8 = (int)_swig_go_7;
+
   (arg1)->AddBezierCurve((ImVec2 const &)*arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4,(ImVec2 const &)*arg5,arg6,arg7,arg8);
-  
+
 }
 
 
@@ -19953,63 +20640,63 @@ void _wrap_DrawList_AddBezierCurve__SWIG_1(ImDrawList *_swig_go_0, ImVec2 *_swig
   ImVec2 *arg5 = 0 ;
   ImU32 arg6 ;
   float arg7 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = *(ImVec2 **)&_swig_go_4; 
-  arg6 = (ImU32)_swig_go_5; 
-  arg7 = (float)_swig_go_6; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = *(ImVec2 **)&_swig_go_4;
+  arg6 = (ImU32)_swig_go_5;
+  arg7 = (float)_swig_go_6;
+
   (arg1)->AddBezierCurve((ImVec2 const &)*arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4,(ImVec2 const &)*arg5,arg6,arg7);
-  
+
 }
 
 
 void _wrap_DrawList_PathClear(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   (arg1)->PathClear();
-  
+
 }
 
 
 void _wrap_DrawList_PathLineTo(ImDrawList *_swig_go_0, ImVec2 *_swig_go_1) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImVec2 *arg2 = 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   (arg1)->PathLineTo((ImVec2 const &)*arg2);
-  
+
 }
 
 
 void _wrap_DrawList_PathLineToMergeDuplicate(ImDrawList *_swig_go_0, ImVec2 *_swig_go_1) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImVec2 *arg2 = 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   (arg1)->PathLineToMergeDuplicate((ImVec2 const &)*arg2);
-  
+
 }
 
 
 void _wrap_DrawList_PathFillConvex(ImDrawList *_swig_go_0, intgo _swig_go_1) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImU32 arg2 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = (ImU32)_swig_go_1; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = (ImU32)_swig_go_1;
+
   (arg1)->PathFillConvex(arg2);
-  
+
 }
 
 
@@ -20018,14 +20705,14 @@ void _wrap_DrawList_PathStroke__SWIG_0(ImDrawList *_swig_go_0, intgo _swig_go_1,
   ImU32 arg2 ;
   bool arg3 ;
   float arg4 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = (ImU32)_swig_go_1; 
-  arg3 = (bool)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = (ImU32)_swig_go_1;
+  arg3 = (bool)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   (arg1)->PathStroke(arg2,arg3,arg4);
-  
+
 }
 
 
@@ -20033,13 +20720,13 @@ void _wrap_DrawList_PathStroke__SWIG_1(ImDrawList *_swig_go_0, intgo _swig_go_1,
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImU32 arg2 ;
   bool arg3 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = (ImU32)_swig_go_1; 
-  arg3 = (bool)_swig_go_2; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = (ImU32)_swig_go_1;
+  arg3 = (bool)_swig_go_2;
+
   (arg1)->PathStroke(arg2,arg3);
-  
+
 }
 
 
@@ -20050,16 +20737,16 @@ void _wrap_DrawList_PathArcTo__SWIG_0(ImDrawList *_swig_go_0, ImVec2 *_swig_go_1
   float arg4 ;
   float arg5 ;
   int arg6 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  arg6 = (int)_swig_go_5; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+  arg6 = (int)_swig_go_5;
+
   (arg1)->PathArcTo((ImVec2 const &)*arg2,arg3,arg4,arg5,arg6);
-  
+
 }
 
 
@@ -20069,15 +20756,15 @@ void _wrap_DrawList_PathArcTo__SWIG_1(ImDrawList *_swig_go_0, ImVec2 *_swig_go_1
   float arg3 ;
   float arg4 ;
   float arg5 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (float)_swig_go_4;
+
   (arg1)->PathArcTo((ImVec2 const &)*arg2,arg3,arg4,arg5);
-  
+
 }
 
 
@@ -20087,15 +20774,15 @@ void _wrap_DrawList_PathArcToFast(ImDrawList *_swig_go_0, ImVec2 *_swig_go_1, fl
   float arg3 ;
   int arg4 ;
   int arg5 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   (arg1)->PathArcToFast((ImVec2 const &)*arg2,arg3,arg4,arg5);
-  
+
 }
 
 
@@ -20105,15 +20792,15 @@ void _wrap_DrawList_PathBezierCurveTo__SWIG_0(ImDrawList *_swig_go_0, ImVec2 *_s
   ImVec2 *arg3 = 0 ;
   ImVec2 *arg4 = 0 ;
   int arg5 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   (arg1)->PathBezierCurveTo((ImVec2 const &)*arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4,arg5);
-  
+
 }
 
 
@@ -20122,14 +20809,14 @@ void _wrap_DrawList_PathBezierCurveTo__SWIG_1(ImDrawList *_swig_go_0, ImVec2 *_s
   ImVec2 *arg2 = 0 ;
   ImVec2 *arg3 = 0 ;
   ImVec2 *arg4 = 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+
   (arg1)->PathBezierCurveTo((ImVec2 const &)*arg2,(ImVec2 const &)*arg3,(ImVec2 const &)*arg4);
-  
+
 }
 
 
@@ -20139,15 +20826,15 @@ void _wrap_DrawList_PathRect__SWIG_0(ImDrawList *_swig_go_0, ImVec2 *_swig_go_1,
   ImVec2 *arg3 = 0 ;
   float arg4 ;
   int arg5 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+
   (arg1)->PathRect((ImVec2 const &)*arg2,(ImVec2 const &)*arg3,arg4,arg5);
-  
+
 }
 
 
@@ -20156,14 +20843,14 @@ void _wrap_DrawList_PathRect__SWIG_1(ImDrawList *_swig_go_0, ImVec2 *_swig_go_1,
   ImVec2 *arg2 = 0 ;
   ImVec2 *arg3 = 0 ;
   float arg4 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   (arg1)->PathRect((ImVec2 const &)*arg2,(ImVec2 const &)*arg3,arg4);
-  
+
 }
 
 
@@ -20171,47 +20858,47 @@ void _wrap_DrawList_PathRect__SWIG_2(ImDrawList *_swig_go_0, ImVec2 *_swig_go_1,
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImVec2 *arg2 = 0 ;
   ImVec2 *arg3 = 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+
   (arg1)->PathRect((ImVec2 const &)*arg2,(ImVec2 const &)*arg3);
-  
+
 }
 
 
 void _wrap_DrawList_ChannelsSplit(ImDrawList *_swig_go_0, intgo _swig_go_1) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   int arg2 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   (arg1)->ChannelsSplit(arg2);
-  
+
 }
 
 
 void _wrap_DrawList_ChannelsMerge(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   (arg1)->ChannelsMerge();
-  
+
 }
 
 
 void _wrap_DrawList_ChannelsSetCurrent(ImDrawList *_swig_go_0, intgo _swig_go_1) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   int arg2 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   (arg1)->ChannelsSetCurrent(arg2);
-  
+
 }
 
 
@@ -20219,23 +20906,23 @@ void _wrap_DrawList_AddCallback(ImDrawList *_swig_go_0, void* _swig_go_1, void *
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImDrawCallback arg2 = (ImDrawCallback) 0 ;
   void *arg3 = (void *) 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = *(ImDrawCallback *)&_swig_go_1; 
-  arg3 = *(void **)&_swig_go_2; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = *(ImDrawCallback *)&_swig_go_1;
+  arg3 = *(void **)&_swig_go_2;
+
   (arg1)->AddCallback(arg2,arg3);
-  
+
 }
 
 
 void _wrap_DrawList_AddDrawCmd(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   (arg1)->AddDrawCmd();
-  
+
 }
 
 
@@ -20243,11 +20930,11 @@ ImDrawList *_wrap_DrawList_CloneOutput(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   ImDrawList *result = 0 ;
   ImDrawList *_swig_go_result;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   result = (ImDrawList *)((ImDrawList const *)arg1)->CloneOutput();
-  *(ImDrawList **)&_swig_go_result = (ImDrawList *)result; 
+  *(ImDrawList **)&_swig_go_result = (ImDrawList *)result;
   return _swig_go_result;
 }
 
@@ -20256,11 +20943,11 @@ long long _wrap_DrawList_CommandsSize(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   size_t result;
   long long _swig_go_result;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   result = (arg1)->CommandsSize();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -20270,12 +20957,12 @@ ImDrawCmd *_wrap_DrawList_CommandsAt(ImDrawList *_swig_go_0, long long _swig_go_
   size_t arg2 ;
   ImDrawCmd *result = 0 ;
   ImDrawCmd *_swig_go_result;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = (size_t)_swig_go_1; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = (size_t)_swig_go_1;
+
   result = (ImDrawCmd *)(arg1)->CommandsAt(arg2);
-  *(ImDrawCmd **)&_swig_go_result = (ImDrawCmd *)result; 
+  *(ImDrawCmd **)&_swig_go_result = (ImDrawCmd *)result;
   return _swig_go_result;
 }
 
@@ -20284,11 +20971,11 @@ long long _wrap_DrawList_VtxBufferSize(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   size_t result;
   long long _swig_go_result;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   result = (arg1)->VtxBufferSize();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -20298,12 +20985,12 @@ ImDrawVert *_wrap_DrawList_VtxBufferAt(ImDrawList *_swig_go_0, long long _swig_g
   size_t arg2 ;
   ImDrawVert *result = 0 ;
   ImDrawVert *_swig_go_result;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = (size_t)_swig_go_1; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = (size_t)_swig_go_1;
+
   result = (ImDrawVert *)(arg1)->VtxBufferAt(arg2);
-  *(ImDrawVert **)&_swig_go_result = (ImDrawVert *)result; 
+  *(ImDrawVert **)&_swig_go_result = (ImDrawVert *)result;
   return _swig_go_result;
 }
 
@@ -20312,11 +20999,11 @@ long long _wrap_DrawList_IdxBufferSize(ImDrawList *_swig_go_0) {
   ImDrawList *arg1 = (ImDrawList *) 0 ;
   size_t result;
   long long _swig_go_result;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+
   result = (arg1)->IdxBufferSize();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -20326,12 +21013,12 @@ short *_wrap_DrawList_IdxBufferAt(ImDrawList *_swig_go_0, long long _swig_go_1) 
   size_t arg2 ;
   ImDrawIdx *result = 0 ;
   short *_swig_go_result;
-  
-  arg1 = *(ImDrawList **)&_swig_go_0; 
-  arg2 = (size_t)_swig_go_1; 
-  
+
+  arg1 = *(ImDrawList **)&_swig_go_0;
+  arg2 = (size_t)_swig_go_1;
+
   result = (ImDrawIdx *)(arg1)->IdxBufferAt(arg2);
-  *(ImDrawIdx **)&_swig_go_result = (ImDrawIdx *)result; 
+  *(ImDrawIdx **)&_swig_go_result = (ImDrawIdx *)result;
   return _swig_go_result;
 }
 
@@ -20339,12 +21026,12 @@ short *_wrap_DrawList_IdxBufferAt(ImDrawList *_swig_go_0, long long _swig_go_1) 
 void _wrap_DrawData_Valid_set(ImDrawData *_swig_go_0, bool _swig_go_1) {
   ImDrawData *arg1 = (ImDrawData *) 0 ;
   bool arg2 ;
-  
-  arg1 = *(ImDrawData **)&_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = *(ImDrawData **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   if (arg1) (arg1)->Valid = arg2;
-  
+
 }
 
 
@@ -20352,11 +21039,11 @@ bool _wrap_DrawData_Valid_get(ImDrawData *_swig_go_0) {
   ImDrawData *arg1 = (ImDrawData *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImDrawData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawData **)&_swig_go_0;
+
   result = (bool) ((arg1)->Valid);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -20364,15 +21051,15 @@ bool _wrap_DrawData_Valid_get(ImDrawData *_swig_go_0) {
 void _wrap_DrawData_CmdLists_set(ImDrawData *_swig_go_0, _goslice_ _swig_go_1) {
   ImDrawData *arg1 = (ImDrawData *) 0 ;
   ImDrawList **arg2 = (ImDrawList **) 0 ;
-  
-  arg1 = *(ImDrawData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawData **)&_swig_go_0;
+
   arg2 = (ImDrawList **)_swig_go_1.array;
   if (arg1) arg1->CmdListsCount = _swig_go_1.len;
-  
-  
+
+
   if (arg1) (arg1)->CmdLists = arg2;
-  
+
 }
 
 
@@ -20380,11 +21067,11 @@ _goslice_ _wrap_DrawData_CmdLists_get(ImDrawData *_swig_go_0) {
   ImDrawData *arg1 = (ImDrawData *) 0 ;
   ImDrawList **result = 0 ;
   _goslice_ _swig_go_result;
-  
-  arg1 = *(ImDrawData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawData **)&_swig_go_0;
+
   result = (ImDrawList **) ((arg1)->CmdLists);
-  _swig_go_result.array = result; _swig_go_result.len = arg1->CmdListsCount; _swig_go_result.cap = arg1->CmdListsCount; 
+  _swig_go_result.array = result; _swig_go_result.len = arg1->CmdListsCount; _swig_go_result.cap = arg1->CmdListsCount;
   return _swig_go_result;
 }
 
@@ -20392,12 +21079,12 @@ _goslice_ _wrap_DrawData_CmdLists_get(ImDrawData *_swig_go_0) {
 void _wrap_DrawData_CmdListsCount_set(ImDrawData *_swig_go_0, intgo _swig_go_1) {
   ImDrawData *arg1 = (ImDrawData *) 0 ;
   int arg2 ;
-  
-  arg1 = *(ImDrawData **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImDrawData **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   if (arg1) (arg1)->CmdListsCount = arg2;
-  
+
 }
 
 
@@ -20405,11 +21092,11 @@ intgo _wrap_DrawData_CmdListsCount_get(ImDrawData *_swig_go_0) {
   ImDrawData *arg1 = (ImDrawData *) 0 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImDrawData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawData **)&_swig_go_0;
+
   result = (int) ((arg1)->CmdListsCount);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -20417,12 +21104,12 @@ intgo _wrap_DrawData_CmdListsCount_get(ImDrawData *_swig_go_0) {
 void _wrap_DrawData_TotalIdxCount_set(ImDrawData *_swig_go_0, intgo _swig_go_1) {
   ImDrawData *arg1 = (ImDrawData *) 0 ;
   int arg2 ;
-  
-  arg1 = *(ImDrawData **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImDrawData **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   if (arg1) (arg1)->TotalIdxCount = arg2;
-  
+
 }
 
 
@@ -20430,11 +21117,11 @@ intgo _wrap_DrawData_TotalIdxCount_get(ImDrawData *_swig_go_0) {
   ImDrawData *arg1 = (ImDrawData *) 0 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImDrawData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawData **)&_swig_go_0;
+
   result = (int) ((arg1)->TotalIdxCount);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -20442,12 +21129,12 @@ intgo _wrap_DrawData_TotalIdxCount_get(ImDrawData *_swig_go_0) {
 void _wrap_DrawData_TotalVtxCount_set(ImDrawData *_swig_go_0, intgo _swig_go_1) {
   ImDrawData *arg1 = (ImDrawData *) 0 ;
   int arg2 ;
-  
-  arg1 = *(ImDrawData **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImDrawData **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   if (arg1) (arg1)->TotalVtxCount = arg2;
-  
+
 }
 
 
@@ -20455,11 +21142,11 @@ intgo _wrap_DrawData_TotalVtxCount_get(ImDrawData *_swig_go_0) {
   ImDrawData *arg1 = (ImDrawData *) 0 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImDrawData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawData **)&_swig_go_0;
+
   result = (int) ((arg1)->TotalVtxCount);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -20467,12 +21154,12 @@ intgo _wrap_DrawData_TotalVtxCount_get(ImDrawData *_swig_go_0) {
 void _wrap_DrawData_DisplayPos_set(ImDrawData *_swig_go_0, ImVec2 *_swig_go_1) {
   ImDrawData *arg1 = (ImDrawData *) 0 ;
   ImVec2 *arg2 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImDrawData **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImDrawData **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   if (arg1) (arg1)->DisplayPos = *arg2;
-  
+
 }
 
 
@@ -20480,11 +21167,11 @@ ImVec2 *_wrap_DrawData_DisplayPos_get(ImDrawData *_swig_go_0) {
   ImDrawData *arg1 = (ImDrawData *) 0 ;
   ImVec2 *result = 0 ;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImDrawData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawData **)&_swig_go_0;
+
   result = (ImVec2 *)& ((arg1)->DisplayPos);
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
   return _swig_go_result;
 }
 
@@ -20492,12 +21179,12 @@ ImVec2 *_wrap_DrawData_DisplayPos_get(ImDrawData *_swig_go_0) {
 void _wrap_DrawData_DisplaySize_set(ImDrawData *_swig_go_0, ImVec2 *_swig_go_1) {
   ImDrawData *arg1 = (ImDrawData *) 0 ;
   ImVec2 *arg2 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImDrawData **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImDrawData **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   if (arg1) (arg1)->DisplaySize = *arg2;
-  
+
 }
 
 
@@ -20505,11 +21192,36 @@ ImVec2 *_wrap_DrawData_DisplaySize_get(ImDrawData *_swig_go_0) {
   ImDrawData *arg1 = (ImDrawData *) 0 ;
   ImVec2 *result = 0 ;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImDrawData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawData **)&_swig_go_0;
+
   result = (ImVec2 *)& ((arg1)->DisplaySize);
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
+  return _swig_go_result;
+}
+
+
+void _wrap_DrawData_FramebufferScale_set(ImDrawData *_swig_go_0, ImVec2 *_swig_go_1) {
+  ImDrawData *arg1 = (ImDrawData *) 0 ;
+  ImVec2 *arg2 = (ImVec2 *) 0 ;
+
+  arg1 = *(ImDrawData **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
+  if (arg1) (arg1)->FramebufferScale = *arg2;
+
+}
+
+
+ImVec2 *_wrap_DrawData_FramebufferScale_get(ImDrawData *_swig_go_0) {
+  ImDrawData *arg1 = (ImDrawData *) 0 ;
+  ImVec2 *result = 0 ;
+  ImVec2 *_swig_go_result;
+
+  arg1 = *(ImDrawData **)&_swig_go_0;
+
+  result = (ImVec2 *)& ((arg1)->FramebufferScale);
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
   return _swig_go_result;
 }
 
@@ -20517,65 +21229,65 @@ ImVec2 *_wrap_DrawData_DisplaySize_get(ImDrawData *_swig_go_0) {
 ImDrawData *_wrap_new_DrawData() {
   ImDrawData *result = 0 ;
   ImDrawData *_swig_go_result;
-  
-  
+
+
   result = (ImDrawData *)new ImDrawData();
-  *(ImDrawData **)&_swig_go_result = (ImDrawData *)result; 
+  *(ImDrawData **)&_swig_go_result = (ImDrawData *)result;
   return _swig_go_result;
 }
 
 
 void _wrap_delete_DrawData(ImDrawData *_swig_go_0) {
   ImDrawData *arg1 = (ImDrawData *) 0 ;
-  
-  arg1 = *(ImDrawData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawData **)&_swig_go_0;
+
   delete arg1;
-  
+
 }
 
 
 void _wrap_DrawData_Clear(ImDrawData *_swig_go_0) {
   ImDrawData *arg1 = (ImDrawData *) 0 ;
-  
-  arg1 = *(ImDrawData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawData **)&_swig_go_0;
+
   (arg1)->Clear();
-  
+
 }
 
 
 void _wrap_DrawData_DeIndexAllBuffers(ImDrawData *_swig_go_0) {
   ImDrawData *arg1 = (ImDrawData *) 0 ;
-  
-  arg1 = *(ImDrawData **)&_swig_go_0; 
-  
+
+  arg1 = *(ImDrawData **)&_swig_go_0;
+
   (arg1)->DeIndexAllBuffers();
-  
+
 }
 
 
 void _wrap_DrawData_ScaleClipRects(ImDrawData *_swig_go_0, ImVec2 *_swig_go_1) {
   ImDrawData *arg1 = (ImDrawData *) 0 ;
   ImVec2 *arg2 = 0 ;
-  
-  arg1 = *(ImDrawData **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImDrawData **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   (arg1)->ScaleClipRects((ImVec2 const &)*arg2);
-  
+
 }
 
 
 void _wrap_FontConfig_FontData_set(ImFontConfig *_swig_go_0, void *_swig_go_1) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   void *arg2 = (void *) 0 ;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  arg2 = *(void **)&_swig_go_1; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+  arg2 = *(void **)&_swig_go_1;
+
   if (arg1) (arg1)->FontData = arg2;
-  
+
 }
 
 
@@ -20583,11 +21295,11 @@ void *_wrap_FontConfig_FontData_get(ImFontConfig *_swig_go_0) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   void *result = 0 ;
   void *_swig_go_result;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+
   result = (void *) ((arg1)->FontData);
-  *(void **)&_swig_go_result = (void *)result; 
+  *(void **)&_swig_go_result = (void *)result;
   return _swig_go_result;
 }
 
@@ -20595,12 +21307,12 @@ void *_wrap_FontConfig_FontData_get(ImFontConfig *_swig_go_0) {
 void _wrap_FontConfig_FontDataSize_set(ImFontConfig *_swig_go_0, intgo _swig_go_1) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   int arg2 ;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   if (arg1) (arg1)->FontDataSize = arg2;
-  
+
 }
 
 
@@ -20608,11 +21320,11 @@ intgo _wrap_FontConfig_FontDataSize_get(ImFontConfig *_swig_go_0) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+
   result = (int) ((arg1)->FontDataSize);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -20620,12 +21332,12 @@ intgo _wrap_FontConfig_FontDataSize_get(ImFontConfig *_swig_go_0) {
 void _wrap_FontConfig_FontDataOwnedByAtlas_set(ImFontConfig *_swig_go_0, bool _swig_go_1) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   bool arg2 ;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   if (arg1) (arg1)->FontDataOwnedByAtlas = arg2;
-  
+
 }
 
 
@@ -20633,11 +21345,11 @@ bool _wrap_FontConfig_FontDataOwnedByAtlas_get(ImFontConfig *_swig_go_0) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+
   result = (bool) ((arg1)->FontDataOwnedByAtlas);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -20645,12 +21357,12 @@ bool _wrap_FontConfig_FontDataOwnedByAtlas_get(ImFontConfig *_swig_go_0) {
 void _wrap_FontConfig_FontNo_set(ImFontConfig *_swig_go_0, intgo _swig_go_1) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   int arg2 ;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   if (arg1) (arg1)->FontNo = arg2;
-  
+
 }
 
 
@@ -20658,11 +21370,11 @@ intgo _wrap_FontConfig_FontNo_get(ImFontConfig *_swig_go_0) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+
   result = (int) ((arg1)->FontNo);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -20670,12 +21382,12 @@ intgo _wrap_FontConfig_FontNo_get(ImFontConfig *_swig_go_0) {
 void _wrap_FontConfig_SizePixels_set(ImFontConfig *_swig_go_0, float _swig_go_1) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->SizePixels = arg2;
-  
+
 }
 
 
@@ -20683,11 +21395,11 @@ float _wrap_FontConfig_SizePixels_get(ImFontConfig *_swig_go_0) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+
   result = (float) ((arg1)->SizePixels);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -20695,12 +21407,12 @@ float _wrap_FontConfig_SizePixels_get(ImFontConfig *_swig_go_0) {
 void _wrap_FontConfig_OversampleH_set(ImFontConfig *_swig_go_0, intgo _swig_go_1) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   int arg2 ;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   if (arg1) (arg1)->OversampleH = arg2;
-  
+
 }
 
 
@@ -20708,11 +21420,11 @@ intgo _wrap_FontConfig_OversampleH_get(ImFontConfig *_swig_go_0) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+
   result = (int) ((arg1)->OversampleH);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -20720,12 +21432,12 @@ intgo _wrap_FontConfig_OversampleH_get(ImFontConfig *_swig_go_0) {
 void _wrap_FontConfig_OversampleV_set(ImFontConfig *_swig_go_0, intgo _swig_go_1) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   int arg2 ;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   if (arg1) (arg1)->OversampleV = arg2;
-  
+
 }
 
 
@@ -20733,11 +21445,11 @@ intgo _wrap_FontConfig_OversampleV_get(ImFontConfig *_swig_go_0) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+
   result = (int) ((arg1)->OversampleV);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -20745,12 +21457,12 @@ intgo _wrap_FontConfig_OversampleV_get(ImFontConfig *_swig_go_0) {
 void _wrap_FontConfig_PixelSnapH_set(ImFontConfig *_swig_go_0, bool _swig_go_1) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   bool arg2 ;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   if (arg1) (arg1)->PixelSnapH = arg2;
-  
+
 }
 
 
@@ -20758,11 +21470,11 @@ bool _wrap_FontConfig_PixelSnapH_get(ImFontConfig *_swig_go_0) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+
   result = (bool) ((arg1)->PixelSnapH);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -20770,12 +21482,12 @@ bool _wrap_FontConfig_PixelSnapH_get(ImFontConfig *_swig_go_0) {
 void _wrap_FontConfig_GlyphExtraSpacing_set(ImFontConfig *_swig_go_0, ImVec2 *_swig_go_1) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   ImVec2 *arg2 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   if (arg1) (arg1)->GlyphExtraSpacing = *arg2;
-  
+
 }
 
 
@@ -20783,11 +21495,11 @@ ImVec2 *_wrap_FontConfig_GlyphExtraSpacing_get(ImFontConfig *_swig_go_0) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   ImVec2 *result = 0 ;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+
   result = (ImVec2 *)& ((arg1)->GlyphExtraSpacing);
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
   return _swig_go_result;
 }
 
@@ -20795,12 +21507,12 @@ ImVec2 *_wrap_FontConfig_GlyphExtraSpacing_get(ImFontConfig *_swig_go_0) {
 void _wrap_FontConfig_GlyphOffset_set(ImFontConfig *_swig_go_0, ImVec2 *_swig_go_1) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   ImVec2 *arg2 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  arg2 = *(ImVec2 **)&_swig_go_1; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+  arg2 = *(ImVec2 **)&_swig_go_1;
+
   if (arg1) (arg1)->GlyphOffset = *arg2;
-  
+
 }
 
 
@@ -20808,11 +21520,11 @@ ImVec2 *_wrap_FontConfig_GlyphOffset_get(ImFontConfig *_swig_go_0) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   ImVec2 *result = 0 ;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+
   result = (ImVec2 *)& ((arg1)->GlyphOffset);
-  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result; 
+  *(ImVec2 **)&_swig_go_result = (ImVec2 *)result;
   return _swig_go_result;
 }
 
@@ -20820,12 +21532,12 @@ ImVec2 *_wrap_FontConfig_GlyphOffset_get(ImFontConfig *_swig_go_0) {
 void _wrap_FontConfig_GlyphRanges_set(ImFontConfig *_swig_go_0, short *_swig_go_1) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   ImWchar *arg2 = (ImWchar *) 0 ;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  arg2 = *(ImWchar **)&_swig_go_1; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+  arg2 = *(ImWchar **)&_swig_go_1;
+
   if (arg1) (arg1)->GlyphRanges = (ImWchar const *)arg2;
-  
+
 }
 
 
@@ -20833,11 +21545,11 @@ short *_wrap_FontConfig_GlyphRanges_get(ImFontConfig *_swig_go_0) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   ImWchar *result = 0 ;
   short *_swig_go_result;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+
   result = (ImWchar *) ((arg1)->GlyphRanges);
-  *(ImWchar **)&_swig_go_result = (ImWchar *)result; 
+  *(ImWchar **)&_swig_go_result = (ImWchar *)result;
   return _swig_go_result;
 }
 
@@ -20845,12 +21557,12 @@ short *_wrap_FontConfig_GlyphRanges_get(ImFontConfig *_swig_go_0) {
 void _wrap_FontConfig_GlyphMinAdvanceX_set(ImFontConfig *_swig_go_0, float _swig_go_1) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->GlyphMinAdvanceX = arg2;
-  
+
 }
 
 
@@ -20858,11 +21570,11 @@ float _wrap_FontConfig_GlyphMinAdvanceX_get(ImFontConfig *_swig_go_0) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+
   result = (float) ((arg1)->GlyphMinAdvanceX);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -20870,12 +21582,12 @@ float _wrap_FontConfig_GlyphMinAdvanceX_get(ImFontConfig *_swig_go_0) {
 void _wrap_FontConfig_GlyphMaxAdvanceX_set(ImFontConfig *_swig_go_0, float _swig_go_1) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->GlyphMaxAdvanceX = arg2;
-  
+
 }
 
 
@@ -20883,11 +21595,11 @@ float _wrap_FontConfig_GlyphMaxAdvanceX_get(ImFontConfig *_swig_go_0) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+
   result = (float) ((arg1)->GlyphMaxAdvanceX);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -20895,12 +21607,12 @@ float _wrap_FontConfig_GlyphMaxAdvanceX_get(ImFontConfig *_swig_go_0) {
 void _wrap_FontConfig_MergeMode_set(ImFontConfig *_swig_go_0, bool _swig_go_1) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   bool arg2 ;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   if (arg1) (arg1)->MergeMode = arg2;
-  
+
 }
 
 
@@ -20908,11 +21620,11 @@ bool _wrap_FontConfig_MergeMode_get(ImFontConfig *_swig_go_0) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+
   result = (bool) ((arg1)->MergeMode);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -20920,12 +21632,12 @@ bool _wrap_FontConfig_MergeMode_get(ImFontConfig *_swig_go_0) {
 void _wrap_FontConfig_RasterizerFlags_set(ImFontConfig *_swig_go_0, intgo _swig_go_1) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   unsigned int arg2 ;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  arg2 = (unsigned int)_swig_go_1; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+  arg2 = (unsigned int)_swig_go_1;
+
   if (arg1) (arg1)->RasterizerFlags = arg2;
-  
+
 }
 
 
@@ -20933,11 +21645,11 @@ intgo _wrap_FontConfig_RasterizerFlags_get(ImFontConfig *_swig_go_0) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+
   result = (unsigned int) ((arg1)->RasterizerFlags);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -20945,12 +21657,12 @@ intgo _wrap_FontConfig_RasterizerFlags_get(ImFontConfig *_swig_go_0) {
 void _wrap_FontConfig_RasterizerMultiply_set(ImFontConfig *_swig_go_0, float _swig_go_1) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->RasterizerMultiply = arg2;
-  
+
 }
 
 
@@ -20958,11 +21670,11 @@ float _wrap_FontConfig_RasterizerMultiply_get(ImFontConfig *_swig_go_0) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+
   result = (float) ((arg1)->RasterizerMultiply);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -20970,33 +21682,33 @@ float _wrap_FontConfig_RasterizerMultiply_get(ImFontConfig *_swig_go_0) {
 ImFontConfig *_wrap_new_FontConfig() {
   ImFontConfig *result = 0 ;
   ImFontConfig *_swig_go_result;
-  
-  
+
+
   result = (ImFontConfig *)new ImFontConfig();
-  *(ImFontConfig **)&_swig_go_result = (ImFontConfig *)result; 
+  *(ImFontConfig **)&_swig_go_result = (ImFontConfig *)result;
   return _swig_go_result;
 }
 
 
 void _wrap_delete_FontConfig(ImFontConfig *_swig_go_0) {
   ImFontConfig *arg1 = (ImFontConfig *) 0 ;
-  
-  arg1 = *(ImFontConfig **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontConfig **)&_swig_go_0;
+
   delete arg1;
-  
+
 }
 
 
 void _wrap_FontGlyph_Codepoint_set(ImFontGlyph *_swig_go_0, short _swig_go_1) {
   ImFontGlyph *arg1 = (ImFontGlyph *) 0 ;
   ImWchar arg2 ;
-  
-  arg1 = *(ImFontGlyph **)&_swig_go_0; 
-  arg2 = (ImWchar)_swig_go_1; 
-  
+
+  arg1 = *(ImFontGlyph **)&_swig_go_0;
+  arg2 = (ImWchar)_swig_go_1;
+
   if (arg1) (arg1)->Codepoint = arg2;
-  
+
 }
 
 
@@ -21004,11 +21716,11 @@ short _wrap_FontGlyph_Codepoint_get(ImFontGlyph *_swig_go_0) {
   ImFontGlyph *arg1 = (ImFontGlyph *) 0 ;
   ImWchar result;
   short _swig_go_result;
-  
-  arg1 = *(ImFontGlyph **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontGlyph **)&_swig_go_0;
+
   result = (ImWchar) ((arg1)->Codepoint);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -21016,12 +21728,12 @@ short _wrap_FontGlyph_Codepoint_get(ImFontGlyph *_swig_go_0) {
 void _wrap_FontGlyph_AdvanceX_set(ImFontGlyph *_swig_go_0, float _swig_go_1) {
   ImFontGlyph *arg1 = (ImFontGlyph *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImFontGlyph **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImFontGlyph **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->AdvanceX = arg2;
-  
+
 }
 
 
@@ -21029,11 +21741,11 @@ float _wrap_FontGlyph_AdvanceX_get(ImFontGlyph *_swig_go_0) {
   ImFontGlyph *arg1 = (ImFontGlyph *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImFontGlyph **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontGlyph **)&_swig_go_0;
+
   result = (float) ((arg1)->AdvanceX);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -21041,12 +21753,12 @@ float _wrap_FontGlyph_AdvanceX_get(ImFontGlyph *_swig_go_0) {
 void _wrap_FontGlyph_X0_set(ImFontGlyph *_swig_go_0, float _swig_go_1) {
   ImFontGlyph *arg1 = (ImFontGlyph *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImFontGlyph **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImFontGlyph **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->X0 = arg2;
-  
+
 }
 
 
@@ -21054,11 +21766,11 @@ float _wrap_FontGlyph_X0_get(ImFontGlyph *_swig_go_0) {
   ImFontGlyph *arg1 = (ImFontGlyph *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImFontGlyph **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontGlyph **)&_swig_go_0;
+
   result = (float) ((arg1)->X0);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -21066,12 +21778,12 @@ float _wrap_FontGlyph_X0_get(ImFontGlyph *_swig_go_0) {
 void _wrap_FontGlyph_Y0_set(ImFontGlyph *_swig_go_0, float _swig_go_1) {
   ImFontGlyph *arg1 = (ImFontGlyph *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImFontGlyph **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImFontGlyph **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->Y0 = arg2;
-  
+
 }
 
 
@@ -21079,11 +21791,11 @@ float _wrap_FontGlyph_Y0_get(ImFontGlyph *_swig_go_0) {
   ImFontGlyph *arg1 = (ImFontGlyph *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImFontGlyph **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontGlyph **)&_swig_go_0;
+
   result = (float) ((arg1)->Y0);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -21091,12 +21803,12 @@ float _wrap_FontGlyph_Y0_get(ImFontGlyph *_swig_go_0) {
 void _wrap_FontGlyph_X1_set(ImFontGlyph *_swig_go_0, float _swig_go_1) {
   ImFontGlyph *arg1 = (ImFontGlyph *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImFontGlyph **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImFontGlyph **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->X1 = arg2;
-  
+
 }
 
 
@@ -21104,11 +21816,11 @@ float _wrap_FontGlyph_X1_get(ImFontGlyph *_swig_go_0) {
   ImFontGlyph *arg1 = (ImFontGlyph *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImFontGlyph **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontGlyph **)&_swig_go_0;
+
   result = (float) ((arg1)->X1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -21116,12 +21828,12 @@ float _wrap_FontGlyph_X1_get(ImFontGlyph *_swig_go_0) {
 void _wrap_FontGlyph_Y1_set(ImFontGlyph *_swig_go_0, float _swig_go_1) {
   ImFontGlyph *arg1 = (ImFontGlyph *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImFontGlyph **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImFontGlyph **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->Y1 = arg2;
-  
+
 }
 
 
@@ -21129,11 +21841,11 @@ float _wrap_FontGlyph_Y1_get(ImFontGlyph *_swig_go_0) {
   ImFontGlyph *arg1 = (ImFontGlyph *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImFontGlyph **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontGlyph **)&_swig_go_0;
+
   result = (float) ((arg1)->Y1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -21141,12 +21853,12 @@ float _wrap_FontGlyph_Y1_get(ImFontGlyph *_swig_go_0) {
 void _wrap_FontGlyph_U0_set(ImFontGlyph *_swig_go_0, float _swig_go_1) {
   ImFontGlyph *arg1 = (ImFontGlyph *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImFontGlyph **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImFontGlyph **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->U0 = arg2;
-  
+
 }
 
 
@@ -21154,11 +21866,11 @@ float _wrap_FontGlyph_U0_get(ImFontGlyph *_swig_go_0) {
   ImFontGlyph *arg1 = (ImFontGlyph *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImFontGlyph **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontGlyph **)&_swig_go_0;
+
   result = (float) ((arg1)->U0);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -21166,12 +21878,12 @@ float _wrap_FontGlyph_U0_get(ImFontGlyph *_swig_go_0) {
 void _wrap_FontGlyph_V0_set(ImFontGlyph *_swig_go_0, float _swig_go_1) {
   ImFontGlyph *arg1 = (ImFontGlyph *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImFontGlyph **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImFontGlyph **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->V0 = arg2;
-  
+
 }
 
 
@@ -21179,11 +21891,11 @@ float _wrap_FontGlyph_V0_get(ImFontGlyph *_swig_go_0) {
   ImFontGlyph *arg1 = (ImFontGlyph *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImFontGlyph **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontGlyph **)&_swig_go_0;
+
   result = (float) ((arg1)->V0);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -21191,12 +21903,12 @@ float _wrap_FontGlyph_V0_get(ImFontGlyph *_swig_go_0) {
 void _wrap_FontGlyph_U1_set(ImFontGlyph *_swig_go_0, float _swig_go_1) {
   ImFontGlyph *arg1 = (ImFontGlyph *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImFontGlyph **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImFontGlyph **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->U1 = arg2;
-  
+
 }
 
 
@@ -21204,11 +21916,11 @@ float _wrap_FontGlyph_U1_get(ImFontGlyph *_swig_go_0) {
   ImFontGlyph *arg1 = (ImFontGlyph *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImFontGlyph **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontGlyph **)&_swig_go_0;
+
   result = (float) ((arg1)->U1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -21216,12 +21928,12 @@ float _wrap_FontGlyph_U1_get(ImFontGlyph *_swig_go_0) {
 void _wrap_FontGlyph_V1_set(ImFontGlyph *_swig_go_0, float _swig_go_1) {
   ImFontGlyph *arg1 = (ImFontGlyph *) 0 ;
   float arg2 ;
-  
-  arg1 = *(ImFontGlyph **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImFontGlyph **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   if (arg1) (arg1)->V1 = arg2;
-  
+
 }
 
 
@@ -21229,11 +21941,11 @@ float _wrap_FontGlyph_V1_get(ImFontGlyph *_swig_go_0) {
   ImFontGlyph *arg1 = (ImFontGlyph *) 0 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImFontGlyph **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontGlyph **)&_swig_go_0;
+
   result = (float) ((arg1)->V1);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -21241,32 +21953,182 @@ float _wrap_FontGlyph_V1_get(ImFontGlyph *_swig_go_0) {
 ImFontGlyph *_wrap_new_FontGlyph() {
   ImFontGlyph *result = 0 ;
   ImFontGlyph *_swig_go_result;
-  
-  
+
+
   result = (ImFontGlyph *)new ImFontGlyph();
-  *(ImFontGlyph **)&_swig_go_result = (ImFontGlyph *)result; 
+  *(ImFontGlyph **)&_swig_go_result = (ImFontGlyph *)result;
   return _swig_go_result;
 }
 
 
 void _wrap_delete_FontGlyph(ImFontGlyph *_swig_go_0) {
   ImFontGlyph *arg1 = (ImFontGlyph *) 0 ;
-  
-  arg1 = *(ImFontGlyph **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontGlyph **)&_swig_go_0;
+
   delete arg1;
-  
+
+}
+
+
+void _wrap_FontGlyphRangesBuilder_UsedChars_set(ImFontGlyphRangesBuilder *_swig_go_0, ImVector< int > *_swig_go_1) {
+  ImFontGlyphRangesBuilder *arg1 = (ImFontGlyphRangesBuilder *) 0 ;
+  ImVector< int > *arg2 = (ImVector< int > *) 0 ;
+
+  arg1 = *(ImFontGlyphRangesBuilder **)&_swig_go_0;
+  arg2 = *(ImVector< int > **)&_swig_go_1;
+
+  if (arg1) (arg1)->UsedChars = *arg2;
+
+}
+
+
+ImVector< int > *_wrap_FontGlyphRangesBuilder_UsedChars_get(ImFontGlyphRangesBuilder *_swig_go_0) {
+  ImFontGlyphRangesBuilder *arg1 = (ImFontGlyphRangesBuilder *) 0 ;
+  ImVector< int > *result = 0 ;
+  ImVector< int > *_swig_go_result;
+
+  arg1 = *(ImFontGlyphRangesBuilder **)&_swig_go_0;
+
+  result = (ImVector< int > *)& ((arg1)->UsedChars);
+  *(ImVector< int > **)&_swig_go_result = (ImVector< int > *)result;
+  return _swig_go_result;
+}
+
+
+ImFontGlyphRangesBuilder *_wrap_new_FontGlyphRangesBuilder() {
+  ImFontGlyphRangesBuilder *result = 0 ;
+  ImFontGlyphRangesBuilder *_swig_go_result;
+
+
+  result = (ImFontGlyphRangesBuilder *)new ImFontGlyphRangesBuilder();
+  *(ImFontGlyphRangesBuilder **)&_swig_go_result = (ImFontGlyphRangesBuilder *)result;
+  return _swig_go_result;
+}
+
+
+bool _wrap_FontGlyphRangesBuilder_GetBit(ImFontGlyphRangesBuilder *_swig_go_0, intgo _swig_go_1) {
+  ImFontGlyphRangesBuilder *arg1 = (ImFontGlyphRangesBuilder *) 0 ;
+  int arg2 ;
+  bool result;
+  bool _swig_go_result;
+
+  arg1 = *(ImFontGlyphRangesBuilder **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
+  result = (bool)((ImFontGlyphRangesBuilder const *)arg1)->GetBit(arg2);
+  _swig_go_result = result;
+  return _swig_go_result;
+}
+
+
+void _wrap_FontGlyphRangesBuilder_SetBit(ImFontGlyphRangesBuilder *_swig_go_0, intgo _swig_go_1) {
+  ImFontGlyphRangesBuilder *arg1 = (ImFontGlyphRangesBuilder *) 0 ;
+  int arg2 ;
+
+  arg1 = *(ImFontGlyphRangesBuilder **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
+  (arg1)->SetBit(arg2);
+
+}
+
+
+void _wrap_FontGlyphRangesBuilder_AddChar(ImFontGlyphRangesBuilder *_swig_go_0, short _swig_go_1) {
+  ImFontGlyphRangesBuilder *arg1 = (ImFontGlyphRangesBuilder *) 0 ;
+  ImWchar arg2 ;
+
+  arg1 = *(ImFontGlyphRangesBuilder **)&_swig_go_0;
+  arg2 = (ImWchar)_swig_go_1;
+
+  (arg1)->AddChar(arg2);
+
+}
+
+
+void _wrap_FontGlyphRangesBuilder_AddText__SWIG_0(ImFontGlyphRangesBuilder *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
+  ImFontGlyphRangesBuilder *arg1 = (ImFontGlyphRangesBuilder *) 0 ;
+  char *arg2 = (char *) 0 ;
+  char *arg3 = (char *) 0 ;
+
+  arg1 = *(ImFontGlyphRangesBuilder **)&_swig_go_0;
+
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+
+
+  arg3 = (char *)malloc(_swig_go_2.n + 1);
+  memcpy(arg3, _swig_go_2.p, _swig_go_2.n);
+  arg3[_swig_go_2.n] = '\0';
+
+
+  (arg1)->AddText((char const *)arg2,(char const *)arg3);
+
+  free(arg2);
+  free(arg3);
+}
+
+
+void _wrap_FontGlyphRangesBuilder_AddText__SWIG_1(ImFontGlyphRangesBuilder *_swig_go_0, _gostring_ _swig_go_1) {
+  ImFontGlyphRangesBuilder *arg1 = (ImFontGlyphRangesBuilder *) 0 ;
+  char *arg2 = (char *) 0 ;
+
+  arg1 = *(ImFontGlyphRangesBuilder **)&_swig_go_0;
+
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+
+
+  (arg1)->AddText((char const *)arg2);
+
+  free(arg2);
+}
+
+
+void _wrap_FontGlyphRangesBuilder_AddRanges(ImFontGlyphRangesBuilder *_swig_go_0, short *_swig_go_1) {
+  ImFontGlyphRangesBuilder *arg1 = (ImFontGlyphRangesBuilder *) 0 ;
+  ImWchar *arg2 = (ImWchar *) 0 ;
+
+  arg1 = *(ImFontGlyphRangesBuilder **)&_swig_go_0;
+  arg2 = *(ImWchar **)&_swig_go_1;
+
+  (arg1)->AddRanges((ImWchar const *)arg2);
+
+}
+
+
+void _wrap_FontGlyphRangesBuilder_BuildRanges(ImFontGlyphRangesBuilder *_swig_go_0, ImVector< unsigned short > *_swig_go_1) {
+  ImFontGlyphRangesBuilder *arg1 = (ImFontGlyphRangesBuilder *) 0 ;
+  ImVector< ImWchar > *arg2 = (ImVector< ImWchar > *) 0 ;
+
+  arg1 = *(ImFontGlyphRangesBuilder **)&_swig_go_0;
+  arg2 = *(ImVector< ImWchar > **)&_swig_go_1;
+
+  (arg1)->BuildRanges(arg2);
+
+}
+
+
+void _wrap_delete_FontGlyphRangesBuilder(ImFontGlyphRangesBuilder *_swig_go_0) {
+  ImFontGlyphRangesBuilder *arg1 = (ImFontGlyphRangesBuilder *) 0 ;
+
+  arg1 = *(ImFontGlyphRangesBuilder **)&_swig_go_0;
+
+  delete arg1;
+
 }
 
 
 intgo _wrap_FontAtlasFlags_None() {
   ImFontAtlasFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImFontAtlasFlags_None;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -21274,11 +22136,11 @@ intgo _wrap_FontAtlasFlags_None() {
 intgo _wrap_FontAtlasFlags_NoPowerOfTwoHeight() {
   ImFontAtlasFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImFontAtlasFlags_NoPowerOfTwoHeight;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -21286,11 +22148,11 @@ intgo _wrap_FontAtlasFlags_NoPowerOfTwoHeight() {
 intgo _wrap_FontAtlasFlags_NoMouseCursors() {
   ImFontAtlasFlags_ result;
   intgo _swig_go_result;
-  
-  
+
+
   result = ImFontAtlasFlags_NoMouseCursors;
-  
-  _swig_go_result = (intgo)result; 
+
+  _swig_go_result = (intgo)result;
   return _swig_go_result;
 }
 
@@ -21298,21 +22160,21 @@ intgo _wrap_FontAtlasFlags_NoMouseCursors() {
 ImFontAtlas *_wrap_new_FontAtlas() {
   ImFontAtlas *result = 0 ;
   ImFontAtlas *_swig_go_result;
-  
-  
+
+
   result = (ImFontAtlas *)new ImFontAtlas();
-  *(ImFontAtlas **)&_swig_go_result = (ImFontAtlas *)result; 
+  *(ImFontAtlas **)&_swig_go_result = (ImFontAtlas *)result;
   return _swig_go_result;
 }
 
 
 void _wrap_delete_FontAtlas(ImFontAtlas *_swig_go_0) {
   ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
   delete arg1;
-  
+
 }
 
 
@@ -21321,12 +22183,12 @@ ImFont *_wrap_FontAtlas_AddFont(ImFontAtlas *_swig_go_0, ImFontConfig *_swig_go_
   ImFontConfig *arg2 = (ImFontConfig *) 0 ;
   ImFont *result = 0 ;
   ImFont *_swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  arg2 = *(ImFontConfig **)&_swig_go_1; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+  arg2 = *(ImFontConfig **)&_swig_go_1;
+
   result = (ImFont *)(arg1)->AddFont((ImFontConfig const *)arg2);
-  *(ImFont **)&_swig_go_result = (ImFont *)result; 
+  *(ImFont **)&_swig_go_result = (ImFont *)result;
   return _swig_go_result;
 }
 
@@ -21336,12 +22198,12 @@ ImFont *_wrap_FontAtlas_AddFontDefault__SWIG_0(ImFontAtlas *_swig_go_0, ImFontCo
   ImFontConfig *arg2 = (ImFontConfig *) 0 ;
   ImFont *result = 0 ;
   ImFont *_swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  arg2 = *(ImFontConfig **)&_swig_go_1; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+  arg2 = *(ImFontConfig **)&_swig_go_1;
+
   result = (ImFont *)(arg1)->AddFontDefault((ImFontConfig const *)arg2);
-  *(ImFont **)&_swig_go_result = (ImFont *)result; 
+  *(ImFont **)&_swig_go_result = (ImFont *)result;
   return _swig_go_result;
 }
 
@@ -21350,11 +22212,11 @@ ImFont *_wrap_FontAtlas_AddFontDefault__SWIG_1(ImFontAtlas *_swig_go_0) {
   ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
   ImFont *result = 0 ;
   ImFont *_swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
   result = (ImFont *)(arg1)->AddFontDefault();
-  *(ImFont **)&_swig_go_result = (ImFont *)result; 
+  *(ImFont **)&_swig_go_result = (ImFont *)result;
   return _swig_go_result;
 }
 
@@ -21367,20 +22229,20 @@ ImFont *_wrap_FontAtlas_AddFontFromFileTTF__SWIG_0(ImFontAtlas *_swig_go_0, _gos
   ImWchar *arg5 = (ImWchar *) 0 ;
   ImFont *result = 0 ;
   ImFont *_swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  arg3 = (float)_swig_go_2; 
-  arg4 = *(ImFontConfig **)&_swig_go_3; 
-  arg5 = *(ImWchar **)&_swig_go_4; 
-  
+
+  arg3 = (float)_swig_go_2;
+  arg4 = *(ImFontConfig **)&_swig_go_3;
+  arg5 = *(ImWchar **)&_swig_go_4;
+
   result = (ImFont *)(arg1)->AddFontFromFileTTF((char const *)arg2,arg3,(ImFontConfig const *)arg4,(ImWchar const *)arg5);
-  *(ImFont **)&_swig_go_result = (ImFont *)result; 
-  free(arg2); 
+  *(ImFont **)&_swig_go_result = (ImFont *)result;
+  free(arg2);
   return _swig_go_result;
 }
 
@@ -21392,19 +22254,19 @@ ImFont *_wrap_FontAtlas_AddFontFromFileTTF__SWIG_1(ImFontAtlas *_swig_go_0, _gos
   ImFontConfig *arg4 = (ImFontConfig *) 0 ;
   ImFont *result = 0 ;
   ImFont *_swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  arg3 = (float)_swig_go_2; 
-  arg4 = *(ImFontConfig **)&_swig_go_3; 
-  
+
+  arg3 = (float)_swig_go_2;
+  arg4 = *(ImFontConfig **)&_swig_go_3;
+
   result = (ImFont *)(arg1)->AddFontFromFileTTF((char const *)arg2,arg3,(ImFontConfig const *)arg4);
-  *(ImFont **)&_swig_go_result = (ImFont *)result; 
-  free(arg2); 
+  *(ImFont **)&_swig_go_result = (ImFont *)result;
+  free(arg2);
   return _swig_go_result;
 }
 
@@ -21415,18 +22277,18 @@ ImFont *_wrap_FontAtlas_AddFontFromFileTTF__SWIG_2(ImFontAtlas *_swig_go_0, _gos
   float arg3 ;
   ImFont *result = 0 ;
   ImFont *_swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  arg3 = (float)_swig_go_2; 
-  
+
+  arg3 = (float)_swig_go_2;
+
   result = (ImFont *)(arg1)->AddFontFromFileTTF((char const *)arg2,arg3);
-  *(ImFont **)&_swig_go_result = (ImFont *)result; 
-  free(arg2); 
+  *(ImFont **)&_swig_go_result = (ImFont *)result;
+  free(arg2);
   return _swig_go_result;
 }
 
@@ -21440,16 +22302,16 @@ ImFont *_wrap_FontAtlas_AddFontFromMemoryTTF__SWIG_0(ImFontAtlas *_swig_go_0, vo
   ImWchar *arg6 = (ImWchar *) 0 ;
   ImFont *result = 0 ;
   ImFont *_swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  arg2 = *(void **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = *(ImFontConfig **)&_swig_go_4; 
-  arg6 = *(ImWchar **)&_swig_go_5; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+  arg2 = *(void **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = *(ImFontConfig **)&_swig_go_4;
+  arg6 = *(ImWchar **)&_swig_go_5;
+
   result = (ImFont *)(arg1)->AddFontFromMemoryTTF(arg2,arg3,arg4,(ImFontConfig const *)arg5,(ImWchar const *)arg6);
-  *(ImFont **)&_swig_go_result = (ImFont *)result; 
+  *(ImFont **)&_swig_go_result = (ImFont *)result;
   return _swig_go_result;
 }
 
@@ -21462,15 +22324,15 @@ ImFont *_wrap_FontAtlas_AddFontFromMemoryTTF__SWIG_1(ImFontAtlas *_swig_go_0, vo
   ImFontConfig *arg5 = (ImFontConfig *) 0 ;
   ImFont *result = 0 ;
   ImFont *_swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  arg2 = *(void **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = *(ImFontConfig **)&_swig_go_4; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+  arg2 = *(void **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = *(ImFontConfig **)&_swig_go_4;
+
   result = (ImFont *)(arg1)->AddFontFromMemoryTTF(arg2,arg3,arg4,(ImFontConfig const *)arg5);
-  *(ImFont **)&_swig_go_result = (ImFont *)result; 
+  *(ImFont **)&_swig_go_result = (ImFont *)result;
   return _swig_go_result;
 }
 
@@ -21482,14 +22344,14 @@ ImFont *_wrap_FontAtlas_AddFontFromMemoryTTF__SWIG_2(ImFontAtlas *_swig_go_0, vo
   float arg4 ;
   ImFont *result = 0 ;
   ImFont *_swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  arg2 = *(void **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+  arg2 = *(void **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   result = (ImFont *)(arg1)->AddFontFromMemoryTTF(arg2,arg3,arg4);
-  *(ImFont **)&_swig_go_result = (ImFont *)result; 
+  *(ImFont **)&_swig_go_result = (ImFont *)result;
   return _swig_go_result;
 }
 
@@ -21503,16 +22365,16 @@ ImFont *_wrap_FontAtlas_AddFontFromMemoryCompressedTTF__SWIG_0(ImFontAtlas *_swi
   ImWchar *arg6 = (ImWchar *) 0 ;
   ImFont *result = 0 ;
   ImFont *_swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  arg2 = *(void **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = *(ImFontConfig **)&_swig_go_4; 
-  arg6 = *(ImWchar **)&_swig_go_5; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+  arg2 = *(void **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = *(ImFontConfig **)&_swig_go_4;
+  arg6 = *(ImWchar **)&_swig_go_5;
+
   result = (ImFont *)(arg1)->AddFontFromMemoryCompressedTTF((void const *)arg2,arg3,arg4,(ImFontConfig const *)arg5,(ImWchar const *)arg6);
-  *(ImFont **)&_swig_go_result = (ImFont *)result; 
+  *(ImFont **)&_swig_go_result = (ImFont *)result;
   return _swig_go_result;
 }
 
@@ -21525,15 +22387,15 @@ ImFont *_wrap_FontAtlas_AddFontFromMemoryCompressedTTF__SWIG_1(ImFontAtlas *_swi
   ImFontConfig *arg5 = (ImFontConfig *) 0 ;
   ImFont *result = 0 ;
   ImFont *_swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  arg2 = *(void **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = *(ImFontConfig **)&_swig_go_4; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+  arg2 = *(void **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+  arg5 = *(ImFontConfig **)&_swig_go_4;
+
   result = (ImFont *)(arg1)->AddFontFromMemoryCompressedTTF((void const *)arg2,arg3,arg4,(ImFontConfig const *)arg5);
-  *(ImFont **)&_swig_go_result = (ImFont *)result; 
+  *(ImFont **)&_swig_go_result = (ImFont *)result;
   return _swig_go_result;
 }
 
@@ -21545,14 +22407,14 @@ ImFont *_wrap_FontAtlas_AddFontFromMemoryCompressedTTF__SWIG_2(ImFontAtlas *_swi
   float arg4 ;
   ImFont *result = 0 ;
   ImFont *_swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  arg2 = *(void **)&_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+  arg2 = *(void **)&_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   result = (ImFont *)(arg1)->AddFontFromMemoryCompressedTTF((void const *)arg2,arg3,arg4);
-  *(ImFont **)&_swig_go_result = (ImFont *)result; 
+  *(ImFont **)&_swig_go_result = (ImFont *)result;
   return _swig_go_result;
 }
 
@@ -21565,20 +22427,20 @@ ImFont *_wrap_FontAtlas_AddFontFromMemoryCompressedBase85TTF__SWIG_0(ImFontAtlas
   ImWchar *arg5 = (ImWchar *) 0 ;
   ImFont *result = 0 ;
   ImFont *_swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  arg3 = (float)_swig_go_2; 
-  arg4 = *(ImFontConfig **)&_swig_go_3; 
-  arg5 = *(ImWchar **)&_swig_go_4; 
-  
+
+  arg3 = (float)_swig_go_2;
+  arg4 = *(ImFontConfig **)&_swig_go_3;
+  arg5 = *(ImWchar **)&_swig_go_4;
+
   result = (ImFont *)(arg1)->AddFontFromMemoryCompressedBase85TTF((char const *)arg2,arg3,(ImFontConfig const *)arg4,(ImWchar const *)arg5);
-  *(ImFont **)&_swig_go_result = (ImFont *)result; 
-  free(arg2); 
+  *(ImFont **)&_swig_go_result = (ImFont *)result;
+  free(arg2);
   return _swig_go_result;
 }
 
@@ -21590,19 +22452,19 @@ ImFont *_wrap_FontAtlas_AddFontFromMemoryCompressedBase85TTF__SWIG_1(ImFontAtlas
   ImFontConfig *arg4 = (ImFontConfig *) 0 ;
   ImFont *result = 0 ;
   ImFont *_swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  arg3 = (float)_swig_go_2; 
-  arg4 = *(ImFontConfig **)&_swig_go_3; 
-  
+
+  arg3 = (float)_swig_go_2;
+  arg4 = *(ImFontConfig **)&_swig_go_3;
+
   result = (ImFont *)(arg1)->AddFontFromMemoryCompressedBase85TTF((char const *)arg2,arg3,(ImFontConfig const *)arg4);
-  *(ImFont **)&_swig_go_result = (ImFont *)result; 
-  free(arg2); 
+  *(ImFont **)&_swig_go_result = (ImFont *)result;
+  free(arg2);
   return _swig_go_result;
 }
 
@@ -21613,59 +22475,59 @@ ImFont *_wrap_FontAtlas_AddFontFromMemoryCompressedBase85TTF__SWIG_2(ImFontAtlas
   float arg3 ;
   ImFont *result = 0 ;
   ImFont *_swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
   arg2 = (char *)malloc(_swig_go_1.n + 1);
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
-  
-  arg3 = (float)_swig_go_2; 
-  
+
+  arg3 = (float)_swig_go_2;
+
   result = (ImFont *)(arg1)->AddFontFromMemoryCompressedBase85TTF((char const *)arg2,arg3);
-  *(ImFont **)&_swig_go_result = (ImFont *)result; 
-  free(arg2); 
+  *(ImFont **)&_swig_go_result = (ImFont *)result;
+  free(arg2);
   return _swig_go_result;
 }
 
 
 void _wrap_FontAtlas_ClearInputData(ImFontAtlas *_swig_go_0) {
   ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
   (arg1)->ClearInputData();
-  
+
 }
 
 
 void _wrap_FontAtlas_ClearTexData(ImFontAtlas *_swig_go_0) {
   ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
   (arg1)->ClearTexData();
-  
+
 }
 
 
 void _wrap_FontAtlas_ClearFonts(ImFontAtlas *_swig_go_0) {
   ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
   (arg1)->ClearFonts();
-  
+
 }
 
 
 void _wrap_FontAtlas_Clear(ImFontAtlas *_swig_go_0) {
   ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
   (arg1)->Clear();
-  
+
 }
 
 
@@ -21673,24 +22535,11 @@ bool _wrap_FontAtlas_Build(ImFontAtlas *_swig_go_0) {
   ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
   result = (bool)(arg1)->Build();
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-bool _wrap_FontAtlas_IsBuilt(ImFontAtlas *_swig_go_0) {
-  ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
-  bool result;
-  bool _swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
-  result = (bool)(arg1)->IsBuilt();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -21701,15 +22550,15 @@ void _wrap_FontAtlas_GetTexDataAsAlpha8__SWIG_0(ImFontAtlas *_swig_go_0, char **
   int *arg3 = (int *) 0 ;
   int *arg4 = (int *) 0 ;
   int *arg5 = (int *) 0 ;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  arg2 = *(unsigned char ***)&_swig_go_1; 
-  arg3 = *(int **)&_swig_go_2; 
-  arg4 = *(int **)&_swig_go_3; 
-  arg5 = *(int **)&_swig_go_4; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+  arg2 = *(unsigned char ***)&_swig_go_1;
+  arg3 = *(int **)&_swig_go_2;
+  arg4 = *(int **)&_swig_go_3;
+  arg5 = *(int **)&_swig_go_4;
+
   (arg1)->GetTexDataAsAlpha8(arg2,arg3,arg4,arg5);
-  
+
 }
 
 
@@ -21718,14 +22567,14 @@ void _wrap_FontAtlas_GetTexDataAsAlpha8__SWIG_1(ImFontAtlas *_swig_go_0, char **
   unsigned char **arg2 = (unsigned char **) 0 ;
   int *arg3 = (int *) 0 ;
   int *arg4 = (int *) 0 ;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  arg2 = *(unsigned char ***)&_swig_go_1; 
-  arg3 = *(int **)&_swig_go_2; 
-  arg4 = *(int **)&_swig_go_3; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+  arg2 = *(unsigned char ***)&_swig_go_1;
+  arg3 = *(int **)&_swig_go_2;
+  arg4 = *(int **)&_swig_go_3;
+
   (arg1)->GetTexDataAsAlpha8(arg2,arg3,arg4);
-  
+
 }
 
 
@@ -21735,15 +22584,15 @@ void _wrap_FontAtlas_GetTexDataAsRGBA32__SWIG_0(ImFontAtlas *_swig_go_0, char **
   int *arg3 = (int *) 0 ;
   int *arg4 = (int *) 0 ;
   int *arg5 = (int *) 0 ;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  arg2 = *(unsigned char ***)&_swig_go_1; 
-  arg3 = *(int **)&_swig_go_2; 
-  arg4 = *(int **)&_swig_go_3; 
-  arg5 = *(int **)&_swig_go_4; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+  arg2 = *(unsigned char ***)&_swig_go_1;
+  arg3 = *(int **)&_swig_go_2;
+  arg4 = *(int **)&_swig_go_3;
+  arg5 = *(int **)&_swig_go_4;
+
   (arg1)->GetTexDataAsRGBA32(arg2,arg3,arg4,arg5);
-  
+
 }
 
 
@@ -21752,26 +22601,39 @@ void _wrap_FontAtlas_GetTexDataAsRGBA32__SWIG_1(ImFontAtlas *_swig_go_0, char **
   unsigned char **arg2 = (unsigned char **) 0 ;
   int *arg3 = (int *) 0 ;
   int *arg4 = (int *) 0 ;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  arg2 = *(unsigned char ***)&_swig_go_1; 
-  arg3 = *(int **)&_swig_go_2; 
-  arg4 = *(int **)&_swig_go_3; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+  arg2 = *(unsigned char ***)&_swig_go_1;
+  arg3 = *(int **)&_swig_go_2;
+  arg4 = *(int **)&_swig_go_3;
+
   (arg1)->GetTexDataAsRGBA32(arg2,arg3,arg4);
-  
+
+}
+
+
+bool _wrap_FontAtlas_IsBuilt(ImFontAtlas *_swig_go_0) {
+  ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
+  bool result;
+  bool _swig_go_result;
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
+  result = (bool)(arg1)->IsBuilt();
+  _swig_go_result = result;
+  return _swig_go_result;
 }
 
 
 void _wrap_FontAtlas_SetTexID_(ImFontAtlas *_swig_go_0, ImTextureID _swig_go_1) {
   ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
   ImTextureID arg2 = (ImTextureID) 0 ;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  arg2 = *(ImTextureID *)&_swig_go_1; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+  arg2 = *(ImTextureID *)&_swig_go_1;
+
   (arg1)->SetTexID(arg2);
-  
+
 }
 
 
@@ -21779,11 +22641,11 @@ short *_wrap_FontAtlas_GetGlyphRangesDefault(ImFontAtlas *_swig_go_0) {
   ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
   ImWchar *result = 0 ;
   short *_swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
   result = (ImWchar *)(arg1)->GetGlyphRangesDefault();
-  *(ImWchar **)&_swig_go_result = (ImWchar *)result; 
+  *(ImWchar **)&_swig_go_result = (ImWchar *)result;
   return _swig_go_result;
 }
 
@@ -21792,11 +22654,11 @@ short *_wrap_FontAtlas_GetGlyphRangesKorean(ImFontAtlas *_swig_go_0) {
   ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
   ImWchar *result = 0 ;
   short *_swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
   result = (ImWchar *)(arg1)->GetGlyphRangesKorean();
-  *(ImWchar **)&_swig_go_result = (ImWchar *)result; 
+  *(ImWchar **)&_swig_go_result = (ImWchar *)result;
   return _swig_go_result;
 }
 
@@ -21805,11 +22667,11 @@ short *_wrap_FontAtlas_GetGlyphRangesJapanese(ImFontAtlas *_swig_go_0) {
   ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
   ImWchar *result = 0 ;
   short *_swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
   result = (ImWchar *)(arg1)->GetGlyphRangesJapanese();
-  *(ImWchar **)&_swig_go_result = (ImWchar *)result; 
+  *(ImWchar **)&_swig_go_result = (ImWchar *)result;
   return _swig_go_result;
 }
 
@@ -21818,11 +22680,11 @@ short *_wrap_FontAtlas_GetGlyphRangesChineseFull(ImFontAtlas *_swig_go_0) {
   ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
   ImWchar *result = 0 ;
   short *_swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
   result = (ImWchar *)(arg1)->GetGlyphRangesChineseFull();
-  *(ImWchar **)&_swig_go_result = (ImWchar *)result; 
+  *(ImWchar **)&_swig_go_result = (ImWchar *)result;
   return _swig_go_result;
 }
 
@@ -21831,11 +22693,11 @@ short *_wrap_FontAtlas_GetGlyphRangesChineseSimplifiedCommon(ImFontAtlas *_swig_
   ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
   ImWchar *result = 0 ;
   short *_swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
   result = (ImWchar *)(arg1)->GetGlyphRangesChineseSimplifiedCommon();
-  *(ImWchar **)&_swig_go_result = (ImWchar *)result; 
+  *(ImWchar **)&_swig_go_result = (ImWchar *)result;
   return _swig_go_result;
 }
 
@@ -21844,11 +22706,11 @@ short *_wrap_FontAtlas_GetGlyphRangesCyrillic(ImFontAtlas *_swig_go_0) {
   ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
   ImWchar *result = 0 ;
   short *_swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
   result = (ImWchar *)(arg1)->GetGlyphRangesCyrillic();
-  *(ImWchar **)&_swig_go_result = (ImWchar *)result; 
+  *(ImWchar **)&_swig_go_result = (ImWchar *)result;
   return _swig_go_result;
 }
 
@@ -21857,11 +22719,11 @@ short *_wrap_FontAtlas_GetGlyphRangesThai(ImFontAtlas *_swig_go_0) {
   ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
   ImWchar *result = 0 ;
   short *_swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
   result = (ImWchar *)(arg1)->GetGlyphRangesThai();
-  *(ImWchar **)&_swig_go_result = (ImWchar *)result; 
+  *(ImWchar **)&_swig_go_result = (ImWchar *)result;
   return _swig_go_result;
 }
 
@@ -21873,14 +22735,14 @@ intgo _wrap_FontAtlas_AddCustomRectRegular(ImFontAtlas *_swig_go_0, intgo _swig_
   int arg4 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  arg2 = (unsigned int)_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+  arg2 = (unsigned int)_swig_go_1;
+  arg3 = (int)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+
   result = (int)(arg1)->AddCustomRectRegular(arg2,arg3,arg4);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -21895,17 +22757,17 @@ intgo _wrap_FontAtlas_AddCustomRectFontGlyph__SWIG_0(ImFontAtlas *_swig_go_0, Im
   ImVec2 *arg7 = 0 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  arg2 = *(ImFont **)&_swig_go_1; 
-  arg3 = (ImWchar)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  arg6 = (float)_swig_go_5; 
-  arg7 = *(ImVec2 **)&_swig_go_6; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+  arg2 = *(ImFont **)&_swig_go_1;
+  arg3 = (ImWchar)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+  arg6 = (float)_swig_go_5;
+  arg7 = *(ImVec2 **)&_swig_go_6;
+
   result = (int)(arg1)->AddCustomRectFontGlyph(arg2,arg3,arg4,arg5,arg6,(ImVec2 const &)*arg7);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -21919,16 +22781,16 @@ intgo _wrap_FontAtlas_AddCustomRectFontGlyph__SWIG_1(ImFontAtlas *_swig_go_0, Im
   float arg6 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  arg2 = *(ImFont **)&_swig_go_1; 
-  arg3 = (ImWchar)_swig_go_2; 
-  arg4 = (int)_swig_go_3; 
-  arg5 = (int)_swig_go_4; 
-  arg6 = (float)_swig_go_5; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+  arg2 = *(ImFont **)&_swig_go_1;
+  arg3 = (ImWchar)_swig_go_2;
+  arg4 = (int)_swig_go_3;
+  arg5 = (int)_swig_go_4;
+  arg6 = (float)_swig_go_5;
+
   result = (int)(arg1)->AddCustomRectFontGlyph(arg2,arg3,arg4,arg5,arg6);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -21938,12 +22800,12 @@ ImFontAtlas::CustomRect *_wrap_FontAtlas_GetCustomRectByIndex(ImFontAtlas *_swig
   int arg2 ;
   ImFontAtlas::CustomRect *result = 0 ;
   ImFontAtlas::CustomRect *_swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   result = (ImFontAtlas::CustomRect *)((ImFontAtlas const *)arg1)->GetCustomRectByIndex(arg2);
-  *(ImFontAtlas::CustomRect **)&_swig_go_result = (ImFontAtlas::CustomRect *)result; 
+  *(ImFontAtlas::CustomRect **)&_swig_go_result = (ImFontAtlas::CustomRect *)result;
   return _swig_go_result;
 }
 
@@ -21953,14 +22815,14 @@ void _wrap_FontAtlas_CalcCustomRectUV(ImFontAtlas *_swig_go_0, ImFontAtlas::Cust
   ImFontAtlas::CustomRect *arg2 = (ImFontAtlas::CustomRect *) 0 ;
   ImVec2 *arg3 = (ImVec2 *) 0 ;
   ImVec2 *arg4 = (ImVec2 *) 0 ;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  arg2 = *(ImFontAtlas::CustomRect **)&_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+  arg2 = *(ImFontAtlas::CustomRect **)&_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+
   (arg1)->CalcCustomRectUV((ImFontAtlas::CustomRect const *)arg2,arg3,arg4);
-  
+
 }
 
 
@@ -21973,16 +22835,16 @@ bool _wrap_FontAtlas_GetMouseCursorTexData(ImFontAtlas *_swig_go_0, intgo _swig_
   ImVec2 *arg6 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  arg2 = (ImGuiMouseCursor)_swig_go_1; 
-  arg3 = *(ImVec2 **)&_swig_go_2; 
-  arg4 = *(ImVec2 **)&_swig_go_3; 
-  arg5 = *(ImVec2 **)&_swig_go_4; 
-  arg6 = *(ImVec2 **)&_swig_go_5; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+  arg2 = (ImGuiMouseCursor)_swig_go_1;
+  arg3 = *(ImVec2 **)&_swig_go_2;
+  arg4 = *(ImVec2 **)&_swig_go_3;
+  arg5 = *(ImVec2 **)&_swig_go_4;
+  arg6 = *(ImVec2 **)&_swig_go_5;
+
   result = (bool)(arg1)->GetMouseCursorTexData(arg2,arg3,arg4,arg5,arg6);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -21990,12 +22852,12 @@ bool _wrap_FontAtlas_GetMouseCursorTexData(ImFontAtlas *_swig_go_0, intgo _swig_
 void _wrap_FontAtlas_Locked_set(ImFontAtlas *_swig_go_0, bool _swig_go_1) {
   ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
   bool arg2 ;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  arg2 = (bool)_swig_go_1; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+  arg2 = (bool)_swig_go_1;
+
   if (arg1) (arg1)->Locked = arg2;
-  
+
 }
 
 
@@ -22003,11 +22865,11 @@ bool _wrap_FontAtlas_Locked_get(ImFontAtlas *_swig_go_0) {
   ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
   result = (bool) ((arg1)->Locked);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -22015,12 +22877,12 @@ bool _wrap_FontAtlas_Locked_get(ImFontAtlas *_swig_go_0) {
 void _wrap_FontAtlas_Flags_set(ImFontAtlas *_swig_go_0, intgo _swig_go_1) {
   ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
   ImFontAtlasFlags arg2 ;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  arg2 = (ImFontAtlasFlags)_swig_go_1; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+  arg2 = (ImFontAtlasFlags)_swig_go_1;
+
   if (arg1) (arg1)->Flags = arg2;
-  
+
 }
 
 
@@ -22028,11 +22890,11 @@ intgo _wrap_FontAtlas_Flags_get(ImFontAtlas *_swig_go_0) {
   ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
   ImFontAtlasFlags result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
   result = (ImFontAtlasFlags) ((arg1)->Flags);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -22040,12 +22902,12 @@ intgo _wrap_FontAtlas_Flags_get(ImFontAtlas *_swig_go_0) {
 void _wrap_FontAtlas_TexID_set(ImFontAtlas *_swig_go_0, ImTextureID _swig_go_1) {
   ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
   ImTextureID arg2 = (ImTextureID) 0 ;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  arg2 = *(ImTextureID *)&_swig_go_1; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+  arg2 = *(ImTextureID *)&_swig_go_1;
+
   if (arg1) (arg1)->TexID = arg2;
-  
+
 }
 
 
@@ -22053,11 +22915,11 @@ ImTextureID _wrap_FontAtlas_TexID_get(ImFontAtlas *_swig_go_0) {
   ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
   ImTextureID result;
   ImTextureID _swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
   result = (ImTextureID) ((arg1)->TexID);
-  *(ImTextureID *)&_swig_go_result = (ImTextureID)result; 
+  *(ImTextureID *)&_swig_go_result = (ImTextureID)result;
   return _swig_go_result;
 }
 
@@ -22065,12 +22927,12 @@ ImTextureID _wrap_FontAtlas_TexID_get(ImFontAtlas *_swig_go_0) {
 void _wrap_FontAtlas_TexDesiredWidth_set(ImFontAtlas *_swig_go_0, intgo _swig_go_1) {
   ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
   int arg2 ;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   if (arg1) (arg1)->TexDesiredWidth = arg2;
-  
+
 }
 
 
@@ -22078,11 +22940,11 @@ intgo _wrap_FontAtlas_TexDesiredWidth_get(ImFontAtlas *_swig_go_0) {
   ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
   result = (int) ((arg1)->TexDesiredWidth);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -22090,12 +22952,12 @@ intgo _wrap_FontAtlas_TexDesiredWidth_get(ImFontAtlas *_swig_go_0) {
 void _wrap_FontAtlas_TexGlyphPadding_set(ImFontAtlas *_swig_go_0, intgo _swig_go_1) {
   ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
   int arg2 ;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+  arg2 = (int)_swig_go_1;
+
   if (arg1) (arg1)->TexGlyphPadding = arg2;
-  
+
 }
 
 
@@ -22103,11 +22965,11 @@ intgo _wrap_FontAtlas_TexGlyphPadding_get(ImFontAtlas *_swig_go_0) {
   ImFontAtlas *arg1 = (ImFontAtlas *) 0 ;
   int result;
   intgo _swig_go_result;
-  
-  arg1 = *(ImFontAtlas **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFontAtlas **)&_swig_go_0;
+
   result = (int) ((arg1)->TexGlyphPadding);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -22115,41 +22977,21 @@ intgo _wrap_FontAtlas_TexGlyphPadding_get(ImFontAtlas *_swig_go_0) {
 ImFont *_wrap_new_Font() {
   ImFont *result = 0 ;
   ImFont *_swig_go_result;
-  
-  
+
+
   result = (ImFont *)new ImFont();
-  *(ImFont **)&_swig_go_result = (ImFont *)result; 
+  *(ImFont **)&_swig_go_result = (ImFont *)result;
   return _swig_go_result;
 }
 
 
 void _wrap_delete_Font(ImFont *_swig_go_0) {
   ImFont *arg1 = (ImFont *) 0 ;
-  
-  arg1 = *(ImFont **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFont **)&_swig_go_0;
+
   delete arg1;
-  
-}
 
-
-void _wrap_Font_ClearOutputData(ImFont *_swig_go_0) {
-  ImFont *arg1 = (ImFont *) 0 ;
-  
-  arg1 = *(ImFont **)&_swig_go_0; 
-  
-  (arg1)->ClearOutputData();
-  
-}
-
-
-void _wrap_Font_BuildLookupTable(ImFont *_swig_go_0) {
-  ImFont *arg1 = (ImFont *) 0 ;
-  
-  arg1 = *(ImFont **)&_swig_go_0; 
-  
-  (arg1)->BuildLookupTable();
-  
 }
 
 
@@ -22158,12 +23000,12 @@ ImFontGlyph *_wrap_Font_FindGlyph(ImFont *_swig_go_0, short _swig_go_1) {
   ImWchar arg2 ;
   ImFontGlyph *result = 0 ;
   ImFontGlyph *_swig_go_result;
-  
-  arg1 = *(ImFont **)&_swig_go_0; 
-  arg2 = (ImWchar)_swig_go_1; 
-  
+
+  arg1 = *(ImFont **)&_swig_go_0;
+  arg2 = (ImWchar)_swig_go_1;
+
   result = (ImFontGlyph *)((ImFont const *)arg1)->FindGlyph(arg2);
-  *(ImFontGlyph **)&_swig_go_result = (ImFontGlyph *)result; 
+  *(ImFontGlyph **)&_swig_go_result = (ImFontGlyph *)result;
   return _swig_go_result;
 }
 
@@ -22173,25 +23015,13 @@ ImFontGlyph *_wrap_Font_FindGlyphNoFallback(ImFont *_swig_go_0, short _swig_go_1
   ImWchar arg2 ;
   ImFontGlyph *result = 0 ;
   ImFontGlyph *_swig_go_result;
-  
-  arg1 = *(ImFont **)&_swig_go_0; 
-  arg2 = (ImWchar)_swig_go_1; 
-  
+
+  arg1 = *(ImFont **)&_swig_go_0;
+  arg2 = (ImWchar)_swig_go_1;
+
   result = (ImFontGlyph *)((ImFont const *)arg1)->FindGlyphNoFallback(arg2);
-  *(ImFontGlyph **)&_swig_go_result = (ImFontGlyph *)result; 
+  *(ImFontGlyph **)&_swig_go_result = (ImFontGlyph *)result;
   return _swig_go_result;
-}
-
-
-void _wrap_Font_SetFallbackChar_(ImFont *_swig_go_0, short _swig_go_1) {
-  ImFont *arg1 = (ImFont *) 0 ;
-  ImWchar arg2 ;
-  
-  arg1 = *(ImFont **)&_swig_go_0; 
-  arg2 = (ImWchar)_swig_go_1; 
-  
-  (arg1)->SetFallbackChar(arg2);
-  
 }
 
 
@@ -22200,12 +23030,12 @@ float _wrap_Font_GetCharAdvance(ImFont *_swig_go_0, short _swig_go_1) {
   ImWchar arg2 ;
   float result;
   float _swig_go_result;
-  
-  arg1 = *(ImFont **)&_swig_go_0; 
-  arg2 = (ImWchar)_swig_go_1; 
-  
+
+  arg1 = *(ImFont **)&_swig_go_0;
+  arg2 = (ImWchar)_swig_go_1;
+
   result = (float)((ImFont const *)arg1)->GetCharAdvance(arg2);
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -22214,11 +23044,11 @@ bool _wrap_Font_IsLoaded(ImFont *_swig_go_0) {
   ImFont *arg1 = (ImFont *) 0 ;
   bool result;
   bool _swig_go_result;
-  
-  arg1 = *(ImFont **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFont **)&_swig_go_0;
+
   result = (bool)((ImFont const *)arg1)->IsLoaded();
-  _swig_go_result = result; 
+  _swig_go_result = result;
   return _swig_go_result;
 }
 
@@ -22227,11 +23057,11 @@ _gostring_ _wrap_Font_GetDebugName(ImFont *_swig_go_0) {
   ImFont *arg1 = (ImFont *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
-  
-  arg1 = *(ImFont **)&_swig_go_0; 
-  
+
+  arg1 = *(ImFont **)&_swig_go_0;
+
   result = (char *)((ImFont const *)arg1)->GetDebugName();
-  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0);
   return _swig_go_result;
 }
 
@@ -22246,27 +23076,27 @@ ImVec2 *_wrap_Font_CalcTextSizeA__SWIG_0(ImFont *_swig_go_0, float _swig_go_1, f
   char **arg7 = (char **) 0 ;
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImFont **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg1 = *(ImFont **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  
+
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  arg7 = *(char ***)&_swig_go_6; 
-  
+
+  arg7 = *(char ***)&_swig_go_6;
+
   result = ((ImFont const *)arg1)->CalcTextSizeA(arg2,arg3,arg4,(char const *)arg5,(char const *)arg6,(char const **)arg7);
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
-  free(arg5); 
-  free(arg6); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
+  free(arg5);
+  free(arg6);
   return _swig_go_result;
 }
 
@@ -22280,26 +23110,26 @@ ImVec2 *_wrap_Font_CalcTextSizeA__SWIG_1(ImFont *_swig_go_0, float _swig_go_1, f
   char *arg6 = (char *) 0 ;
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImFont **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg1 = *(ImFont **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  
+
+
   arg6 = (char *)malloc(_swig_go_5.n + 1);
   memcpy(arg6, _swig_go_5.p, _swig_go_5.n);
   arg6[_swig_go_5.n] = '\0';
-  
-  
+
+
   result = ((ImFont const *)arg1)->CalcTextSizeA(arg2,arg3,arg4,(char const *)arg5,(char const *)arg6);
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
-  free(arg5); 
-  free(arg6); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
+  free(arg5);
+  free(arg6);
   return _swig_go_result;
 }
 
@@ -22312,20 +23142,20 @@ ImVec2 *_wrap_Font_CalcTextSizeA__SWIG_2(ImFont *_swig_go_0, float _swig_go_1, f
   char *arg5 = (char *) 0 ;
   ImVec2 result;
   ImVec2 *_swig_go_result;
-  
-  arg1 = *(ImFont **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  
+
+  arg1 = *(ImFont **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+  arg3 = (float)_swig_go_2;
+  arg4 = (float)_swig_go_3;
+
   arg5 = (char *)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
   arg5[_swig_go_4.n] = '\0';
-  
-  
+
+
   result = ((ImFont const *)arg1)->CalcTextSizeA(arg2,arg3,arg4,(char const *)arg5);
-  *(ImVec2 **)&_swig_go_result = new ImVec2(result); 
-  free(arg5); 
+  *(ImVec2 **)&_swig_go_result = new ImVec2(result);
+  free(arg5);
   return _swig_go_result;
 }
 
@@ -22338,25 +23168,25 @@ _gostring_ _wrap_Font_CalcWordWrapPositionA(ImFont *_swig_go_0, float _swig_go_1
   float arg5 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
-  
-  arg1 = *(ImFont **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
+
+  arg1 = *(ImFont **)&_swig_go_0;
+  arg2 = (float)_swig_go_1;
+
   arg3 = (char *)malloc(_swig_go_2.n + 1);
   memcpy(arg3, _swig_go_2.p, _swig_go_2.n);
   arg3[_swig_go_2.n] = '\0';
-  
-  
+
+
   arg4 = (char *)malloc(_swig_go_3.n + 1);
   memcpy(arg4, _swig_go_3.p, _swig_go_3.n);
   arg4[_swig_go_3.n] = '\0';
-  
-  arg5 = (float)_swig_go_4; 
-  
+
+  arg5 = (float)_swig_go_4;
+
   result = (char *)((ImFont const *)arg1)->CalcWordWrapPositionA(arg2,(char const *)arg3,(char const *)arg4,arg5);
-  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
-  free(arg3); 
-  free(arg4); 
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0);
+  free(arg3);
+  free(arg4);
   return _swig_go_result;
 }
 
@@ -22367,24 +23197,24 @@ void _wrap_Font_RenderChar(ImFont *_swig_go_0, ImDrawList *_swig_go_1, float _sw
   float arg3 ;
   ImVec2 arg4 ;
   ImU32 arg5 ;
-  unsigned short arg6 ;
+  ImWchar arg6 ;
   ImVec2 *argp4 ;
-  
-  arg1 = *(ImFont **)&_swig_go_0; 
-  arg2 = *(ImDrawList **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  
+
+  arg1 = *(ImFont **)&_swig_go_0;
+  arg2 = *(ImDrawList **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+
   argp4 = (ImVec2 *)_swig_go_3;
   if (argp4 == NULL) {
     _swig_gopanic("Attempt to dereference null ImVec2");
   }
   arg4 = (ImVec2)*argp4;
-  
-  arg5 = (ImU32)_swig_go_4; 
-  arg6 = (unsigned short)_swig_go_5; 
-  
+
+  arg5 = (ImU32)_swig_go_4;
+  arg6 = (ImWchar)_swig_go_5;
+
   ((ImFont const *)arg1)->RenderChar(arg2,arg3,arg4,arg5,arg6);
-  
+
 }
 
 
@@ -22400,36 +23230,36 @@ void _wrap_Font_RenderText__SWIG_0(ImFont *_swig_go_0, ImDrawList *_swig_go_1, f
   float arg9 ;
   bool arg10 ;
   ImVec2 *argp4 ;
-  
-  arg1 = *(ImFont **)&_swig_go_0; 
-  arg2 = *(ImDrawList **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  
+
+  arg1 = *(ImFont **)&_swig_go_0;
+  arg2 = *(ImDrawList **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+
   argp4 = (ImVec2 *)_swig_go_3;
   if (argp4 == NULL) {
     _swig_gopanic("Attempt to dereference null ImVec2");
   }
   arg4 = (ImVec2)*argp4;
-  
-  arg5 = (ImU32)_swig_go_4; 
-  arg6 = *(ImVec4 **)&_swig_go_5; 
-  
+
+  arg5 = (ImU32)_swig_go_4;
+  arg6 = *(ImVec4 **)&_swig_go_5;
+
   arg7 = (char *)malloc(_swig_go_6.n + 1);
   memcpy(arg7, _swig_go_6.p, _swig_go_6.n);
   arg7[_swig_go_6.n] = '\0';
-  
-  
+
+
   arg8 = (char *)malloc(_swig_go_7.n + 1);
   memcpy(arg8, _swig_go_7.p, _swig_go_7.n);
   arg8[_swig_go_7.n] = '\0';
-  
-  arg9 = (float)_swig_go_8; 
-  arg10 = (bool)_swig_go_9; 
-  
+
+  arg9 = (float)_swig_go_8;
+  arg10 = (bool)_swig_go_9;
+
   ((ImFont const *)arg1)->RenderText(arg2,arg3,arg4,arg5,(ImVec4 const &)*arg6,(char const *)arg7,(char const *)arg8,arg9,arg10);
-  
-  free(arg7); 
-  free(arg8); 
+
+  free(arg7);
+  free(arg8);
 }
 
 
@@ -22444,35 +23274,35 @@ void _wrap_Font_RenderText__SWIG_1(ImFont *_swig_go_0, ImDrawList *_swig_go_1, f
   char *arg8 = (char *) 0 ;
   float arg9 ;
   ImVec2 *argp4 ;
-  
-  arg1 = *(ImFont **)&_swig_go_0; 
-  arg2 = *(ImDrawList **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  
+
+  arg1 = *(ImFont **)&_swig_go_0;
+  arg2 = *(ImDrawList **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+
   argp4 = (ImVec2 *)_swig_go_3;
   if (argp4 == NULL) {
     _swig_gopanic("Attempt to dereference null ImVec2");
   }
   arg4 = (ImVec2)*argp4;
-  
-  arg5 = (ImU32)_swig_go_4; 
-  arg6 = *(ImVec4 **)&_swig_go_5; 
-  
+
+  arg5 = (ImU32)_swig_go_4;
+  arg6 = *(ImVec4 **)&_swig_go_5;
+
   arg7 = (char *)malloc(_swig_go_6.n + 1);
   memcpy(arg7, _swig_go_6.p, _swig_go_6.n);
   arg7[_swig_go_6.n] = '\0';
-  
-  
+
+
   arg8 = (char *)malloc(_swig_go_7.n + 1);
   memcpy(arg8, _swig_go_7.p, _swig_go_7.n);
   arg8[_swig_go_7.n] = '\0';
-  
-  arg9 = (float)_swig_go_8; 
-  
+
+  arg9 = (float)_swig_go_8;
+
   ((ImFont const *)arg1)->RenderText(arg2,arg3,arg4,arg5,(ImVec4 const &)*arg6,(char const *)arg7,(char const *)arg8,arg9);
-  
-  free(arg7); 
-  free(arg8); 
+
+  free(arg7);
+  free(arg8);
 }
 
 
@@ -22486,106 +23316,34 @@ void _wrap_Font_RenderText__SWIG_2(ImFont *_swig_go_0, ImDrawList *_swig_go_1, f
   char *arg7 = (char *) 0 ;
   char *arg8 = (char *) 0 ;
   ImVec2 *argp4 ;
-  
-  arg1 = *(ImFont **)&_swig_go_0; 
-  arg2 = *(ImDrawList **)&_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  
+
+  arg1 = *(ImFont **)&_swig_go_0;
+  arg2 = *(ImDrawList **)&_swig_go_1;
+  arg3 = (float)_swig_go_2;
+
   argp4 = (ImVec2 *)_swig_go_3;
   if (argp4 == NULL) {
     _swig_gopanic("Attempt to dereference null ImVec2");
   }
   arg4 = (ImVec2)*argp4;
-  
-  arg5 = (ImU32)_swig_go_4; 
-  arg6 = *(ImVec4 **)&_swig_go_5; 
-  
+
+  arg5 = (ImU32)_swig_go_4;
+  arg6 = *(ImVec4 **)&_swig_go_5;
+
   arg7 = (char *)malloc(_swig_go_6.n + 1);
   memcpy(arg7, _swig_go_6.p, _swig_go_6.n);
   arg7[_swig_go_6.n] = '\0';
-  
-  
+
+
   arg8 = (char *)malloc(_swig_go_7.n + 1);
   memcpy(arg8, _swig_go_7.p, _swig_go_7.n);
   arg8[_swig_go_7.n] = '\0';
-  
-  
+
+
   ((ImFont const *)arg1)->RenderText(arg2,arg3,arg4,arg5,(ImVec4 const &)*arg6,(char const *)arg7,(char const *)arg8);
-  
-  free(arg7); 
-  free(arg8); 
-}
 
-
-void _wrap_Font_GrowIndex(ImFont *_swig_go_0, intgo _swig_go_1) {
-  ImFont *arg1 = (ImFont *) 0 ;
-  int arg2 ;
-  
-  arg1 = *(ImFont **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
-  (arg1)->GrowIndex(arg2);
-  
-}
-
-
-void _wrap_Font_AddGlyph(ImFont *_swig_go_0, short _swig_go_1, float _swig_go_2, float _swig_go_3, float _swig_go_4, float _swig_go_5, float _swig_go_6, float _swig_go_7, float _swig_go_8, float _swig_go_9, float _swig_go_10) {
-  ImFont *arg1 = (ImFont *) 0 ;
-  ImWchar arg2 ;
-  float arg3 ;
-  float arg4 ;
-  float arg5 ;
-  float arg6 ;
-  float arg7 ;
-  float arg8 ;
-  float arg9 ;
-  float arg10 ;
-  float arg11 ;
-  
-  arg1 = *(ImFont **)&_swig_go_0; 
-  arg2 = (ImWchar)_swig_go_1; 
-  arg3 = (float)_swig_go_2; 
-  arg4 = (float)_swig_go_3; 
-  arg5 = (float)_swig_go_4; 
-  arg6 = (float)_swig_go_5; 
-  arg7 = (float)_swig_go_6; 
-  arg8 = (float)_swig_go_7; 
-  arg9 = (float)_swig_go_8; 
-  arg10 = (float)_swig_go_9; 
-  arg11 = (float)_swig_go_10; 
-  
-  (arg1)->AddGlyph(arg2,arg3,arg4,arg5,arg6,arg7,arg8,arg9,arg10,arg11);
-  
-}
-
-
-void _wrap_Font_AddRemapChar__SWIG_0(ImFont *_swig_go_0, short _swig_go_1, short _swig_go_2, bool _swig_go_3) {
-  ImFont *arg1 = (ImFont *) 0 ;
-  ImWchar arg2 ;
-  ImWchar arg3 ;
-  bool arg4 ;
-  
-  arg1 = *(ImFont **)&_swig_go_0; 
-  arg2 = (ImWchar)_swig_go_1; 
-  arg3 = (ImWchar)_swig_go_2; 
-  arg4 = (bool)_swig_go_3; 
-  
-  (arg1)->AddRemapChar(arg2,arg3,arg4);
-  
-}
-
-
-void _wrap_Font_AddRemapChar__SWIG_1(ImFont *_swig_go_0, short _swig_go_1, short _swig_go_2) {
-  ImFont *arg1 = (ImFont *) 0 ;
-  ImWchar arg2 ;
-  ImWchar arg3 ;
-  
-  arg1 = *(ImFont **)&_swig_go_0; 
-  arg2 = (ImWchar)_swig_go_1; 
-  arg3 = (ImWchar)_swig_go_2; 
-  
-  (arg1)->AddRemapChar(arg2,arg3);
-  
+  free(arg7);
+  free(arg8);
 }
 
 

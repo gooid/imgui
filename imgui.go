@@ -247,37 +247,37 @@ typedef _gostring_ swig_type_204;
 typedef _gostring_ swig_type_205;
 typedef _gostring_ swig_type_206;
 typedef _gostring_ swig_type_207;
-typedef long long swig_type_208;
-typedef void* swig_type_209;
-typedef _gostring_ swig_type_210;
-typedef _gostring_ swig_type_211;
-typedef long long swig_type_212;
-typedef void* swig_type_213;
-typedef _gostring_ swig_type_214;
-typedef _gostring_ swig_type_215;
-typedef long long swig_type_216;
+typedef _gostring_ swig_type_208;
+typedef _gostring_ swig_type_209;
+typedef long long swig_type_210;
+typedef void* swig_type_211;
+typedef _gostring_ swig_type_212;
+typedef _gostring_ swig_type_213;
+typedef long long swig_type_214;
+typedef void* swig_type_215;
+typedef _gostring_ swig_type_216;
 typedef _gostring_ swig_type_217;
-typedef _gostring_ swig_type_218;
-typedef long long swig_type_219;
+typedef long long swig_type_218;
+typedef _gostring_ swig_type_219;
 typedef _gostring_ swig_type_220;
-typedef _gostring_ swig_type_221;
-typedef long long swig_type_222;
-typedef void* swig_type_223;
-typedef _gostring_ swig_type_224;
-typedef _gostring_ swig_type_225;
-typedef long long swig_type_226;
-typedef void* swig_type_227;
-typedef _gostring_ swig_type_228;
-typedef _gostring_ swig_type_229;
-typedef long long swig_type_230;
+typedef long long swig_type_221;
+typedef _gostring_ swig_type_222;
+typedef _gostring_ swig_type_223;
+typedef long long swig_type_224;
+typedef void* swig_type_225;
+typedef _gostring_ swig_type_226;
+typedef _gostring_ swig_type_227;
+typedef long long swig_type_228;
+typedef void* swig_type_229;
+typedef _gostring_ swig_type_230;
 typedef _gostring_ swig_type_231;
-typedef _gostring_ swig_type_232;
-typedef long long swig_type_233;
+typedef long long swig_type_232;
+typedef _gostring_ swig_type_233;
 typedef _gostring_ swig_type_234;
-typedef _gostring_ swig_type_235;
-typedef long long swig_type_236;
+typedef long long swig_type_235;
+typedef _gostring_ swig_type_236;
 typedef _gostring_ swig_type_237;
-typedef _gostring_ swig_type_238;
+typedef long long swig_type_238;
 typedef _gostring_ swig_type_239;
 typedef _gostring_ swig_type_240;
 typedef _gostring_ swig_type_241;
@@ -361,11 +361,11 @@ typedef _gostring_ swig_type_318;
 typedef _gostring_ swig_type_319;
 typedef _gostring_ swig_type_320;
 typedef _gostring_ swig_type_321;
-typedef void* swig_type_322;
+typedef _gostring_ swig_type_322;
 typedef _gostring_ swig_type_323;
 typedef void* swig_type_324;
 typedef _gostring_ swig_type_325;
-typedef _gostring_ swig_type_326;
+typedef void* swig_type_326;
 typedef _gostring_ swig_type_327;
 typedef _gostring_ swig_type_328;
 typedef _gostring_ swig_type_329;
@@ -381,23 +381,23 @@ typedef _gostring_ swig_type_338;
 typedef _gostring_ swig_type_339;
 typedef _gostring_ swig_type_340;
 typedef _gostring_ swig_type_341;
-typedef void* swig_type_342;
+typedef _gostring_ swig_type_342;
 typedef _gostring_ swig_type_343;
-typedef _gostring_ swig_type_344;
-typedef void* swig_type_345;
+typedef void* swig_type_344;
+typedef _gostring_ swig_type_345;
 typedef _gostring_ swig_type_346;
-typedef _gostring_ swig_type_347;
-typedef void* swig_type_348;
+typedef void* swig_type_347;
+typedef _gostring_ swig_type_348;
 typedef _gostring_ swig_type_349;
-typedef _gostring_ swig_type_350;
-typedef void* swig_type_351;
+typedef void* swig_type_350;
+typedef _gostring_ swig_type_351;
 typedef _gostring_ swig_type_352;
-typedef _gostring_ swig_type_353;
-typedef void* swig_type_354;
+typedef void* swig_type_353;
+typedef _gostring_ swig_type_354;
 typedef _gostring_ swig_type_355;
 typedef void* swig_type_356;
 typedef _gostring_ swig_type_357;
-typedef _gostring_ swig_type_358;
+typedef void* swig_type_358;
 typedef _gostring_ swig_type_359;
 typedef _gostring_ swig_type_360;
 typedef _gostring_ swig_type_361;
@@ -409,23 +409,23 @@ typedef _gostring_ swig_type_366;
 typedef _gostring_ swig_type_367;
 typedef _gostring_ swig_type_368;
 typedef _gostring_ swig_type_369;
-typedef void* swig_type_370;
+typedef _gostring_ swig_type_370;
 typedef _gostring_ swig_type_371;
-typedef _gostring_ swig_type_372;
-typedef void* swig_type_373;
+typedef void* swig_type_372;
+typedef _gostring_ swig_type_373;
 typedef _gostring_ swig_type_374;
-typedef _gostring_ swig_type_375;
-typedef void* swig_type_376;
+typedef void* swig_type_375;
+typedef _gostring_ swig_type_376;
 typedef _gostring_ swig_type_377;
-typedef _gostring_ swig_type_378;
-typedef void* swig_type_379;
+typedef void* swig_type_378;
+typedef _gostring_ swig_type_379;
 typedef _gostring_ swig_type_380;
-typedef _gostring_ swig_type_381;
-typedef void* swig_type_382;
+typedef void* swig_type_381;
+typedef _gostring_ swig_type_382;
 typedef _gostring_ swig_type_383;
 typedef void* swig_type_384;
 typedef _gostring_ swig_type_385;
-typedef _gostring_ swig_type_386;
+typedef void* swig_type_386;
 typedef _gostring_ swig_type_387;
 typedef _gostring_ swig_type_388;
 typedef _gostring_ swig_type_389;
@@ -463,55 +463,55 @@ typedef _gostring_ swig_type_420;
 typedef _gostring_ swig_type_421;
 typedef _gostring_ swig_type_422;
 typedef _gostring_ swig_type_423;
-typedef long long swig_type_424;
+typedef _gostring_ swig_type_424;
 typedef _gostring_ swig_type_425;
-typedef long long swig_type_426;
+typedef _gostring_ swig_type_426;
 typedef _gostring_ swig_type_427;
 typedef _gostring_ swig_type_428;
 typedef _gostring_ swig_type_429;
 typedef _gostring_ swig_type_430;
 typedef _gostring_ swig_type_431;
-typedef _gostring_ swig_type_432;
+typedef long long swig_type_432;
 typedef _gostring_ swig_type_433;
-typedef _gostring_ swig_type_434;
+typedef long long swig_type_434;
 typedef _gostring_ swig_type_435;
 typedef _gostring_ swig_type_436;
 typedef _gostring_ swig_type_437;
 typedef _gostring_ swig_type_438;
 typedef _gostring_ swig_type_439;
 typedef _gostring_ swig_type_440;
-typedef long long swig_type_441;
+typedef _gostring_ swig_type_441;
 typedef _gostring_ swig_type_442;
 typedef _gostring_ swig_type_443;
 typedef _gostring_ swig_type_444;
 typedef _gostring_ swig_type_445;
-typedef void* swig_type_446;
-typedef void* swig_type_447;
-typedef void* swig_type_448;
-typedef void* swig_type_449;
-typedef long long swig_type_450;
+typedef _gostring_ swig_type_446;
+typedef _gostring_ swig_type_447;
+typedef _gostring_ swig_type_448;
+typedef long long swig_type_449;
+typedef _gostring_ swig_type_450;
 typedef _gostring_ swig_type_451;
 typedef _gostring_ swig_type_452;
 typedef _gostring_ swig_type_453;
-typedef _gostring_ swig_type_454;
+typedef void* swig_type_454;
 typedef void* swig_type_455;
 typedef void* swig_type_456;
 typedef void* swig_type_457;
-typedef void* swig_type_458;
-typedef void* swig_type_459;
-typedef void* swig_type_460;
+typedef long long swig_type_458;
+typedef _gostring_ swig_type_459;
+typedef _gostring_ swig_type_460;
 typedef _gostring_ swig_type_461;
 typedef _gostring_ swig_type_462;
 typedef _gostring_ swig_type_463;
 typedef _gostring_ swig_type_464;
 typedef _gostring_ swig_type_465;
 typedef _gostring_ swig_type_466;
-typedef _gostring_ swig_type_467;
-typedef _gostring_ swig_type_468;
-typedef _gostring_ swig_type_469;
+typedef void* swig_type_467;
+typedef void* swig_type_468;
+typedef void* swig_type_469;
 typedef void* swig_type_470;
 typedef void* swig_type_471;
-typedef _gostring_ swig_type_472;
+typedef void* swig_type_472;
 typedef _gostring_ swig_type_473;
 typedef _gostring_ swig_type_474;
 typedef _gostring_ swig_type_475;
@@ -521,29 +521,29 @@ typedef _gostring_ swig_type_478;
 typedef _gostring_ swig_type_479;
 typedef _gostring_ swig_type_480;
 typedef _gostring_ swig_type_481;
-typedef _gostring_ swig_type_482;
-typedef _gostring_ swig_type_483;
-typedef void* swig_type_484;
-typedef long long swig_type_485;
-typedef long long swig_type_486;
-typedef long long swig_type_487;
-typedef long long swig_type_488;
-typedef long long swig_type_489;
-typedef long long swig_type_490;
-typedef _goslice_ swig_type_491;
-typedef _goslice_ swig_type_492;
+typedef void* swig_type_482;
+typedef void* swig_type_483;
+typedef _gostring_ swig_type_484;
+typedef _gostring_ swig_type_485;
+typedef _gostring_ swig_type_486;
+typedef _gostring_ swig_type_487;
+typedef _gostring_ swig_type_488;
+typedef _gostring_ swig_type_489;
+typedef _gostring_ swig_type_490;
+typedef _gostring_ swig_type_491;
+typedef _gostring_ swig_type_492;
 typedef _gostring_ swig_type_493;
 typedef _gostring_ swig_type_494;
 typedef _gostring_ swig_type_495;
-typedef _gostring_ swig_type_496;
-typedef _gostring_ swig_type_497;
-typedef _gostring_ swig_type_498;
-typedef _gostring_ swig_type_499;
-typedef _gostring_ swig_type_500;
-typedef _gostring_ swig_type_501;
-typedef _gostring_ swig_type_502;
-typedef _gostring_ swig_type_503;
-typedef _gostring_ swig_type_504;
+typedef void* swig_type_496;
+typedef long long swig_type_497;
+typedef long long swig_type_498;
+typedef long long swig_type_499;
+typedef long long swig_type_500;
+typedef long long swig_type_501;
+typedef long long swig_type_502;
+typedef _goslice_ swig_type_503;
+typedef _goslice_ swig_type_504;
 typedef _gostring_ swig_type_505;
 typedef _gostring_ swig_type_506;
 typedef _gostring_ swig_type_507;
@@ -553,6 +553,21 @@ typedef _gostring_ swig_type_510;
 typedef _gostring_ swig_type_511;
 typedef _gostring_ swig_type_512;
 typedef _gostring_ swig_type_513;
+typedef _gostring_ swig_type_514;
+typedef _gostring_ swig_type_515;
+typedef _gostring_ swig_type_516;
+typedef _gostring_ swig_type_517;
+typedef _gostring_ swig_type_518;
+typedef _gostring_ swig_type_519;
+typedef _gostring_ swig_type_520;
+typedef _gostring_ swig_type_521;
+typedef _gostring_ swig_type_522;
+typedef _gostring_ swig_type_523;
+typedef _gostring_ swig_type_524;
+typedef _gostring_ swig_type_525;
+typedef _gostring_ swig_type_526;
+typedef _gostring_ swig_type_527;
+typedef _gostring_ swig_type_528;
 extern void _wrap_Swig_free(uintptr_t arg1);
 extern uintptr_t _wrap_Swig_malloc(swig_intgo arg1);
 extern void _wrap_Vec2_x_set(uintptr_t arg1, float arg2);
@@ -656,8 +671,8 @@ extern float _wrap_GetScrollMaxX(void);
 extern float _wrap_GetScrollMaxY(void);
 extern void _wrap_SetScrollX(float arg1);
 extern void _wrap_SetScrollY(float arg1);
-extern void _wrap_SetScrollHere__SWIG_0(float arg1);
-extern void _wrap_SetScrollHere__SWIG_1(void);
+extern void _wrap_SetScrollHereY__SWIG_0(float arg1);
+extern void _wrap_SetScrollHereY__SWIG_1(void);
 extern void _wrap_SetScrollFromPosY__SWIG_0(float arg1, float arg2);
 extern void _wrap_SetScrollFromPosY__SWIG_1(float arg1);
 extern void _wrap_PushFont(uintptr_t arg1);
@@ -843,100 +858,101 @@ extern _Bool _wrap_SliderFloat3__SWIG_2(swig_type_162 arg1, swig_voidp arg2, flo
 extern _Bool _wrap_SliderFloat4__SWIG_0(swig_type_163 arg1, swig_voidp arg2, float arg3, float arg4, swig_type_164 arg5, float arg6);
 extern _Bool _wrap_SliderFloat4__SWIG_1(swig_type_165 arg1, swig_voidp arg2, float arg3, float arg4, swig_type_166 arg5);
 extern _Bool _wrap_SliderFloat4__SWIG_2(swig_type_167 arg1, swig_voidp arg2, float arg3, float arg4);
-extern _Bool _wrap_SliderAngle__SWIG_0(swig_type_168 arg1, swig_voidp arg2, float arg3, float arg4);
-extern _Bool _wrap_SliderAngle__SWIG_1(swig_type_169 arg1, swig_voidp arg2, float arg3);
-extern _Bool _wrap_SliderAngle__SWIG_2(swig_type_170 arg1, swig_voidp arg2);
-extern _Bool _wrap_SliderInt__SWIG_0(swig_type_171 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_172 arg5);
-extern _Bool _wrap_SliderInt__SWIG_1(swig_type_173 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4);
-extern _Bool _wrap_SliderInt2__SWIG_0(swig_type_174 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_175 arg5);
-extern _Bool _wrap_SliderInt2__SWIG_1(swig_type_176 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4);
-extern _Bool _wrap_SliderInt3__SWIG_0(swig_type_177 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_178 arg5);
-extern _Bool _wrap_SliderInt3__SWIG_1(swig_type_179 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4);
-extern _Bool _wrap_SliderInt4__SWIG_0(swig_type_180 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_181 arg5);
-extern _Bool _wrap_SliderInt4__SWIG_1(swig_type_182 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4);
-extern _Bool _wrap_SliderScalar__SWIG_0(swig_type_183 arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, swig_type_184 arg6, float arg7);
-extern _Bool _wrap_SliderScalar__SWIG_1(swig_type_185 arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, swig_type_186 arg6);
-extern _Bool _wrap_SliderScalar__SWIG_2(swig_type_187 arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
-extern _Bool _wrap_SliderScalarN__SWIG_0(swig_type_188 arg1, swig_intgo arg2, uintptr_t arg3, swig_intgo arg4, uintptr_t arg5, uintptr_t arg6, swig_type_189 arg7, float arg8);
-extern _Bool _wrap_SliderScalarN__SWIG_1(swig_type_190 arg1, swig_intgo arg2, uintptr_t arg3, swig_intgo arg4, uintptr_t arg5, uintptr_t arg6, swig_type_191 arg7);
-extern _Bool _wrap_SliderScalarN__SWIG_2(swig_type_192 arg1, swig_intgo arg2, uintptr_t arg3, swig_intgo arg4, uintptr_t arg5, uintptr_t arg6);
-extern _Bool _wrap_VSliderFloat__SWIG_0(swig_type_193 arg1, uintptr_t arg2, swig_voidp arg3, float arg4, float arg5, swig_type_194 arg6, float arg7);
-extern _Bool _wrap_VSliderFloat__SWIG_1(swig_type_195 arg1, uintptr_t arg2, swig_voidp arg3, float arg4, float arg5, swig_type_196 arg6);
-extern _Bool _wrap_VSliderFloat__SWIG_2(swig_type_197 arg1, uintptr_t arg2, swig_voidp arg3, float arg4, float arg5);
-extern _Bool _wrap_VSliderInt__SWIG_0(swig_type_198 arg1, uintptr_t arg2, swig_voidp arg3, swig_intgo arg4, swig_intgo arg5, swig_type_199 arg6);
-extern _Bool _wrap_VSliderInt__SWIG_1(swig_type_200 arg1, uintptr_t arg2, swig_voidp arg3, swig_intgo arg4, swig_intgo arg5);
-extern _Bool _wrap_VSliderScalar__SWIG_0(swig_type_201 arg1, uintptr_t arg2, swig_intgo arg3, uintptr_t arg4, uintptr_t arg5, uintptr_t arg6, swig_type_202 arg7, float arg8);
-extern _Bool _wrap_VSliderScalar__SWIG_1(swig_type_203 arg1, uintptr_t arg2, swig_intgo arg3, uintptr_t arg4, uintptr_t arg5, uintptr_t arg6, swig_type_204 arg7);
-extern _Bool _wrap_VSliderScalar__SWIG_2(swig_type_205 arg1, uintptr_t arg2, swig_intgo arg3, uintptr_t arg4, uintptr_t arg5, uintptr_t arg6);
-extern _Bool _wrap_InputText__SWIG_0(swig_type_206 arg1, swig_type_207 arg2, swig_type_208 arg3, swig_intgo arg4, swig_type_209 arg5, uintptr_t arg6);
-extern _Bool _wrap_InputText__SWIG_1(swig_type_210 arg1, swig_type_211 arg2, swig_type_212 arg3, swig_intgo arg4, swig_type_213 arg5);
-extern _Bool _wrap_InputText__SWIG_2(swig_type_214 arg1, swig_type_215 arg2, swig_type_216 arg3, swig_intgo arg4);
-extern _Bool _wrap_InputText__SWIG_3(swig_type_217 arg1, swig_type_218 arg2, swig_type_219 arg3);
-extern _Bool _wrap_InputTextMultiline__SWIG_0(swig_type_220 arg1, swig_type_221 arg2, swig_type_222 arg3, uintptr_t arg4, swig_intgo arg5, swig_type_223 arg6, uintptr_t arg7);
-extern _Bool _wrap_InputTextMultiline__SWIG_1(swig_type_224 arg1, swig_type_225 arg2, swig_type_226 arg3, uintptr_t arg4, swig_intgo arg5, swig_type_227 arg6);
-extern _Bool _wrap_InputTextMultiline__SWIG_2(swig_type_228 arg1, swig_type_229 arg2, swig_type_230 arg3, uintptr_t arg4, swig_intgo arg5);
-extern _Bool _wrap_InputTextMultiline__SWIG_3(swig_type_231 arg1, swig_type_232 arg2, swig_type_233 arg3, uintptr_t arg4);
-extern _Bool _wrap_InputTextMultiline__SWIG_4(swig_type_234 arg1, swig_type_235 arg2, swig_type_236 arg3);
-extern _Bool _wrap_InputFloat__SWIG_0(swig_type_237 arg1, swig_voidp arg2, float arg3, float arg4, swig_type_238 arg5, swig_intgo arg6);
-extern _Bool _wrap_InputFloat__SWIG_1(swig_type_239 arg1, swig_voidp arg2, float arg3, float arg4, swig_type_240 arg5);
-extern _Bool _wrap_InputFloat__SWIG_2(swig_type_241 arg1, swig_voidp arg2, float arg3, float arg4);
-extern _Bool _wrap_InputFloat__SWIG_3(swig_type_242 arg1, swig_voidp arg2, float arg3);
-extern _Bool _wrap_InputFloat__SWIG_4(swig_type_243 arg1, swig_voidp arg2);
-extern _Bool _wrap_InputFloat2__SWIG_0(swig_type_244 arg1, swig_voidp arg2, swig_type_245 arg3, swig_intgo arg4);
-extern _Bool _wrap_InputFloat2__SWIG_1(swig_type_246 arg1, swig_voidp arg2, swig_type_247 arg3);
-extern _Bool _wrap_InputFloat2__SWIG_2(swig_type_248 arg1, swig_voidp arg2);
-extern _Bool _wrap_InputFloat3__SWIG_0(swig_type_249 arg1, swig_voidp arg2, swig_type_250 arg3, swig_intgo arg4);
-extern _Bool _wrap_InputFloat3__SWIG_1(swig_type_251 arg1, swig_voidp arg2, swig_type_252 arg3);
-extern _Bool _wrap_InputFloat3__SWIG_2(swig_type_253 arg1, swig_voidp arg2);
-extern _Bool _wrap_InputFloat4__SWIG_0(swig_type_254 arg1, swig_voidp arg2, swig_type_255 arg3, swig_intgo arg4);
-extern _Bool _wrap_InputFloat4__SWIG_1(swig_type_256 arg1, swig_voidp arg2, swig_type_257 arg3);
-extern _Bool _wrap_InputFloat4__SWIG_2(swig_type_258 arg1, swig_voidp arg2);
-extern _Bool _wrap_InputInt__SWIG_0(swig_type_259 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_intgo arg5);
-extern _Bool _wrap_InputInt__SWIG_1(swig_type_260 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4);
-extern _Bool _wrap_InputInt__SWIG_2(swig_type_261 arg1, swig_voidp arg2, swig_intgo arg3);
-extern _Bool _wrap_InputInt__SWIG_3(swig_type_262 arg1, swig_voidp arg2);
-extern _Bool _wrap_InputInt2__SWIG_0(swig_type_263 arg1, swig_voidp arg2, swig_intgo arg3);
-extern _Bool _wrap_InputInt2__SWIG_1(swig_type_264 arg1, swig_voidp arg2);
-extern _Bool _wrap_InputInt3__SWIG_0(swig_type_265 arg1, swig_voidp arg2, swig_intgo arg3);
-extern _Bool _wrap_InputInt3__SWIG_1(swig_type_266 arg1, swig_voidp arg2);
-extern _Bool _wrap_InputInt4__SWIG_0(swig_type_267 arg1, swig_voidp arg2, swig_intgo arg3);
-extern _Bool _wrap_InputInt4__SWIG_1(swig_type_268 arg1, swig_voidp arg2);
-extern _Bool _wrap_InputDouble__SWIG_0(swig_type_269 arg1, swig_voidp arg2, double arg3, double arg4, swig_type_270 arg5, swig_intgo arg6);
-extern _Bool _wrap_InputDouble__SWIG_1(swig_type_271 arg1, swig_voidp arg2, double arg3, double arg4, swig_type_272 arg5);
-extern _Bool _wrap_InputDouble__SWIG_2(swig_type_273 arg1, swig_voidp arg2, double arg3, double arg4);
-extern _Bool _wrap_InputDouble__SWIG_3(swig_type_274 arg1, swig_voidp arg2, double arg3);
-extern _Bool _wrap_InputDouble__SWIG_4(swig_type_275 arg1, swig_voidp arg2);
-extern _Bool _wrap_InputScalar__SWIG_0(swig_type_276 arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, swig_type_277 arg6, swig_intgo arg7);
-extern _Bool _wrap_InputScalar__SWIG_1(swig_type_278 arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, swig_type_279 arg6);
-extern _Bool _wrap_InputScalar__SWIG_2(swig_type_280 arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
-extern _Bool _wrap_InputScalar__SWIG_3(swig_type_281 arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4);
-extern _Bool _wrap_InputScalar__SWIG_4(swig_type_282 arg1, swig_intgo arg2, uintptr_t arg3);
-extern _Bool _wrap_InputScalarN__SWIG_0(swig_type_283 arg1, swig_intgo arg2, uintptr_t arg3, swig_intgo arg4, uintptr_t arg5, uintptr_t arg6, swig_type_284 arg7, swig_intgo arg8);
-extern _Bool _wrap_InputScalarN__SWIG_1(swig_type_285 arg1, swig_intgo arg2, uintptr_t arg3, swig_intgo arg4, uintptr_t arg5, uintptr_t arg6, swig_type_286 arg7);
-extern _Bool _wrap_InputScalarN__SWIG_2(swig_type_287 arg1, swig_intgo arg2, uintptr_t arg3, swig_intgo arg4, uintptr_t arg5, uintptr_t arg6);
-extern _Bool _wrap_InputScalarN__SWIG_3(swig_type_288 arg1, swig_intgo arg2, uintptr_t arg3, swig_intgo arg4, uintptr_t arg5);
-extern _Bool _wrap_InputScalarN__SWIG_4(swig_type_289 arg1, swig_intgo arg2, uintptr_t arg3, swig_intgo arg4);
-extern _Bool _wrap_ColorEdit3__SWIG_0(swig_type_290 arg1, swig_voidp arg2, swig_intgo arg3);
-extern _Bool _wrap_ColorEdit3__SWIG_1(swig_type_291 arg1, swig_voidp arg2);
-extern _Bool _wrap_ColorEdit4__SWIG_0(swig_type_292 arg1, swig_voidp arg2, swig_intgo arg3);
-extern _Bool _wrap_ColorEdit4__SWIG_1(swig_type_293 arg1, swig_voidp arg2);
-extern _Bool _wrap_ColorPicker3__SWIG_0(swig_type_294 arg1, swig_voidp arg2, swig_intgo arg3);
-extern _Bool _wrap_ColorPicker3__SWIG_1(swig_type_295 arg1, swig_voidp arg2);
-extern _Bool _wrap_ColorPicker4__SWIG_0(swig_type_296 arg1, swig_voidp arg2, swig_intgo arg3, swig_voidp arg4);
-extern _Bool _wrap_ColorPicker4__SWIG_1(swig_type_297 arg1, swig_voidp arg2, swig_intgo arg3);
-extern _Bool _wrap_ColorPicker4__SWIG_2(swig_type_298 arg1, swig_voidp arg2);
-extern _Bool _wrap_ColorButton__SWIG_0(swig_type_299 arg1, uintptr_t arg2, swig_intgo arg3, uintptr_t arg4);
-extern _Bool _wrap_ColorButton__SWIG_1(swig_type_300 arg1, uintptr_t arg2, swig_intgo arg3);
-extern _Bool _wrap_ColorButton__SWIG_2(swig_type_301 arg1, uintptr_t arg2);
+extern _Bool _wrap_SliderAngle__SWIG_0(swig_type_168 arg1, swig_voidp arg2, float arg3, float arg4, swig_type_169 arg5);
+extern _Bool _wrap_SliderAngle__SWIG_1(swig_type_170 arg1, swig_voidp arg2, float arg3, float arg4);
+extern _Bool _wrap_SliderAngle__SWIG_2(swig_type_171 arg1, swig_voidp arg2, float arg3);
+extern _Bool _wrap_SliderAngle__SWIG_3(swig_type_172 arg1, swig_voidp arg2);
+extern _Bool _wrap_SliderInt__SWIG_0(swig_type_173 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_174 arg5);
+extern _Bool _wrap_SliderInt__SWIG_1(swig_type_175 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4);
+extern _Bool _wrap_SliderInt2__SWIG_0(swig_type_176 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_177 arg5);
+extern _Bool _wrap_SliderInt2__SWIG_1(swig_type_178 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4);
+extern _Bool _wrap_SliderInt3__SWIG_0(swig_type_179 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_180 arg5);
+extern _Bool _wrap_SliderInt3__SWIG_1(swig_type_181 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4);
+extern _Bool _wrap_SliderInt4__SWIG_0(swig_type_182 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_183 arg5);
+extern _Bool _wrap_SliderInt4__SWIG_1(swig_type_184 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4);
+extern _Bool _wrap_SliderScalar__SWIG_0(swig_type_185 arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, swig_type_186 arg6, float arg7);
+extern _Bool _wrap_SliderScalar__SWIG_1(swig_type_187 arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, swig_type_188 arg6);
+extern _Bool _wrap_SliderScalar__SWIG_2(swig_type_189 arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
+extern _Bool _wrap_SliderScalarN__SWIG_0(swig_type_190 arg1, swig_intgo arg2, uintptr_t arg3, swig_intgo arg4, uintptr_t arg5, uintptr_t arg6, swig_type_191 arg7, float arg8);
+extern _Bool _wrap_SliderScalarN__SWIG_1(swig_type_192 arg1, swig_intgo arg2, uintptr_t arg3, swig_intgo arg4, uintptr_t arg5, uintptr_t arg6, swig_type_193 arg7);
+extern _Bool _wrap_SliderScalarN__SWIG_2(swig_type_194 arg1, swig_intgo arg2, uintptr_t arg3, swig_intgo arg4, uintptr_t arg5, uintptr_t arg6);
+extern _Bool _wrap_VSliderFloat__SWIG_0(swig_type_195 arg1, uintptr_t arg2, swig_voidp arg3, float arg4, float arg5, swig_type_196 arg6, float arg7);
+extern _Bool _wrap_VSliderFloat__SWIG_1(swig_type_197 arg1, uintptr_t arg2, swig_voidp arg3, float arg4, float arg5, swig_type_198 arg6);
+extern _Bool _wrap_VSliderFloat__SWIG_2(swig_type_199 arg1, uintptr_t arg2, swig_voidp arg3, float arg4, float arg5);
+extern _Bool _wrap_VSliderInt__SWIG_0(swig_type_200 arg1, uintptr_t arg2, swig_voidp arg3, swig_intgo arg4, swig_intgo arg5, swig_type_201 arg6);
+extern _Bool _wrap_VSliderInt__SWIG_1(swig_type_202 arg1, uintptr_t arg2, swig_voidp arg3, swig_intgo arg4, swig_intgo arg5);
+extern _Bool _wrap_VSliderScalar__SWIG_0(swig_type_203 arg1, uintptr_t arg2, swig_intgo arg3, uintptr_t arg4, uintptr_t arg5, uintptr_t arg6, swig_type_204 arg7, float arg8);
+extern _Bool _wrap_VSliderScalar__SWIG_1(swig_type_205 arg1, uintptr_t arg2, swig_intgo arg3, uintptr_t arg4, uintptr_t arg5, uintptr_t arg6, swig_type_206 arg7);
+extern _Bool _wrap_VSliderScalar__SWIG_2(swig_type_207 arg1, uintptr_t arg2, swig_intgo arg3, uintptr_t arg4, uintptr_t arg5, uintptr_t arg6);
+extern _Bool _wrap_InputText__SWIG_0(swig_type_208 arg1, swig_type_209 arg2, swig_type_210 arg3, swig_intgo arg4, swig_type_211 arg5, uintptr_t arg6);
+extern _Bool _wrap_InputText__SWIG_1(swig_type_212 arg1, swig_type_213 arg2, swig_type_214 arg3, swig_intgo arg4, swig_type_215 arg5);
+extern _Bool _wrap_InputText__SWIG_2(swig_type_216 arg1, swig_type_217 arg2, swig_type_218 arg3, swig_intgo arg4);
+extern _Bool _wrap_InputText__SWIG_3(swig_type_219 arg1, swig_type_220 arg2, swig_type_221 arg3);
+extern _Bool _wrap_InputTextMultiline__SWIG_0(swig_type_222 arg1, swig_type_223 arg2, swig_type_224 arg3, uintptr_t arg4, swig_intgo arg5, swig_type_225 arg6, uintptr_t arg7);
+extern _Bool _wrap_InputTextMultiline__SWIG_1(swig_type_226 arg1, swig_type_227 arg2, swig_type_228 arg3, uintptr_t arg4, swig_intgo arg5, swig_type_229 arg6);
+extern _Bool _wrap_InputTextMultiline__SWIG_2(swig_type_230 arg1, swig_type_231 arg2, swig_type_232 arg3, uintptr_t arg4, swig_intgo arg5);
+extern _Bool _wrap_InputTextMultiline__SWIG_3(swig_type_233 arg1, swig_type_234 arg2, swig_type_235 arg3, uintptr_t arg4);
+extern _Bool _wrap_InputTextMultiline__SWIG_4(swig_type_236 arg1, swig_type_237 arg2, swig_type_238 arg3);
+extern _Bool _wrap_InputFloat__SWIG_0(swig_type_239 arg1, swig_voidp arg2, float arg3, float arg4, swig_type_240 arg5, swig_intgo arg6);
+extern _Bool _wrap_InputFloat__SWIG_1(swig_type_241 arg1, swig_voidp arg2, float arg3, float arg4, swig_type_242 arg5);
+extern _Bool _wrap_InputFloat__SWIG_2(swig_type_243 arg1, swig_voidp arg2, float arg3, float arg4);
+extern _Bool _wrap_InputFloat__SWIG_3(swig_type_244 arg1, swig_voidp arg2, float arg3);
+extern _Bool _wrap_InputFloat__SWIG_4(swig_type_245 arg1, swig_voidp arg2);
+extern _Bool _wrap_InputFloat2__SWIG_0(swig_type_246 arg1, swig_voidp arg2, swig_type_247 arg3, swig_intgo arg4);
+extern _Bool _wrap_InputFloat2__SWIG_1(swig_type_248 arg1, swig_voidp arg2, swig_type_249 arg3);
+extern _Bool _wrap_InputFloat2__SWIG_2(swig_type_250 arg1, swig_voidp arg2);
+extern _Bool _wrap_InputFloat3__SWIG_0(swig_type_251 arg1, swig_voidp arg2, swig_type_252 arg3, swig_intgo arg4);
+extern _Bool _wrap_InputFloat3__SWIG_1(swig_type_253 arg1, swig_voidp arg2, swig_type_254 arg3);
+extern _Bool _wrap_InputFloat3__SWIG_2(swig_type_255 arg1, swig_voidp arg2);
+extern _Bool _wrap_InputFloat4__SWIG_0(swig_type_256 arg1, swig_voidp arg2, swig_type_257 arg3, swig_intgo arg4);
+extern _Bool _wrap_InputFloat4__SWIG_1(swig_type_258 arg1, swig_voidp arg2, swig_type_259 arg3);
+extern _Bool _wrap_InputFloat4__SWIG_2(swig_type_260 arg1, swig_voidp arg2);
+extern _Bool _wrap_InputInt__SWIG_0(swig_type_261 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_intgo arg5);
+extern _Bool _wrap_InputInt__SWIG_1(swig_type_262 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4);
+extern _Bool _wrap_InputInt__SWIG_2(swig_type_263 arg1, swig_voidp arg2, swig_intgo arg3);
+extern _Bool _wrap_InputInt__SWIG_3(swig_type_264 arg1, swig_voidp arg2);
+extern _Bool _wrap_InputInt2__SWIG_0(swig_type_265 arg1, swig_voidp arg2, swig_intgo arg3);
+extern _Bool _wrap_InputInt2__SWIG_1(swig_type_266 arg1, swig_voidp arg2);
+extern _Bool _wrap_InputInt3__SWIG_0(swig_type_267 arg1, swig_voidp arg2, swig_intgo arg3);
+extern _Bool _wrap_InputInt3__SWIG_1(swig_type_268 arg1, swig_voidp arg2);
+extern _Bool _wrap_InputInt4__SWIG_0(swig_type_269 arg1, swig_voidp arg2, swig_intgo arg3);
+extern _Bool _wrap_InputInt4__SWIG_1(swig_type_270 arg1, swig_voidp arg2);
+extern _Bool _wrap_InputDouble__SWIG_0(swig_type_271 arg1, swig_voidp arg2, double arg3, double arg4, swig_type_272 arg5, swig_intgo arg6);
+extern _Bool _wrap_InputDouble__SWIG_1(swig_type_273 arg1, swig_voidp arg2, double arg3, double arg4, swig_type_274 arg5);
+extern _Bool _wrap_InputDouble__SWIG_2(swig_type_275 arg1, swig_voidp arg2, double arg3, double arg4);
+extern _Bool _wrap_InputDouble__SWIG_3(swig_type_276 arg1, swig_voidp arg2, double arg3);
+extern _Bool _wrap_InputDouble__SWIG_4(swig_type_277 arg1, swig_voidp arg2);
+extern _Bool _wrap_InputScalar__SWIG_0(swig_type_278 arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, swig_type_279 arg6, swig_intgo arg7);
+extern _Bool _wrap_InputScalar__SWIG_1(swig_type_280 arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, swig_type_281 arg6);
+extern _Bool _wrap_InputScalar__SWIG_2(swig_type_282 arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
+extern _Bool _wrap_InputScalar__SWIG_3(swig_type_283 arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4);
+extern _Bool _wrap_InputScalar__SWIG_4(swig_type_284 arg1, swig_intgo arg2, uintptr_t arg3);
+extern _Bool _wrap_InputScalarN__SWIG_0(swig_type_285 arg1, swig_intgo arg2, uintptr_t arg3, swig_intgo arg4, uintptr_t arg5, uintptr_t arg6, swig_type_286 arg7, swig_intgo arg8);
+extern _Bool _wrap_InputScalarN__SWIG_1(swig_type_287 arg1, swig_intgo arg2, uintptr_t arg3, swig_intgo arg4, uintptr_t arg5, uintptr_t arg6, swig_type_288 arg7);
+extern _Bool _wrap_InputScalarN__SWIG_2(swig_type_289 arg1, swig_intgo arg2, uintptr_t arg3, swig_intgo arg4, uintptr_t arg5, uintptr_t arg6);
+extern _Bool _wrap_InputScalarN__SWIG_3(swig_type_290 arg1, swig_intgo arg2, uintptr_t arg3, swig_intgo arg4, uintptr_t arg5);
+extern _Bool _wrap_InputScalarN__SWIG_4(swig_type_291 arg1, swig_intgo arg2, uintptr_t arg3, swig_intgo arg4);
+extern _Bool _wrap_ColorEdit3__SWIG_0(swig_type_292 arg1, swig_voidp arg2, swig_intgo arg3);
+extern _Bool _wrap_ColorEdit3__SWIG_1(swig_type_293 arg1, swig_voidp arg2);
+extern _Bool _wrap_ColorEdit4__SWIG_0(swig_type_294 arg1, swig_voidp arg2, swig_intgo arg3);
+extern _Bool _wrap_ColorEdit4__SWIG_1(swig_type_295 arg1, swig_voidp arg2);
+extern _Bool _wrap_ColorPicker3__SWIG_0(swig_type_296 arg1, swig_voidp arg2, swig_intgo arg3);
+extern _Bool _wrap_ColorPicker3__SWIG_1(swig_type_297 arg1, swig_voidp arg2);
+extern _Bool _wrap_ColorPicker4__SWIG_0(swig_type_298 arg1, swig_voidp arg2, swig_intgo arg3, swig_voidp arg4);
+extern _Bool _wrap_ColorPicker4__SWIG_1(swig_type_299 arg1, swig_voidp arg2, swig_intgo arg3);
+extern _Bool _wrap_ColorPicker4__SWIG_2(swig_type_300 arg1, swig_voidp arg2);
+extern _Bool _wrap_ColorButton__SWIG_0(swig_type_301 arg1, uintptr_t arg2, swig_intgo arg3, uintptr_t arg4);
+extern _Bool _wrap_ColorButton__SWIG_1(swig_type_302 arg1, uintptr_t arg2, swig_intgo arg3);
+extern _Bool _wrap_ColorButton__SWIG_2(swig_type_303 arg1, uintptr_t arg2);
 extern void _wrap_SetColorEditOptions(swig_intgo arg1);
-extern _Bool _wrap_TreeNode__SWIG_0(swig_type_302 arg1);
-extern _Bool _wrap_TreeNode__SWIG_1(swig_type_303 arg1, swig_voidp arg2);
+extern _Bool _wrap_TreeNode__SWIG_0(swig_type_304 arg1);
+extern _Bool _wrap_TreeNode__SWIG_1(swig_type_305 arg1, swig_voidp arg2);
 extern _Bool _wrap_TreeNode__SWIG_2(uintptr_t arg1, swig_voidp arg2);
-extern _Bool _wrap_TreeNodeEx__SWIG_0(swig_type_304 arg1, swig_intgo arg2);
-extern _Bool _wrap_TreeNodeEx__SWIG_1(swig_type_305 arg1);
-extern _Bool _wrap_TreeNodeEx__SWIG_2(swig_type_306 arg1, swig_intgo arg2, swig_voidp arg3);
+extern _Bool _wrap_TreeNodeEx__SWIG_0(swig_type_306 arg1, swig_intgo arg2);
+extern _Bool _wrap_TreeNodeEx__SWIG_1(swig_type_307 arg1);
+extern _Bool _wrap_TreeNodeEx__SWIG_2(swig_type_308 arg1, swig_intgo arg2, swig_voidp arg3);
 extern _Bool _wrap_TreeNodeEx__SWIG_3(uintptr_t arg1, swig_intgo arg2, swig_voidp arg3);
-extern void _wrap_TreePush__SWIG_0(swig_type_307 arg1);
+extern void _wrap_TreePush__SWIG_0(swig_type_309 arg1);
 extern void _wrap_TreePush__SWIG_1(uintptr_t arg1);
 extern void _wrap_TreePush__SWIG_2(void);
 extern void _wrap_TreePop(void);
@@ -944,97 +960,97 @@ extern void _wrap_TreeAdvanceToLabelPos(void);
 extern float _wrap_GetTreeNodeToLabelSpacing(void);
 extern void _wrap_SetNextTreeNodeOpen__SWIG_0(_Bool arg1, swig_intgo arg2);
 extern void _wrap_SetNextTreeNodeOpen__SWIG_1(_Bool arg1);
-extern _Bool _wrap_CollapsingHeader__SWIG_0(swig_type_308 arg1, swig_intgo arg2);
-extern _Bool _wrap_CollapsingHeader__SWIG_1(swig_type_309 arg1);
-extern _Bool _wrap_CollapsingHeader__SWIG_2(swig_type_310 arg1, swig_voidp arg2, swig_intgo arg3);
-extern _Bool _wrap_CollapsingHeader__SWIG_3(swig_type_311 arg1, swig_voidp arg2);
-extern _Bool _wrap_Selectable__SWIG_0(swig_type_312 arg1, _Bool arg2, swig_intgo arg3, uintptr_t arg4);
-extern _Bool _wrap_Selectable__SWIG_1(swig_type_313 arg1, _Bool arg2, swig_intgo arg3);
-extern _Bool _wrap_Selectable__SWIG_2(swig_type_314 arg1, _Bool arg2);
-extern _Bool _wrap_Selectable__SWIG_3(swig_type_315 arg1);
-extern _Bool _wrap_Selectable__SWIG_4(swig_type_316 arg1, swig_voidp arg2, swig_intgo arg3, uintptr_t arg4);
-extern _Bool _wrap_Selectable__SWIG_5(swig_type_317 arg1, swig_voidp arg2, swig_intgo arg3);
-extern _Bool _wrap_Selectable__SWIG_6(swig_type_318 arg1, swig_voidp arg2);
-extern _Bool _wrap_ListBox__SWIG_0(swig_type_319 arg1, swig_voidp arg2, swig_voidp arg3, swig_intgo arg4, swig_intgo arg5);
-extern _Bool _wrap_ListBox__SWIG_1(swig_type_320 arg1, swig_voidp arg2, swig_voidp arg3, swig_intgo arg4);
-extern _Bool _wrap_ListBox__SWIG_2(swig_type_321 arg1, swig_voidp arg2, swig_type_322 arg3, uintptr_t arg4, swig_intgo arg5, swig_intgo arg6);
-extern _Bool _wrap_ListBox__SWIG_3(swig_type_323 arg1, swig_voidp arg2, swig_type_324 arg3, uintptr_t arg4, swig_intgo arg5);
-extern _Bool _wrap_ListBoxHeader__SWIG_0(swig_type_325 arg1, uintptr_t arg2);
-extern _Bool _wrap_ListBoxHeader__SWIG_1(swig_type_326 arg1);
-extern _Bool _wrap_ListBoxHeader__SWIG_2(swig_type_327 arg1, swig_intgo arg2, swig_intgo arg3);
-extern _Bool _wrap_ListBoxHeader__SWIG_3(swig_type_328 arg1, swig_intgo arg2);
+extern _Bool _wrap_CollapsingHeader__SWIG_0(swig_type_310 arg1, swig_intgo arg2);
+extern _Bool _wrap_CollapsingHeader__SWIG_1(swig_type_311 arg1);
+extern _Bool _wrap_CollapsingHeader__SWIG_2(swig_type_312 arg1, swig_voidp arg2, swig_intgo arg3);
+extern _Bool _wrap_CollapsingHeader__SWIG_3(swig_type_313 arg1, swig_voidp arg2);
+extern _Bool _wrap_Selectable__SWIG_0(swig_type_314 arg1, _Bool arg2, swig_intgo arg3, uintptr_t arg4);
+extern _Bool _wrap_Selectable__SWIG_1(swig_type_315 arg1, _Bool arg2, swig_intgo arg3);
+extern _Bool _wrap_Selectable__SWIG_2(swig_type_316 arg1, _Bool arg2);
+extern _Bool _wrap_Selectable__SWIG_3(swig_type_317 arg1);
+extern _Bool _wrap_Selectable__SWIG_4(swig_type_318 arg1, swig_voidp arg2, swig_intgo arg3, uintptr_t arg4);
+extern _Bool _wrap_Selectable__SWIG_5(swig_type_319 arg1, swig_voidp arg2, swig_intgo arg3);
+extern _Bool _wrap_Selectable__SWIG_6(swig_type_320 arg1, swig_voidp arg2);
+extern _Bool _wrap_ListBox__SWIG_0(swig_type_321 arg1, swig_voidp arg2, swig_voidp arg3, swig_intgo arg4, swig_intgo arg5);
+extern _Bool _wrap_ListBox__SWIG_1(swig_type_322 arg1, swig_voidp arg2, swig_voidp arg3, swig_intgo arg4);
+extern _Bool _wrap_ListBox__SWIG_2(swig_type_323 arg1, swig_voidp arg2, swig_type_324 arg3, uintptr_t arg4, swig_intgo arg5, swig_intgo arg6);
+extern _Bool _wrap_ListBox__SWIG_3(swig_type_325 arg1, swig_voidp arg2, swig_type_326 arg3, uintptr_t arg4, swig_intgo arg5);
+extern _Bool _wrap_ListBoxHeader__SWIG_0(swig_type_327 arg1, uintptr_t arg2);
+extern _Bool _wrap_ListBoxHeader__SWIG_1(swig_type_328 arg1);
+extern _Bool _wrap_ListBoxHeader__SWIG_2(swig_type_329 arg1, swig_intgo arg2, swig_intgo arg3);
+extern _Bool _wrap_ListBoxHeader__SWIG_3(swig_type_330 arg1, swig_intgo arg2);
 extern void _wrap_ListBoxFooter(void);
-extern void _wrap_PlotLines__SWIG_0(swig_type_329 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_330 arg5, float arg6, float arg7, uintptr_t arg8, swig_intgo arg9);
-extern void _wrap_PlotLines__SWIG_1(swig_type_331 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_332 arg5, float arg6, float arg7, uintptr_t arg8);
-extern void _wrap_PlotLines__SWIG_2(swig_type_333 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_334 arg5, float arg6, float arg7);
-extern void _wrap_PlotLines__SWIG_3(swig_type_335 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_336 arg5, float arg6);
-extern void _wrap_PlotLines__SWIG_4(swig_type_337 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_338 arg5);
-extern void _wrap_PlotLines__SWIG_5(swig_type_339 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4);
-extern void _wrap_PlotLines__SWIG_6(swig_type_340 arg1, swig_voidp arg2, swig_intgo arg3);
-extern void _wrap_PlotLines__SWIG_7(swig_type_341 arg1, swig_type_342 arg2, uintptr_t arg3, swig_intgo arg4, swig_intgo arg5, swig_type_343 arg6, float arg7, float arg8, uintptr_t arg9);
-extern void _wrap_PlotLines__SWIG_8(swig_type_344 arg1, swig_type_345 arg2, uintptr_t arg3, swig_intgo arg4, swig_intgo arg5, swig_type_346 arg6, float arg7, float arg8);
-extern void _wrap_PlotLines__SWIG_9(swig_type_347 arg1, swig_type_348 arg2, uintptr_t arg3, swig_intgo arg4, swig_intgo arg5, swig_type_349 arg6, float arg7);
-extern void _wrap_PlotLines__SWIG_10(swig_type_350 arg1, swig_type_351 arg2, uintptr_t arg3, swig_intgo arg4, swig_intgo arg5, swig_type_352 arg6);
-extern void _wrap_PlotLines__SWIG_11(swig_type_353 arg1, swig_type_354 arg2, uintptr_t arg3, swig_intgo arg4, swig_intgo arg5);
-extern void _wrap_PlotLines__SWIG_12(swig_type_355 arg1, swig_type_356 arg2, uintptr_t arg3, swig_intgo arg4);
-extern void _wrap_PlotHistogram__SWIG_0(swig_type_357 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_358 arg5, float arg6, float arg7, uintptr_t arg8, swig_intgo arg9);
-extern void _wrap_PlotHistogram__SWIG_1(swig_type_359 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_360 arg5, float arg6, float arg7, uintptr_t arg8);
-extern void _wrap_PlotHistogram__SWIG_2(swig_type_361 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_362 arg5, float arg6, float arg7);
-extern void _wrap_PlotHistogram__SWIG_3(swig_type_363 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_364 arg5, float arg6);
-extern void _wrap_PlotHistogram__SWIG_4(swig_type_365 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_366 arg5);
-extern void _wrap_PlotHistogram__SWIG_5(swig_type_367 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4);
-extern void _wrap_PlotHistogram__SWIG_6(swig_type_368 arg1, swig_voidp arg2, swig_intgo arg3);
-extern void _wrap_PlotHistogram__SWIG_7(swig_type_369 arg1, swig_type_370 arg2, uintptr_t arg3, swig_intgo arg4, swig_intgo arg5, swig_type_371 arg6, float arg7, float arg8, uintptr_t arg9);
-extern void _wrap_PlotHistogram__SWIG_8(swig_type_372 arg1, swig_type_373 arg2, uintptr_t arg3, swig_intgo arg4, swig_intgo arg5, swig_type_374 arg6, float arg7, float arg8);
-extern void _wrap_PlotHistogram__SWIG_9(swig_type_375 arg1, swig_type_376 arg2, uintptr_t arg3, swig_intgo arg4, swig_intgo arg5, swig_type_377 arg6, float arg7);
-extern void _wrap_PlotHistogram__SWIG_10(swig_type_378 arg1, swig_type_379 arg2, uintptr_t arg3, swig_intgo arg4, swig_intgo arg5, swig_type_380 arg6);
-extern void _wrap_PlotHistogram__SWIG_11(swig_type_381 arg1, swig_type_382 arg2, uintptr_t arg3, swig_intgo arg4, swig_intgo arg5);
-extern void _wrap_PlotHistogram__SWIG_12(swig_type_383 arg1, swig_type_384 arg2, uintptr_t arg3, swig_intgo arg4);
-extern void _wrap_Value__SWIG_0(swig_type_385 arg1, _Bool arg2);
-extern void _wrap_Value__SWIG_1(swig_type_386 arg1, swig_intgo arg2);
-extern void _wrap_ValueUnsigned(swig_type_387 arg1, swig_intgo arg2);
-extern void _wrap_Value__SWIG_2(swig_type_388 arg1, float arg2, swig_type_389 arg3);
-extern void _wrap_Value__SWIG_3(swig_type_390 arg1, float arg2);
+extern void _wrap_PlotLines__SWIG_0(swig_type_331 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_332 arg5, float arg6, float arg7, uintptr_t arg8, swig_intgo arg9);
+extern void _wrap_PlotLines__SWIG_1(swig_type_333 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_334 arg5, float arg6, float arg7, uintptr_t arg8);
+extern void _wrap_PlotLines__SWIG_2(swig_type_335 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_336 arg5, float arg6, float arg7);
+extern void _wrap_PlotLines__SWIG_3(swig_type_337 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_338 arg5, float arg6);
+extern void _wrap_PlotLines__SWIG_4(swig_type_339 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_340 arg5);
+extern void _wrap_PlotLines__SWIG_5(swig_type_341 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4);
+extern void _wrap_PlotLines__SWIG_6(swig_type_342 arg1, swig_voidp arg2, swig_intgo arg3);
+extern void _wrap_PlotLines__SWIG_7(swig_type_343 arg1, swig_type_344 arg2, uintptr_t arg3, swig_intgo arg4, swig_intgo arg5, swig_type_345 arg6, float arg7, float arg8, uintptr_t arg9);
+extern void _wrap_PlotLines__SWIG_8(swig_type_346 arg1, swig_type_347 arg2, uintptr_t arg3, swig_intgo arg4, swig_intgo arg5, swig_type_348 arg6, float arg7, float arg8);
+extern void _wrap_PlotLines__SWIG_9(swig_type_349 arg1, swig_type_350 arg2, uintptr_t arg3, swig_intgo arg4, swig_intgo arg5, swig_type_351 arg6, float arg7);
+extern void _wrap_PlotLines__SWIG_10(swig_type_352 arg1, swig_type_353 arg2, uintptr_t arg3, swig_intgo arg4, swig_intgo arg5, swig_type_354 arg6);
+extern void _wrap_PlotLines__SWIG_11(swig_type_355 arg1, swig_type_356 arg2, uintptr_t arg3, swig_intgo arg4, swig_intgo arg5);
+extern void _wrap_PlotLines__SWIG_12(swig_type_357 arg1, swig_type_358 arg2, uintptr_t arg3, swig_intgo arg4);
+extern void _wrap_PlotHistogram__SWIG_0(swig_type_359 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_360 arg5, float arg6, float arg7, uintptr_t arg8, swig_intgo arg9);
+extern void _wrap_PlotHistogram__SWIG_1(swig_type_361 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_362 arg5, float arg6, float arg7, uintptr_t arg8);
+extern void _wrap_PlotHistogram__SWIG_2(swig_type_363 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_364 arg5, float arg6, float arg7);
+extern void _wrap_PlotHistogram__SWIG_3(swig_type_365 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_366 arg5, float arg6);
+extern void _wrap_PlotHistogram__SWIG_4(swig_type_367 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_type_368 arg5);
+extern void _wrap_PlotHistogram__SWIG_5(swig_type_369 arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4);
+extern void _wrap_PlotHistogram__SWIG_6(swig_type_370 arg1, swig_voidp arg2, swig_intgo arg3);
+extern void _wrap_PlotHistogram__SWIG_7(swig_type_371 arg1, swig_type_372 arg2, uintptr_t arg3, swig_intgo arg4, swig_intgo arg5, swig_type_373 arg6, float arg7, float arg8, uintptr_t arg9);
+extern void _wrap_PlotHistogram__SWIG_8(swig_type_374 arg1, swig_type_375 arg2, uintptr_t arg3, swig_intgo arg4, swig_intgo arg5, swig_type_376 arg6, float arg7, float arg8);
+extern void _wrap_PlotHistogram__SWIG_9(swig_type_377 arg1, swig_type_378 arg2, uintptr_t arg3, swig_intgo arg4, swig_intgo arg5, swig_type_379 arg6, float arg7);
+extern void _wrap_PlotHistogram__SWIG_10(swig_type_380 arg1, swig_type_381 arg2, uintptr_t arg3, swig_intgo arg4, swig_intgo arg5, swig_type_382 arg6);
+extern void _wrap_PlotHistogram__SWIG_11(swig_type_383 arg1, swig_type_384 arg2, uintptr_t arg3, swig_intgo arg4, swig_intgo arg5);
+extern void _wrap_PlotHistogram__SWIG_12(swig_type_385 arg1, swig_type_386 arg2, uintptr_t arg3, swig_intgo arg4);
+extern void _wrap_Value__SWIG_0(swig_type_387 arg1, _Bool arg2);
+extern void _wrap_Value__SWIG_1(swig_type_388 arg1, swig_intgo arg2);
+extern void _wrap_ValueUnsigned(swig_type_389 arg1, swig_intgo arg2);
+extern void _wrap_Value__SWIG_2(swig_type_390 arg1, float arg2, swig_type_391 arg3);
+extern void _wrap_Value__SWIG_3(swig_type_392 arg1, float arg2);
 extern _Bool _wrap_BeginMainMenuBar(void);
 extern void _wrap_EndMainMenuBar(void);
 extern _Bool _wrap_BeginMenuBar(void);
 extern void _wrap_EndMenuBar(void);
-extern _Bool _wrap_BeginMenu__SWIG_0(swig_type_391 arg1, _Bool arg2);
-extern _Bool _wrap_BeginMenu__SWIG_1(swig_type_392 arg1);
+extern _Bool _wrap_BeginMenu__SWIG_0(swig_type_393 arg1, _Bool arg2);
+extern _Bool _wrap_BeginMenu__SWIG_1(swig_type_394 arg1);
 extern void _wrap_EndMenu(void);
-extern _Bool _wrap_MenuItem__SWIG_0(swig_type_393 arg1, swig_type_394 arg2, _Bool arg3, _Bool arg4);
-extern _Bool _wrap_MenuItem__SWIG_1(swig_type_395 arg1, swig_type_396 arg2, _Bool arg3);
-extern _Bool _wrap_MenuItem__SWIG_2(swig_type_397 arg1, swig_type_398 arg2);
-extern _Bool _wrap_MenuItem__SWIG_3(swig_type_399 arg1);
-extern _Bool _wrap_MenuItem__SWIG_4(swig_type_400 arg1, swig_type_401 arg2, swig_voidp arg3, _Bool arg4);
-extern _Bool _wrap_MenuItem__SWIG_5(swig_type_402 arg1, swig_type_403 arg2, swig_voidp arg3);
+extern _Bool _wrap_MenuItem__SWIG_0(swig_type_395 arg1, swig_type_396 arg2, _Bool arg3, _Bool arg4);
+extern _Bool _wrap_MenuItem__SWIG_1(swig_type_397 arg1, swig_type_398 arg2, _Bool arg3);
+extern _Bool _wrap_MenuItem__SWIG_2(swig_type_399 arg1, swig_type_400 arg2);
+extern _Bool _wrap_MenuItem__SWIG_3(swig_type_401 arg1);
+extern _Bool _wrap_MenuItem__SWIG_4(swig_type_402 arg1, swig_type_403 arg2, swig_voidp arg3, _Bool arg4);
+extern _Bool _wrap_MenuItem__SWIG_5(swig_type_404 arg1, swig_type_405 arg2, swig_voidp arg3);
 extern void _wrap_BeginTooltip(void);
 extern void _wrap_EndTooltip(void);
 extern void _wrap_SetTooltip(swig_voidp arg1);
-extern void _wrap_OpenPopup(swig_type_404 arg1);
-extern _Bool _wrap_BeginPopup__SWIG_0(swig_type_405 arg1, swig_intgo arg2);
-extern _Bool _wrap_BeginPopup__SWIG_1(swig_type_406 arg1);
-extern _Bool _wrap_BeginPopupContextItem__SWIG_0(swig_type_407 arg1, swig_intgo arg2);
-extern _Bool _wrap_BeginPopupContextItem__SWIG_1(swig_type_408 arg1);
+extern void _wrap_OpenPopup(swig_type_406 arg1);
+extern _Bool _wrap_BeginPopup__SWIG_0(swig_type_407 arg1, swig_intgo arg2);
+extern _Bool _wrap_BeginPopup__SWIG_1(swig_type_408 arg1);
+extern _Bool _wrap_BeginPopupContextItem__SWIG_0(swig_type_409 arg1, swig_intgo arg2);
+extern _Bool _wrap_BeginPopupContextItem__SWIG_1(swig_type_410 arg1);
 extern _Bool _wrap_BeginPopupContextItem__SWIG_2(void);
-extern _Bool _wrap_BeginPopupContextWindow__SWIG_0(swig_type_409 arg1, swig_intgo arg2, _Bool arg3);
-extern _Bool _wrap_BeginPopupContextWindow__SWIG_1(swig_type_410 arg1, swig_intgo arg2);
-extern _Bool _wrap_BeginPopupContextWindow__SWIG_2(swig_type_411 arg1);
+extern _Bool _wrap_BeginPopupContextWindow__SWIG_0(swig_type_411 arg1, swig_intgo arg2, _Bool arg3);
+extern _Bool _wrap_BeginPopupContextWindow__SWIG_1(swig_type_412 arg1, swig_intgo arg2);
+extern _Bool _wrap_BeginPopupContextWindow__SWIG_2(swig_type_413 arg1);
 extern _Bool _wrap_BeginPopupContextWindow__SWIG_3(void);
-extern _Bool _wrap_BeginPopupContextVoid__SWIG_0(swig_type_412 arg1, swig_intgo arg2);
-extern _Bool _wrap_BeginPopupContextVoid__SWIG_1(swig_type_413 arg1);
+extern _Bool _wrap_BeginPopupContextVoid__SWIG_0(swig_type_414 arg1, swig_intgo arg2);
+extern _Bool _wrap_BeginPopupContextVoid__SWIG_1(swig_type_415 arg1);
 extern _Bool _wrap_BeginPopupContextVoid__SWIG_2(void);
-extern _Bool _wrap_BeginPopupModal__SWIG_0(swig_type_414 arg1, swig_voidp arg2, swig_intgo arg3);
-extern _Bool _wrap_BeginPopupModal__SWIG_1(swig_type_415 arg1, swig_voidp arg2);
-extern _Bool _wrap_BeginPopupModal__SWIG_2(swig_type_416 arg1);
+extern _Bool _wrap_BeginPopupModal__SWIG_0(swig_type_416 arg1, swig_voidp arg2, swig_intgo arg3);
+extern _Bool _wrap_BeginPopupModal__SWIG_1(swig_type_417 arg1, swig_voidp arg2);
+extern _Bool _wrap_BeginPopupModal__SWIG_2(swig_type_418 arg1);
 extern void _wrap_EndPopup(void);
-extern _Bool _wrap_OpenPopupOnItemClick__SWIG_0(swig_type_417 arg1, swig_intgo arg2);
-extern _Bool _wrap_OpenPopupOnItemClick__SWIG_1(swig_type_418 arg1);
+extern _Bool _wrap_OpenPopupOnItemClick__SWIG_0(swig_type_419 arg1, swig_intgo arg2);
+extern _Bool _wrap_OpenPopupOnItemClick__SWIG_1(swig_type_420 arg1);
 extern _Bool _wrap_OpenPopupOnItemClick__SWIG_2(void);
-extern _Bool _wrap_IsPopupOpen(swig_type_419 arg1);
+extern _Bool _wrap_IsPopupOpen(swig_type_421 arg1);
 extern void _wrap_CloseCurrentPopup(void);
-extern void _wrap_Columns__SWIG_0(swig_intgo arg1, swig_type_420 arg2, _Bool arg3);
-extern void _wrap_Columns__SWIG_1(swig_intgo arg1, swig_type_421 arg2);
+extern void _wrap_Columns__SWIG_0(swig_intgo arg1, swig_type_422 arg2, _Bool arg3);
+extern void _wrap_Columns__SWIG_1(swig_intgo arg1, swig_type_423 arg2);
 extern void _wrap_Columns__SWIG_2(swig_intgo arg1);
 extern void _wrap_Columns__SWIG_3(void);
 extern void _wrap_NextColumn(void);
@@ -1046,9 +1062,17 @@ extern float _wrap_GetColumnOffset__SWIG_0(swig_intgo arg1);
 extern float _wrap_GetColumnOffset__SWIG_1(void);
 extern void _wrap_SetColumnOffset(swig_intgo arg1, float arg2);
 extern swig_intgo _wrap_GetColumnsCount(void);
+extern _Bool _wrap_BeginTabBar__SWIG_0(swig_type_424 arg1, swig_intgo arg2);
+extern _Bool _wrap_BeginTabBar__SWIG_1(swig_type_425 arg1);
+extern void _wrap_EndTabBar(void);
+extern _Bool _wrap_BeginTabItem__SWIG_0(swig_type_426 arg1, swig_voidp arg2, swig_intgo arg3);
+extern _Bool _wrap_BeginTabItem__SWIG_1(swig_type_427 arg1, swig_voidp arg2);
+extern _Bool _wrap_BeginTabItem__SWIG_2(swig_type_428 arg1);
+extern void _wrap_EndTabItem(void);
+extern void _wrap_SetTabItemClosed(swig_type_429 arg1);
 extern void _wrap_LogToTTY__SWIG_0(swig_intgo arg1);
 extern void _wrap_LogToTTY__SWIG_1(void);
-extern void _wrap_LogToFile__SWIG_0(swig_intgo arg1, swig_type_422 arg2);
+extern void _wrap_LogToFile__SWIG_0(swig_intgo arg1, swig_type_430 arg2);
 extern void _wrap_LogToFile__SWIG_1(swig_intgo arg1);
 extern void _wrap_LogToFile__SWIG_2(void);
 extern void _wrap_LogToClipboard__SWIG_0(swig_intgo arg1);
@@ -1058,13 +1082,14 @@ extern void _wrap_LogButtons(void);
 extern void _wrap_LogText(swig_voidp arg1);
 extern _Bool _wrap_BeginDragDropSource__SWIG_0(swig_intgo arg1);
 extern _Bool _wrap_BeginDragDropSource__SWIG_1(void);
-extern _Bool _wrap_SetDragDropPayload__SWIG_0(swig_type_423 arg1, uintptr_t arg2, swig_type_424 arg3, swig_intgo arg4);
-extern _Bool _wrap_SetDragDropPayload__SWIG_1(swig_type_425 arg1, uintptr_t arg2, swig_type_426 arg3);
+extern _Bool _wrap_SetDragDropPayload__SWIG_0(swig_type_431 arg1, uintptr_t arg2, swig_type_432 arg3, swig_intgo arg4);
+extern _Bool _wrap_SetDragDropPayload__SWIG_1(swig_type_433 arg1, uintptr_t arg2, swig_type_434 arg3);
 extern void _wrap_EndDragDropSource(void);
 extern _Bool _wrap_BeginDragDropTarget(void);
-extern uintptr_t _wrap_AcceptDragDropPayload__SWIG_0(swig_type_427 arg1, swig_intgo arg2);
-extern uintptr_t _wrap_AcceptDragDropPayload__SWIG_1(swig_type_428 arg1);
+extern uintptr_t _wrap_AcceptDragDropPayload__SWIG_0(swig_type_435 arg1, swig_intgo arg2);
+extern uintptr_t _wrap_AcceptDragDropPayload__SWIG_1(swig_type_436 arg1);
 extern void _wrap_EndDragDropTarget(void);
+extern uintptr_t _wrap_GetDragDropPayload(void);
 extern void _wrap_PushClipRect(uintptr_t arg1, uintptr_t arg2, _Bool arg3);
 extern void _wrap_PopClipRect(void);
 extern void _wrap_SetItemDefaultFocus(void);
@@ -1078,6 +1103,7 @@ extern _Bool _wrap_IsItemClicked__SWIG_0(swig_intgo arg1);
 extern _Bool _wrap_IsItemClicked__SWIG_1(void);
 extern _Bool _wrap_IsItemVisible(void);
 extern _Bool _wrap_IsItemEdited(void);
+extern _Bool _wrap_IsItemActivated(void);
 extern _Bool _wrap_IsItemDeactivated(void);
 extern _Bool _wrap_IsItemDeactivatedAfterEdit(void);
 extern _Bool _wrap_IsAnyItemHovered(void);
@@ -1093,13 +1119,13 @@ extern double _wrap_GetTime(void);
 extern swig_intgo _wrap_GetFrameCount(void);
 extern uintptr_t _wrap_GetOverlayDrawList(void);
 extern uintptr_t _wrap_GetDrawListSharedData(void);
-extern swig_type_429 _wrap_GetStyleColorName(swig_intgo arg1);
+extern swig_type_437 _wrap_GetStyleColorName(swig_intgo arg1);
 extern void _wrap_SetStateStorage(uintptr_t arg1);
 extern uintptr_t _wrap_GetStateStorage(void);
-extern uintptr_t _wrap_CalcTextSize__SWIG_0(swig_type_430 arg1, swig_type_431 arg2, _Bool arg3, float arg4);
-extern uintptr_t _wrap_CalcTextSize__SWIG_1(swig_type_432 arg1, swig_type_433 arg2, _Bool arg3);
-extern uintptr_t _wrap_CalcTextSize__SWIG_2(swig_type_434 arg1, swig_type_435 arg2);
-extern uintptr_t _wrap_CalcTextSize__SWIG_3(swig_type_436 arg1);
+extern uintptr_t _wrap_CalcTextSize__SWIG_0(swig_type_438 arg1, swig_type_439 arg2, _Bool arg3, float arg4);
+extern uintptr_t _wrap_CalcTextSize__SWIG_1(swig_type_440 arg1, swig_type_441 arg2, _Bool arg3);
+extern uintptr_t _wrap_CalcTextSize__SWIG_2(swig_type_442 arg1, swig_type_443 arg2);
+extern uintptr_t _wrap_CalcTextSize__SWIG_3(swig_type_444 arg1);
 extern void _wrap_CalcListClipping(swig_intgo arg1, float arg2, swig_voidp arg3, swig_voidp arg4);
 extern _Bool _wrap_BeginChildFrame__SWIG_0(swig_intgo arg1, uintptr_t arg2, swig_intgo arg3);
 extern _Bool _wrap_BeginChildFrame__SWIG_1(swig_intgo arg1, uintptr_t arg2);
@@ -1140,17 +1166,17 @@ extern void _wrap_CaptureKeyboardFromApp__SWIG_0(_Bool arg1);
 extern void _wrap_CaptureKeyboardFromApp__SWIG_1(void);
 extern void _wrap_CaptureMouseFromApp__SWIG_0(_Bool arg1);
 extern void _wrap_CaptureMouseFromApp__SWIG_1(void);
-extern swig_type_437 _wrap_GetClipboardText(void);
-extern void _wrap_SetClipboardText(swig_type_438 arg1);
-extern void _wrap_LoadIniSettingsFromDisk(swig_type_439 arg1);
-extern void _wrap_LoadIniSettingsFromMemory__SWIG_0(swig_type_440 arg1, swig_type_441 arg2);
-extern void _wrap_LoadIniSettingsFromMemory__SWIG_1(swig_type_442 arg1);
-extern void _wrap_SaveIniSettingsToDisk(swig_type_443 arg1);
-extern swig_type_444 _wrap_SaveIniSettingsToMemory__SWIG_0(swig_voidp arg1);
-extern swig_type_445 _wrap_SaveIniSettingsToMemory__SWIG_1(void);
-extern void _wrap_SetAllocatorFunctions__SWIG_0(swig_type_446 arg1, swig_type_447 arg2, uintptr_t arg3);
-extern void _wrap_SetAllocatorFunctions__SWIG_1(swig_type_448 arg1, swig_type_449 arg2);
-extern uintptr_t _wrap_MemAlloc(swig_type_450 arg1);
+extern swig_type_445 _wrap_GetClipboardText(void);
+extern void _wrap_SetClipboardText(swig_type_446 arg1);
+extern void _wrap_LoadIniSettingsFromDisk(swig_type_447 arg1);
+extern void _wrap_LoadIniSettingsFromMemory__SWIG_0(swig_type_448 arg1, swig_type_449 arg2);
+extern void _wrap_LoadIniSettingsFromMemory__SWIG_1(swig_type_450 arg1);
+extern void _wrap_SaveIniSettingsToDisk(swig_type_451 arg1);
+extern swig_type_452 _wrap_SaveIniSettingsToMemory__SWIG_0(swig_voidp arg1);
+extern swig_type_453 _wrap_SaveIniSettingsToMemory__SWIG_1(void);
+extern void _wrap_SetAllocatorFunctions__SWIG_0(swig_type_454 arg1, swig_type_455 arg2, uintptr_t arg3);
+extern void _wrap_SetAllocatorFunctions__SWIG_1(swig_type_456 arg1, swig_type_457 arg2);
+extern uintptr_t _wrap_MemAlloc(swig_type_458 arg1);
 extern void _wrap_MemFree(uintptr_t arg1);
 extern swig_intgo _wrap_WindowFlags_None(void);
 extern swig_intgo _wrap_WindowFlags_NoTitleBar(void);
@@ -1160,8 +1186,9 @@ extern swig_intgo _wrap_WindowFlags_NoScrollbar(void);
 extern swig_intgo _wrap_WindowFlags_NoScrollWithMouse(void);
 extern swig_intgo _wrap_WindowFlags_NoCollapse(void);
 extern swig_intgo _wrap_WindowFlags_AlwaysAutoResize(void);
+extern swig_intgo _wrap_WindowFlags_NoBackground(void);
 extern swig_intgo _wrap_WindowFlags_NoSavedSettings(void);
-extern swig_intgo _wrap_WindowFlags_NoInputs(void);
+extern swig_intgo _wrap_WindowFlags_NoMouseInputs(void);
 extern swig_intgo _wrap_WindowFlags_MenuBar(void);
 extern swig_intgo _wrap_WindowFlags_HorizontalScrollbar(void);
 extern swig_intgo _wrap_WindowFlags_NoFocusOnAppearing(void);
@@ -1171,7 +1198,10 @@ extern swig_intgo _wrap_WindowFlags_AlwaysHorizontalScrollbar(void);
 extern swig_intgo _wrap_WindowFlags_AlwaysUseWindowPadding(void);
 extern swig_intgo _wrap_WindowFlags_NoNavInputs(void);
 extern swig_intgo _wrap_WindowFlags_NoNavFocus(void);
+extern swig_intgo _wrap_WindowFlags_UnsavedDocument(void);
 extern swig_intgo _wrap_WindowFlags_NoNav(void);
+extern swig_intgo _wrap_WindowFlags_NoDecoration(void);
+extern swig_intgo _wrap_WindowFlags_NoInputs(void);
 extern swig_intgo _wrap_WindowFlags_NavFlattened(void);
 extern swig_intgo _wrap_WindowFlags_ChildWindow(void);
 extern swig_intgo _wrap_WindowFlags_Tooltip(void);
@@ -1227,6 +1257,22 @@ extern swig_intgo _wrap_ComboFlags_HeightLargest(void);
 extern swig_intgo _wrap_ComboFlags_NoArrowButton(void);
 extern swig_intgo _wrap_ComboFlags_NoPreview(void);
 extern swig_intgo _wrap_ComboFlags_HeightMask_(void);
+extern swig_intgo _wrap_TabBarFlags_None(void);
+extern swig_intgo _wrap_TabBarFlags_Reorderable(void);
+extern swig_intgo _wrap_TabBarFlags_AutoSelectNewTabs(void);
+extern swig_intgo _wrap_TabBarFlags_TabListPopupButton(void);
+extern swig_intgo _wrap_TabBarFlags_NoCloseWithMiddleMouseButton(void);
+extern swig_intgo _wrap_TabBarFlags_NoTabListScrollingButtons(void);
+extern swig_intgo _wrap_TabBarFlags_NoTooltip(void);
+extern swig_intgo _wrap_TabBarFlags_FittingPolicyResizeDown(void);
+extern swig_intgo _wrap_TabBarFlags_FittingPolicyScroll(void);
+extern swig_intgo _wrap_TabBarFlags_FittingPolicyMask_(void);
+extern swig_intgo _wrap_TabBarFlags_FittingPolicyDefault_(void);
+extern swig_intgo _wrap_TabItemFlags_None(void);
+extern swig_intgo _wrap_TabItemFlags_UnsavedDocument(void);
+extern swig_intgo _wrap_TabItemFlags_SetSelected(void);
+extern swig_intgo _wrap_TabItemFlags_NoCloseWithMiddleMouseButton(void);
+extern swig_intgo _wrap_TabItemFlags_NoPushId(void);
 extern swig_intgo _wrap_FocusedFlags_None(void);
 extern swig_intgo _wrap_FocusedFlags_ChildWindows(void);
 extern swig_intgo _wrap_FocusedFlags_RootWindow(void);
@@ -1311,6 +1357,7 @@ extern swig_intgo _wrap_NavInput_KeyUp_(void);
 extern swig_intgo _wrap_NavInput_KeyDown_(void);
 extern swig_intgo _wrap_NavInput_COUNT(void);
 extern swig_intgo _wrap_NavInput_InternalStart_(void);
+extern swig_intgo _wrap_ConfigFlags_None(void);
 extern swig_intgo _wrap_ConfigFlags_NavEnableKeyboard(void);
 extern swig_intgo _wrap_ConfigFlags_NavEnableGamepad(void);
 extern swig_intgo _wrap_ConfigFlags_NavEnableSetMousePos(void);
@@ -1319,6 +1366,7 @@ extern swig_intgo _wrap_ConfigFlags_NoMouse(void);
 extern swig_intgo _wrap_ConfigFlags_NoMouseCursorChange(void);
 extern swig_intgo _wrap_ConfigFlags_IsSRGB(void);
 extern swig_intgo _wrap_ConfigFlags_IsTouchScreen(void);
+extern swig_intgo _wrap_BackendFlags_None(void);
 extern swig_intgo _wrap_BackendFlags_HasGamepad(void);
 extern swig_intgo _wrap_BackendFlags_HasMouseCursors(void);
 extern swig_intgo _wrap_BackendFlags_HasSetMousePos(void);
@@ -1355,6 +1403,11 @@ extern swig_intgo _wrap_Col_SeparatorActive(void);
 extern swig_intgo _wrap_Col_ResizeGrip(void);
 extern swig_intgo _wrap_Col_ResizeGripHovered(void);
 extern swig_intgo _wrap_Col_ResizeGripActive(void);
+extern swig_intgo _wrap_Col_Tab(void);
+extern swig_intgo _wrap_Col_TabHovered(void);
+extern swig_intgo _wrap_Col_TabActive(void);
+extern swig_intgo _wrap_Col_TabUnfocused(void);
+extern swig_intgo _wrap_Col_TabUnfocusedActive(void);
 extern swig_intgo _wrap_Col_PlotLines(void);
 extern swig_intgo _wrap_Col_PlotLinesHovered(void);
 extern swig_intgo _wrap_Col_PlotHistogram(void);
@@ -1386,7 +1439,9 @@ extern swig_intgo _wrap_StyleVar_ScrollbarSize(void);
 extern swig_intgo _wrap_StyleVar_ScrollbarRounding(void);
 extern swig_intgo _wrap_StyleVar_GrabMinSize(void);
 extern swig_intgo _wrap_StyleVar_GrabRounding(void);
+extern swig_intgo _wrap_StyleVar_TabRounding(void);
 extern swig_intgo _wrap_StyleVar_ButtonTextAlign(void);
+extern swig_intgo _wrap_StyleVar_SelectableTextAlign(void);
 extern swig_intgo _wrap_StyleVar_COUNT(void);
 extern swig_intgo _wrap_ColorEditFlags_None(void);
 extern swig_intgo _wrap_ColorEditFlags_NoAlpha(void);
@@ -1471,8 +1526,14 @@ extern void _wrap_Style_GrabMinSize_set(uintptr_t arg1, float arg2);
 extern float _wrap_Style_GrabMinSize_get(uintptr_t arg1);
 extern void _wrap_Style_GrabRounding_set(uintptr_t arg1, float arg2);
 extern float _wrap_Style_GrabRounding_get(uintptr_t arg1);
+extern void _wrap_Style_TabRounding_set(uintptr_t arg1, float arg2);
+extern float _wrap_Style_TabRounding_get(uintptr_t arg1);
+extern void _wrap_Style_TabBorderSize_set(uintptr_t arg1, float arg2);
+extern float _wrap_Style_TabBorderSize_get(uintptr_t arg1);
 extern void _wrap_Style_ButtonTextAlign_set(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_Style_ButtonTextAlign_get(uintptr_t arg1);
+extern void _wrap_Style_SelectableTextAlign_set(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Style_SelectableTextAlign_get(uintptr_t arg1);
 extern void _wrap_Style_DisplayWindowPadding_set(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_Style_DisplayWindowPadding_get(uintptr_t arg1);
 extern void _wrap_Style_DisplaySafeAreaPadding_set(uintptr_t arg1, uintptr_t arg2);
@@ -1500,10 +1561,10 @@ extern void _wrap_IO_DeltaTime_set(uintptr_t arg1, float arg2);
 extern float _wrap_IO_DeltaTime_get(uintptr_t arg1);
 extern void _wrap_IO_IniSavingRate_set(uintptr_t arg1, float arg2);
 extern float _wrap_IO_IniSavingRate_get(uintptr_t arg1);
-extern void _wrap_IO_IniFilename_set(uintptr_t arg1, swig_type_451 arg2);
-extern swig_type_452 _wrap_IO_IniFilename_get(uintptr_t arg1);
-extern void _wrap_IO_LogFilename_set(uintptr_t arg1, swig_type_453 arg2);
-extern swig_type_454 _wrap_IO_LogFilename_get(uintptr_t arg1);
+extern void _wrap_IO_IniFilename_set(uintptr_t arg1, swig_type_459 arg2);
+extern swig_type_460 _wrap_IO_IniFilename_get(uintptr_t arg1);
+extern void _wrap_IO_LogFilename_set(uintptr_t arg1, swig_type_461 arg2);
+extern swig_type_462 _wrap_IO_LogFilename_get(uintptr_t arg1);
 extern void _wrap_IO_MouseDoubleClickTime_set(uintptr_t arg1, float arg2);
 extern float _wrap_IO_MouseDoubleClickTime_get(uintptr_t arg1);
 extern void _wrap_IO_MouseDoubleClickMaxDist_set(uintptr_t arg1, float arg2);
@@ -1528,26 +1589,34 @@ extern void _wrap_IO_FontDefault_set(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_IO_FontDefault_get(uintptr_t arg1);
 extern void _wrap_IO_DisplayFramebufferScale_set(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_IO_DisplayFramebufferScale_get(uintptr_t arg1);
-extern void _wrap_IO_DisplayVisibleMin_set(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_IO_DisplayVisibleMin_get(uintptr_t arg1);
-extern void _wrap_IO_DisplayVisibleMax_set(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_IO_DisplayVisibleMax_get(uintptr_t arg1);
 extern void _wrap_IO_MouseDrawCursor_set(uintptr_t arg1, _Bool arg2);
 extern _Bool _wrap_IO_MouseDrawCursor_get(uintptr_t arg1);
 extern void _wrap_IO_ConfigMacOSXBehaviors_set(uintptr_t arg1, _Bool arg2);
 extern _Bool _wrap_IO_ConfigMacOSXBehaviors_get(uintptr_t arg1);
 extern void _wrap_IO_ConfigInputTextCursorBlink_set(uintptr_t arg1, _Bool arg2);
 extern _Bool _wrap_IO_ConfigInputTextCursorBlink_get(uintptr_t arg1);
-extern void _wrap_IO_ConfigResizeWindowsFromEdges_set(uintptr_t arg1, _Bool arg2);
-extern _Bool _wrap_IO_ConfigResizeWindowsFromEdges_get(uintptr_t arg1);
-extern void _wrap_IO_GetClipboardTextFn_set(uintptr_t arg1, swig_type_455 arg2);
-extern swig_type_456 _wrap_IO_GetClipboardTextFn_get(uintptr_t arg1);
-extern void _wrap_IO_SetClipboardTextFn_set(uintptr_t arg1, swig_type_457 arg2);
-extern swig_type_458 _wrap_IO_SetClipboardTextFn_get(uintptr_t arg1);
+extern void _wrap_IO_ConfigWindowsResizeFromEdges_set(uintptr_t arg1, _Bool arg2);
+extern _Bool _wrap_IO_ConfigWindowsResizeFromEdges_get(uintptr_t arg1);
+extern void _wrap_IO_ConfigWindowsMoveFromTitleBarOnly_set(uintptr_t arg1, _Bool arg2);
+extern _Bool _wrap_IO_ConfigWindowsMoveFromTitleBarOnly_get(uintptr_t arg1);
+extern void _wrap_IO_BackendPlatformName_set(uintptr_t arg1, swig_type_463 arg2);
+extern swig_type_464 _wrap_IO_BackendPlatformName_get(uintptr_t arg1);
+extern void _wrap_IO_BackendRendererName_set(uintptr_t arg1, swig_type_465 arg2);
+extern swig_type_466 _wrap_IO_BackendRendererName_get(uintptr_t arg1);
+extern void _wrap_IO_BackendPlatformUserData_set(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_IO_BackendPlatformUserData_get(uintptr_t arg1);
+extern void _wrap_IO_BackendRendererUserData_set(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_IO_BackendRendererUserData_get(uintptr_t arg1);
+extern void _wrap_IO_BackendLanguageUserData_set(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_IO_BackendLanguageUserData_get(uintptr_t arg1);
+extern void _wrap_IO_GetClipboardTextFn_set(uintptr_t arg1, swig_type_467 arg2);
+extern swig_type_468 _wrap_IO_GetClipboardTextFn_get(uintptr_t arg1);
+extern void _wrap_IO_SetClipboardTextFn_set(uintptr_t arg1, swig_type_469 arg2);
+extern swig_type_470 _wrap_IO_SetClipboardTextFn_get(uintptr_t arg1);
 extern void _wrap_IO_ClipboardUserData_set(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_IO_ClipboardUserData_get(uintptr_t arg1);
-extern void _wrap_IO_ImeSetInputScreenPosFn_set(uintptr_t arg1, swig_type_459 arg2);
-extern swig_type_460 _wrap_IO_ImeSetInputScreenPosFn_get(uintptr_t arg1);
+extern void _wrap_IO_ImeSetInputScreenPosFn_set(uintptr_t arg1, swig_type_471 arg2);
+extern swig_type_472 _wrap_IO_ImeSetInputScreenPosFn_get(uintptr_t arg1);
 extern void _wrap_IO_ImeWindowHandle_set(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_IO_ImeWindowHandle_get(uintptr_t arg1);
 extern void _wrap_IO_MousePos_set(uintptr_t arg1, uintptr_t arg2);
@@ -1568,12 +1637,10 @@ extern void _wrap_IO_KeySuper_set(uintptr_t arg1, _Bool arg2);
 extern _Bool _wrap_IO_KeySuper_get(uintptr_t arg1);
 extern void _wrap_IO_KeysDown_set(uintptr_t arg1, swig_voidp arg2);
 extern swig_voidp _wrap_IO_KeysDown_get(uintptr_t arg1);
-extern void _wrap_IO_InputCharacters_set(uintptr_t arg1, swig_voidp arg2);
-extern swig_voidp _wrap_IO_InputCharacters_get(uintptr_t arg1);
 extern void _wrap_IO_NavInputs_set(uintptr_t arg1, swig_voidp arg2);
 extern swig_voidp _wrap_IO_NavInputs_get(uintptr_t arg1);
 extern void _wrap_IO_AddInputCharacter(uintptr_t arg1, short arg2);
-extern void _wrap_IO_AddInputCharactersUTF8(uintptr_t arg1, swig_type_461 arg2);
+extern void _wrap_IO_AddInputCharactersUTF8(uintptr_t arg1, swig_type_473 arg2);
 extern void _wrap_IO_ClearInputCharacters(uintptr_t arg1);
 extern void _wrap_IO_WantCaptureMouse_set(uintptr_t arg1, _Bool arg2);
 extern _Bool _wrap_IO_WantCaptureMouse_get(uintptr_t arg1);
@@ -1615,8 +1682,8 @@ extern void _wrap_InputTextCallbackData_EventChar_set(uintptr_t arg1, short arg2
 extern short _wrap_InputTextCallbackData_EventChar_get(uintptr_t arg1);
 extern void _wrap_InputTextCallbackData_EventKey_set(uintptr_t arg1, swig_intgo arg2);
 extern swig_intgo _wrap_InputTextCallbackData_EventKey_get(uintptr_t arg1);
-extern void _wrap_InputTextCallbackData_Buf_set(uintptr_t arg1, swig_type_462 arg2);
-extern swig_type_463 _wrap_InputTextCallbackData_Buf_get(uintptr_t arg1);
+extern void _wrap_InputTextCallbackData_Buf_set(uintptr_t arg1, swig_type_474 arg2);
+extern swig_type_475 _wrap_InputTextCallbackData_Buf_get(uintptr_t arg1);
 extern void _wrap_InputTextCallbackData_BufTextLen_set(uintptr_t arg1, swig_intgo arg2);
 extern swig_intgo _wrap_InputTextCallbackData_BufTextLen_get(uintptr_t arg1);
 extern void _wrap_InputTextCallbackData_BufSize_set(uintptr_t arg1, swig_intgo arg2);
@@ -1631,8 +1698,8 @@ extern void _wrap_InputTextCallbackData_SelectionEnd_set(uintptr_t arg1, swig_in
 extern swig_intgo _wrap_InputTextCallbackData_SelectionEnd_get(uintptr_t arg1);
 extern uintptr_t _wrap_new_InputTextCallbackData(void);
 extern void _wrap_InputTextCallbackData_DeleteChars(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
-extern void _wrap_InputTextCallbackData_InsertChars__SWIG_0(uintptr_t arg1, swig_intgo arg2, swig_type_464 arg3, swig_type_465 arg4);
-extern void _wrap_InputTextCallbackData_InsertChars__SWIG_1(uintptr_t arg1, swig_intgo arg2, swig_type_466 arg3);
+extern void _wrap_InputTextCallbackData_InsertChars__SWIG_0(uintptr_t arg1, swig_intgo arg2, swig_type_476 arg3, swig_type_477 arg4);
+extern void _wrap_InputTextCallbackData_InsertChars__SWIG_1(uintptr_t arg1, swig_intgo arg2, swig_type_478 arg3);
 extern _Bool _wrap_InputTextCallbackData_HasSelection(uintptr_t arg1);
 extern void _wrap_delete_InputTextCallbackData(uintptr_t arg1);
 extern void _wrap_SizeCallbackData_UserData_set(uintptr_t arg1, uintptr_t arg2);
@@ -1655,34 +1722,18 @@ extern void _wrap_Payload_SourceParentId_set(uintptr_t arg1, swig_intgo arg2);
 extern swig_intgo _wrap_Payload_SourceParentId_get(uintptr_t arg1);
 extern void _wrap_Payload_DataFrameCount_set(uintptr_t arg1, swig_intgo arg2);
 extern swig_intgo _wrap_Payload_DataFrameCount_get(uintptr_t arg1);
-extern void _wrap_Payload_DataType_set(uintptr_t arg1, swig_type_467 arg2);
-extern swig_type_468 _wrap_Payload_DataType_get(uintptr_t arg1);
+extern void _wrap_Payload_DataType_set(uintptr_t arg1, swig_type_479 arg2);
+extern swig_type_480 _wrap_Payload_DataType_get(uintptr_t arg1);
 extern void _wrap_Payload_Preview_set(uintptr_t arg1, _Bool arg2);
 extern _Bool _wrap_Payload_Preview_get(uintptr_t arg1);
 extern void _wrap_Payload_Delivery_set(uintptr_t arg1, _Bool arg2);
 extern _Bool _wrap_Payload_Delivery_get(uintptr_t arg1);
 extern uintptr_t _wrap_new_Payload(void);
 extern void _wrap_Payload_Clear(uintptr_t arg1);
-extern _Bool _wrap_Payload_IsDataType(uintptr_t arg1, swig_type_469 arg2);
+extern _Bool _wrap_Payload_IsDataType(uintptr_t arg1, swig_type_481 arg2);
 extern _Bool _wrap_Payload_IsPreview(uintptr_t arg1);
 extern _Bool _wrap_Payload_IsDelivery(uintptr_t arg1);
 extern void _wrap_delete_Payload(uintptr_t arg1);
-extern void _wrap_Color_Value_set(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Color_Value_get(uintptr_t arg1);
-extern uintptr_t _wrap_new_Color__SWIG_0(void);
-extern uintptr_t _wrap_new_Color__SWIG_1(swig_intgo arg1, swig_intgo arg2, swig_intgo arg3, swig_intgo arg4);
-extern uintptr_t _wrap_new_Color__SWIG_2(swig_intgo arg1, swig_intgo arg2, swig_intgo arg3);
-extern uintptr_t _wrap_new_Color__SWIG_3(swig_intgo arg1);
-extern uintptr_t _wrap_new_Color__SWIG_4(float arg1, float arg2, float arg3, float arg4);
-extern uintptr_t _wrap_new_Color__SWIG_5(float arg1, float arg2, float arg3);
-extern uintptr_t _wrap_new_Color__SWIG_6(uintptr_t arg1);
-extern swig_intgo _wrap_Color_U32(uintptr_t arg1);
-extern uintptr_t _wrap_Color_Vec4(uintptr_t arg1);
-extern void _wrap_Color_SetHSV__SWIG_0(uintptr_t arg1, float arg2, float arg3, float arg4, float arg5);
-extern void _wrap_Color_SetHSV__SWIG_1(uintptr_t arg1, float arg2, float arg3, float arg4);
-extern uintptr_t _wrap_Color_HSV__SWIG_0(float arg1, float arg2, float arg3, float arg4);
-extern uintptr_t _wrap_Color_HSV__SWIG_1(float arg1, float arg2, float arg3);
-extern void _wrap_delete_Color(uintptr_t arg1);
 extern void _wrap_ListClipper_StartPosY_set(uintptr_t arg1, float arg2);
 extern float _wrap_ListClipper_StartPosY_get(uintptr_t arg1);
 extern void _wrap_ListClipper_ItemsHeight_set(uintptr_t arg1, float arg2);
@@ -1703,14 +1754,30 @@ extern _Bool _wrap_ListClipper_Step(uintptr_t arg1);
 extern void _wrap_ListClipper_Begin__SWIG_0(uintptr_t arg1, swig_intgo arg2, float arg3);
 extern void _wrap_ListClipper_Begin__SWIG_1(uintptr_t arg1, swig_intgo arg2);
 extern void _wrap_ListClipper_End(uintptr_t arg1);
+extern void _wrap_Color_Value_set(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Color_Value_get(uintptr_t arg1);
+extern uintptr_t _wrap_new_Color__SWIG_0(void);
+extern uintptr_t _wrap_new_Color__SWIG_1(swig_intgo arg1, swig_intgo arg2, swig_intgo arg3, swig_intgo arg4);
+extern uintptr_t _wrap_new_Color__SWIG_2(swig_intgo arg1, swig_intgo arg2, swig_intgo arg3);
+extern uintptr_t _wrap_new_Color__SWIG_3(swig_intgo arg1);
+extern uintptr_t _wrap_new_Color__SWIG_4(float arg1, float arg2, float arg3, float arg4);
+extern uintptr_t _wrap_new_Color__SWIG_5(float arg1, float arg2, float arg3);
+extern uintptr_t _wrap_new_Color__SWIG_6(uintptr_t arg1);
+extern swig_intgo _wrap_Color_U32(uintptr_t arg1);
+extern uintptr_t _wrap_Color_Vec4(uintptr_t arg1);
+extern void _wrap_Color_SetHSV__SWIG_0(uintptr_t arg1, float arg2, float arg3, float arg4, float arg5);
+extern void _wrap_Color_SetHSV__SWIG_1(uintptr_t arg1, float arg2, float arg3, float arg4);
+extern uintptr_t _wrap_Color_HSV__SWIG_0(float arg1, float arg2, float arg3, float arg4);
+extern uintptr_t _wrap_Color_HSV__SWIG_1(float arg1, float arg2, float arg3);
+extern void _wrap_delete_Color(uintptr_t arg1);
 extern void _wrap_DrawCmd_ElemCount_set(uintptr_t arg1, swig_intgo arg2);
 extern swig_intgo _wrap_DrawCmd_ElemCount_get(uintptr_t arg1);
 extern void _wrap_DrawCmd_ClipRect_set(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_DrawCmd_ClipRect_get(uintptr_t arg1);
 extern void _wrap_DrawCmd_TextureId_set(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_DrawCmd_TextureId_get(uintptr_t arg1);
-extern void _wrap_DrawCmd_UserCallback_set(uintptr_t arg1, swig_type_470 arg2);
-extern swig_type_471 _wrap_DrawCmd_UserCallback_get(uintptr_t arg1);
+extern void _wrap_DrawCmd_UserCallback_set(uintptr_t arg1, swig_type_482 arg2);
+extern swig_type_483 _wrap_DrawCmd_UserCallback_get(uintptr_t arg1);
 extern void _wrap_DrawCmd_UserCallbackData_set(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_DrawCmd_UserCallbackData_get(uintptr_t arg1);
 extern uintptr_t _wrap_new_DrawCmd(void);
@@ -1742,6 +1809,7 @@ extern swig_intgo _wrap_DrawCornerFlags_Bot(void);
 extern swig_intgo _wrap_DrawCornerFlags_Left(void);
 extern swig_intgo _wrap_DrawCornerFlags_Right(void);
 extern swig_intgo _wrap_DrawCornerFlags_All(void);
+extern swig_intgo _wrap_DrawListFlags_None(void);
 extern swig_intgo _wrap_DrawListFlags_AntiAliasedLines(void);
 extern swig_intgo _wrap_DrawListFlags_AntiAliasedFill(void);
 extern void _wrap_DrawList_CmdBuffer_set(uintptr_t arg1, uintptr_t arg2);
@@ -1754,8 +1822,8 @@ extern void _wrap_DrawList_Flags_set(uintptr_t arg1, swig_intgo arg2);
 extern swig_intgo _wrap_DrawList_Flags_get(uintptr_t arg1);
 extern void _wrap_DrawList__Data_set(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_DrawList__Data_get(uintptr_t arg1);
-extern void _wrap_DrawList__OwnerName_set(uintptr_t arg1, swig_type_472 arg2);
-extern swig_type_473 _wrap_DrawList__OwnerName_get(uintptr_t arg1);
+extern void _wrap_DrawList__OwnerName_set(uintptr_t arg1, swig_type_484 arg2);
+extern swig_type_485 _wrap_DrawList__OwnerName_get(uintptr_t arg1);
 extern void _wrap_DrawList__VtxCurrentIdx_set(uintptr_t arg1, swig_intgo arg2);
 extern swig_intgo _wrap_DrawList__VtxCurrentIdx_get(uintptr_t arg1);
 extern void _wrap_DrawList__VtxWritePtr_set(uintptr_t arg1, uintptr_t arg2);
@@ -1805,12 +1873,12 @@ extern void _wrap_DrawList_AddCircle__SWIG_1(uintptr_t arg1, uintptr_t arg2, flo
 extern void _wrap_DrawList_AddCircle__SWIG_2(uintptr_t arg1, uintptr_t arg2, float arg3, swig_intgo arg4);
 extern void _wrap_DrawList_AddCircleFilled__SWIG_0(uintptr_t arg1, uintptr_t arg2, float arg3, swig_intgo arg4, swig_intgo arg5);
 extern void _wrap_DrawList_AddCircleFilled__SWIG_1(uintptr_t arg1, uintptr_t arg2, float arg3, swig_intgo arg4);
-extern void _wrap_DrawList_AddText__SWIG_0(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3, swig_type_474 arg4, swig_type_475 arg5);
-extern void _wrap_DrawList_AddText__SWIG_1(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3, swig_type_476 arg4);
-extern void _wrap_DrawList_AddText__SWIG_2(uintptr_t arg1, uintptr_t arg2, float arg3, uintptr_t arg4, swig_intgo arg5, swig_type_477 arg6, swig_type_478 arg7, float arg8, uintptr_t arg9);
-extern void _wrap_DrawList_AddText__SWIG_3(uintptr_t arg1, uintptr_t arg2, float arg3, uintptr_t arg4, swig_intgo arg5, swig_type_479 arg6, swig_type_480 arg7, float arg8);
-extern void _wrap_DrawList_AddText__SWIG_4(uintptr_t arg1, uintptr_t arg2, float arg3, uintptr_t arg4, swig_intgo arg5, swig_type_481 arg6, swig_type_482 arg7);
-extern void _wrap_DrawList_AddText__SWIG_5(uintptr_t arg1, uintptr_t arg2, float arg3, uintptr_t arg4, swig_intgo arg5, swig_type_483 arg6);
+extern void _wrap_DrawList_AddText__SWIG_0(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3, swig_type_486 arg4, swig_type_487 arg5);
+extern void _wrap_DrawList_AddText__SWIG_1(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3, swig_type_488 arg4);
+extern void _wrap_DrawList_AddText__SWIG_2(uintptr_t arg1, uintptr_t arg2, float arg3, uintptr_t arg4, swig_intgo arg5, swig_type_489 arg6, swig_type_490 arg7, float arg8, uintptr_t arg9);
+extern void _wrap_DrawList_AddText__SWIG_3(uintptr_t arg1, uintptr_t arg2, float arg3, uintptr_t arg4, swig_intgo arg5, swig_type_491 arg6, swig_type_492 arg7, float arg8);
+extern void _wrap_DrawList_AddText__SWIG_4(uintptr_t arg1, uintptr_t arg2, float arg3, uintptr_t arg4, swig_intgo arg5, swig_type_493 arg6, swig_type_494 arg7);
+extern void _wrap_DrawList_AddText__SWIG_5(uintptr_t arg1, uintptr_t arg2, float arg3, uintptr_t arg4, swig_intgo arg5, swig_type_495 arg6);
 extern void _wrap_DrawList_AddImage__SWIG_0(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, uintptr_t arg6, swig_intgo arg7);
 extern void _wrap_DrawList_AddImage__SWIG_1(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, uintptr_t arg6);
 extern void _wrap_DrawList_AddImage__SWIG_2(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
@@ -1844,19 +1912,19 @@ extern void _wrap_DrawList_PathRect__SWIG_2(uintptr_t arg1, uintptr_t arg2, uint
 extern void _wrap_DrawList_ChannelsSplit(uintptr_t arg1, swig_intgo arg2);
 extern void _wrap_DrawList_ChannelsMerge(uintptr_t arg1);
 extern void _wrap_DrawList_ChannelsSetCurrent(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_DrawList_AddCallback(uintptr_t arg1, swig_type_484 arg2, uintptr_t arg3);
+extern void _wrap_DrawList_AddCallback(uintptr_t arg1, swig_type_496 arg2, uintptr_t arg3);
 extern void _wrap_DrawList_AddDrawCmd(uintptr_t arg1);
 extern uintptr_t _wrap_DrawList_CloneOutput(uintptr_t arg1);
-extern swig_type_485 _wrap_DrawList_CommandsSize(uintptr_t arg1);
-extern uintptr_t _wrap_DrawList_CommandsAt(uintptr_t arg1, swig_type_486 arg2);
-extern swig_type_487 _wrap_DrawList_VtxBufferSize(uintptr_t arg1);
-extern uintptr_t _wrap_DrawList_VtxBufferAt(uintptr_t arg1, swig_type_488 arg2);
-extern swig_type_489 _wrap_DrawList_IdxBufferSize(uintptr_t arg1);
-extern swig_voidp _wrap_DrawList_IdxBufferAt(uintptr_t arg1, swig_type_490 arg2);
+extern swig_type_497 _wrap_DrawList_CommandsSize(uintptr_t arg1);
+extern uintptr_t _wrap_DrawList_CommandsAt(uintptr_t arg1, swig_type_498 arg2);
+extern swig_type_499 _wrap_DrawList_VtxBufferSize(uintptr_t arg1);
+extern uintptr_t _wrap_DrawList_VtxBufferAt(uintptr_t arg1, swig_type_500 arg2);
+extern swig_type_501 _wrap_DrawList_IdxBufferSize(uintptr_t arg1);
+extern swig_voidp _wrap_DrawList_IdxBufferAt(uintptr_t arg1, swig_type_502 arg2);
 extern void _wrap_DrawData_Valid_set(uintptr_t arg1, _Bool arg2);
 extern _Bool _wrap_DrawData_Valid_get(uintptr_t arg1);
-extern void _wrap_DrawData_CmdLists_set(uintptr_t arg1, swig_type_491 arg2);
-extern swig_type_492 _wrap_DrawData_CmdLists_get(uintptr_t arg1);
+extern void _wrap_DrawData_CmdLists_set(uintptr_t arg1, swig_type_503 arg2);
+extern swig_type_504 _wrap_DrawData_CmdLists_get(uintptr_t arg1);
 extern void _wrap_DrawData_CmdListsCount_set(uintptr_t arg1, swig_intgo arg2);
 extern swig_intgo _wrap_DrawData_CmdListsCount_get(uintptr_t arg1);
 extern void _wrap_DrawData_TotalIdxCount_set(uintptr_t arg1, swig_intgo arg2);
@@ -1867,6 +1935,8 @@ extern void _wrap_DrawData_DisplayPos_set(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_DrawData_DisplayPos_get(uintptr_t arg1);
 extern void _wrap_DrawData_DisplaySize_set(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_DrawData_DisplaySize_get(uintptr_t arg1);
+extern void _wrap_DrawData_FramebufferScale_set(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_DrawData_FramebufferScale_get(uintptr_t arg1);
 extern uintptr_t _wrap_new_DrawData(void);
 extern void _wrap_delete_DrawData(uintptr_t arg1);
 extern void _wrap_DrawData_Clear(uintptr_t arg1);
@@ -1928,6 +1998,17 @@ extern void _wrap_FontGlyph_V1_set(uintptr_t arg1, float arg2);
 extern float _wrap_FontGlyph_V1_get(uintptr_t arg1);
 extern uintptr_t _wrap_new_FontGlyph(void);
 extern void _wrap_delete_FontGlyph(uintptr_t arg1);
+extern void _wrap_FontGlyphRangesBuilder_UsedChars_set(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_FontGlyphRangesBuilder_UsedChars_get(uintptr_t arg1);
+extern uintptr_t _wrap_new_FontGlyphRangesBuilder(void);
+extern _Bool _wrap_FontGlyphRangesBuilder_GetBit(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_FontGlyphRangesBuilder_SetBit(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_FontGlyphRangesBuilder_AddChar(uintptr_t arg1, short arg2);
+extern void _wrap_FontGlyphRangesBuilder_AddText__SWIG_0(uintptr_t arg1, swig_type_505 arg2, swig_type_506 arg3);
+extern void _wrap_FontGlyphRangesBuilder_AddText__SWIG_1(uintptr_t arg1, swig_type_507 arg2);
+extern void _wrap_FontGlyphRangesBuilder_AddRanges(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_FontGlyphRangesBuilder_BuildRanges(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_delete_FontGlyphRangesBuilder(uintptr_t arg1);
 extern swig_intgo _wrap_FontAtlasFlags_None(void);
 extern swig_intgo _wrap_FontAtlasFlags_NoPowerOfTwoHeight(void);
 extern swig_intgo _wrap_FontAtlasFlags_NoMouseCursors(void);
@@ -1936,28 +2017,28 @@ extern void _wrap_delete_FontAtlas(uintptr_t arg1);
 extern uintptr_t _wrap_FontAtlas_AddFont(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_FontAtlas_AddFontDefault__SWIG_0(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_FontAtlas_AddFontDefault__SWIG_1(uintptr_t arg1);
-extern uintptr_t _wrap_FontAtlas_AddFontFromFileTTF__SWIG_0(uintptr_t arg1, swig_type_493 arg2, float arg3, uintptr_t arg4, swig_voidp arg5);
-extern uintptr_t _wrap_FontAtlas_AddFontFromFileTTF__SWIG_1(uintptr_t arg1, swig_type_494 arg2, float arg3, uintptr_t arg4);
-extern uintptr_t _wrap_FontAtlas_AddFontFromFileTTF__SWIG_2(uintptr_t arg1, swig_type_495 arg2, float arg3);
+extern uintptr_t _wrap_FontAtlas_AddFontFromFileTTF__SWIG_0(uintptr_t arg1, swig_type_508 arg2, float arg3, uintptr_t arg4, swig_voidp arg5);
+extern uintptr_t _wrap_FontAtlas_AddFontFromFileTTF__SWIG_1(uintptr_t arg1, swig_type_509 arg2, float arg3, uintptr_t arg4);
+extern uintptr_t _wrap_FontAtlas_AddFontFromFileTTF__SWIG_2(uintptr_t arg1, swig_type_510 arg2, float arg3);
 extern uintptr_t _wrap_FontAtlas_AddFontFromMemoryTTF__SWIG_0(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3, float arg4, uintptr_t arg5, swig_voidp arg6);
 extern uintptr_t _wrap_FontAtlas_AddFontFromMemoryTTF__SWIG_1(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3, float arg4, uintptr_t arg5);
 extern uintptr_t _wrap_FontAtlas_AddFontFromMemoryTTF__SWIG_2(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3, float arg4);
 extern uintptr_t _wrap_FontAtlas_AddFontFromMemoryCompressedTTF__SWIG_0(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3, float arg4, uintptr_t arg5, swig_voidp arg6);
 extern uintptr_t _wrap_FontAtlas_AddFontFromMemoryCompressedTTF__SWIG_1(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3, float arg4, uintptr_t arg5);
 extern uintptr_t _wrap_FontAtlas_AddFontFromMemoryCompressedTTF__SWIG_2(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3, float arg4);
-extern uintptr_t _wrap_FontAtlas_AddFontFromMemoryCompressedBase85TTF__SWIG_0(uintptr_t arg1, swig_type_496 arg2, float arg3, uintptr_t arg4, swig_voidp arg5);
-extern uintptr_t _wrap_FontAtlas_AddFontFromMemoryCompressedBase85TTF__SWIG_1(uintptr_t arg1, swig_type_497 arg2, float arg3, uintptr_t arg4);
-extern uintptr_t _wrap_FontAtlas_AddFontFromMemoryCompressedBase85TTF__SWIG_2(uintptr_t arg1, swig_type_498 arg2, float arg3);
+extern uintptr_t _wrap_FontAtlas_AddFontFromMemoryCompressedBase85TTF__SWIG_0(uintptr_t arg1, swig_type_511 arg2, float arg3, uintptr_t arg4, swig_voidp arg5);
+extern uintptr_t _wrap_FontAtlas_AddFontFromMemoryCompressedBase85TTF__SWIG_1(uintptr_t arg1, swig_type_512 arg2, float arg3, uintptr_t arg4);
+extern uintptr_t _wrap_FontAtlas_AddFontFromMemoryCompressedBase85TTF__SWIG_2(uintptr_t arg1, swig_type_513 arg2, float arg3);
 extern void _wrap_FontAtlas_ClearInputData(uintptr_t arg1);
 extern void _wrap_FontAtlas_ClearTexData(uintptr_t arg1);
 extern void _wrap_FontAtlas_ClearFonts(uintptr_t arg1);
 extern void _wrap_FontAtlas_Clear(uintptr_t arg1);
 extern _Bool _wrap_FontAtlas_Build(uintptr_t arg1);
-extern _Bool _wrap_FontAtlas_IsBuilt(uintptr_t arg1);
 extern void _wrap_FontAtlas_GetTexDataAsAlpha8__SWIG_0(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, swig_voidp arg4, swig_voidp arg5);
 extern void _wrap_FontAtlas_GetTexDataAsAlpha8__SWIG_1(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, swig_voidp arg4);
 extern void _wrap_FontAtlas_GetTexDataAsRGBA32__SWIG_0(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, swig_voidp arg4, swig_voidp arg5);
 extern void _wrap_FontAtlas_GetTexDataAsRGBA32__SWIG_1(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, swig_voidp arg4);
+extern _Bool _wrap_FontAtlas_IsBuilt(uintptr_t arg1);
 extern void _wrap_FontAtlas_SetTexID_(uintptr_t arg1, uintptr_t arg2);
 extern swig_voidp _wrap_FontAtlas_GetGlyphRangesDefault(uintptr_t arg1);
 extern swig_voidp _wrap_FontAtlas_GetGlyphRangesKorean(uintptr_t arg1);
@@ -1984,37 +2065,28 @@ extern void _wrap_FontAtlas_TexGlyphPadding_set(uintptr_t arg1, swig_intgo arg2)
 extern swig_intgo _wrap_FontAtlas_TexGlyphPadding_get(uintptr_t arg1);
 extern uintptr_t _wrap_new_Font(void);
 extern void _wrap_delete_Font(uintptr_t arg1);
-extern void _wrap_Font_ClearOutputData(uintptr_t arg1);
-extern void _wrap_Font_BuildLookupTable(uintptr_t arg1);
 extern uintptr_t _wrap_Font_FindGlyph(uintptr_t arg1, short arg2);
 extern uintptr_t _wrap_Font_FindGlyphNoFallback(uintptr_t arg1, short arg2);
-extern void _wrap_Font_SetFallbackChar_(uintptr_t arg1, short arg2);
 extern float _wrap_Font_GetCharAdvance(uintptr_t arg1, short arg2);
 extern _Bool _wrap_Font_IsLoaded(uintptr_t arg1);
-extern swig_type_499 _wrap_Font_GetDebugName(uintptr_t arg1);
-extern uintptr_t _wrap_Font_CalcTextSizeA__SWIG_0(uintptr_t arg1, float arg2, float arg3, float arg4, swig_type_500 arg5, swig_type_501 arg6, swig_voidp arg7);
-extern uintptr_t _wrap_Font_CalcTextSizeA__SWIG_1(uintptr_t arg1, float arg2, float arg3, float arg4, swig_type_502 arg5, swig_type_503 arg6);
-extern uintptr_t _wrap_Font_CalcTextSizeA__SWIG_2(uintptr_t arg1, float arg2, float arg3, float arg4, swig_type_504 arg5);
-extern swig_type_505 _wrap_Font_CalcWordWrapPositionA(uintptr_t arg1, float arg2, swig_type_506 arg3, swig_type_507 arg4, float arg5);
+extern swig_type_514 _wrap_Font_GetDebugName(uintptr_t arg1);
+extern uintptr_t _wrap_Font_CalcTextSizeA__SWIG_0(uintptr_t arg1, float arg2, float arg3, float arg4, swig_type_515 arg5, swig_type_516 arg6, swig_voidp arg7);
+extern uintptr_t _wrap_Font_CalcTextSizeA__SWIG_1(uintptr_t arg1, float arg2, float arg3, float arg4, swig_type_517 arg5, swig_type_518 arg6);
+extern uintptr_t _wrap_Font_CalcTextSizeA__SWIG_2(uintptr_t arg1, float arg2, float arg3, float arg4, swig_type_519 arg5);
+extern swig_type_520 _wrap_Font_CalcWordWrapPositionA(uintptr_t arg1, float arg2, swig_type_521 arg3, swig_type_522 arg4, float arg5);
 extern void _wrap_Font_RenderChar(uintptr_t arg1, uintptr_t arg2, float arg3, uintptr_t arg4, swig_intgo arg5, short arg6);
-extern void _wrap_Font_RenderText__SWIG_0(uintptr_t arg1, uintptr_t arg2, float arg3, uintptr_t arg4, swig_intgo arg5, uintptr_t arg6, swig_type_508 arg7, swig_type_509 arg8, float arg9, _Bool arg10);
-extern void _wrap_Font_RenderText__SWIG_1(uintptr_t arg1, uintptr_t arg2, float arg3, uintptr_t arg4, swig_intgo arg5, uintptr_t arg6, swig_type_510 arg7, swig_type_511 arg8, float arg9);
-extern void _wrap_Font_RenderText__SWIG_2(uintptr_t arg1, uintptr_t arg2, float arg3, uintptr_t arg4, swig_intgo arg5, uintptr_t arg6, swig_type_512 arg7, swig_type_513 arg8);
-extern void _wrap_Font_GrowIndex(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_Font_AddGlyph(uintptr_t arg1, short arg2, float arg3, float arg4, float arg5, float arg6, float arg7, float arg8, float arg9, float arg10, float arg11);
-extern void _wrap_Font_AddRemapChar__SWIG_0(uintptr_t arg1, short arg2, short arg3, _Bool arg4);
-extern void _wrap_Font_AddRemapChar__SWIG_1(uintptr_t arg1, short arg2, short arg3);
+extern void _wrap_Font_RenderText__SWIG_0(uintptr_t arg1, uintptr_t arg2, float arg3, uintptr_t arg4, swig_intgo arg5, uintptr_t arg6, swig_type_523 arg7, swig_type_524 arg8, float arg9, _Bool arg10);
+extern void _wrap_Font_RenderText__SWIG_1(uintptr_t arg1, uintptr_t arg2, float arg3, uintptr_t arg4, swig_intgo arg5, uintptr_t arg6, swig_type_525 arg7, swig_type_526 arg8, float arg9);
+extern void _wrap_Font_RenderText__SWIG_2(uintptr_t arg1, uintptr_t arg2, float arg3, uintptr_t arg4, swig_intgo arg5, uintptr_t arg6, swig_type_527 arg7, swig_type_528 arg8);
 #undef intgo
 */
 import "C"
 
 import (
-	"reflect"
-	"unsafe"
-
 	"fmt"
-	_ "runtime/cgo"
+	"reflect"
 	"sync"
+	"unsafe"
 )
 
 type _ unsafe.Pointer
@@ -2129,8 +2201,8 @@ func Swig_malloc(arg1 int) (_swig_ret uintptr) {
 	return swig_r
 }
 
-const IMGUI_VERSION string = "1.65"
-const IMGUI_VERSION_NUM int = 16501
+const IMGUI_VERSION string = "1.68"
+const IMGUI_VERSION_NUM int = 16801
 
 type SwigcptrVec2 uintptr
 
@@ -2879,7 +2951,7 @@ func SetNextWindowSizeConstraints(a0 Vec2, a1 Vec2, a ...interface{}) {
 		return
 	}
 	if argc == 2 {
-		SetNextWindowSizeConstraints__SWIG_0(a0, a1, a[0].(_swig_fnptr), unsafeOf(a[1], reflect.Uintptr).(uintptr))
+		SetNextWindowSizeConstraints__SWIG_0(a0, a1, a[0].(_swig_fnptr), a[1].(uintptr))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -3161,23 +3233,23 @@ func SetScrollY(arg1 float32) {
 	C._wrap_SetScrollY(C.float(_swig_i_0))
 }
 
-func SetScrollHere__SWIG_0(arg1 float32) {
+func SetScrollHereY__SWIG_0(arg1 float32) {
 	_swig_i_0 := arg1
-	C._wrap_SetScrollHere__SWIG_0(C.float(_swig_i_0))
+	C._wrap_SetScrollHereY__SWIG_0(C.float(_swig_i_0))
 }
 
-func SetScrollHere__SWIG_1() {
-	C._wrap_SetScrollHere__SWIG_1()
+func SetScrollHereY__SWIG_1() {
+	C._wrap_SetScrollHereY__SWIG_1()
 }
 
-func SetScrollHere(a ...interface{}) {
+func SetScrollHereY(a ...interface{}) {
 	argc := len(a)
 	if argc == 0 {
-		SetScrollHere__SWIG_1()
+		SetScrollHereY__SWIG_1()
 		return
 	}
 	if argc == 1 {
-		SetScrollHere__SWIG_0(unsafeOf(a[0], reflect.Float32).(float32))
+		SetScrollHereY__SWIG_0(unsafeOf(a[0], reflect.Float32).(float32))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -3662,7 +3734,7 @@ func PushID(a0 interface{}, a ...interface{}) {
 		if _, ok := a0.(uintptr); !ok {
 			goto check_1
 		}
-		PushID__SWIG_2(unsafeOf(a0, reflect.Uintptr).(uintptr))
+		PushID__SWIG_2(a0.(uintptr))
 		return
 	}
 check_1:
@@ -3726,7 +3798,7 @@ func GetID(a0 interface{}, a ...interface{}) uint {
 		if _, ok := a0.(uintptr); !ok {
 			goto check_1
 		}
-		return GetID__SWIG_2(unsafeOf(a0, reflect.Uintptr).(uintptr))
+		return GetID__SWIG_2(a0.(uintptr))
 	}
 check_1:
 	if argc == 0 {
@@ -3772,33 +3844,28 @@ func TextUnformatted(a0 string, a ...interface{}) {
 }
 
 func Text(arg1 string, args ...interface{}) {
-
 	_swig_i_0 := fmtString(arg1, args...)
 	C._wrap_Text(C.swig_voidp(_swig_i_0))
 }
 
 func TextColored(arg1 Vec4, arg2 string, args ...interface{}) {
 	_swig_i_0 := arg1.Swigcptr()
-
 	_swig_i_1 := fmtString(arg2, args...)
 	C._wrap_TextColored(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func TextDisabled(arg1 string, args ...interface{}) {
-
 	_swig_i_0 := fmtString(arg1, args...)
 	C._wrap_TextDisabled(C.swig_voidp(_swig_i_0))
 }
 
 func TextWrapped(arg1 string, args ...interface{}) {
-
 	_swig_i_0 := fmtString(arg1, args...)
 	C._wrap_TextWrapped(C.swig_voidp(_swig_i_0))
 }
 
 func LabelText(arg1 string, arg2 string, args ...interface{}) {
 	_swig_i_0 := arg1
-
 	_swig_i_1 := fmtString(arg2, args...)
 	C._wrap_LabelText(*(*C.swig_type_32)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1))
 	if Swig_escape_always_false {
@@ -3807,7 +3874,6 @@ func LabelText(arg1 string, arg2 string, args ...interface{}) {
 }
 
 func BulletText(arg1 string, args ...interface{}) {
-
 	_swig_i_0 := fmtString(arg1, args...)
 	C._wrap_BulletText(C.swig_voidp(_swig_i_0))
 }
@@ -4283,10 +4349,10 @@ check_2:
 	}
 check_4:
 	if argc == 2 {
-		return Combo__SWIG_5(a0, a1, a2.(_swig_fnptr), unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Int).(int))
+		return Combo__SWIG_5(a0, a1, a2.(_swig_fnptr), a[0].(uintptr), unsafeOf(a[1], reflect.Int).(int))
 	}
 	if argc == 3 {
-		return Combo__SWIG_4(a0, a1, a2.(_swig_fnptr), unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Int).(int), unsafeOf(a[2], reflect.Int).(int))
+		return Combo__SWIG_4(a0, a1, a2.(_swig_fnptr), a[0].(uintptr), unsafeOf(a[1], reflect.Int).(int), unsafeOf(a[2], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -5435,16 +5501,16 @@ func DragScalar(a0 string, a1 int, a2 uintptr, a3 float32, a ...interface{}) boo
 		return DragScalar__SWIG_4(a0, a1, a2, a3)
 	}
 	if argc == 1 {
-		return DragScalar__SWIG_3(a0, a1, a2, a3, unsafeOf(a[0], reflect.Uintptr).(uintptr))
+		return DragScalar__SWIG_3(a0, a1, a2, a3, a[0].(uintptr))
 	}
 	if argc == 2 {
-		return DragScalar__SWIG_2(a0, a1, a2, a3, unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Uintptr).(uintptr))
+		return DragScalar__SWIG_2(a0, a1, a2, a3, a[0].(uintptr), a[1].(uintptr))
 	}
 	if argc == 3 {
-		return DragScalar__SWIG_1(a0, a1, a2, a3, unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Uintptr).(uintptr), a[2].(string))
+		return DragScalar__SWIG_1(a0, a1, a2, a3, a[0].(uintptr), a[1].(uintptr), a[2].(string))
 	}
 	if argc == 4 {
-		return DragScalar__SWIG_0(a0, a1, a2, a3, unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Uintptr).(uintptr), a[2].(string), unsafeOf(a[3], reflect.Float32).(float32))
+		return DragScalar__SWIG_0(a0, a1, a2, a3, a[0].(uintptr), a[1].(uintptr), a[2].(string), unsafeOf(a[3], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -5541,16 +5607,16 @@ func DragScalarN(a0 string, a1 int, a2 uintptr, a3 int, a4 float32, a ...interfa
 		return DragScalarN__SWIG_4(a0, a1, a2, a3, a4)
 	}
 	if argc == 1 {
-		return DragScalarN__SWIG_3(a0, a1, a2, a3, a4, unsafeOf(a[0], reflect.Uintptr).(uintptr))
+		return DragScalarN__SWIG_3(a0, a1, a2, a3, a4, a[0].(uintptr))
 	}
 	if argc == 2 {
-		return DragScalarN__SWIG_2(a0, a1, a2, a3, a4, unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Uintptr).(uintptr))
+		return DragScalarN__SWIG_2(a0, a1, a2, a3, a4, a[0].(uintptr), a[1].(uintptr))
 	}
 	if argc == 3 {
-		return DragScalarN__SWIG_1(a0, a1, a2, a3, a4, unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Uintptr).(uintptr), a[2].(string))
+		return DragScalarN__SWIG_1(a0, a1, a2, a3, a4, a[0].(uintptr), a[1].(uintptr), a[2].(string))
 	}
 	if argc == 4 {
-		return DragScalarN__SWIG_0(a0, a1, a2, a3, a4, unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Uintptr).(uintptr), a[2].(string), unsafeOf(a[3], reflect.Float32).(float32))
+		return DragScalarN__SWIG_0(a0, a1, a2, a3, a4, a[0].(uintptr), a[1].(uintptr), a[2].(string), unsafeOf(a[3], reflect.Float32).(float32))
 	}
 	panic("No match for overloaded function call")
 }
@@ -5803,36 +5869,53 @@ func SliderFloat4(a0 string, a1 *float32, a2 float32, a3 float32, a ...interface
 	panic("No match for overloaded function call")
 }
 
-func SliderAngle__SWIG_0(arg1 string, arg2 *float32, arg3 float32, arg4 float32) (_swig_ret bool) {
+func SliderAngle__SWIG_0(arg1 string, arg2 *float32, arg3 float32, arg4 float32, arg5 string) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (bool)(C._wrap_SliderAngle__SWIG_0(*(*C.swig_type_168)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3)))
+	_swig_i_4 := arg5
+	swig_r = (bool)(C._wrap_SliderAngle__SWIG_0(*(*C.swig_type_168)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), *(*C.swig_type_169)(unsafe.Pointer(&_swig_i_4))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
+	}
+	if Swig_escape_always_false {
+		Swig_escape_val = arg5
 	}
 	return swig_r
 }
 
-func SliderAngle__SWIG_1(arg1 string, arg2 *float32, arg3 float32) (_swig_ret bool) {
+func SliderAngle__SWIG_1(arg1 string, arg2 *float32, arg3 float32, arg4 float32) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_SliderAngle__SWIG_1(*(*C.swig_type_169)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.float(_swig_i_2)))
+	_swig_i_3 := arg4
+	swig_r = (bool)(C._wrap_SliderAngle__SWIG_1(*(*C.swig_type_170)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
 	return swig_r
 }
 
-func SliderAngle__SWIG_2(arg1 string, arg2 *float32) (_swig_ret bool) {
+func SliderAngle__SWIG_2(arg1 string, arg2 *float32, arg3 float32) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_SliderAngle__SWIG_2(*(*C.swig_type_170)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
+	_swig_i_2 := arg3
+	swig_r = (bool)(C._wrap_SliderAngle__SWIG_2(*(*C.swig_type_171)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.float(_swig_i_2)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+	return swig_r
+}
+
+func SliderAngle__SWIG_3(arg1 string, arg2 *float32) (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (bool)(C._wrap_SliderAngle__SWIG_3(*(*C.swig_type_172)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -5842,13 +5925,16 @@ func SliderAngle__SWIG_2(arg1 string, arg2 *float32) (_swig_ret bool) {
 func SliderAngle(a0 string, a1 *float32, a ...interface{}) bool {
 	argc := len(a)
 	if argc == 0 {
-		return SliderAngle__SWIG_2(a0, a1)
+		return SliderAngle__SWIG_3(a0, a1)
 	}
 	if argc == 1 {
-		return SliderAngle__SWIG_1(a0, a1, unsafeOf(a[0], reflect.Float32).(float32))
+		return SliderAngle__SWIG_2(a0, a1, unsafeOf(a[0], reflect.Float32).(float32))
 	}
 	if argc == 2 {
-		return SliderAngle__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32))
+		return SliderAngle__SWIG_1(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32))
+	}
+	if argc == 3 {
+		return SliderAngle__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Float32).(float32), unsafeOf(a[1], reflect.Float32).(float32), a[2].(string))
 	}
 	panic("No match for overloaded function call")
 }
@@ -5860,7 +5946,7 @@ func SliderInt__SWIG_0(arg1 string, arg2 *int, arg3 int, arg4 int, arg5 string) 
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r = (bool)(C._wrap_SliderInt__SWIG_0(*(*C.swig_type_171)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_172)(unsafe.Pointer(&_swig_i_4))))
+	swig_r = (bool)(C._wrap_SliderInt__SWIG_0(*(*C.swig_type_173)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_174)(unsafe.Pointer(&_swig_i_4))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -5876,7 +5962,7 @@ func SliderInt__SWIG_1(arg1 string, arg2 *int, arg3 int, arg4 int) (_swig_ret bo
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (bool)(C._wrap_SliderInt__SWIG_1(*(*C.swig_type_173)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3)))
+	swig_r = (bool)(C._wrap_SliderInt__SWIG_1(*(*C.swig_type_175)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -5901,7 +5987,7 @@ func SliderInt2__SWIG_0(arg1 string, arg2 *int, arg3 int, arg4 int, arg5 string)
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r = (bool)(C._wrap_SliderInt2__SWIG_0(*(*C.swig_type_174)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_175)(unsafe.Pointer(&_swig_i_4))))
+	swig_r = (bool)(C._wrap_SliderInt2__SWIG_0(*(*C.swig_type_176)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_177)(unsafe.Pointer(&_swig_i_4))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -5917,7 +6003,7 @@ func SliderInt2__SWIG_1(arg1 string, arg2 *int, arg3 int, arg4 int) (_swig_ret b
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (bool)(C._wrap_SliderInt2__SWIG_1(*(*C.swig_type_176)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3)))
+	swig_r = (bool)(C._wrap_SliderInt2__SWIG_1(*(*C.swig_type_178)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -5942,7 +6028,7 @@ func SliderInt3__SWIG_0(arg1 string, arg2 *int, arg3 int, arg4 int, arg5 string)
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r = (bool)(C._wrap_SliderInt3__SWIG_0(*(*C.swig_type_177)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_178)(unsafe.Pointer(&_swig_i_4))))
+	swig_r = (bool)(C._wrap_SliderInt3__SWIG_0(*(*C.swig_type_179)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_180)(unsafe.Pointer(&_swig_i_4))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -5958,7 +6044,7 @@ func SliderInt3__SWIG_1(arg1 string, arg2 *int, arg3 int, arg4 int) (_swig_ret b
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (bool)(C._wrap_SliderInt3__SWIG_1(*(*C.swig_type_179)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3)))
+	swig_r = (bool)(C._wrap_SliderInt3__SWIG_1(*(*C.swig_type_181)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -5983,7 +6069,7 @@ func SliderInt4__SWIG_0(arg1 string, arg2 *int, arg3 int, arg4 int, arg5 string)
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r = (bool)(C._wrap_SliderInt4__SWIG_0(*(*C.swig_type_180)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_181)(unsafe.Pointer(&_swig_i_4))))
+	swig_r = (bool)(C._wrap_SliderInt4__SWIG_0(*(*C.swig_type_182)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_183)(unsafe.Pointer(&_swig_i_4))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -5999,7 +6085,7 @@ func SliderInt4__SWIG_1(arg1 string, arg2 *int, arg3 int, arg4 int) (_swig_ret b
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (bool)(C._wrap_SliderInt4__SWIG_1(*(*C.swig_type_182)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3)))
+	swig_r = (bool)(C._wrap_SliderInt4__SWIG_1(*(*C.swig_type_184)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6026,7 +6112,7 @@ func SliderScalar__SWIG_0(arg1 string, arg2 int, arg3 uintptr, arg4 uintptr, arg
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
 	_swig_i_6 := arg7
-	swig_r = (bool)(C._wrap_SliderScalar__SWIG_0(*(*C.swig_type_183)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), *(*C.swig_type_184)(unsafe.Pointer(&_swig_i_5)), C.float(_swig_i_6)))
+	swig_r = (bool)(C._wrap_SliderScalar__SWIG_0(*(*C.swig_type_185)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), *(*C.swig_type_186)(unsafe.Pointer(&_swig_i_5)), C.float(_swig_i_6)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6044,7 +6130,7 @@ func SliderScalar__SWIG_1(arg1 string, arg2 int, arg3 uintptr, arg4 uintptr, arg
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
-	swig_r = (bool)(C._wrap_SliderScalar__SWIG_1(*(*C.swig_type_185)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), *(*C.swig_type_186)(unsafe.Pointer(&_swig_i_5))))
+	swig_r = (bool)(C._wrap_SliderScalar__SWIG_1(*(*C.swig_type_187)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), *(*C.swig_type_188)(unsafe.Pointer(&_swig_i_5))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6061,7 +6147,7 @@ func SliderScalar__SWIG_2(arg1 string, arg2 int, arg3 uintptr, arg4 uintptr, arg
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r = (bool)(C._wrap_SliderScalar__SWIG_2(*(*C.swig_type_187)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4)))
+	swig_r = (bool)(C._wrap_SliderScalar__SWIG_2(*(*C.swig_type_189)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6092,7 +6178,7 @@ func SliderScalarN__SWIG_0(arg1 string, arg2 int, arg3 uintptr, arg4 int, arg5 u
 	_swig_i_5 := arg6
 	_swig_i_6 := arg7
 	_swig_i_7 := arg8
-	swig_r = (bool)(C._wrap_SliderScalarN__SWIG_0(*(*C.swig_type_188)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5), *(*C.swig_type_189)(unsafe.Pointer(&_swig_i_6)), C.float(_swig_i_7)))
+	swig_r = (bool)(C._wrap_SliderScalarN__SWIG_0(*(*C.swig_type_190)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5), *(*C.swig_type_191)(unsafe.Pointer(&_swig_i_6)), C.float(_swig_i_7)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6111,7 +6197,7 @@ func SliderScalarN__SWIG_1(arg1 string, arg2 int, arg3 uintptr, arg4 int, arg5 u
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
 	_swig_i_6 := arg7
-	swig_r = (bool)(C._wrap_SliderScalarN__SWIG_1(*(*C.swig_type_190)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5), *(*C.swig_type_191)(unsafe.Pointer(&_swig_i_6))))
+	swig_r = (bool)(C._wrap_SliderScalarN__SWIG_1(*(*C.swig_type_192)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5), *(*C.swig_type_193)(unsafe.Pointer(&_swig_i_6))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6129,7 +6215,7 @@ func SliderScalarN__SWIG_2(arg1 string, arg2 int, arg3 uintptr, arg4 int, arg5 u
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
-	swig_r = (bool)(C._wrap_SliderScalarN__SWIG_2(*(*C.swig_type_192)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5)))
+	swig_r = (bool)(C._wrap_SliderScalarN__SWIG_2(*(*C.swig_type_194)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6159,7 +6245,7 @@ func VSliderFloat__SWIG_0(arg1 string, arg2 Vec2, arg3 *float32, arg4 float32, a
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
 	_swig_i_6 := arg7
-	swig_r = (bool)(C._wrap_VSliderFloat__SWIG_0(*(*C.swig_type_193)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.swig_voidp(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4), *(*C.swig_type_194)(unsafe.Pointer(&_swig_i_5)), C.float(_swig_i_6)))
+	swig_r = (bool)(C._wrap_VSliderFloat__SWIG_0(*(*C.swig_type_195)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.swig_voidp(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4), *(*C.swig_type_196)(unsafe.Pointer(&_swig_i_5)), C.float(_swig_i_6)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6177,7 +6263,7 @@ func VSliderFloat__SWIG_1(arg1 string, arg2 Vec2, arg3 *float32, arg4 float32, a
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
-	swig_r = (bool)(C._wrap_VSliderFloat__SWIG_1(*(*C.swig_type_195)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.swig_voidp(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4), *(*C.swig_type_196)(unsafe.Pointer(&_swig_i_5))))
+	swig_r = (bool)(C._wrap_VSliderFloat__SWIG_1(*(*C.swig_type_197)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.swig_voidp(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4), *(*C.swig_type_198)(unsafe.Pointer(&_swig_i_5))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6194,7 +6280,7 @@ func VSliderFloat__SWIG_2(arg1 string, arg2 Vec2, arg3 *float32, arg4 float32, a
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r = (bool)(C._wrap_VSliderFloat__SWIG_2(*(*C.swig_type_197)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.swig_voidp(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4)))
+	swig_r = (bool)(C._wrap_VSliderFloat__SWIG_2(*(*C.swig_type_199)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.swig_voidp(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6223,7 +6309,7 @@ func VSliderInt__SWIG_0(arg1 string, arg2 Vec2, arg3 *int, arg4 int, arg5 int, a
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
-	swig_r = (bool)(C._wrap_VSliderInt__SWIG_0(*(*C.swig_type_198)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_199)(unsafe.Pointer(&_swig_i_5))))
+	swig_r = (bool)(C._wrap_VSliderInt__SWIG_0(*(*C.swig_type_200)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_201)(unsafe.Pointer(&_swig_i_5))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6240,7 +6326,7 @@ func VSliderInt__SWIG_1(arg1 string, arg2 Vec2, arg3 *int, arg4 int, arg5 int) (
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r = (bool)(C._wrap_VSliderInt__SWIG_1(*(*C.swig_type_200)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4)))
+	swig_r = (bool)(C._wrap_VSliderInt__SWIG_1(*(*C.swig_type_202)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6268,7 +6354,7 @@ func VSliderScalar__SWIG_0(arg1 string, arg2 Vec2, arg3 int, arg4 uintptr, arg5 
 	_swig_i_5 := arg6
 	_swig_i_6 := arg7
 	_swig_i_7 := arg8
-	swig_r = (bool)(C._wrap_VSliderScalar__SWIG_0(*(*C.swig_type_201)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5), *(*C.swig_type_202)(unsafe.Pointer(&_swig_i_6)), C.float(_swig_i_7)))
+	swig_r = (bool)(C._wrap_VSliderScalar__SWIG_0(*(*C.swig_type_203)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5), *(*C.swig_type_204)(unsafe.Pointer(&_swig_i_6)), C.float(_swig_i_7)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6287,7 +6373,7 @@ func VSliderScalar__SWIG_1(arg1 string, arg2 Vec2, arg3 int, arg4 uintptr, arg5 
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
 	_swig_i_6 := arg7
-	swig_r = (bool)(C._wrap_VSliderScalar__SWIG_1(*(*C.swig_type_203)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5), *(*C.swig_type_204)(unsafe.Pointer(&_swig_i_6))))
+	swig_r = (bool)(C._wrap_VSliderScalar__SWIG_1(*(*C.swig_type_205)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5), *(*C.swig_type_206)(unsafe.Pointer(&_swig_i_6))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6305,7 +6391,7 @@ func VSliderScalar__SWIG_2(arg1 string, arg2 Vec2, arg3 int, arg4 uintptr, arg5 
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
-	swig_r = (bool)(C._wrap_VSliderScalar__SWIG_2(*(*C.swig_type_205)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5)))
+	swig_r = (bool)(C._wrap_VSliderScalar__SWIG_2(*(*C.swig_type_207)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6334,7 +6420,7 @@ func InputText__SWIG_0(arg1 string, arg2 string, arg3 int64, arg4 int, arg5 _swi
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
-	swig_r = (bool)(C._wrap_InputText__SWIG_0(*(*C.swig_type_206)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_207)(unsafe.Pointer(&_swig_i_1)), C.swig_type_208(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_type_209(_swig_i_4), C.uintptr_t(_swig_i_5)))
+	swig_r = (bool)(C._wrap_InputText__SWIG_0(*(*C.swig_type_208)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_209)(unsafe.Pointer(&_swig_i_1)), C.swig_type_210(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_type_211(_swig_i_4), C.uintptr_t(_swig_i_5)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6351,7 +6437,7 @@ func InputText__SWIG_1(arg1 string, arg2 string, arg3 int64, arg4 int, arg5 _swi
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r = (bool)(C._wrap_InputText__SWIG_1(*(*C.swig_type_210)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_211)(unsafe.Pointer(&_swig_i_1)), C.swig_type_212(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_type_213(_swig_i_4)))
+	swig_r = (bool)(C._wrap_InputText__SWIG_1(*(*C.swig_type_212)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_213)(unsafe.Pointer(&_swig_i_1)), C.swig_type_214(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_type_215(_swig_i_4)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6367,7 +6453,7 @@ func InputText__SWIG_2(arg1 string, arg2 string, arg3 int64, arg4 int) (_swig_re
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (bool)(C._wrap_InputText__SWIG_2(*(*C.swig_type_214)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_215)(unsafe.Pointer(&_swig_i_1)), C.swig_type_216(_swig_i_2), C.swig_intgo(_swig_i_3)))
+	swig_r = (bool)(C._wrap_InputText__SWIG_2(*(*C.swig_type_216)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_217)(unsafe.Pointer(&_swig_i_1)), C.swig_type_218(_swig_i_2), C.swig_intgo(_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6382,7 +6468,7 @@ func InputText__SWIG_3(arg1 string, arg2 string, arg3 int64) (_swig_ret bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_InputText__SWIG_3(*(*C.swig_type_217)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_218)(unsafe.Pointer(&_swig_i_1)), C.swig_type_219(_swig_i_2)))
+	swig_r = (bool)(C._wrap_InputText__SWIG_3(*(*C.swig_type_219)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_220)(unsafe.Pointer(&_swig_i_1)), C.swig_type_221(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6404,7 +6490,7 @@ func InputText(a0 string, a1 string, a2 int64, a ...interface{}) bool {
 		return InputText__SWIG_1(a0, a1, a2, unsafeOf(a[0], reflect.Int).(int), a[1].(_swig_fnptr))
 	}
 	if argc == 3 {
-		return InputText__SWIG_0(a0, a1, a2, unsafeOf(a[0], reflect.Int).(int), a[1].(_swig_fnptr), unsafeOf(a[2], reflect.Uintptr).(uintptr))
+		return InputText__SWIG_0(a0, a1, a2, unsafeOf(a[0], reflect.Int).(int), a[1].(_swig_fnptr), a[2].(uintptr))
 	}
 	panic("No match for overloaded function call")
 }
@@ -6418,7 +6504,7 @@ func InputTextMultiline__SWIG_0(arg1 string, arg2 string, arg3 int64, arg4 Vec2,
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
 	_swig_i_6 := arg7
-	swig_r = (bool)(C._wrap_InputTextMultiline__SWIG_0(*(*C.swig_type_220)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_221)(unsafe.Pointer(&_swig_i_1)), C.swig_type_222(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4), C.swig_type_223(_swig_i_5), C.uintptr_t(_swig_i_6)))
+	swig_r = (bool)(C._wrap_InputTextMultiline__SWIG_0(*(*C.swig_type_222)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_223)(unsafe.Pointer(&_swig_i_1)), C.swig_type_224(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4), C.swig_type_225(_swig_i_5), C.uintptr_t(_swig_i_6)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6436,7 +6522,7 @@ func InputTextMultiline__SWIG_1(arg1 string, arg2 string, arg3 int64, arg4 Vec2,
 	_swig_i_3 := arg4.Swigcptr()
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
-	swig_r = (bool)(C._wrap_InputTextMultiline__SWIG_1(*(*C.swig_type_224)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_225)(unsafe.Pointer(&_swig_i_1)), C.swig_type_226(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4), C.swig_type_227(_swig_i_5)))
+	swig_r = (bool)(C._wrap_InputTextMultiline__SWIG_1(*(*C.swig_type_226)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_227)(unsafe.Pointer(&_swig_i_1)), C.swig_type_228(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4), C.swig_type_229(_swig_i_5)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6453,7 +6539,7 @@ func InputTextMultiline__SWIG_2(arg1 string, arg2 string, arg3 int64, arg4 Vec2,
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4.Swigcptr()
 	_swig_i_4 := arg5
-	swig_r = (bool)(C._wrap_InputTextMultiline__SWIG_2(*(*C.swig_type_228)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_229)(unsafe.Pointer(&_swig_i_1)), C.swig_type_230(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4)))
+	swig_r = (bool)(C._wrap_InputTextMultiline__SWIG_2(*(*C.swig_type_230)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_231)(unsafe.Pointer(&_swig_i_1)), C.swig_type_232(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6469,7 +6555,7 @@ func InputTextMultiline__SWIG_3(arg1 string, arg2 string, arg3 int64, arg4 Vec2)
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (bool)(C._wrap_InputTextMultiline__SWIG_3(*(*C.swig_type_231)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_232)(unsafe.Pointer(&_swig_i_1)), C.swig_type_233(_swig_i_2), C.uintptr_t(_swig_i_3)))
+	swig_r = (bool)(C._wrap_InputTextMultiline__SWIG_3(*(*C.swig_type_233)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_234)(unsafe.Pointer(&_swig_i_1)), C.swig_type_235(_swig_i_2), C.uintptr_t(_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6484,7 +6570,7 @@ func InputTextMultiline__SWIG_4(arg1 string, arg2 string, arg3 int64) (_swig_ret
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_InputTextMultiline__SWIG_4(*(*C.swig_type_234)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_235)(unsafe.Pointer(&_swig_i_1)), C.swig_type_236(_swig_i_2)))
+	swig_r = (bool)(C._wrap_InputTextMultiline__SWIG_4(*(*C.swig_type_236)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_237)(unsafe.Pointer(&_swig_i_1)), C.swig_type_238(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6509,7 +6595,7 @@ func InputTextMultiline(a0 string, a1 string, a2 int64, a ...interface{}) bool {
 		return InputTextMultiline__SWIG_1(a0, a1, a2, a[0].(Vec2), unsafeOf(a[1], reflect.Int).(int), a[2].(_swig_fnptr))
 	}
 	if argc == 4 {
-		return InputTextMultiline__SWIG_0(a0, a1, a2, a[0].(Vec2), unsafeOf(a[1], reflect.Int).(int), a[2].(_swig_fnptr), unsafeOf(a[3], reflect.Uintptr).(uintptr))
+		return InputTextMultiline__SWIG_0(a0, a1, a2, a[0].(Vec2), unsafeOf(a[1], reflect.Int).(int), a[2].(_swig_fnptr), a[3].(uintptr))
 	}
 	panic("No match for overloaded function call")
 }
@@ -6522,7 +6608,7 @@ func InputFloat__SWIG_0(arg1 string, arg2 *float32, arg3 float32, arg4 float32, 
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
-	swig_r = (bool)(C._wrap_InputFloat__SWIG_0(*(*C.swig_type_237)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), *(*C.swig_type_238)(unsafe.Pointer(&_swig_i_4)), C.swig_intgo(_swig_i_5)))
+	swig_r = (bool)(C._wrap_InputFloat__SWIG_0(*(*C.swig_type_239)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), *(*C.swig_type_240)(unsafe.Pointer(&_swig_i_4)), C.swig_intgo(_swig_i_5)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6539,7 +6625,7 @@ func InputFloat__SWIG_1(arg1 string, arg2 *float32, arg3 float32, arg4 float32, 
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r = (bool)(C._wrap_InputFloat__SWIG_1(*(*C.swig_type_239)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), *(*C.swig_type_240)(unsafe.Pointer(&_swig_i_4))))
+	swig_r = (bool)(C._wrap_InputFloat__SWIG_1(*(*C.swig_type_241)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), *(*C.swig_type_242)(unsafe.Pointer(&_swig_i_4))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6555,7 +6641,7 @@ func InputFloat__SWIG_2(arg1 string, arg2 *float32, arg3 float32, arg4 float32) 
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (bool)(C._wrap_InputFloat__SWIG_2(*(*C.swig_type_241)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3)))
+	swig_r = (bool)(C._wrap_InputFloat__SWIG_2(*(*C.swig_type_243)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6567,7 +6653,7 @@ func InputFloat__SWIG_3(arg1 string, arg2 *float32, arg3 float32) (_swig_ret boo
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_InputFloat__SWIG_3(*(*C.swig_type_242)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.float(_swig_i_2)))
+	swig_r = (bool)(C._wrap_InputFloat__SWIG_3(*(*C.swig_type_244)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.float(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6578,7 +6664,7 @@ func InputFloat__SWIG_4(arg1 string, arg2 *float32) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_InputFloat__SWIG_4(*(*C.swig_type_243)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
+	swig_r = (bool)(C._wrap_InputFloat__SWIG_4(*(*C.swig_type_245)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6611,7 +6697,7 @@ func InputFloat2__SWIG_0(arg1 string, arg2 *float32, arg3 string, arg4 int) (_sw
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (bool)(C._wrap_InputFloat2__SWIG_0(*(*C.swig_type_244)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), *(*C.swig_type_245)(unsafe.Pointer(&_swig_i_2)), C.swig_intgo(_swig_i_3)))
+	swig_r = (bool)(C._wrap_InputFloat2__SWIG_0(*(*C.swig_type_246)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), *(*C.swig_type_247)(unsafe.Pointer(&_swig_i_2)), C.swig_intgo(_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6626,7 +6712,7 @@ func InputFloat2__SWIG_1(arg1 string, arg2 *float32, arg3 string) (_swig_ret boo
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_InputFloat2__SWIG_1(*(*C.swig_type_246)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), *(*C.swig_type_247)(unsafe.Pointer(&_swig_i_2))))
+	swig_r = (bool)(C._wrap_InputFloat2__SWIG_1(*(*C.swig_type_248)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), *(*C.swig_type_249)(unsafe.Pointer(&_swig_i_2))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6640,7 +6726,7 @@ func InputFloat2__SWIG_2(arg1 string, arg2 *float32) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_InputFloat2__SWIG_2(*(*C.swig_type_248)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
+	swig_r = (bool)(C._wrap_InputFloat2__SWIG_2(*(*C.swig_type_250)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6667,7 +6753,7 @@ func InputFloat3__SWIG_0(arg1 string, arg2 *float32, arg3 string, arg4 int) (_sw
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (bool)(C._wrap_InputFloat3__SWIG_0(*(*C.swig_type_249)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), *(*C.swig_type_250)(unsafe.Pointer(&_swig_i_2)), C.swig_intgo(_swig_i_3)))
+	swig_r = (bool)(C._wrap_InputFloat3__SWIG_0(*(*C.swig_type_251)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), *(*C.swig_type_252)(unsafe.Pointer(&_swig_i_2)), C.swig_intgo(_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6682,7 +6768,7 @@ func InputFloat3__SWIG_1(arg1 string, arg2 *float32, arg3 string) (_swig_ret boo
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_InputFloat3__SWIG_1(*(*C.swig_type_251)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), *(*C.swig_type_252)(unsafe.Pointer(&_swig_i_2))))
+	swig_r = (bool)(C._wrap_InputFloat3__SWIG_1(*(*C.swig_type_253)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), *(*C.swig_type_254)(unsafe.Pointer(&_swig_i_2))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6696,7 +6782,7 @@ func InputFloat3__SWIG_2(arg1 string, arg2 *float32) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_InputFloat3__SWIG_2(*(*C.swig_type_253)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
+	swig_r = (bool)(C._wrap_InputFloat3__SWIG_2(*(*C.swig_type_255)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6723,7 +6809,7 @@ func InputFloat4__SWIG_0(arg1 string, arg2 *float32, arg3 string, arg4 int) (_sw
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (bool)(C._wrap_InputFloat4__SWIG_0(*(*C.swig_type_254)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), *(*C.swig_type_255)(unsafe.Pointer(&_swig_i_2)), C.swig_intgo(_swig_i_3)))
+	swig_r = (bool)(C._wrap_InputFloat4__SWIG_0(*(*C.swig_type_256)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), *(*C.swig_type_257)(unsafe.Pointer(&_swig_i_2)), C.swig_intgo(_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6738,7 +6824,7 @@ func InputFloat4__SWIG_1(arg1 string, arg2 *float32, arg3 string) (_swig_ret boo
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_InputFloat4__SWIG_1(*(*C.swig_type_256)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), *(*C.swig_type_257)(unsafe.Pointer(&_swig_i_2))))
+	swig_r = (bool)(C._wrap_InputFloat4__SWIG_1(*(*C.swig_type_258)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), *(*C.swig_type_259)(unsafe.Pointer(&_swig_i_2))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6752,7 +6838,7 @@ func InputFloat4__SWIG_2(arg1 string, arg2 *float32) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_InputFloat4__SWIG_2(*(*C.swig_type_258)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
+	swig_r = (bool)(C._wrap_InputFloat4__SWIG_2(*(*C.swig_type_260)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6780,7 +6866,7 @@ func InputInt__SWIG_0(arg1 string, arg2 *int, arg3 int, arg4 int, arg5 int) (_sw
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r = (bool)(C._wrap_InputInt__SWIG_0(*(*C.swig_type_259)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4)))
+	swig_r = (bool)(C._wrap_InputInt__SWIG_0(*(*C.swig_type_261)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6793,7 +6879,7 @@ func InputInt__SWIG_1(arg1 string, arg2 *int, arg3 int, arg4 int) (_swig_ret boo
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (bool)(C._wrap_InputInt__SWIG_1(*(*C.swig_type_260)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3)))
+	swig_r = (bool)(C._wrap_InputInt__SWIG_1(*(*C.swig_type_262)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6805,7 +6891,7 @@ func InputInt__SWIG_2(arg1 string, arg2 *int, arg3 int) (_swig_ret bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_InputInt__SWIG_2(*(*C.swig_type_261)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2)))
+	swig_r = (bool)(C._wrap_InputInt__SWIG_2(*(*C.swig_type_263)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6816,7 +6902,7 @@ func InputInt__SWIG_3(arg1 string, arg2 *int) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_InputInt__SWIG_3(*(*C.swig_type_262)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
+	swig_r = (bool)(C._wrap_InputInt__SWIG_3(*(*C.swig_type_264)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6845,7 +6931,7 @@ func InputInt2__SWIG_0(arg1 string, arg2 *int, arg3 int) (_swig_ret bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_InputInt2__SWIG_0(*(*C.swig_type_263)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2)))
+	swig_r = (bool)(C._wrap_InputInt2__SWIG_0(*(*C.swig_type_265)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6856,7 +6942,7 @@ func InputInt2__SWIG_1(arg1 string, arg2 *int) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_InputInt2__SWIG_1(*(*C.swig_type_264)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
+	swig_r = (bool)(C._wrap_InputInt2__SWIG_1(*(*C.swig_type_266)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6879,7 +6965,7 @@ func InputInt3__SWIG_0(arg1 string, arg2 *int, arg3 int) (_swig_ret bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_InputInt3__SWIG_0(*(*C.swig_type_265)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2)))
+	swig_r = (bool)(C._wrap_InputInt3__SWIG_0(*(*C.swig_type_267)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6890,7 +6976,7 @@ func InputInt3__SWIG_1(arg1 string, arg2 *int) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_InputInt3__SWIG_1(*(*C.swig_type_266)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
+	swig_r = (bool)(C._wrap_InputInt3__SWIG_1(*(*C.swig_type_268)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6913,7 +6999,7 @@ func InputInt4__SWIG_0(arg1 string, arg2 *int, arg3 int) (_swig_ret bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_InputInt4__SWIG_0(*(*C.swig_type_267)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2)))
+	swig_r = (bool)(C._wrap_InputInt4__SWIG_0(*(*C.swig_type_269)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6924,7 +7010,7 @@ func InputInt4__SWIG_1(arg1 string, arg2 *int) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_InputInt4__SWIG_1(*(*C.swig_type_268)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
+	swig_r = (bool)(C._wrap_InputInt4__SWIG_1(*(*C.swig_type_270)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6950,7 +7036,7 @@ func InputDouble__SWIG_0(arg1 string, arg2 *float64, arg3 float64, arg4 float64,
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
-	swig_r = (bool)(C._wrap_InputDouble__SWIG_0(*(*C.swig_type_269)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.double(_swig_i_2), C.double(_swig_i_3), *(*C.swig_type_270)(unsafe.Pointer(&_swig_i_4)), C.swig_intgo(_swig_i_5)))
+	swig_r = (bool)(C._wrap_InputDouble__SWIG_0(*(*C.swig_type_271)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.double(_swig_i_2), C.double(_swig_i_3), *(*C.swig_type_272)(unsafe.Pointer(&_swig_i_4)), C.swig_intgo(_swig_i_5)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6967,7 +7053,7 @@ func InputDouble__SWIG_1(arg1 string, arg2 *float64, arg3 float64, arg4 float64,
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r = (bool)(C._wrap_InputDouble__SWIG_1(*(*C.swig_type_271)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.double(_swig_i_2), C.double(_swig_i_3), *(*C.swig_type_272)(unsafe.Pointer(&_swig_i_4))))
+	swig_r = (bool)(C._wrap_InputDouble__SWIG_1(*(*C.swig_type_273)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.double(_swig_i_2), C.double(_swig_i_3), *(*C.swig_type_274)(unsafe.Pointer(&_swig_i_4))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6983,7 +7069,7 @@ func InputDouble__SWIG_2(arg1 string, arg2 *float64, arg3 float64, arg4 float64)
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (bool)(C._wrap_InputDouble__SWIG_2(*(*C.swig_type_273)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.double(_swig_i_2), C.double(_swig_i_3)))
+	swig_r = (bool)(C._wrap_InputDouble__SWIG_2(*(*C.swig_type_275)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.double(_swig_i_2), C.double(_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -6995,7 +7081,7 @@ func InputDouble__SWIG_3(arg1 string, arg2 *float64, arg3 float64) (_swig_ret bo
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_InputDouble__SWIG_3(*(*C.swig_type_274)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.double(_swig_i_2)))
+	swig_r = (bool)(C._wrap_InputDouble__SWIG_3(*(*C.swig_type_276)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.double(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7006,7 +7092,7 @@ func InputDouble__SWIG_4(arg1 string, arg2 *float64) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_InputDouble__SWIG_4(*(*C.swig_type_275)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
+	swig_r = (bool)(C._wrap_InputDouble__SWIG_4(*(*C.swig_type_277)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7042,7 +7128,7 @@ func InputScalar__SWIG_0(arg1 string, arg2 int, arg3 uintptr, arg4 uintptr, arg5
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
 	_swig_i_6 := arg7
-	swig_r = (bool)(C._wrap_InputScalar__SWIG_0(*(*C.swig_type_276)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), *(*C.swig_type_277)(unsafe.Pointer(&_swig_i_5)), C.swig_intgo(_swig_i_6)))
+	swig_r = (bool)(C._wrap_InputScalar__SWIG_0(*(*C.swig_type_278)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), *(*C.swig_type_279)(unsafe.Pointer(&_swig_i_5)), C.swig_intgo(_swig_i_6)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7060,7 +7146,7 @@ func InputScalar__SWIG_1(arg1 string, arg2 int, arg3 uintptr, arg4 uintptr, arg5
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
-	swig_r = (bool)(C._wrap_InputScalar__SWIG_1(*(*C.swig_type_278)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), *(*C.swig_type_279)(unsafe.Pointer(&_swig_i_5))))
+	swig_r = (bool)(C._wrap_InputScalar__SWIG_1(*(*C.swig_type_280)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), *(*C.swig_type_281)(unsafe.Pointer(&_swig_i_5))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7077,7 +7163,7 @@ func InputScalar__SWIG_2(arg1 string, arg2 int, arg3 uintptr, arg4 uintptr, arg5
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r = (bool)(C._wrap_InputScalar__SWIG_2(*(*C.swig_type_280)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4)))
+	swig_r = (bool)(C._wrap_InputScalar__SWIG_2(*(*C.swig_type_282)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7090,7 +7176,7 @@ func InputScalar__SWIG_3(arg1 string, arg2 int, arg3 uintptr, arg4 uintptr) (_sw
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (bool)(C._wrap_InputScalar__SWIG_3(*(*C.swig_type_281)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3)))
+	swig_r = (bool)(C._wrap_InputScalar__SWIG_3(*(*C.swig_type_283)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7102,7 +7188,7 @@ func InputScalar__SWIG_4(arg1 string, arg2 int, arg3 uintptr) (_swig_ret bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_InputScalar__SWIG_4(*(*C.swig_type_282)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2)))
+	swig_r = (bool)(C._wrap_InputScalar__SWIG_4(*(*C.swig_type_284)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7115,16 +7201,16 @@ func InputScalar(a0 string, a1 int, a2 uintptr, a ...interface{}) bool {
 		return InputScalar__SWIG_4(a0, a1, a2)
 	}
 	if argc == 1 {
-		return InputScalar__SWIG_3(a0, a1, a2, unsafeOf(a[0], reflect.Uintptr).(uintptr))
+		return InputScalar__SWIG_3(a0, a1, a2, a[0].(uintptr))
 	}
 	if argc == 2 {
-		return InputScalar__SWIG_2(a0, a1, a2, unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Uintptr).(uintptr))
+		return InputScalar__SWIG_2(a0, a1, a2, a[0].(uintptr), a[1].(uintptr))
 	}
 	if argc == 3 {
-		return InputScalar__SWIG_1(a0, a1, a2, unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Uintptr).(uintptr), a[2].(string))
+		return InputScalar__SWIG_1(a0, a1, a2, a[0].(uintptr), a[1].(uintptr), a[2].(string))
 	}
 	if argc == 4 {
-		return InputScalar__SWIG_0(a0, a1, a2, unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Uintptr).(uintptr), a[2].(string), unsafeOf(a[3], reflect.Int).(int))
+		return InputScalar__SWIG_0(a0, a1, a2, a[0].(uintptr), a[1].(uintptr), a[2].(string), unsafeOf(a[3], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -7139,7 +7225,7 @@ func InputScalarN__SWIG_0(arg1 string, arg2 int, arg3 uintptr, arg4 int, arg5 ui
 	_swig_i_5 := arg6
 	_swig_i_6 := arg7
 	_swig_i_7 := arg8
-	swig_r = (bool)(C._wrap_InputScalarN__SWIG_0(*(*C.swig_type_283)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5), *(*C.swig_type_284)(unsafe.Pointer(&_swig_i_6)), C.swig_intgo(_swig_i_7)))
+	swig_r = (bool)(C._wrap_InputScalarN__SWIG_0(*(*C.swig_type_285)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5), *(*C.swig_type_286)(unsafe.Pointer(&_swig_i_6)), C.swig_intgo(_swig_i_7)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7158,7 +7244,7 @@ func InputScalarN__SWIG_1(arg1 string, arg2 int, arg3 uintptr, arg4 int, arg5 ui
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
 	_swig_i_6 := arg7
-	swig_r = (bool)(C._wrap_InputScalarN__SWIG_1(*(*C.swig_type_285)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5), *(*C.swig_type_286)(unsafe.Pointer(&_swig_i_6))))
+	swig_r = (bool)(C._wrap_InputScalarN__SWIG_1(*(*C.swig_type_287)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5), *(*C.swig_type_288)(unsafe.Pointer(&_swig_i_6))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7176,7 +7262,7 @@ func InputScalarN__SWIG_2(arg1 string, arg2 int, arg3 uintptr, arg4 int, arg5 ui
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
-	swig_r = (bool)(C._wrap_InputScalarN__SWIG_2(*(*C.swig_type_287)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5)))
+	swig_r = (bool)(C._wrap_InputScalarN__SWIG_2(*(*C.swig_type_289)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7190,7 +7276,7 @@ func InputScalarN__SWIG_3(arg1 string, arg2 int, arg3 uintptr, arg4 int, arg5 ui
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r = (bool)(C._wrap_InputScalarN__SWIG_3(*(*C.swig_type_288)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.uintptr_t(_swig_i_4)))
+	swig_r = (bool)(C._wrap_InputScalarN__SWIG_3(*(*C.swig_type_290)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.uintptr_t(_swig_i_4)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7203,7 +7289,7 @@ func InputScalarN__SWIG_4(arg1 string, arg2 int, arg3 uintptr, arg4 int) (_swig_
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (bool)(C._wrap_InputScalarN__SWIG_4(*(*C.swig_type_289)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3)))
+	swig_r = (bool)(C._wrap_InputScalarN__SWIG_4(*(*C.swig_type_291)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7216,16 +7302,16 @@ func InputScalarN(a0 string, a1 int, a2 uintptr, a3 int, a ...interface{}) bool 
 		return InputScalarN__SWIG_4(a0, a1, a2, a3)
 	}
 	if argc == 1 {
-		return InputScalarN__SWIG_3(a0, a1, a2, a3, unsafeOf(a[0], reflect.Uintptr).(uintptr))
+		return InputScalarN__SWIG_3(a0, a1, a2, a3, a[0].(uintptr))
 	}
 	if argc == 2 {
-		return InputScalarN__SWIG_2(a0, a1, a2, a3, unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Uintptr).(uintptr))
+		return InputScalarN__SWIG_2(a0, a1, a2, a3, a[0].(uintptr), a[1].(uintptr))
 	}
 	if argc == 3 {
-		return InputScalarN__SWIG_1(a0, a1, a2, a3, unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Uintptr).(uintptr), a[2].(string))
+		return InputScalarN__SWIG_1(a0, a1, a2, a3, a[0].(uintptr), a[1].(uintptr), a[2].(string))
 	}
 	if argc == 4 {
-		return InputScalarN__SWIG_0(a0, a1, a2, a3, unsafeOf(a[0], reflect.Uintptr).(uintptr), unsafeOf(a[1], reflect.Uintptr).(uintptr), a[2].(string), unsafeOf(a[3], reflect.Int).(int))
+		return InputScalarN__SWIG_0(a0, a1, a2, a3, a[0].(uintptr), a[1].(uintptr), a[2].(string), unsafeOf(a[3], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -7235,7 +7321,7 @@ func ColorEdit3__SWIG_0(arg1 string, arg2 *float32, arg3 int) (_swig_ret bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_ColorEdit3__SWIG_0(*(*C.swig_type_290)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2)))
+	swig_r = (bool)(C._wrap_ColorEdit3__SWIG_0(*(*C.swig_type_292)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7246,7 +7332,7 @@ func ColorEdit3__SWIG_1(arg1 string, arg2 *float32) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_ColorEdit3__SWIG_1(*(*C.swig_type_291)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
+	swig_r = (bool)(C._wrap_ColorEdit3__SWIG_1(*(*C.swig_type_293)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7269,7 +7355,7 @@ func ColorEdit4__SWIG_0(arg1 string, arg2 *float32, arg3 int) (_swig_ret bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_ColorEdit4__SWIG_0(*(*C.swig_type_292)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2)))
+	swig_r = (bool)(C._wrap_ColorEdit4__SWIG_0(*(*C.swig_type_294)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7280,7 +7366,7 @@ func ColorEdit4__SWIG_1(arg1 string, arg2 *float32) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_ColorEdit4__SWIG_1(*(*C.swig_type_293)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
+	swig_r = (bool)(C._wrap_ColorEdit4__SWIG_1(*(*C.swig_type_295)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7303,7 +7389,7 @@ func ColorPicker3__SWIG_0(arg1 string, arg2 *float32, arg3 int) (_swig_ret bool)
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_ColorPicker3__SWIG_0(*(*C.swig_type_294)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2)))
+	swig_r = (bool)(C._wrap_ColorPicker3__SWIG_0(*(*C.swig_type_296)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7314,7 +7400,7 @@ func ColorPicker3__SWIG_1(arg1 string, arg2 *float32) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_ColorPicker3__SWIG_1(*(*C.swig_type_295)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
+	swig_r = (bool)(C._wrap_ColorPicker3__SWIG_1(*(*C.swig_type_297)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7338,7 +7424,7 @@ func ColorPicker4__SWIG_0(arg1 string, arg2 *float32, arg3 int, arg4 *float32) (
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (bool)(C._wrap_ColorPicker4__SWIG_0(*(*C.swig_type_296)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_voidp(_swig_i_3)))
+	swig_r = (bool)(C._wrap_ColorPicker4__SWIG_0(*(*C.swig_type_298)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_voidp(_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7350,7 +7436,7 @@ func ColorPicker4__SWIG_1(arg1 string, arg2 *float32, arg3 int) (_swig_ret bool)
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_ColorPicker4__SWIG_1(*(*C.swig_type_297)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2)))
+	swig_r = (bool)(C._wrap_ColorPicker4__SWIG_1(*(*C.swig_type_299)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7361,7 +7447,7 @@ func ColorPicker4__SWIG_2(arg1 string, arg2 *float32) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_ColorPicker4__SWIG_2(*(*C.swig_type_298)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
+	swig_r = (bool)(C._wrap_ColorPicker4__SWIG_2(*(*C.swig_type_300)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7388,7 +7474,7 @@ func ColorButton__SWIG_0(arg1 string, arg2 Vec4, arg3 int, arg4 Vec2) (_swig_ret
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (bool)(C._wrap_ColorButton__SWIG_0(*(*C.swig_type_299)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2), C.uintptr_t(_swig_i_3)))
+	swig_r = (bool)(C._wrap_ColorButton__SWIG_0(*(*C.swig_type_301)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2), C.uintptr_t(_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7400,7 +7486,7 @@ func ColorButton__SWIG_1(arg1 string, arg2 Vec4, arg3 int) (_swig_ret bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_ColorButton__SWIG_1(*(*C.swig_type_300)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2)))
+	swig_r = (bool)(C._wrap_ColorButton__SWIG_1(*(*C.swig_type_302)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7411,7 +7497,7 @@ func ColorButton__SWIG_2(arg1 string, arg2 Vec4) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (bool)(C._wrap_ColorButton__SWIG_2(*(*C.swig_type_301)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1)))
+	swig_r = (bool)(C._wrap_ColorButton__SWIG_2(*(*C.swig_type_303)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7440,7 +7526,7 @@ func SetColorEditOptions(arg1 int) {
 func TreeNode__SWIG_0(arg1 string) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_TreeNode__SWIG_0(*(*C.swig_type_302)(unsafe.Pointer(&_swig_i_0))))
+	swig_r = (bool)(C._wrap_TreeNode__SWIG_0(*(*C.swig_type_304)(unsafe.Pointer(&_swig_i_0))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7450,9 +7536,8 @@ func TreeNode__SWIG_0(arg1 string) (_swig_ret bool) {
 func TreeNode__SWIG_1(arg1 string, arg2 string, args ...interface{}) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-
 	_swig_i_1 := fmtString(arg2, args...)
-	swig_r = (bool)(C._wrap_TreeNode__SWIG_1(*(*C.swig_type_303)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
+	swig_r = (bool)(C._wrap_TreeNode__SWIG_1(*(*C.swig_type_305)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7462,7 +7547,6 @@ func TreeNode__SWIG_1(arg1 string, arg2 string, args ...interface{}) (_swig_ret 
 func TreeNode__SWIG_2(arg1 uintptr, arg2 string, args ...interface{}) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-
 	_swig_i_1 := fmtString(arg2, args...)
 	swig_r = (bool)(C._wrap_TreeNode__SWIG_2(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1)))
 	return swig_r
@@ -7477,7 +7561,7 @@ func TreeNode(a0 interface{}, a ...interface{}) bool {
 		if _, ok := a0.(uintptr); !ok {
 			goto check_2
 		}
-		return TreeNode__SWIG_2(unsafeOf(a0, reflect.Uintptr).(uintptr), a[0].(string), a[1:]...)
+		return TreeNode__SWIG_2(a0.(uintptr), a[0].(string), a[1:]...)
 	}
 check_2:
 	if argc >= 1 {
@@ -7490,7 +7574,7 @@ func TreeNodeEx__SWIG_0(arg1 string, arg2 int) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_TreeNodeEx__SWIG_0(*(*C.swig_type_304)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1)))
+	swig_r = (bool)(C._wrap_TreeNodeEx__SWIG_0(*(*C.swig_type_306)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7500,7 +7584,7 @@ func TreeNodeEx__SWIG_0(arg1 string, arg2 int) (_swig_ret bool) {
 func TreeNodeEx__SWIG_1(arg1 string) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_TreeNodeEx__SWIG_1(*(*C.swig_type_305)(unsafe.Pointer(&_swig_i_0))))
+	swig_r = (bool)(C._wrap_TreeNodeEx__SWIG_1(*(*C.swig_type_307)(unsafe.Pointer(&_swig_i_0))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7511,9 +7595,8 @@ func TreeNodeEx__SWIG_2(arg1 string, arg2 int, arg3 string, args ...interface{})
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-
 	_swig_i_2 := fmtString(arg3, args...)
-	swig_r = (bool)(C._wrap_TreeNodeEx__SWIG_2(*(*C.swig_type_306)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.swig_voidp(_swig_i_2)))
+	swig_r = (bool)(C._wrap_TreeNodeEx__SWIG_2(*(*C.swig_type_308)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.swig_voidp(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7524,7 +7607,6 @@ func TreeNodeEx__SWIG_3(arg1 uintptr, arg2 int, arg3 string, args ...interface{}
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-
 	_swig_i_2 := fmtString(arg3, args...)
 	swig_r = (bool)(C._wrap_TreeNodeEx__SWIG_3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_voidp(_swig_i_2)))
 	return swig_r
@@ -7542,20 +7624,18 @@ func TreeNodeEx(a0 interface{}, a ...interface{}) bool {
 		if _, ok := a0.(uintptr); !ok {
 			goto check_3
 		}
-		return TreeNodeEx__SWIG_3(unsafeOf(a0, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int), a[1].(string), a[2:]...,
-		)
+		return TreeNodeEx__SWIG_3(a0.(uintptr), unsafeOf(a[0], reflect.Int).(int), a[1].(string), a[2:]...)
 	}
 check_3:
 	if argc >= 2 {
-		return TreeNodeEx__SWIG_2(a0.(string), unsafeOf(a[0], reflect.Int).(int), a[1].(string), a[2:]...,
-		)
+		return TreeNodeEx__SWIG_2(a0.(string), unsafeOf(a[0], reflect.Int).(int), a[1].(string), a[2:]...)
 	}
 	panic("No match for overloaded function call")
 }
 
 func TreePush__SWIG_0(arg1 string) {
 	_swig_i_0 := arg1
-	C._wrap_TreePush__SWIG_0(*(*C.swig_type_307)(unsafe.Pointer(&_swig_i_0)))
+	C._wrap_TreePush__SWIG_0(*(*C.swig_type_309)(unsafe.Pointer(&_swig_i_0)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7580,7 +7660,7 @@ func TreePush(a ...interface{}) {
 		if _, ok := a[0].(uintptr); !ok {
 			goto check_2
 		}
-		TreePush__SWIG_1(unsafeOf(a[0], reflect.Uintptr).(uintptr))
+		TreePush__SWIG_1(a[0].(uintptr))
 		return
 	}
 check_2:
@@ -7633,7 +7713,7 @@ func CollapsingHeader__SWIG_0(arg1 string, arg2 int) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_CollapsingHeader__SWIG_0(*(*C.swig_type_308)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1)))
+	swig_r = (bool)(C._wrap_CollapsingHeader__SWIG_0(*(*C.swig_type_310)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7643,7 +7723,7 @@ func CollapsingHeader__SWIG_0(arg1 string, arg2 int) (_swig_ret bool) {
 func CollapsingHeader__SWIG_1(arg1 string) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_CollapsingHeader__SWIG_1(*(*C.swig_type_309)(unsafe.Pointer(&_swig_i_0))))
+	swig_r = (bool)(C._wrap_CollapsingHeader__SWIG_1(*(*C.swig_type_311)(unsafe.Pointer(&_swig_i_0))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7655,7 +7735,7 @@ func CollapsingHeader__SWIG_2(arg1 string, arg2 *bool, arg3 int) (_swig_ret bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_CollapsingHeader__SWIG_2(*(*C.swig_type_310)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2)))
+	swig_r = (bool)(C._wrap_CollapsingHeader__SWIG_2(*(*C.swig_type_312)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7666,7 +7746,7 @@ func CollapsingHeader__SWIG_3(arg1 string, arg2 *bool) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_CollapsingHeader__SWIG_3(*(*C.swig_type_311)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
+	swig_r = (bool)(C._wrap_CollapsingHeader__SWIG_3(*(*C.swig_type_313)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7700,7 +7780,7 @@ func Selectable__SWIG_0(arg1 string, arg2 bool, arg3 int, arg4 Vec2) (_swig_ret 
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (bool)(C._wrap_Selectable__SWIG_0(*(*C.swig_type_312)(unsafe.Pointer(&_swig_i_0)), C._Bool(_swig_i_1), C.swig_intgo(_swig_i_2), C.uintptr_t(_swig_i_3)))
+	swig_r = (bool)(C._wrap_Selectable__SWIG_0(*(*C.swig_type_314)(unsafe.Pointer(&_swig_i_0)), C._Bool(_swig_i_1), C.swig_intgo(_swig_i_2), C.uintptr_t(_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7712,7 +7792,7 @@ func Selectable__SWIG_1(arg1 string, arg2 bool, arg3 int) (_swig_ret bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_Selectable__SWIG_1(*(*C.swig_type_313)(unsafe.Pointer(&_swig_i_0)), C._Bool(_swig_i_1), C.swig_intgo(_swig_i_2)))
+	swig_r = (bool)(C._wrap_Selectable__SWIG_1(*(*C.swig_type_315)(unsafe.Pointer(&_swig_i_0)), C._Bool(_swig_i_1), C.swig_intgo(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7723,7 +7803,7 @@ func Selectable__SWIG_2(arg1 string, arg2 bool) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_Selectable__SWIG_2(*(*C.swig_type_314)(unsafe.Pointer(&_swig_i_0)), C._Bool(_swig_i_1)))
+	swig_r = (bool)(C._wrap_Selectable__SWIG_2(*(*C.swig_type_316)(unsafe.Pointer(&_swig_i_0)), C._Bool(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7733,7 +7813,7 @@ func Selectable__SWIG_2(arg1 string, arg2 bool) (_swig_ret bool) {
 func Selectable__SWIG_3(arg1 string) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Selectable__SWIG_3(*(*C.swig_type_315)(unsafe.Pointer(&_swig_i_0))))
+	swig_r = (bool)(C._wrap_Selectable__SWIG_3(*(*C.swig_type_317)(unsafe.Pointer(&_swig_i_0))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7746,7 +7826,7 @@ func Selectable__SWIG_4(arg1 string, arg2 *bool, arg3 int, arg4 Vec2) (_swig_ret
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (bool)(C._wrap_Selectable__SWIG_4(*(*C.swig_type_316)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.uintptr_t(_swig_i_3)))
+	swig_r = (bool)(C._wrap_Selectable__SWIG_4(*(*C.swig_type_318)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.uintptr_t(_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7758,7 +7838,7 @@ func Selectable__SWIG_5(arg1 string, arg2 *bool, arg3 int) (_swig_ret bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_Selectable__SWIG_5(*(*C.swig_type_317)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2)))
+	swig_r = (bool)(C._wrap_Selectable__SWIG_5(*(*C.swig_type_319)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7769,7 +7849,7 @@ func Selectable__SWIG_6(arg1 string, arg2 *bool) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_Selectable__SWIG_6(*(*C.swig_type_318)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
+	swig_r = (bool)(C._wrap_Selectable__SWIG_6(*(*C.swig_type_320)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7821,7 +7901,7 @@ func ListBox__SWIG_0(arg1 string, arg2 *int, arg3 *string, arg4 int, arg5 int) (
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r = (bool)(C._wrap_ListBox__SWIG_0(*(*C.swig_type_319)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4)))
+	swig_r = (bool)(C._wrap_ListBox__SWIG_0(*(*C.swig_type_321)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7834,7 +7914,7 @@ func ListBox__SWIG_1(arg1 string, arg2 *int, arg3 *string, arg4 int) (_swig_ret 
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (bool)(C._wrap_ListBox__SWIG_1(*(*C.swig_type_320)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_intgo(_swig_i_3)))
+	swig_r = (bool)(C._wrap_ListBox__SWIG_1(*(*C.swig_type_322)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_intgo(_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7849,7 +7929,7 @@ func ListBox__SWIG_2(arg1 string, arg2 *int, arg3 _swig_fnptr, arg4 uintptr, arg
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
-	swig_r = (bool)(C._wrap_ListBox__SWIG_2(*(*C.swig_type_321)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_type_322(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4), C.swig_intgo(_swig_i_5)))
+	swig_r = (bool)(C._wrap_ListBox__SWIG_2(*(*C.swig_type_323)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_type_324(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4), C.swig_intgo(_swig_i_5)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7863,7 +7943,7 @@ func ListBox__SWIG_3(arg1 string, arg2 *int, arg3 _swig_fnptr, arg4 uintptr, arg
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r = (bool)(C._wrap_ListBox__SWIG_3(*(*C.swig_type_323)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_type_324(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4)))
+	swig_r = (bool)(C._wrap_ListBox__SWIG_3(*(*C.swig_type_325)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_type_326(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7886,10 +7966,10 @@ func ListBox(a0 string, a1 *int, a2 interface{}, a3 interface{}, a ...interface{
 	}
 check_2:
 	if argc == 1 {
-		return ListBox__SWIG_3(a0, a1, a2.(_swig_fnptr), unsafeOf(a3, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int))
+		return ListBox__SWIG_3(a0, a1, a2.(_swig_fnptr), a3.(uintptr), unsafeOf(a[0], reflect.Int).(int))
 	}
 	if argc == 2 {
-		return ListBox__SWIG_2(a0, a1, a2.(_swig_fnptr), unsafeOf(a3, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int))
+		return ListBox__SWIG_2(a0, a1, a2.(_swig_fnptr), a3.(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int))
 	}
 	panic("No match for overloaded function call")
 }
@@ -7898,7 +7978,7 @@ func ListBoxHeader__SWIG_0(arg1 string, arg2 Vec2) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (bool)(C._wrap_ListBoxHeader__SWIG_0(*(*C.swig_type_325)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1)))
+	swig_r = (bool)(C._wrap_ListBoxHeader__SWIG_0(*(*C.swig_type_327)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7908,7 +7988,7 @@ func ListBoxHeader__SWIG_0(arg1 string, arg2 Vec2) (_swig_ret bool) {
 func ListBoxHeader__SWIG_1(arg1 string) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_ListBoxHeader__SWIG_1(*(*C.swig_type_326)(unsafe.Pointer(&_swig_i_0))))
+	swig_r = (bool)(C._wrap_ListBoxHeader__SWIG_1(*(*C.swig_type_328)(unsafe.Pointer(&_swig_i_0))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7920,7 +8000,7 @@ func ListBoxHeader__SWIG_2(arg1 string, arg2 int, arg3 int) (_swig_ret bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_ListBoxHeader__SWIG_2(*(*C.swig_type_327)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2)))
+	swig_r = (bool)(C._wrap_ListBoxHeader__SWIG_2(*(*C.swig_type_329)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7931,7 +8011,7 @@ func ListBoxHeader__SWIG_3(arg1 string, arg2 int) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_ListBoxHeader__SWIG_3(*(*C.swig_type_328)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1)))
+	swig_r = (bool)(C._wrap_ListBoxHeader__SWIG_3(*(*C.swig_type_330)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7973,7 +8053,7 @@ func PlotLines__SWIG_0(arg1 string, arg2 *float32, arg3 int, arg4 int, arg5 stri
 	_swig_i_6 := arg7
 	_swig_i_7 := arg8.Swigcptr()
 	_swig_i_8 := arg9
-	C._wrap_PlotLines__SWIG_0(*(*C.swig_type_329)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_330)(unsafe.Pointer(&_swig_i_4)), C.float(_swig_i_5), C.float(_swig_i_6), C.uintptr_t(_swig_i_7), C.swig_intgo(_swig_i_8))
+	C._wrap_PlotLines__SWIG_0(*(*C.swig_type_331)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_332)(unsafe.Pointer(&_swig_i_4)), C.float(_swig_i_5), C.float(_swig_i_6), C.uintptr_t(_swig_i_7), C.swig_intgo(_swig_i_8))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7991,7 +8071,7 @@ func PlotLines__SWIG_1(arg1 string, arg2 *float32, arg3 int, arg4 int, arg5 stri
 	_swig_i_5 := arg6
 	_swig_i_6 := arg7
 	_swig_i_7 := arg8.Swigcptr()
-	C._wrap_PlotLines__SWIG_1(*(*C.swig_type_331)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_332)(unsafe.Pointer(&_swig_i_4)), C.float(_swig_i_5), C.float(_swig_i_6), C.uintptr_t(_swig_i_7))
+	C._wrap_PlotLines__SWIG_1(*(*C.swig_type_333)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_334)(unsafe.Pointer(&_swig_i_4)), C.float(_swig_i_5), C.float(_swig_i_6), C.uintptr_t(_swig_i_7))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8008,7 +8088,7 @@ func PlotLines__SWIG_2(arg1 string, arg2 *float32, arg3 int, arg4 int, arg5 stri
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
 	_swig_i_6 := arg7
-	C._wrap_PlotLines__SWIG_2(*(*C.swig_type_333)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_334)(unsafe.Pointer(&_swig_i_4)), C.float(_swig_i_5), C.float(_swig_i_6))
+	C._wrap_PlotLines__SWIG_2(*(*C.swig_type_335)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_336)(unsafe.Pointer(&_swig_i_4)), C.float(_swig_i_5), C.float(_swig_i_6))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8024,7 +8104,7 @@ func PlotLines__SWIG_3(arg1 string, arg2 *float32, arg3 int, arg4 int, arg5 stri
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
-	C._wrap_PlotLines__SWIG_3(*(*C.swig_type_335)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_336)(unsafe.Pointer(&_swig_i_4)), C.float(_swig_i_5))
+	C._wrap_PlotLines__SWIG_3(*(*C.swig_type_337)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_338)(unsafe.Pointer(&_swig_i_4)), C.float(_swig_i_5))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8039,7 +8119,7 @@ func PlotLines__SWIG_4(arg1 string, arg2 *float32, arg3 int, arg4 int, arg5 stri
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	C._wrap_PlotLines__SWIG_4(*(*C.swig_type_337)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_338)(unsafe.Pointer(&_swig_i_4)))
+	C._wrap_PlotLines__SWIG_4(*(*C.swig_type_339)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_340)(unsafe.Pointer(&_swig_i_4)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8053,7 +8133,7 @@ func PlotLines__SWIG_5(arg1 string, arg2 *float32, arg3 int, arg4 int) {
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	C._wrap_PlotLines__SWIG_5(*(*C.swig_type_339)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3))
+	C._wrap_PlotLines__SWIG_5(*(*C.swig_type_341)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8063,7 +8143,7 @@ func PlotLines__SWIG_6(arg1 string, arg2 *float32, arg3 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_PlotLines__SWIG_6(*(*C.swig_type_340)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2))
+	C._wrap_PlotLines__SWIG_6(*(*C.swig_type_342)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8079,7 +8159,7 @@ func PlotLines__SWIG_7(arg1 string, arg2 _swig_fnptr, arg3 uintptr, arg4 int, ar
 	_swig_i_6 := arg7
 	_swig_i_7 := arg8
 	_swig_i_8 := arg9.Swigcptr()
-	C._wrap_PlotLines__SWIG_7(*(*C.swig_type_341)(unsafe.Pointer(&_swig_i_0)), C.swig_type_342(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_343)(unsafe.Pointer(&_swig_i_5)), C.float(_swig_i_6), C.float(_swig_i_7), C.uintptr_t(_swig_i_8))
+	C._wrap_PlotLines__SWIG_7(*(*C.swig_type_343)(unsafe.Pointer(&_swig_i_0)), C.swig_type_344(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_345)(unsafe.Pointer(&_swig_i_5)), C.float(_swig_i_6), C.float(_swig_i_7), C.uintptr_t(_swig_i_8))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8097,7 +8177,7 @@ func PlotLines__SWIG_8(arg1 string, arg2 _swig_fnptr, arg3 uintptr, arg4 int, ar
 	_swig_i_5 := arg6
 	_swig_i_6 := arg7
 	_swig_i_7 := arg8
-	C._wrap_PlotLines__SWIG_8(*(*C.swig_type_344)(unsafe.Pointer(&_swig_i_0)), C.swig_type_345(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_346)(unsafe.Pointer(&_swig_i_5)), C.float(_swig_i_6), C.float(_swig_i_7))
+	C._wrap_PlotLines__SWIG_8(*(*C.swig_type_346)(unsafe.Pointer(&_swig_i_0)), C.swig_type_347(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_348)(unsafe.Pointer(&_swig_i_5)), C.float(_swig_i_6), C.float(_swig_i_7))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8114,7 +8194,7 @@ func PlotLines__SWIG_9(arg1 string, arg2 _swig_fnptr, arg3 uintptr, arg4 int, ar
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
 	_swig_i_6 := arg7
-	C._wrap_PlotLines__SWIG_9(*(*C.swig_type_347)(unsafe.Pointer(&_swig_i_0)), C.swig_type_348(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_349)(unsafe.Pointer(&_swig_i_5)), C.float(_swig_i_6))
+	C._wrap_PlotLines__SWIG_9(*(*C.swig_type_349)(unsafe.Pointer(&_swig_i_0)), C.swig_type_350(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_351)(unsafe.Pointer(&_swig_i_5)), C.float(_swig_i_6))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8130,7 +8210,7 @@ func PlotLines__SWIG_10(arg1 string, arg2 _swig_fnptr, arg3 uintptr, arg4 int, a
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
-	C._wrap_PlotLines__SWIG_10(*(*C.swig_type_350)(unsafe.Pointer(&_swig_i_0)), C.swig_type_351(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_352)(unsafe.Pointer(&_swig_i_5)))
+	C._wrap_PlotLines__SWIG_10(*(*C.swig_type_352)(unsafe.Pointer(&_swig_i_0)), C.swig_type_353(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_354)(unsafe.Pointer(&_swig_i_5)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8145,7 +8225,7 @@ func PlotLines__SWIG_11(arg1 string, arg2 _swig_fnptr, arg3 uintptr, arg4 int, a
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	C._wrap_PlotLines__SWIG_11(*(*C.swig_type_353)(unsafe.Pointer(&_swig_i_0)), C.swig_type_354(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4))
+	C._wrap_PlotLines__SWIG_11(*(*C.swig_type_355)(unsafe.Pointer(&_swig_i_0)), C.swig_type_356(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8156,7 +8236,7 @@ func PlotLines__SWIG_12(arg1 string, arg2 _swig_fnptr, arg3 uintptr, arg4 int) {
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	C._wrap_PlotLines__SWIG_12(*(*C.swig_type_355)(unsafe.Pointer(&_swig_i_0)), C.swig_type_356(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3))
+	C._wrap_PlotLines__SWIG_12(*(*C.swig_type_357)(unsafe.Pointer(&_swig_i_0)), C.swig_type_358(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8180,7 +8260,7 @@ func PlotLines(a0 string, a1 interface{}, a2 interface{}, a ...interface{}) {
 	}
 check_2:
 	if argc == 1 {
-		PlotLines__SWIG_12(a0, a1.(_swig_fnptr), unsafeOf(a2, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int))
+		PlotLines__SWIG_12(a0, a1.(_swig_fnptr), a2.(uintptr), unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 	if argc == 2 {
@@ -8193,7 +8273,7 @@ check_2:
 		if _, ok := a[1].(int); !ok {
 			goto check_4
 		}
-		PlotLines__SWIG_11(a0, a1.(_swig_fnptr), unsafeOf(a2, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int))
+		PlotLines__SWIG_11(a0, a1.(_swig_fnptr), a2.(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int))
 		return
 	}
 check_4:
@@ -8219,7 +8299,7 @@ check_4:
 	}
 check_6:
 	if argc == 3 {
-		PlotLines__SWIG_10(a0, a1.(_swig_fnptr), unsafeOf(a2, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), a[2].(string))
+		PlotLines__SWIG_10(a0, a1.(_swig_fnptr), a2.(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), a[2].(string))
 		return
 	}
 	if argc == 4 {
@@ -8235,7 +8315,7 @@ check_6:
 		if _, ok := a[2].(string); !ok {
 			goto check_8
 		}
-		PlotLines__SWIG_9(a0, a1.(_swig_fnptr), unsafeOf(a2, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), a[2].(string), unsafeOf(a[3], reflect.Float32).(float32))
+		PlotLines__SWIG_9(a0, a1.(_swig_fnptr), a2.(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), a[2].(string), unsafeOf(a[3], reflect.Float32).(float32))
 		return
 	}
 check_8:
@@ -8264,7 +8344,7 @@ check_8:
 	}
 check_10:
 	if argc == 5 {
-		PlotLines__SWIG_8(a0, a1.(_swig_fnptr), unsafeOf(a2, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), a[2].(string), unsafeOf(a[3], reflect.Float32).(float32), unsafeOf(a[4], reflect.Float32).(float32))
+		PlotLines__SWIG_8(a0, a1.(_swig_fnptr), a2.(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), a[2].(string), unsafeOf(a[3], reflect.Float32).(float32), unsafeOf(a[4], reflect.Float32).(float32))
 		return
 	}
 	if argc == 6 {
@@ -8286,7 +8366,7 @@ check_10:
 		if _, ok := a[5].(SwigcptrVec2); !ok {
 			goto check_12
 		}
-		PlotLines__SWIG_7(a0, a1.(_swig_fnptr), unsafeOf(a2, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), a[2].(string), unsafeOf(a[3], reflect.Float32).(float32), unsafeOf(a[4], reflect.Float32).(float32), a[5].(Vec2))
+		PlotLines__SWIG_7(a0, a1.(_swig_fnptr), a2.(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), a[2].(string), unsafeOf(a[3], reflect.Float32).(float32), unsafeOf(a[4], reflect.Float32).(float32), a[5].(Vec2))
 		return
 	}
 check_12:
@@ -8307,7 +8387,7 @@ func PlotHistogram__SWIG_0(arg1 string, arg2 *float32, arg3 int, arg4 int, arg5 
 	_swig_i_6 := arg7
 	_swig_i_7 := arg8.Swigcptr()
 	_swig_i_8 := arg9
-	C._wrap_PlotHistogram__SWIG_0(*(*C.swig_type_357)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_358)(unsafe.Pointer(&_swig_i_4)), C.float(_swig_i_5), C.float(_swig_i_6), C.uintptr_t(_swig_i_7), C.swig_intgo(_swig_i_8))
+	C._wrap_PlotHistogram__SWIG_0(*(*C.swig_type_359)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_360)(unsafe.Pointer(&_swig_i_4)), C.float(_swig_i_5), C.float(_swig_i_6), C.uintptr_t(_swig_i_7), C.swig_intgo(_swig_i_8))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8325,7 +8405,7 @@ func PlotHistogram__SWIG_1(arg1 string, arg2 *float32, arg3 int, arg4 int, arg5 
 	_swig_i_5 := arg6
 	_swig_i_6 := arg7
 	_swig_i_7 := arg8.Swigcptr()
-	C._wrap_PlotHistogram__SWIG_1(*(*C.swig_type_359)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_360)(unsafe.Pointer(&_swig_i_4)), C.float(_swig_i_5), C.float(_swig_i_6), C.uintptr_t(_swig_i_7))
+	C._wrap_PlotHistogram__SWIG_1(*(*C.swig_type_361)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_362)(unsafe.Pointer(&_swig_i_4)), C.float(_swig_i_5), C.float(_swig_i_6), C.uintptr_t(_swig_i_7))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8342,7 +8422,7 @@ func PlotHistogram__SWIG_2(arg1 string, arg2 *float32, arg3 int, arg4 int, arg5 
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
 	_swig_i_6 := arg7
-	C._wrap_PlotHistogram__SWIG_2(*(*C.swig_type_361)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_362)(unsafe.Pointer(&_swig_i_4)), C.float(_swig_i_5), C.float(_swig_i_6))
+	C._wrap_PlotHistogram__SWIG_2(*(*C.swig_type_363)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_364)(unsafe.Pointer(&_swig_i_4)), C.float(_swig_i_5), C.float(_swig_i_6))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8358,7 +8438,7 @@ func PlotHistogram__SWIG_3(arg1 string, arg2 *float32, arg3 int, arg4 int, arg5 
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
-	C._wrap_PlotHistogram__SWIG_3(*(*C.swig_type_363)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_364)(unsafe.Pointer(&_swig_i_4)), C.float(_swig_i_5))
+	C._wrap_PlotHistogram__SWIG_3(*(*C.swig_type_365)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_366)(unsafe.Pointer(&_swig_i_4)), C.float(_swig_i_5))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8373,7 +8453,7 @@ func PlotHistogram__SWIG_4(arg1 string, arg2 *float32, arg3 int, arg4 int, arg5 
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	C._wrap_PlotHistogram__SWIG_4(*(*C.swig_type_365)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_366)(unsafe.Pointer(&_swig_i_4)))
+	C._wrap_PlotHistogram__SWIG_4(*(*C.swig_type_367)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), *(*C.swig_type_368)(unsafe.Pointer(&_swig_i_4)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8387,7 +8467,7 @@ func PlotHistogram__SWIG_5(arg1 string, arg2 *float32, arg3 int, arg4 int) {
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	C._wrap_PlotHistogram__SWIG_5(*(*C.swig_type_367)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3))
+	C._wrap_PlotHistogram__SWIG_5(*(*C.swig_type_369)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8397,7 +8477,7 @@ func PlotHistogram__SWIG_6(arg1 string, arg2 *float32, arg3 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_PlotHistogram__SWIG_6(*(*C.swig_type_368)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2))
+	C._wrap_PlotHistogram__SWIG_6(*(*C.swig_type_370)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8413,7 +8493,7 @@ func PlotHistogram__SWIG_7(arg1 string, arg2 _swig_fnptr, arg3 uintptr, arg4 int
 	_swig_i_6 := arg7
 	_swig_i_7 := arg8
 	_swig_i_8 := arg9.Swigcptr()
-	C._wrap_PlotHistogram__SWIG_7(*(*C.swig_type_369)(unsafe.Pointer(&_swig_i_0)), C.swig_type_370(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_371)(unsafe.Pointer(&_swig_i_5)), C.float(_swig_i_6), C.float(_swig_i_7), C.uintptr_t(_swig_i_8))
+	C._wrap_PlotHistogram__SWIG_7(*(*C.swig_type_371)(unsafe.Pointer(&_swig_i_0)), C.swig_type_372(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_373)(unsafe.Pointer(&_swig_i_5)), C.float(_swig_i_6), C.float(_swig_i_7), C.uintptr_t(_swig_i_8))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8431,7 +8511,7 @@ func PlotHistogram__SWIG_8(arg1 string, arg2 _swig_fnptr, arg3 uintptr, arg4 int
 	_swig_i_5 := arg6
 	_swig_i_6 := arg7
 	_swig_i_7 := arg8
-	C._wrap_PlotHistogram__SWIG_8(*(*C.swig_type_372)(unsafe.Pointer(&_swig_i_0)), C.swig_type_373(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_374)(unsafe.Pointer(&_swig_i_5)), C.float(_swig_i_6), C.float(_swig_i_7))
+	C._wrap_PlotHistogram__SWIG_8(*(*C.swig_type_374)(unsafe.Pointer(&_swig_i_0)), C.swig_type_375(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_376)(unsafe.Pointer(&_swig_i_5)), C.float(_swig_i_6), C.float(_swig_i_7))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8448,7 +8528,7 @@ func PlotHistogram__SWIG_9(arg1 string, arg2 _swig_fnptr, arg3 uintptr, arg4 int
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
 	_swig_i_6 := arg7
-	C._wrap_PlotHistogram__SWIG_9(*(*C.swig_type_375)(unsafe.Pointer(&_swig_i_0)), C.swig_type_376(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_377)(unsafe.Pointer(&_swig_i_5)), C.float(_swig_i_6))
+	C._wrap_PlotHistogram__SWIG_9(*(*C.swig_type_377)(unsafe.Pointer(&_swig_i_0)), C.swig_type_378(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_379)(unsafe.Pointer(&_swig_i_5)), C.float(_swig_i_6))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8464,7 +8544,7 @@ func PlotHistogram__SWIG_10(arg1 string, arg2 _swig_fnptr, arg3 uintptr, arg4 in
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
-	C._wrap_PlotHistogram__SWIG_10(*(*C.swig_type_378)(unsafe.Pointer(&_swig_i_0)), C.swig_type_379(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_380)(unsafe.Pointer(&_swig_i_5)))
+	C._wrap_PlotHistogram__SWIG_10(*(*C.swig_type_380)(unsafe.Pointer(&_swig_i_0)), C.swig_type_381(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_382)(unsafe.Pointer(&_swig_i_5)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8479,7 +8559,7 @@ func PlotHistogram__SWIG_11(arg1 string, arg2 _swig_fnptr, arg3 uintptr, arg4 in
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	C._wrap_PlotHistogram__SWIG_11(*(*C.swig_type_381)(unsafe.Pointer(&_swig_i_0)), C.swig_type_382(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4))
+	C._wrap_PlotHistogram__SWIG_11(*(*C.swig_type_383)(unsafe.Pointer(&_swig_i_0)), C.swig_type_384(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8490,7 +8570,7 @@ func PlotHistogram__SWIG_12(arg1 string, arg2 _swig_fnptr, arg3 uintptr, arg4 in
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	C._wrap_PlotHistogram__SWIG_12(*(*C.swig_type_383)(unsafe.Pointer(&_swig_i_0)), C.swig_type_384(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3))
+	C._wrap_PlotHistogram__SWIG_12(*(*C.swig_type_385)(unsafe.Pointer(&_swig_i_0)), C.swig_type_386(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8514,7 +8594,7 @@ func PlotHistogram(a0 string, a1 interface{}, a2 interface{}, a ...interface{}) 
 	}
 check_2:
 	if argc == 1 {
-		PlotHistogram__SWIG_12(a0, a1.(_swig_fnptr), unsafeOf(a2, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int))
+		PlotHistogram__SWIG_12(a0, a1.(_swig_fnptr), a2.(uintptr), unsafeOf(a[0], reflect.Int).(int))
 		return
 	}
 	if argc == 2 {
@@ -8527,7 +8607,7 @@ check_2:
 		if _, ok := a[1].(int); !ok {
 			goto check_4
 		}
-		PlotHistogram__SWIG_11(a0, a1.(_swig_fnptr), unsafeOf(a2, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int))
+		PlotHistogram__SWIG_11(a0, a1.(_swig_fnptr), a2.(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int))
 		return
 	}
 check_4:
@@ -8553,7 +8633,7 @@ check_4:
 	}
 check_6:
 	if argc == 3 {
-		PlotHistogram__SWIG_10(a0, a1.(_swig_fnptr), unsafeOf(a2, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), a[2].(string))
+		PlotHistogram__SWIG_10(a0, a1.(_swig_fnptr), a2.(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), a[2].(string))
 		return
 	}
 	if argc == 4 {
@@ -8569,7 +8649,7 @@ check_6:
 		if _, ok := a[2].(string); !ok {
 			goto check_8
 		}
-		PlotHistogram__SWIG_9(a0, a1.(_swig_fnptr), unsafeOf(a2, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), a[2].(string), unsafeOf(a[3], reflect.Float32).(float32))
+		PlotHistogram__SWIG_9(a0, a1.(_swig_fnptr), a2.(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), a[2].(string), unsafeOf(a[3], reflect.Float32).(float32))
 		return
 	}
 check_8:
@@ -8598,7 +8678,7 @@ check_8:
 	}
 check_10:
 	if argc == 5 {
-		PlotHistogram__SWIG_8(a0, a1.(_swig_fnptr), unsafeOf(a2, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), a[2].(string), unsafeOf(a[3], reflect.Float32).(float32), unsafeOf(a[4], reflect.Float32).(float32))
+		PlotHistogram__SWIG_8(a0, a1.(_swig_fnptr), a2.(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), a[2].(string), unsafeOf(a[3], reflect.Float32).(float32), unsafeOf(a[4], reflect.Float32).(float32))
 		return
 	}
 	if argc == 6 {
@@ -8620,7 +8700,7 @@ check_10:
 		if _, ok := a[5].(SwigcptrVec2); !ok {
 			goto check_12
 		}
-		PlotHistogram__SWIG_7(a0, a1.(_swig_fnptr), unsafeOf(a2, reflect.Uintptr).(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), a[2].(string), unsafeOf(a[3], reflect.Float32).(float32), unsafeOf(a[4], reflect.Float32).(float32), a[5].(Vec2))
+		PlotHistogram__SWIG_7(a0, a1.(_swig_fnptr), a2.(uintptr), unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Int).(int), a[2].(string), unsafeOf(a[3], reflect.Float32).(float32), unsafeOf(a[4], reflect.Float32).(float32), a[5].(Vec2))
 		return
 	}
 check_12:
@@ -8634,7 +8714,7 @@ check_12:
 func Value__SWIG_0(arg1 string, arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Value__SWIG_0(*(*C.swig_type_385)(unsafe.Pointer(&_swig_i_0)), C._Bool(_swig_i_1))
+	C._wrap_Value__SWIG_0(*(*C.swig_type_387)(unsafe.Pointer(&_swig_i_0)), C._Bool(_swig_i_1))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8643,7 +8723,7 @@ func Value__SWIG_0(arg1 string, arg2 bool) {
 func Value__SWIG_1(arg1 string, arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Value__SWIG_1(*(*C.swig_type_386)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1))
+	C._wrap_Value__SWIG_1(*(*C.swig_type_388)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8652,7 +8732,7 @@ func Value__SWIG_1(arg1 string, arg2 int) {
 func ValueUnsigned(arg1 string, arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ValueUnsigned(*(*C.swig_type_387)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1))
+	C._wrap_ValueUnsigned(*(*C.swig_type_389)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8662,7 +8742,7 @@ func Value__SWIG_2(arg1 string, arg2 float32, arg3 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_Value__SWIG_2(*(*C.swig_type_388)(unsafe.Pointer(&_swig_i_0)), C.float(_swig_i_1), *(*C.swig_type_389)(unsafe.Pointer(&_swig_i_2)))
+	C._wrap_Value__SWIG_2(*(*C.swig_type_390)(unsafe.Pointer(&_swig_i_0)), C.float(_swig_i_1), *(*C.swig_type_391)(unsafe.Pointer(&_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8674,7 +8754,7 @@ func Value__SWIG_2(arg1 string, arg2 float32, arg3 string) {
 func Value__SWIG_3(arg1 string, arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Value__SWIG_3(*(*C.swig_type_390)(unsafe.Pointer(&_swig_i_0)), C.float(_swig_i_1))
+	C._wrap_Value__SWIG_3(*(*C.swig_type_392)(unsafe.Pointer(&_swig_i_0)), C.float(_swig_i_1))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8733,7 +8813,7 @@ func BeginMenu__SWIG_0(arg1 string, arg2 bool) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_BeginMenu__SWIG_0(*(*C.swig_type_391)(unsafe.Pointer(&_swig_i_0)), C._Bool(_swig_i_1)))
+	swig_r = (bool)(C._wrap_BeginMenu__SWIG_0(*(*C.swig_type_393)(unsafe.Pointer(&_swig_i_0)), C._Bool(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8743,7 +8823,7 @@ func BeginMenu__SWIG_0(arg1 string, arg2 bool) (_swig_ret bool) {
 func BeginMenu__SWIG_1(arg1 string) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_BeginMenu__SWIG_1(*(*C.swig_type_392)(unsafe.Pointer(&_swig_i_0))))
+	swig_r = (bool)(C._wrap_BeginMenu__SWIG_1(*(*C.swig_type_394)(unsafe.Pointer(&_swig_i_0))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8771,7 +8851,7 @@ func MenuItem__SWIG_0(arg1 string, arg2 string, arg3 bool, arg4 bool) (_swig_ret
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (bool)(C._wrap_MenuItem__SWIG_0(*(*C.swig_type_393)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_394)(unsafe.Pointer(&_swig_i_1)), C._Bool(_swig_i_2), C._Bool(_swig_i_3)))
+	swig_r = (bool)(C._wrap_MenuItem__SWIG_0(*(*C.swig_type_395)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_396)(unsafe.Pointer(&_swig_i_1)), C._Bool(_swig_i_2), C._Bool(_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8786,7 +8866,7 @@ func MenuItem__SWIG_1(arg1 string, arg2 string, arg3 bool) (_swig_ret bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_MenuItem__SWIG_1(*(*C.swig_type_395)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_396)(unsafe.Pointer(&_swig_i_1)), C._Bool(_swig_i_2)))
+	swig_r = (bool)(C._wrap_MenuItem__SWIG_1(*(*C.swig_type_397)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_398)(unsafe.Pointer(&_swig_i_1)), C._Bool(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8800,7 +8880,7 @@ func MenuItem__SWIG_2(arg1 string, arg2 string) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_MenuItem__SWIG_2(*(*C.swig_type_397)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_398)(unsafe.Pointer(&_swig_i_1))))
+	swig_r = (bool)(C._wrap_MenuItem__SWIG_2(*(*C.swig_type_399)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_400)(unsafe.Pointer(&_swig_i_1))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8813,7 +8893,7 @@ func MenuItem__SWIG_2(arg1 string, arg2 string) (_swig_ret bool) {
 func MenuItem__SWIG_3(arg1 string) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_MenuItem__SWIG_3(*(*C.swig_type_399)(unsafe.Pointer(&_swig_i_0))))
+	swig_r = (bool)(C._wrap_MenuItem__SWIG_3(*(*C.swig_type_401)(unsafe.Pointer(&_swig_i_0))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8826,7 +8906,7 @@ func MenuItem__SWIG_4(arg1 string, arg2 string, arg3 *bool, arg4 bool) (_swig_re
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (bool)(C._wrap_MenuItem__SWIG_4(*(*C.swig_type_400)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_401)(unsafe.Pointer(&_swig_i_1)), C.swig_voidp(_swig_i_2), C._Bool(_swig_i_3)))
+	swig_r = (bool)(C._wrap_MenuItem__SWIG_4(*(*C.swig_type_402)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_403)(unsafe.Pointer(&_swig_i_1)), C.swig_voidp(_swig_i_2), C._Bool(_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8841,7 +8921,7 @@ func MenuItem__SWIG_5(arg1 string, arg2 string, arg3 *bool) (_swig_ret bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_MenuItem__SWIG_5(*(*C.swig_type_402)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_403)(unsafe.Pointer(&_swig_i_1)), C.swig_voidp(_swig_i_2)))
+	swig_r = (bool)(C._wrap_MenuItem__SWIG_5(*(*C.swig_type_404)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_405)(unsafe.Pointer(&_swig_i_1)), C.swig_voidp(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8891,14 +8971,13 @@ func EndTooltip() {
 }
 
 func SetTooltip(arg1 string, args ...interface{}) {
-
 	_swig_i_0 := fmtString(arg1, args...)
 	C._wrap_SetTooltip(C.swig_voidp(_swig_i_0))
 }
 
 func OpenPopup(arg1 string) {
 	_swig_i_0 := arg1
-	C._wrap_OpenPopup(*(*C.swig_type_404)(unsafe.Pointer(&_swig_i_0)))
+	C._wrap_OpenPopup(*(*C.swig_type_406)(unsafe.Pointer(&_swig_i_0)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8908,7 +8987,7 @@ func BeginPopup__SWIG_0(arg1 string, arg2 int) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_BeginPopup__SWIG_0(*(*C.swig_type_405)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1)))
+	swig_r = (bool)(C._wrap_BeginPopup__SWIG_0(*(*C.swig_type_407)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8918,7 +8997,7 @@ func BeginPopup__SWIG_0(arg1 string, arg2 int) (_swig_ret bool) {
 func BeginPopup__SWIG_1(arg1 string) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_BeginPopup__SWIG_1(*(*C.swig_type_406)(unsafe.Pointer(&_swig_i_0))))
+	swig_r = (bool)(C._wrap_BeginPopup__SWIG_1(*(*C.swig_type_408)(unsafe.Pointer(&_swig_i_0))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8940,7 +9019,7 @@ func BeginPopupContextItem__SWIG_0(arg1 string, arg2 int) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_BeginPopupContextItem__SWIG_0(*(*C.swig_type_407)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1)))
+	swig_r = (bool)(C._wrap_BeginPopupContextItem__SWIG_0(*(*C.swig_type_409)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8950,7 +9029,7 @@ func BeginPopupContextItem__SWIG_0(arg1 string, arg2 int) (_swig_ret bool) {
 func BeginPopupContextItem__SWIG_1(arg1 string) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_BeginPopupContextItem__SWIG_1(*(*C.swig_type_408)(unsafe.Pointer(&_swig_i_0))))
+	swig_r = (bool)(C._wrap_BeginPopupContextItem__SWIG_1(*(*C.swig_type_410)(unsafe.Pointer(&_swig_i_0))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8982,7 +9061,7 @@ func BeginPopupContextWindow__SWIG_0(arg1 string, arg2 int, arg3 bool) (_swig_re
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_BeginPopupContextWindow__SWIG_0(*(*C.swig_type_409)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C._Bool(_swig_i_2)))
+	swig_r = (bool)(C._wrap_BeginPopupContextWindow__SWIG_0(*(*C.swig_type_411)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C._Bool(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -8993,7 +9072,7 @@ func BeginPopupContextWindow__SWIG_1(arg1 string, arg2 int) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_BeginPopupContextWindow__SWIG_1(*(*C.swig_type_410)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1)))
+	swig_r = (bool)(C._wrap_BeginPopupContextWindow__SWIG_1(*(*C.swig_type_412)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -9003,7 +9082,7 @@ func BeginPopupContextWindow__SWIG_1(arg1 string, arg2 int) (_swig_ret bool) {
 func BeginPopupContextWindow__SWIG_2(arg1 string) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_BeginPopupContextWindow__SWIG_2(*(*C.swig_type_411)(unsafe.Pointer(&_swig_i_0))))
+	swig_r = (bool)(C._wrap_BeginPopupContextWindow__SWIG_2(*(*C.swig_type_413)(unsafe.Pointer(&_swig_i_0))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -9037,7 +9116,7 @@ func BeginPopupContextVoid__SWIG_0(arg1 string, arg2 int) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_BeginPopupContextVoid__SWIG_0(*(*C.swig_type_412)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1)))
+	swig_r = (bool)(C._wrap_BeginPopupContextVoid__SWIG_0(*(*C.swig_type_414)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -9047,7 +9126,7 @@ func BeginPopupContextVoid__SWIG_0(arg1 string, arg2 int) (_swig_ret bool) {
 func BeginPopupContextVoid__SWIG_1(arg1 string) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_BeginPopupContextVoid__SWIG_1(*(*C.swig_type_413)(unsafe.Pointer(&_swig_i_0))))
+	swig_r = (bool)(C._wrap_BeginPopupContextVoid__SWIG_1(*(*C.swig_type_415)(unsafe.Pointer(&_swig_i_0))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -9079,7 +9158,7 @@ func BeginPopupModal__SWIG_0(arg1 string, arg2 *bool, arg3 int) (_swig_ret bool)
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_BeginPopupModal__SWIG_0(*(*C.swig_type_414)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2)))
+	swig_r = (bool)(C._wrap_BeginPopupModal__SWIG_0(*(*C.swig_type_416)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -9090,7 +9169,7 @@ func BeginPopupModal__SWIG_1(arg1 string, arg2 *bool) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_BeginPopupModal__SWIG_1(*(*C.swig_type_415)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
+	swig_r = (bool)(C._wrap_BeginPopupModal__SWIG_1(*(*C.swig_type_417)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -9100,7 +9179,7 @@ func BeginPopupModal__SWIG_1(arg1 string, arg2 *bool) (_swig_ret bool) {
 func BeginPopupModal__SWIG_2(arg1 string) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_BeginPopupModal__SWIG_2(*(*C.swig_type_416)(unsafe.Pointer(&_swig_i_0))))
+	swig_r = (bool)(C._wrap_BeginPopupModal__SWIG_2(*(*C.swig_type_418)(unsafe.Pointer(&_swig_i_0))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -9129,7 +9208,7 @@ func OpenPopupOnItemClick__SWIG_0(arg1 string, arg2 int) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_OpenPopupOnItemClick__SWIG_0(*(*C.swig_type_417)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1)))
+	swig_r = (bool)(C._wrap_OpenPopupOnItemClick__SWIG_0(*(*C.swig_type_419)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -9139,7 +9218,7 @@ func OpenPopupOnItemClick__SWIG_0(arg1 string, arg2 int) (_swig_ret bool) {
 func OpenPopupOnItemClick__SWIG_1(arg1 string) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_OpenPopupOnItemClick__SWIG_1(*(*C.swig_type_418)(unsafe.Pointer(&_swig_i_0))))
+	swig_r = (bool)(C._wrap_OpenPopupOnItemClick__SWIG_1(*(*C.swig_type_420)(unsafe.Pointer(&_swig_i_0))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -9169,7 +9248,7 @@ func OpenPopupOnItemClick(a ...interface{}) bool {
 func IsPopupOpen(arg1 string) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_IsPopupOpen(*(*C.swig_type_419)(unsafe.Pointer(&_swig_i_0))))
+	swig_r = (bool)(C._wrap_IsPopupOpen(*(*C.swig_type_421)(unsafe.Pointer(&_swig_i_0))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -9184,7 +9263,7 @@ func Columns__SWIG_0(arg1 int, arg2 string, arg3 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_Columns__SWIG_0(C.swig_intgo(_swig_i_0), *(*C.swig_type_420)(unsafe.Pointer(&_swig_i_1)), C._Bool(_swig_i_2))
+	C._wrap_Columns__SWIG_0(C.swig_intgo(_swig_i_0), *(*C.swig_type_422)(unsafe.Pointer(&_swig_i_1)), C._Bool(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -9193,7 +9272,7 @@ func Columns__SWIG_0(arg1 int, arg2 string, arg3 bool) {
 func Columns__SWIG_1(arg1 int, arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Columns__SWIG_1(C.swig_intgo(_swig_i_0), *(*C.swig_type_421)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_Columns__SWIG_1(C.swig_intgo(_swig_i_0), *(*C.swig_type_423)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -9305,6 +9384,101 @@ func GetColumnsCount() (_swig_ret int) {
 	return swig_r
 }
 
+func BeginTabBar__SWIG_0(arg1 string, arg2 int) (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (bool)(C._wrap_BeginTabBar__SWIG_0(*(*C.swig_type_424)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+	return swig_r
+}
+
+func BeginTabBar__SWIG_1(arg1 string) (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	swig_r = (bool)(C._wrap_BeginTabBar__SWIG_1(*(*C.swig_type_425)(unsafe.Pointer(&_swig_i_0))))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+	return swig_r
+}
+
+func BeginTabBar(a0 string, a ...interface{}) bool {
+	argc := len(a)
+	if argc == 0 {
+		return BeginTabBar__SWIG_1(a0)
+	}
+	if argc == 1 {
+		return BeginTabBar__SWIG_0(a0, unsafeOf(a[0], reflect.Int).(int))
+	}
+	panic("No match for overloaded function call")
+}
+
+func EndTabBar() {
+	C._wrap_EndTabBar()
+}
+
+func BeginTabItem__SWIG_0(arg1 string, arg2 *bool, arg3 int) (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	swig_r = (bool)(C._wrap_BeginTabItem__SWIG_0(*(*C.swig_type_426)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+	return swig_r
+}
+
+func BeginTabItem__SWIG_1(arg1 string, arg2 *bool) (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (bool)(C._wrap_BeginTabItem__SWIG_1(*(*C.swig_type_427)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+	return swig_r
+}
+
+func BeginTabItem__SWIG_2(arg1 string) (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	swig_r = (bool)(C._wrap_BeginTabItem__SWIG_2(*(*C.swig_type_428)(unsafe.Pointer(&_swig_i_0))))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+	return swig_r
+}
+
+func BeginTabItem(a0 string, a ...interface{}) bool {
+	argc := len(a)
+	if argc == 0 {
+		return BeginTabItem__SWIG_2(a0)
+	}
+	if argc == 1 {
+		return BeginTabItem__SWIG_1(a0, a[0].(*bool))
+	}
+	if argc == 2 {
+		return BeginTabItem__SWIG_0(a0, a[0].(*bool), unsafeOf(a[1], reflect.Int).(int))
+	}
+	panic("No match for overloaded function call")
+}
+
+func EndTabItem() {
+	C._wrap_EndTabItem()
+}
+
+func SetTabItemClosed(arg1 string) {
+	_swig_i_0 := arg1
+	C._wrap_SetTabItemClosed(*(*C.swig_type_429)(unsafe.Pointer(&_swig_i_0)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+}
+
 func LogToTTY__SWIG_0(arg1 int) {
 	_swig_i_0 := arg1
 	C._wrap_LogToTTY__SWIG_0(C.swig_intgo(_swig_i_0))
@@ -9330,7 +9504,7 @@ func LogToTTY(a ...interface{}) {
 func LogToFile__SWIG_0(arg1 int, arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_LogToFile__SWIG_0(C.swig_intgo(_swig_i_0), *(*C.swig_type_422)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_LogToFile__SWIG_0(C.swig_intgo(_swig_i_0), *(*C.swig_type_430)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -9393,7 +9567,6 @@ func LogButtons() {
 }
 
 func LogText(arg1 string, args ...interface{}) {
-
 	_swig_i_0 := fmtString(arg1, args...)
 	C._wrap_LogText(C.swig_voidp(_swig_i_0))
 }
@@ -9428,7 +9601,7 @@ func SetDragDropPayload__SWIG_0(arg1 string, arg2 uintptr, arg3 int64, arg4 int)
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (bool)(C._wrap_SetDragDropPayload__SWIG_0(*(*C.swig_type_423)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.swig_type_424(_swig_i_2), C.swig_intgo(_swig_i_3)))
+	swig_r = (bool)(C._wrap_SetDragDropPayload__SWIG_0(*(*C.swig_type_431)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.swig_type_432(_swig_i_2), C.swig_intgo(_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -9440,7 +9613,7 @@ func SetDragDropPayload__SWIG_1(arg1 string, arg2 uintptr, arg3 int64) (_swig_re
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_SetDragDropPayload__SWIG_1(*(*C.swig_type_425)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.swig_type_426(_swig_i_2)))
+	swig_r = (bool)(C._wrap_SetDragDropPayload__SWIG_1(*(*C.swig_type_433)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.swig_type_434(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -9472,7 +9645,7 @@ func AcceptDragDropPayload__SWIG_0(arg1 string, arg2 int) (_swig_ret Payload) {
 	var swig_r Payload
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Payload)(SwigcptrPayload(C._wrap_AcceptDragDropPayload__SWIG_0(*(*C.swig_type_427)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1))))
+	swig_r = (Payload)(SwigcptrPayload(C._wrap_AcceptDragDropPayload__SWIG_0(*(*C.swig_type_435)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -9482,7 +9655,7 @@ func AcceptDragDropPayload__SWIG_0(arg1 string, arg2 int) (_swig_ret Payload) {
 func AcceptDragDropPayload__SWIG_1(arg1 string) (_swig_ret Payload) {
 	var swig_r Payload
 	_swig_i_0 := arg1
-	swig_r = (Payload)(SwigcptrPayload(C._wrap_AcceptDragDropPayload__SWIG_1(*(*C.swig_type_428)(unsafe.Pointer(&_swig_i_0)))))
+	swig_r = (Payload)(SwigcptrPayload(C._wrap_AcceptDragDropPayload__SWIG_1(*(*C.swig_type_436)(unsafe.Pointer(&_swig_i_0)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -9502,6 +9675,12 @@ func AcceptDragDropPayload(a0 string, a ...interface{}) Payload {
 
 func EndDragDropTarget() {
 	C._wrap_EndDragDropTarget()
+}
+
+func GetDragDropPayload() (_swig_ret Payload) {
+	var swig_r Payload
+	swig_r = (Payload)(SwigcptrPayload(C._wrap_GetDragDropPayload()))
+	return swig_r
 }
 
 func PushClipRect(arg1 Vec2, arg2 Vec2, arg3 bool) {
@@ -9610,6 +9789,12 @@ func IsItemVisible() (_swig_ret bool) {
 func IsItemEdited() (_swig_ret bool) {
 	var swig_r bool
 	swig_r = (bool)(C._wrap_IsItemEdited())
+	return swig_r
+}
+
+func IsItemActivated() (_swig_ret bool) {
+	var swig_r bool
+	swig_r = (bool)(C._wrap_IsItemActivated())
 	return swig_r
 }
 
@@ -9742,7 +9927,7 @@ func CalcTextSize__SWIG_0(arg1 string, arg2 string, arg3 bool, arg4 float32) (_s
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (Vec2)(SwigcptrVec2(C._wrap_CalcTextSize__SWIG_0(*(*C.swig_type_430)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_431)(unsafe.Pointer(&_swig_i_1)), C._Bool(_swig_i_2), C.float(_swig_i_3))))
+	swig_r = (Vec2)(SwigcptrVec2(C._wrap_CalcTextSize__SWIG_0(*(*C.swig_type_438)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_439)(unsafe.Pointer(&_swig_i_1)), C._Bool(_swig_i_2), C.float(_swig_i_3))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -9757,7 +9942,7 @@ func CalcTextSize__SWIG_1(arg1 string, arg2 string, arg3 bool) (_swig_ret Vec2) 
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (Vec2)(SwigcptrVec2(C._wrap_CalcTextSize__SWIG_1(*(*C.swig_type_432)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_433)(unsafe.Pointer(&_swig_i_1)), C._Bool(_swig_i_2))))
+	swig_r = (Vec2)(SwigcptrVec2(C._wrap_CalcTextSize__SWIG_1(*(*C.swig_type_440)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_441)(unsafe.Pointer(&_swig_i_1)), C._Bool(_swig_i_2))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -9771,7 +9956,7 @@ func CalcTextSize__SWIG_2(arg1 string, arg2 string) (_swig_ret Vec2) {
 	var swig_r Vec2
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Vec2)(SwigcptrVec2(C._wrap_CalcTextSize__SWIG_2(*(*C.swig_type_434)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_435)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (Vec2)(SwigcptrVec2(C._wrap_CalcTextSize__SWIG_2(*(*C.swig_type_442)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_443)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -9784,7 +9969,7 @@ func CalcTextSize__SWIG_2(arg1 string, arg2 string) (_swig_ret Vec2) {
 func CalcTextSize__SWIG_3(arg1 string) (_swig_ret Vec2) {
 	var swig_r Vec2
 	_swig_i_0 := arg1
-	swig_r = (Vec2)(SwigcptrVec2(C._wrap_CalcTextSize__SWIG_3(*(*C.swig_type_436)(unsafe.Pointer(&_swig_i_0)))))
+	swig_r = (Vec2)(SwigcptrVec2(C._wrap_CalcTextSize__SWIG_3(*(*C.swig_type_444)(unsafe.Pointer(&_swig_i_0)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -10213,7 +10398,7 @@ func GetClipboardText() (_swig_ret string) {
 
 func SetClipboardText(arg1 string) {
 	_swig_i_0 := arg1
-	C._wrap_SetClipboardText(*(*C.swig_type_438)(unsafe.Pointer(&_swig_i_0)))
+	C._wrap_SetClipboardText(*(*C.swig_type_446)(unsafe.Pointer(&_swig_i_0)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -10221,7 +10406,7 @@ func SetClipboardText(arg1 string) {
 
 func LoadIniSettingsFromDisk(arg1 string) {
 	_swig_i_0 := arg1
-	C._wrap_LoadIniSettingsFromDisk(*(*C.swig_type_439)(unsafe.Pointer(&_swig_i_0)))
+	C._wrap_LoadIniSettingsFromDisk(*(*C.swig_type_447)(unsafe.Pointer(&_swig_i_0)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -10230,7 +10415,7 @@ func LoadIniSettingsFromDisk(arg1 string) {
 func LoadIniSettingsFromMemory__SWIG_0(arg1 string, arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_LoadIniSettingsFromMemory__SWIG_0(*(*C.swig_type_440)(unsafe.Pointer(&_swig_i_0)), C.swig_type_441(_swig_i_1))
+	C._wrap_LoadIniSettingsFromMemory__SWIG_0(*(*C.swig_type_448)(unsafe.Pointer(&_swig_i_0)), C.swig_type_449(_swig_i_1))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -10238,7 +10423,7 @@ func LoadIniSettingsFromMemory__SWIG_0(arg1 string, arg2 int64) {
 
 func LoadIniSettingsFromMemory__SWIG_1(arg1 string) {
 	_swig_i_0 := arg1
-	C._wrap_LoadIniSettingsFromMemory__SWIG_1(*(*C.swig_type_442)(unsafe.Pointer(&_swig_i_0)))
+	C._wrap_LoadIniSettingsFromMemory__SWIG_1(*(*C.swig_type_450)(unsafe.Pointer(&_swig_i_0)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -10259,7 +10444,7 @@ func LoadIniSettingsFromMemory(a0 string, a ...interface{}) {
 
 func SaveIniSettingsToDisk(arg1 string) {
 	_swig_i_0 := arg1
-	C._wrap_SaveIniSettingsToDisk(*(*C.swig_type_443)(unsafe.Pointer(&_swig_i_0)))
+	C._wrap_SaveIniSettingsToDisk(*(*C.swig_type_451)(unsafe.Pointer(&_swig_i_0)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -10299,13 +10484,13 @@ func SetAllocatorFunctions__SWIG_0(arg1 _swig_fnptr, arg2 _swig_fnptr, arg3 uint
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_SetAllocatorFunctions__SWIG_0(C.swig_type_446(_swig_i_0), C.swig_type_447(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_SetAllocatorFunctions__SWIG_0(C.swig_type_454(_swig_i_0), C.swig_type_455(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func SetAllocatorFunctions__SWIG_1(arg1 _swig_fnptr, arg2 _swig_fnptr) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_SetAllocatorFunctions__SWIG_1(C.swig_type_448(_swig_i_0), C.swig_type_449(_swig_i_1))
+	C._wrap_SetAllocatorFunctions__SWIG_1(C.swig_type_456(_swig_i_0), C.swig_type_457(_swig_i_1))
 }
 
 func SetAllocatorFunctions(a0 _swig_fnptr, a1 _swig_fnptr, a ...interface{}) {
@@ -10315,7 +10500,7 @@ func SetAllocatorFunctions(a0 _swig_fnptr, a1 _swig_fnptr, a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		SetAllocatorFunctions__SWIG_0(a0, a1, unsafeOf(a[0], reflect.Uintptr).(uintptr))
+		SetAllocatorFunctions__SWIG_0(a0, a1, a[0].(uintptr))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -10324,7 +10509,7 @@ func SetAllocatorFunctions(a0 _swig_fnptr, a1 _swig_fnptr, a ...interface{}) {
 func MemAlloc(arg1 int64) (_swig_ret uintptr) {
 	var swig_r uintptr
 	_swig_i_0 := arg1
-	swig_r = (uintptr)(C._wrap_MemAlloc(C.swig_type_450(_swig_i_0)))
+	swig_r = (uintptr)(C._wrap_MemAlloc(C.swig_type_458(_swig_i_0)))
 	return swig_r
 }
 
@@ -10399,6 +10584,14 @@ func _swig_getWindowFlags_AlwaysAutoResize() (_swig_ret ImGuiWindowFlags_) {
 
 var WindowFlags_AlwaysAutoResize ImGuiWindowFlags_ = _swig_getWindowFlags_AlwaysAutoResize()
 
+func _swig_getWindowFlags_NoBackground() (_swig_ret ImGuiWindowFlags_) {
+	var swig_r ImGuiWindowFlags_
+	swig_r = (ImGuiWindowFlags_)(C._wrap_WindowFlags_NoBackground())
+	return swig_r
+}
+
+var WindowFlags_NoBackground ImGuiWindowFlags_ = _swig_getWindowFlags_NoBackground()
+
 func _swig_getWindowFlags_NoSavedSettings() (_swig_ret ImGuiWindowFlags_) {
 	var swig_r ImGuiWindowFlags_
 	swig_r = (ImGuiWindowFlags_)(C._wrap_WindowFlags_NoSavedSettings())
@@ -10407,13 +10600,13 @@ func _swig_getWindowFlags_NoSavedSettings() (_swig_ret ImGuiWindowFlags_) {
 
 var WindowFlags_NoSavedSettings ImGuiWindowFlags_ = _swig_getWindowFlags_NoSavedSettings()
 
-func _swig_getWindowFlags_NoInputs() (_swig_ret ImGuiWindowFlags_) {
+func _swig_getWindowFlags_NoMouseInputs() (_swig_ret ImGuiWindowFlags_) {
 	var swig_r ImGuiWindowFlags_
-	swig_r = (ImGuiWindowFlags_)(C._wrap_WindowFlags_NoInputs())
+	swig_r = (ImGuiWindowFlags_)(C._wrap_WindowFlags_NoMouseInputs())
 	return swig_r
 }
 
-var WindowFlags_NoInputs ImGuiWindowFlags_ = _swig_getWindowFlags_NoInputs()
+var WindowFlags_NoMouseInputs ImGuiWindowFlags_ = _swig_getWindowFlags_NoMouseInputs()
 
 func _swig_getWindowFlags_MenuBar() (_swig_ret ImGuiWindowFlags_) {
 	var swig_r ImGuiWindowFlags_
@@ -10487,6 +10680,14 @@ func _swig_getWindowFlags_NoNavFocus() (_swig_ret ImGuiWindowFlags_) {
 
 var WindowFlags_NoNavFocus ImGuiWindowFlags_ = _swig_getWindowFlags_NoNavFocus()
 
+func _swig_getWindowFlags_UnsavedDocument() (_swig_ret ImGuiWindowFlags_) {
+	var swig_r ImGuiWindowFlags_
+	swig_r = (ImGuiWindowFlags_)(C._wrap_WindowFlags_UnsavedDocument())
+	return swig_r
+}
+
+var WindowFlags_UnsavedDocument ImGuiWindowFlags_ = _swig_getWindowFlags_UnsavedDocument()
+
 func _swig_getWindowFlags_NoNav() (_swig_ret ImGuiWindowFlags_) {
 	var swig_r ImGuiWindowFlags_
 	swig_r = (ImGuiWindowFlags_)(C._wrap_WindowFlags_NoNav())
@@ -10494,6 +10695,22 @@ func _swig_getWindowFlags_NoNav() (_swig_ret ImGuiWindowFlags_) {
 }
 
 var WindowFlags_NoNav ImGuiWindowFlags_ = _swig_getWindowFlags_NoNav()
+
+func _swig_getWindowFlags_NoDecoration() (_swig_ret ImGuiWindowFlags_) {
+	var swig_r ImGuiWindowFlags_
+	swig_r = (ImGuiWindowFlags_)(C._wrap_WindowFlags_NoDecoration())
+	return swig_r
+}
+
+var WindowFlags_NoDecoration ImGuiWindowFlags_ = _swig_getWindowFlags_NoDecoration()
+
+func _swig_getWindowFlags_NoInputs() (_swig_ret ImGuiWindowFlags_) {
+	var swig_r ImGuiWindowFlags_
+	swig_r = (ImGuiWindowFlags_)(C._wrap_WindowFlags_NoInputs())
+	return swig_r
+}
+
+var WindowFlags_NoInputs ImGuiWindowFlags_ = _swig_getWindowFlags_NoInputs()
 
 func _swig_getWindowFlags_NavFlattened() (_swig_ret ImGuiWindowFlags_) {
 	var swig_r ImGuiWindowFlags_
@@ -10942,6 +11159,138 @@ func _swig_getComboFlags_HeightMask_() (_swig_ret ImGuiComboFlags_) {
 }
 
 var ComboFlags_HeightMask_ ImGuiComboFlags_ = _swig_getComboFlags_HeightMask_()
+
+type ImGuiTabBarFlags_ int
+
+func _swig_getTabBarFlags_None() (_swig_ret ImGuiTabBarFlags_) {
+	var swig_r ImGuiTabBarFlags_
+	swig_r = (ImGuiTabBarFlags_)(C._wrap_TabBarFlags_None())
+	return swig_r
+}
+
+var TabBarFlags_None ImGuiTabBarFlags_ = _swig_getTabBarFlags_None()
+
+func _swig_getTabBarFlags_Reorderable() (_swig_ret ImGuiTabBarFlags_) {
+	var swig_r ImGuiTabBarFlags_
+	swig_r = (ImGuiTabBarFlags_)(C._wrap_TabBarFlags_Reorderable())
+	return swig_r
+}
+
+var TabBarFlags_Reorderable ImGuiTabBarFlags_ = _swig_getTabBarFlags_Reorderable()
+
+func _swig_getTabBarFlags_AutoSelectNewTabs() (_swig_ret ImGuiTabBarFlags_) {
+	var swig_r ImGuiTabBarFlags_
+	swig_r = (ImGuiTabBarFlags_)(C._wrap_TabBarFlags_AutoSelectNewTabs())
+	return swig_r
+}
+
+var TabBarFlags_AutoSelectNewTabs ImGuiTabBarFlags_ = _swig_getTabBarFlags_AutoSelectNewTabs()
+
+func _swig_getTabBarFlags_TabListPopupButton() (_swig_ret ImGuiTabBarFlags_) {
+	var swig_r ImGuiTabBarFlags_
+	swig_r = (ImGuiTabBarFlags_)(C._wrap_TabBarFlags_TabListPopupButton())
+	return swig_r
+}
+
+var TabBarFlags_TabListPopupButton ImGuiTabBarFlags_ = _swig_getTabBarFlags_TabListPopupButton()
+
+func _swig_getTabBarFlags_NoCloseWithMiddleMouseButton() (_swig_ret ImGuiTabBarFlags_) {
+	var swig_r ImGuiTabBarFlags_
+	swig_r = (ImGuiTabBarFlags_)(C._wrap_TabBarFlags_NoCloseWithMiddleMouseButton())
+	return swig_r
+}
+
+var TabBarFlags_NoCloseWithMiddleMouseButton ImGuiTabBarFlags_ = _swig_getTabBarFlags_NoCloseWithMiddleMouseButton()
+
+func _swig_getTabBarFlags_NoTabListScrollingButtons() (_swig_ret ImGuiTabBarFlags_) {
+	var swig_r ImGuiTabBarFlags_
+	swig_r = (ImGuiTabBarFlags_)(C._wrap_TabBarFlags_NoTabListScrollingButtons())
+	return swig_r
+}
+
+var TabBarFlags_NoTabListScrollingButtons ImGuiTabBarFlags_ = _swig_getTabBarFlags_NoTabListScrollingButtons()
+
+func _swig_getTabBarFlags_NoTooltip() (_swig_ret ImGuiTabBarFlags_) {
+	var swig_r ImGuiTabBarFlags_
+	swig_r = (ImGuiTabBarFlags_)(C._wrap_TabBarFlags_NoTooltip())
+	return swig_r
+}
+
+var TabBarFlags_NoTooltip ImGuiTabBarFlags_ = _swig_getTabBarFlags_NoTooltip()
+
+func _swig_getTabBarFlags_FittingPolicyResizeDown() (_swig_ret ImGuiTabBarFlags_) {
+	var swig_r ImGuiTabBarFlags_
+	swig_r = (ImGuiTabBarFlags_)(C._wrap_TabBarFlags_FittingPolicyResizeDown())
+	return swig_r
+}
+
+var TabBarFlags_FittingPolicyResizeDown ImGuiTabBarFlags_ = _swig_getTabBarFlags_FittingPolicyResizeDown()
+
+func _swig_getTabBarFlags_FittingPolicyScroll() (_swig_ret ImGuiTabBarFlags_) {
+	var swig_r ImGuiTabBarFlags_
+	swig_r = (ImGuiTabBarFlags_)(C._wrap_TabBarFlags_FittingPolicyScroll())
+	return swig_r
+}
+
+var TabBarFlags_FittingPolicyScroll ImGuiTabBarFlags_ = _swig_getTabBarFlags_FittingPolicyScroll()
+
+func _swig_getTabBarFlags_FittingPolicyMask_() (_swig_ret ImGuiTabBarFlags_) {
+	var swig_r ImGuiTabBarFlags_
+	swig_r = (ImGuiTabBarFlags_)(C._wrap_TabBarFlags_FittingPolicyMask_())
+	return swig_r
+}
+
+var TabBarFlags_FittingPolicyMask_ ImGuiTabBarFlags_ = _swig_getTabBarFlags_FittingPolicyMask_()
+
+func _swig_getTabBarFlags_FittingPolicyDefault_() (_swig_ret ImGuiTabBarFlags_) {
+	var swig_r ImGuiTabBarFlags_
+	swig_r = (ImGuiTabBarFlags_)(C._wrap_TabBarFlags_FittingPolicyDefault_())
+	return swig_r
+}
+
+var TabBarFlags_FittingPolicyDefault_ ImGuiTabBarFlags_ = _swig_getTabBarFlags_FittingPolicyDefault_()
+
+type ImGuiTabItemFlags_ int
+
+func _swig_getTabItemFlags_None() (_swig_ret ImGuiTabItemFlags_) {
+	var swig_r ImGuiTabItemFlags_
+	swig_r = (ImGuiTabItemFlags_)(C._wrap_TabItemFlags_None())
+	return swig_r
+}
+
+var TabItemFlags_None ImGuiTabItemFlags_ = _swig_getTabItemFlags_None()
+
+func _swig_getTabItemFlags_UnsavedDocument() (_swig_ret ImGuiTabItemFlags_) {
+	var swig_r ImGuiTabItemFlags_
+	swig_r = (ImGuiTabItemFlags_)(C._wrap_TabItemFlags_UnsavedDocument())
+	return swig_r
+}
+
+var TabItemFlags_UnsavedDocument ImGuiTabItemFlags_ = _swig_getTabItemFlags_UnsavedDocument()
+
+func _swig_getTabItemFlags_SetSelected() (_swig_ret ImGuiTabItemFlags_) {
+	var swig_r ImGuiTabItemFlags_
+	swig_r = (ImGuiTabItemFlags_)(C._wrap_TabItemFlags_SetSelected())
+	return swig_r
+}
+
+var TabItemFlags_SetSelected ImGuiTabItemFlags_ = _swig_getTabItemFlags_SetSelected()
+
+func _swig_getTabItemFlags_NoCloseWithMiddleMouseButton() (_swig_ret ImGuiTabItemFlags_) {
+	var swig_r ImGuiTabItemFlags_
+	swig_r = (ImGuiTabItemFlags_)(C._wrap_TabItemFlags_NoCloseWithMiddleMouseButton())
+	return swig_r
+}
+
+var TabItemFlags_NoCloseWithMiddleMouseButton ImGuiTabItemFlags_ = _swig_getTabItemFlags_NoCloseWithMiddleMouseButton()
+
+func _swig_getTabItemFlags_NoPushId() (_swig_ret ImGuiTabItemFlags_) {
+	var swig_r ImGuiTabItemFlags_
+	swig_r = (ImGuiTabItemFlags_)(C._wrap_TabItemFlags_NoPushId())
+	return swig_r
+}
+
+var TabItemFlags_NoPushId ImGuiTabItemFlags_ = _swig_getTabItemFlags_NoPushId()
 
 type ImGuiFocusedFlags_ int
 
@@ -11634,6 +11983,14 @@ var NavInput_InternalStart_ ImGuiNavInput_ = _swig_getNavInput_InternalStart_()
 
 type ImGuiConfigFlags_ int
 
+func _swig_getConfigFlags_None() (_swig_ret ImGuiConfigFlags_) {
+	var swig_r ImGuiConfigFlags_
+	swig_r = (ImGuiConfigFlags_)(C._wrap_ConfigFlags_None())
+	return swig_r
+}
+
+var ConfigFlags_None ImGuiConfigFlags_ = _swig_getConfigFlags_None()
+
 func _swig_getConfigFlags_NavEnableKeyboard() (_swig_ret ImGuiConfigFlags_) {
 	var swig_r ImGuiConfigFlags_
 	swig_r = (ImGuiConfigFlags_)(C._wrap_ConfigFlags_NavEnableKeyboard())
@@ -11699,6 +12056,14 @@ func _swig_getConfigFlags_IsTouchScreen() (_swig_ret ImGuiConfigFlags_) {
 var ConfigFlags_IsTouchScreen ImGuiConfigFlags_ = _swig_getConfigFlags_IsTouchScreen()
 
 type ImGuiBackendFlags_ int
+
+func _swig_getBackendFlags_None() (_swig_ret ImGuiBackendFlags_) {
+	var swig_r ImGuiBackendFlags_
+	swig_r = (ImGuiBackendFlags_)(C._wrap_BackendFlags_None())
+	return swig_r
+}
+
+var BackendFlags_None ImGuiBackendFlags_ = _swig_getBackendFlags_None()
 
 func _swig_getBackendFlags_HasGamepad() (_swig_ret ImGuiBackendFlags_) {
 	var swig_r ImGuiBackendFlags_
@@ -11990,6 +12355,46 @@ func _swig_getCol_ResizeGripActive() (_swig_ret ImGuiCol_) {
 
 var Col_ResizeGripActive ImGuiCol_ = _swig_getCol_ResizeGripActive()
 
+func _swig_getCol_Tab() (_swig_ret ImGuiCol_) {
+	var swig_r ImGuiCol_
+	swig_r = (ImGuiCol_)(C._wrap_Col_Tab())
+	return swig_r
+}
+
+var Col_Tab ImGuiCol_ = _swig_getCol_Tab()
+
+func _swig_getCol_TabHovered() (_swig_ret ImGuiCol_) {
+	var swig_r ImGuiCol_
+	swig_r = (ImGuiCol_)(C._wrap_Col_TabHovered())
+	return swig_r
+}
+
+var Col_TabHovered ImGuiCol_ = _swig_getCol_TabHovered()
+
+func _swig_getCol_TabActive() (_swig_ret ImGuiCol_) {
+	var swig_r ImGuiCol_
+	swig_r = (ImGuiCol_)(C._wrap_Col_TabActive())
+	return swig_r
+}
+
+var Col_TabActive ImGuiCol_ = _swig_getCol_TabActive()
+
+func _swig_getCol_TabUnfocused() (_swig_ret ImGuiCol_) {
+	var swig_r ImGuiCol_
+	swig_r = (ImGuiCol_)(C._wrap_Col_TabUnfocused())
+	return swig_r
+}
+
+var Col_TabUnfocused ImGuiCol_ = _swig_getCol_TabUnfocused()
+
+func _swig_getCol_TabUnfocusedActive() (_swig_ret ImGuiCol_) {
+	var swig_r ImGuiCol_
+	swig_r = (ImGuiCol_)(C._wrap_Col_TabUnfocusedActive())
+	return swig_r
+}
+
+var Col_TabUnfocusedActive ImGuiCol_ = _swig_getCol_TabUnfocusedActive()
+
 func _swig_getCol_PlotLines() (_swig_ret ImGuiCol_) {
 	var swig_r ImGuiCol_
 	swig_r = (ImGuiCol_)(C._wrap_Col_PlotLines())
@@ -12240,6 +12645,14 @@ func _swig_getStyleVar_GrabRounding() (_swig_ret ImGuiStyleVar_) {
 
 var StyleVar_GrabRounding ImGuiStyleVar_ = _swig_getStyleVar_GrabRounding()
 
+func _swig_getStyleVar_TabRounding() (_swig_ret ImGuiStyleVar_) {
+	var swig_r ImGuiStyleVar_
+	swig_r = (ImGuiStyleVar_)(C._wrap_StyleVar_TabRounding())
+	return swig_r
+}
+
+var StyleVar_TabRounding ImGuiStyleVar_ = _swig_getStyleVar_TabRounding()
+
 func _swig_getStyleVar_ButtonTextAlign() (_swig_ret ImGuiStyleVar_) {
 	var swig_r ImGuiStyleVar_
 	swig_r = (ImGuiStyleVar_)(C._wrap_StyleVar_ButtonTextAlign())
@@ -12247,6 +12660,14 @@ func _swig_getStyleVar_ButtonTextAlign() (_swig_ret ImGuiStyleVar_) {
 }
 
 var StyleVar_ButtonTextAlign ImGuiStyleVar_ = _swig_getStyleVar_ButtonTextAlign()
+
+func _swig_getStyleVar_SelectableTextAlign() (_swig_ret ImGuiStyleVar_) {
+	var swig_r ImGuiStyleVar_
+	swig_r = (ImGuiStyleVar_)(C._wrap_StyleVar_SelectableTextAlign())
+	return swig_r
+}
+
+var StyleVar_SelectableTextAlign ImGuiStyleVar_ = _swig_getStyleVar_SelectableTextAlign()
 
 func _swig_getStyleVar_COUNT() (_swig_ret ImGuiStyleVar_) {
 	var swig_r ImGuiStyleVar_
@@ -12869,6 +13290,32 @@ func (arg1 SwigcptrStyle) GetGrabRounding() (_swig_ret float32) {
 	return swig_r
 }
 
+func (arg1 SwigcptrStyle) SetTabRounding(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_Style_TabRounding_set(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrStyle) GetTabRounding() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_Style_TabRounding_get(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrStyle) SetTabBorderSize(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_Style_TabBorderSize_set(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrStyle) GetTabBorderSize() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_Style_TabBorderSize_get(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
 func (arg1 SwigcptrStyle) SetButtonTextAlign(arg2 Vec2) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
@@ -12879,6 +13326,19 @@ func (arg1 SwigcptrStyle) GetButtonTextAlign() (_swig_ret Vec2) {
 	var swig_r Vec2
 	_swig_i_0 := arg1
 	swig_r = (Vec2)(SwigcptrVec2(C._wrap_Style_ButtonTextAlign_get(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrStyle) SetSelectableTextAlign(arg2 Vec2) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_Style_SelectableTextAlign_set(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrStyle) GetSelectableTextAlign() (_swig_ret Vec2) {
+	var swig_r Vec2
+	_swig_i_0 := arg1
+	swig_r = (Vec2)(SwigcptrVec2(C._wrap_Style_SelectableTextAlign_get(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -13037,8 +13497,14 @@ type Style interface {
 	GetGrabMinSize() (_swig_ret float32)
 	SetGrabRounding(arg2 float32)
 	GetGrabRounding() (_swig_ret float32)
+	SetTabRounding(arg2 float32)
+	GetTabRounding() (_swig_ret float32)
+	SetTabBorderSize(arg2 float32)
+	GetTabBorderSize() (_swig_ret float32)
 	SetButtonTextAlign(arg2 Vec2)
 	GetButtonTextAlign() (_swig_ret Vec2)
+	SetSelectableTextAlign(arg2 Vec2)
+	GetSelectableTextAlign() (_swig_ret Vec2)
 	SetDisplayWindowPadding(arg2 Vec2)
 	GetDisplayWindowPadding() (_swig_ret Vec2)
 	SetDisplaySafeAreaPadding(arg2 Vec2)
@@ -13054,6 +13520,7 @@ type Style interface {
 	SetColors(arg2 Vec4)
 	GetColors() (_swig_ret Vec4)
 	ScaleAllSizes(arg2 float32)
+	Delete()
 }
 
 type SwigcptrIO uintptr
@@ -13133,7 +13600,7 @@ func (arg1 SwigcptrIO) GetIniSavingRate() (_swig_ret float32) {
 func (arg1 SwigcptrIO) SetIniFilename(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_IO_IniFilename_set(C.uintptr_t(_swig_i_0), *(*C.swig_type_451)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_IO_IniFilename_set(C.uintptr_t(_swig_i_0), *(*C.swig_type_459)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -13152,7 +13619,7 @@ func (arg1 SwigcptrIO) GetIniFilename() (_swig_ret string) {
 func (arg1 SwigcptrIO) SetLogFilename(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_IO_LogFilename_set(C.uintptr_t(_swig_i_0), *(*C.swig_type_453)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_IO_LogFilename_set(C.uintptr_t(_swig_i_0), *(*C.swig_type_461)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -13324,32 +13791,6 @@ func (arg1 SwigcptrIO) GetDisplayFramebufferScale() (_swig_ret Vec2) {
 	return swig_r
 }
 
-func (arg1 SwigcptrIO) SetDisplayVisibleMin(arg2 Vec2) {
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_IO_DisplayVisibleMin_set(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
-}
-
-func (arg1 SwigcptrIO) GetDisplayVisibleMin() (_swig_ret Vec2) {
-	var swig_r Vec2
-	_swig_i_0 := arg1
-	swig_r = (Vec2)(SwigcptrVec2(C._wrap_IO_DisplayVisibleMin_get(C.uintptr_t(_swig_i_0))))
-	return swig_r
-}
-
-func (arg1 SwigcptrIO) SetDisplayVisibleMax(arg2 Vec2) {
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_IO_DisplayVisibleMax_set(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
-}
-
-func (arg1 SwigcptrIO) GetDisplayVisibleMax() (_swig_ret Vec2) {
-	var swig_r Vec2
-	_swig_i_0 := arg1
-	swig_r = (Vec2)(SwigcptrVec2(C._wrap_IO_DisplayVisibleMax_get(C.uintptr_t(_swig_i_0))))
-	return swig_r
-}
-
 func (arg1 SwigcptrIO) SetMouseDrawCursor(arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
@@ -13389,23 +13830,113 @@ func (arg1 SwigcptrIO) GetConfigInputTextCursorBlink() (_swig_ret bool) {
 	return swig_r
 }
 
-func (arg1 SwigcptrIO) SetConfigResizeWindowsFromEdges(arg2 bool) {
+func (arg1 SwigcptrIO) SetConfigWindowsResizeFromEdges(arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_IO_ConfigResizeWindowsFromEdges_set(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+	C._wrap_IO_ConfigWindowsResizeFromEdges_set(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
 }
 
-func (arg1 SwigcptrIO) GetConfigResizeWindowsFromEdges() (_swig_ret bool) {
+func (arg1 SwigcptrIO) GetConfigWindowsResizeFromEdges() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_IO_ConfigResizeWindowsFromEdges_get(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_IO_ConfigWindowsResizeFromEdges_get(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrIO) SetConfigWindowsMoveFromTitleBarOnly(arg2 bool) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_IO_ConfigWindowsMoveFromTitleBarOnly_set(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+}
+
+func (arg1 SwigcptrIO) GetConfigWindowsMoveFromTitleBarOnly() (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	swig_r = (bool)(C._wrap_IO_ConfigWindowsMoveFromTitleBarOnly_get(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrIO) SetBackendPlatformName(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_IO_BackendPlatformName_set(C.uintptr_t(_swig_i_0), *(*C.swig_type_463)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrIO) GetBackendPlatformName() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_IO_BackendPlatformName_get(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+	swig_r_1 = swigCopyString(swig_r)
+	return swig_r_1
+}
+
+func (arg1 SwigcptrIO) SetBackendRendererName(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_IO_BackendRendererName_set(C.uintptr_t(_swig_i_0), *(*C.swig_type_465)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrIO) GetBackendRendererName() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_IO_BackendRendererName_get(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+	swig_r_1 = swigCopyString(swig_r)
+	return swig_r_1
+}
+
+func (arg1 SwigcptrIO) SetBackendPlatformUserData(arg2 uintptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_IO_BackendPlatformUserData_set(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrIO) GetBackendPlatformUserData() (_swig_ret uintptr) {
+	var swig_r uintptr
+	_swig_i_0 := arg1
+	swig_r = (uintptr)(C._wrap_IO_BackendPlatformUserData_get(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrIO) SetBackendRendererUserData(arg2 uintptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_IO_BackendRendererUserData_set(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrIO) GetBackendRendererUserData() (_swig_ret uintptr) {
+	var swig_r uintptr
+	_swig_i_0 := arg1
+	swig_r = (uintptr)(C._wrap_IO_BackendRendererUserData_get(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrIO) SetBackendLanguageUserData(arg2 uintptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_IO_BackendLanguageUserData_set(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrIO) GetBackendLanguageUserData() (_swig_ret uintptr) {
+	var swig_r uintptr
+	_swig_i_0 := arg1
+	swig_r = (uintptr)(C._wrap_IO_BackendLanguageUserData_get(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrIO) SetGetClipboardTextFn(arg2 _swig_fnptr) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_IO_GetClipboardTextFn_set(C.uintptr_t(_swig_i_0), C.swig_type_455(_swig_i_1))
+	C._wrap_IO_GetClipboardTextFn_set(C.uintptr_t(_swig_i_0), C.swig_type_467(_swig_i_1))
 }
 
 func (arg1 SwigcptrIO) GetGetClipboardTextFn() (_swig_ret _swig_fnptr) {
@@ -13418,7 +13949,7 @@ func (arg1 SwigcptrIO) GetGetClipboardTextFn() (_swig_ret _swig_fnptr) {
 func (arg1 SwigcptrIO) SetSetClipboardTextFn(arg2 _swig_fnptr) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_IO_SetClipboardTextFn_set(C.uintptr_t(_swig_i_0), C.swig_type_457(_swig_i_1))
+	C._wrap_IO_SetClipboardTextFn_set(C.uintptr_t(_swig_i_0), C.swig_type_469(_swig_i_1))
 }
 
 func (arg1 SwigcptrIO) GetSetClipboardTextFn() (_swig_ret _swig_fnptr) {
@@ -13444,7 +13975,7 @@ func (arg1 SwigcptrIO) GetClipboardUserData() (_swig_ret uintptr) {
 func (arg1 SwigcptrIO) SetImeSetInputScreenPosFn(arg2 _swig_fnptr) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_IO_ImeSetInputScreenPosFn_set(C.uintptr_t(_swig_i_0), C.swig_type_459(_swig_i_1))
+	C._wrap_IO_ImeSetInputScreenPosFn_set(C.uintptr_t(_swig_i_0), C.swig_type_471(_swig_i_1))
 }
 
 func (arg1 SwigcptrIO) GetImeSetInputScreenPosFn() (_swig_ret _swig_fnptr) {
@@ -13586,20 +14117,6 @@ func (arg1 SwigcptrIO) GetKeysDown() (_swig_ret []bool) {
 	return swig_r
 }
 
-func (arg1 SwigcptrIO) SetInputCharacters(arg2 []uint16) {
-	_swig_i_0 := arg1
-	_swig_i_1 := &arg2[0]
-	C._wrap_IO_InputCharacters_set(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
-}
-
-func (arg1 SwigcptrIO) GetInputCharacters() (_swig_ret []uint16) {
-	var swig_r []uint16
-	_swig_i_0 := arg1
-	swig_p := (C._wrap_IO_InputCharacters_get(C.uintptr_t(_swig_i_0)))
-	swig_r = *(*[]uint16)(unsafe.Pointer(&swig_p))
-	return swig_r
-}
-
 func (arg1 SwigcptrIO) SetNavInputs(arg2 *float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
@@ -13622,7 +14139,7 @@ func (arg1 SwigcptrIO) AddInputCharacter(arg2 uint16) {
 func (arg1 SwigcptrIO) AddInputCharactersUTF8(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_IO_AddInputCharactersUTF8(C.uintptr_t(_swig_i_0), *(*C.swig_type_461)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_IO_AddInputCharactersUTF8(C.uintptr_t(_swig_i_0), *(*C.swig_type_473)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -13867,18 +14384,26 @@ type IO interface {
 	GetFontDefault() (_swig_ret Font)
 	SetDisplayFramebufferScale(arg2 Vec2)
 	GetDisplayFramebufferScale() (_swig_ret Vec2)
-	SetDisplayVisibleMin(arg2 Vec2)
-	GetDisplayVisibleMin() (_swig_ret Vec2)
-	SetDisplayVisibleMax(arg2 Vec2)
-	GetDisplayVisibleMax() (_swig_ret Vec2)
 	SetMouseDrawCursor(arg2 bool)
 	GetMouseDrawCursor() (_swig_ret bool)
 	SetConfigMacOSXBehaviors(arg2 bool)
 	GetConfigMacOSXBehaviors() (_swig_ret bool)
 	SetConfigInputTextCursorBlink(arg2 bool)
 	GetConfigInputTextCursorBlink() (_swig_ret bool)
-	SetConfigResizeWindowsFromEdges(arg2 bool)
-	GetConfigResizeWindowsFromEdges() (_swig_ret bool)
+	SetConfigWindowsResizeFromEdges(arg2 bool)
+	GetConfigWindowsResizeFromEdges() (_swig_ret bool)
+	SetConfigWindowsMoveFromTitleBarOnly(arg2 bool)
+	GetConfigWindowsMoveFromTitleBarOnly() (_swig_ret bool)
+	SetBackendPlatformName(arg2 string)
+	GetBackendPlatformName() (_swig_ret string)
+	SetBackendRendererName(arg2 string)
+	GetBackendRendererName() (_swig_ret string)
+	SetBackendPlatformUserData(arg2 uintptr)
+	GetBackendPlatformUserData() (_swig_ret uintptr)
+	SetBackendRendererUserData(arg2 uintptr)
+	GetBackendRendererUserData() (_swig_ret uintptr)
+	SetBackendLanguageUserData(arg2 uintptr)
+	GetBackendLanguageUserData() (_swig_ret uintptr)
 	SetGetClipboardTextFn(arg2 _swig_fnptr)
 	GetGetClipboardTextFn() (_swig_ret _swig_fnptr)
 	SetSetClipboardTextFn(arg2 _swig_fnptr)
@@ -13907,8 +14432,6 @@ type IO interface {
 	GetKeySuper() (_swig_ret bool)
 	SetKeysDown(arg2 []bool)
 	GetKeysDown() (_swig_ret []bool)
-	SetInputCharacters(arg2 []uint16)
-	GetInputCharacters() (_swig_ret []uint16)
 	SetNavInputs(arg2 *float32)
 	GetNavInputs() (_swig_ret *float32)
 	AddInputCharacter(arg2 uint16)
@@ -14022,7 +14545,7 @@ func (arg1 SwigcptrInputTextCallbackData) GetEventKey() (_swig_ret int) {
 func (arg1 SwigcptrInputTextCallbackData) SetBuf(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_InputTextCallbackData_Buf_set(C.uintptr_t(_swig_i_0), *(*C.swig_type_462)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_InputTextCallbackData_Buf_set(C.uintptr_t(_swig_i_0), *(*C.swig_type_474)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -14134,7 +14657,7 @@ func (arg1 SwigcptrInputTextCallbackData) InsertChars__SWIG_0(arg2 int, arg3 str
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	C._wrap_InputTextCallbackData_InsertChars__SWIG_0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), *(*C.swig_type_464)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_465)(unsafe.Pointer(&_swig_i_3)))
+	C._wrap_InputTextCallbackData_InsertChars__SWIG_0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), *(*C.swig_type_476)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_477)(unsafe.Pointer(&_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg3
 	}
@@ -14147,7 +14670,7 @@ func (arg1 SwigcptrInputTextCallbackData) InsertChars__SWIG_1(arg2 int, arg3 str
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_InputTextCallbackData_InsertChars__SWIG_1(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), *(*C.swig_type_466)(unsafe.Pointer(&_swig_i_2)))
+	C._wrap_InputTextCallbackData_InsertChars__SWIG_1(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), *(*C.swig_type_478)(unsafe.Pointer(&_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg3
 	}
@@ -14293,6 +14816,7 @@ type SizeCallbackData interface {
 	GetCurrentSize() (_swig_ret Vec2)
 	SetDesiredSize(arg2 Vec2)
 	GetDesiredSize() (_swig_ret Vec2)
+	Delete()
 }
 
 type SwigcptrPayload uintptr
@@ -14372,7 +14896,7 @@ func (arg1 SwigcptrPayload) GetDataFrameCount() (_swig_ret int) {
 func (arg1 SwigcptrPayload) SetDataType(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Payload_DataType_set(C.uintptr_t(_swig_i_0), *(*C.swig_type_467)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_Payload_DataType_set(C.uintptr_t(_swig_i_0), *(*C.swig_type_479)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -14429,7 +14953,7 @@ func (arg1 SwigcptrPayload) IsDataType(arg2 string) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_Payload_IsDataType(C.uintptr_t(_swig_i_0), *(*C.swig_type_469)(unsafe.Pointer(&_swig_i_1))))
+	swig_r = (bool)(C._wrap_Payload_IsDataType(C.uintptr_t(_swig_i_0), *(*C.swig_type_481)(unsafe.Pointer(&_swig_i_1))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -14478,6 +15002,192 @@ type Payload interface {
 	IsDataType(arg2 string) (_swig_ret bool)
 	IsPreview() (_swig_ret bool)
 	IsDelivery() (_swig_ret bool)
+	Delete()
+}
+
+type SwigcptrListClipper uintptr
+
+func (p SwigcptrListClipper) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrListClipper) SwigIsListClipper() {
+}
+
+func (arg1 SwigcptrListClipper) SetStartPosY(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_ListClipper_StartPosY_set(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrListClipper) GetStartPosY() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_ListClipper_StartPosY_get(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrListClipper) SetItemsHeight(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_ListClipper_ItemsHeight_set(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrListClipper) GetItemsHeight() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_ListClipper_ItemsHeight_get(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrListClipper) SetItemsCount(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_ListClipper_ItemsCount_set(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrListClipper) GetItemsCount() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_ListClipper_ItemsCount_get(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrListClipper) SetStepNo(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_ListClipper_StepNo_set(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrListClipper) GetStepNo() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_ListClipper_StepNo_get(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrListClipper) SetDisplayStart(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_ListClipper_DisplayStart_set(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrListClipper) GetDisplayStart() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_ListClipper_DisplayStart_get(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrListClipper) SetDisplayEnd(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_ListClipper_DisplayEnd_set(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrListClipper) GetDisplayEnd() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_ListClipper_DisplayEnd_get(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewListClipper__SWIG_0(arg1 int, arg2 float32) (_swig_ret ListClipper) {
+	var swig_r ListClipper
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (ListClipper)(SwigcptrListClipper(C._wrap_new_ListClipper__SWIG_0(C.swig_intgo(_swig_i_0), C.float(_swig_i_1))))
+	return swig_r
+}
+
+func NewListClipper__SWIG_1(arg1 int) (_swig_ret ListClipper) {
+	var swig_r ListClipper
+	_swig_i_0 := arg1
+	swig_r = (ListClipper)(SwigcptrListClipper(C._wrap_new_ListClipper__SWIG_1(C.swig_intgo(_swig_i_0))))
+	return swig_r
+}
+
+func NewListClipper__SWIG_2() (_swig_ret ListClipper) {
+	var swig_r ListClipper
+	swig_r = (ListClipper)(SwigcptrListClipper(C._wrap_new_ListClipper__SWIG_2()))
+	return swig_r
+}
+
+func NewListClipper(a ...interface{}) ListClipper {
+	argc := len(a)
+	if argc == 0 {
+		return NewListClipper__SWIG_2()
+	}
+	if argc == 1 {
+		return NewListClipper__SWIG_1(unsafeOf(a[0], reflect.Int).(int))
+	}
+	if argc == 2 {
+		return NewListClipper__SWIG_0(unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Float32).(float32))
+	}
+	panic("No match for overloaded function call")
+}
+
+func DeleteListClipper(arg1 ListClipper) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_ListClipper(C.uintptr_t(_swig_i_0))
+}
+
+func (arg1 SwigcptrListClipper) Step() (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	swig_r = (bool)(C._wrap_ListClipper_Step(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrListClipper) Begin__SWIG_0(arg2 int, arg3 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	C._wrap_ListClipper_Begin__SWIG_0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.float(_swig_i_2))
+}
+
+func (arg1 SwigcptrListClipper) Begin__SWIG_1(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_ListClipper_Begin__SWIG_1(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (p SwigcptrListClipper) Begin(a0 int, a ...interface{}) {
+	argc := len(a)
+	if argc == 0 {
+		p.Begin__SWIG_1(a0)
+		return
+	}
+	if argc == 1 {
+		p.Begin__SWIG_0(a0, unsafeOf(a[0], reflect.Float32).(float32))
+		return
+	}
+	panic("No match for overloaded function call")
+}
+
+func (arg1 SwigcptrListClipper) End() {
+	_swig_i_0 := arg1
+	C._wrap_ListClipper_End(C.uintptr_t(_swig_i_0))
+}
+
+type ListClipper interface {
+	Swigcptr() uintptr
+	SwigIsListClipper()
+	SetStartPosY(arg2 float32)
+	GetStartPosY() (_swig_ret float32)
+	SetItemsHeight(arg2 float32)
+	GetItemsHeight() (_swig_ret float32)
+	SetItemsCount(arg2 int)
+	GetItemsCount() (_swig_ret int)
+	SetStepNo(arg2 int)
+	GetStepNo() (_swig_ret int)
+	SetDisplayStart(arg2 int)
+	GetDisplayStart() (_swig_ret int)
+	SetDisplayEnd(arg2 int)
+	GetDisplayEnd() (_swig_ret int)
+	Step() (_swig_ret bool)
+	Begin(a0 int, a ...interface{})
+	End()
 }
 
 const IM_COL32_R_SHIFT int = 0
@@ -14709,191 +15419,6 @@ type Color interface {
 	Delete()
 }
 
-type SwigcptrListClipper uintptr
-
-func (p SwigcptrListClipper) Swigcptr() uintptr {
-	return (uintptr)(p)
-}
-
-func (p SwigcptrListClipper) SwigIsListClipper() {
-}
-
-func (arg1 SwigcptrListClipper) SetStartPosY(arg2 float32) {
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2
-	C._wrap_ListClipper_StartPosY_set(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
-}
-
-func (arg1 SwigcptrListClipper) GetStartPosY() (_swig_ret float32) {
-	var swig_r float32
-	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_ListClipper_StartPosY_get(C.uintptr_t(_swig_i_0)))
-	return swig_r
-}
-
-func (arg1 SwigcptrListClipper) SetItemsHeight(arg2 float32) {
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2
-	C._wrap_ListClipper_ItemsHeight_set(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
-}
-
-func (arg1 SwigcptrListClipper) GetItemsHeight() (_swig_ret float32) {
-	var swig_r float32
-	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_ListClipper_ItemsHeight_get(C.uintptr_t(_swig_i_0)))
-	return swig_r
-}
-
-func (arg1 SwigcptrListClipper) SetItemsCount(arg2 int) {
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2
-	C._wrap_ListClipper_ItemsCount_set(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
-}
-
-func (arg1 SwigcptrListClipper) GetItemsCount() (_swig_ret int) {
-	var swig_r int
-	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_ListClipper_ItemsCount_get(C.uintptr_t(_swig_i_0)))
-	return swig_r
-}
-
-func (arg1 SwigcptrListClipper) SetStepNo(arg2 int) {
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2
-	C._wrap_ListClipper_StepNo_set(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
-}
-
-func (arg1 SwigcptrListClipper) GetStepNo() (_swig_ret int) {
-	var swig_r int
-	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_ListClipper_StepNo_get(C.uintptr_t(_swig_i_0)))
-	return swig_r
-}
-
-func (arg1 SwigcptrListClipper) SetDisplayStart(arg2 int) {
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2
-	C._wrap_ListClipper_DisplayStart_set(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
-}
-
-func (arg1 SwigcptrListClipper) GetDisplayStart() (_swig_ret int) {
-	var swig_r int
-	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_ListClipper_DisplayStart_get(C.uintptr_t(_swig_i_0)))
-	return swig_r
-}
-
-func (arg1 SwigcptrListClipper) SetDisplayEnd(arg2 int) {
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2
-	C._wrap_ListClipper_DisplayEnd_set(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
-}
-
-func (arg1 SwigcptrListClipper) GetDisplayEnd() (_swig_ret int) {
-	var swig_r int
-	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_ListClipper_DisplayEnd_get(C.uintptr_t(_swig_i_0)))
-	return swig_r
-}
-
-func NewListClipper__SWIG_0(arg1 int, arg2 float32) (_swig_ret ListClipper) {
-	var swig_r ListClipper
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2
-	swig_r = (ListClipper)(SwigcptrListClipper(C._wrap_new_ListClipper__SWIG_0(C.swig_intgo(_swig_i_0), C.float(_swig_i_1))))
-	return swig_r
-}
-
-func NewListClipper__SWIG_1(arg1 int) (_swig_ret ListClipper) {
-	var swig_r ListClipper
-	_swig_i_0 := arg1
-	swig_r = (ListClipper)(SwigcptrListClipper(C._wrap_new_ListClipper__SWIG_1(C.swig_intgo(_swig_i_0))))
-	return swig_r
-}
-
-func NewListClipper__SWIG_2() (_swig_ret ListClipper) {
-	var swig_r ListClipper
-	swig_r = (ListClipper)(SwigcptrListClipper(C._wrap_new_ListClipper__SWIG_2()))
-	return swig_r
-}
-
-func NewListClipper(a ...interface{}) ListClipper {
-	argc := len(a)
-	if argc == 0 {
-		return NewListClipper__SWIG_2()
-	}
-	if argc == 1 {
-		return NewListClipper__SWIG_1(unsafeOf(a[0], reflect.Int).(int))
-	}
-	if argc == 2 {
-		return NewListClipper__SWIG_0(unsafeOf(a[0], reflect.Int).(int), unsafeOf(a[1], reflect.Float32).(float32))
-	}
-	panic("No match for overloaded function call")
-}
-
-func DeleteListClipper(arg1 ListClipper) {
-	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_ListClipper(C.uintptr_t(_swig_i_0))
-}
-
-func (arg1 SwigcptrListClipper) Step() (_swig_ret bool) {
-	var swig_r bool
-	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_ListClipper_Step(C.uintptr_t(_swig_i_0)))
-	return swig_r
-}
-
-func (arg1 SwigcptrListClipper) Begin__SWIG_0(arg2 int, arg3 float32) {
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2
-	_swig_i_2 := arg3
-	C._wrap_ListClipper_Begin__SWIG_0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.float(_swig_i_2))
-}
-
-func (arg1 SwigcptrListClipper) Begin__SWIG_1(arg2 int) {
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2
-	C._wrap_ListClipper_Begin__SWIG_1(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
-}
-
-func (p SwigcptrListClipper) Begin(a0 int, a ...interface{}) {
-	argc := len(a)
-	if argc == 0 {
-		p.Begin__SWIG_1(a0)
-		return
-	}
-	if argc == 1 {
-		p.Begin__SWIG_0(a0, unsafeOf(a[0], reflect.Float32).(float32))
-		return
-	}
-	panic("No match for overloaded function call")
-}
-
-func (arg1 SwigcptrListClipper) End() {
-	_swig_i_0 := arg1
-	C._wrap_ListClipper_End(C.uintptr_t(_swig_i_0))
-}
-
-type ListClipper interface {
-	Swigcptr() uintptr
-	SwigIsListClipper()
-	SetStartPosY(arg2 float32)
-	GetStartPosY() (_swig_ret float32)
-	SetItemsHeight(arg2 float32)
-	GetItemsHeight() (_swig_ret float32)
-	SetItemsCount(arg2 int)
-	GetItemsCount() (_swig_ret int)
-	SetStepNo(arg2 int)
-	GetStepNo() (_swig_ret int)
-	SetDisplayStart(arg2 int)
-	GetDisplayStart() (_swig_ret int)
-	SetDisplayEnd(arg2 int)
-	GetDisplayEnd() (_swig_ret int)
-	Step() (_swig_ret bool)
-	Begin(a0 int, a ...interface{})
-	End()
-}
-
 type SwigcptrDrawCmd uintptr
 
 func (p SwigcptrDrawCmd) Swigcptr() uintptr {
@@ -14945,7 +15470,7 @@ func (arg1 SwigcptrDrawCmd) GetTextureId() (_swig_ret uintptr) {
 func (arg1 SwigcptrDrawCmd) SetUserCallback(arg2 _swig_fnptr) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_DrawCmd_UserCallback_set(C.uintptr_t(_swig_i_0), C.swig_type_470(_swig_i_1))
+	C._wrap_DrawCmd_UserCallback_set(C.uintptr_t(_swig_i_0), C.swig_type_482(_swig_i_1))
 }
 
 func (arg1 SwigcptrDrawCmd) GetUserCallback() (_swig_ret _swig_fnptr) {
@@ -15223,6 +15748,14 @@ var DrawCornerFlags_All ImDrawCornerFlags_ = _swig_getDrawCornerFlags_All()
 
 type ImDrawListFlags_ int
 
+func _swig_getDrawListFlags_None() (_swig_ret ImDrawListFlags_) {
+	var swig_r ImDrawListFlags_
+	swig_r = (ImDrawListFlags_)(C._wrap_DrawListFlags_None())
+	return swig_r
+}
+
+var DrawListFlags_None ImDrawListFlags_ = _swig_getDrawListFlags_None()
+
 func _swig_getDrawListFlags_AntiAliasedLines() (_swig_ret ImDrawListFlags_) {
 	var swig_r ImDrawListFlags_
 	swig_r = (ImDrawListFlags_)(C._wrap_DrawListFlags_AntiAliasedLines())
@@ -15316,7 +15849,7 @@ func (arg1 SwigcptrDrawList) GetX_Data() (_swig_ret ImDrawListSharedData) {
 func (arg1 SwigcptrDrawList) SetX_OwnerName(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_DrawList__OwnerName_set(C.uintptr_t(_swig_i_0), *(*C.swig_type_472)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_DrawList__OwnerName_set(C.uintptr_t(_swig_i_0), *(*C.swig_type_484)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -15833,7 +16366,7 @@ func (arg1 SwigcptrDrawList) AddText__SWIG_0(arg2 Vec2, arg3 uint, arg4 string, 
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	C._wrap_DrawList_AddText__SWIG_0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2), *(*C.swig_type_474)(unsafe.Pointer(&_swig_i_3)), *(*C.swig_type_475)(unsafe.Pointer(&_swig_i_4)))
+	C._wrap_DrawList_AddText__SWIG_0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2), *(*C.swig_type_486)(unsafe.Pointer(&_swig_i_3)), *(*C.swig_type_487)(unsafe.Pointer(&_swig_i_4)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg4
 	}
@@ -15847,7 +16380,7 @@ func (arg1 SwigcptrDrawList) AddText__SWIG_1(arg2 Vec2, arg3 uint, arg4 string) 
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	C._wrap_DrawList_AddText__SWIG_1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2), *(*C.swig_type_476)(unsafe.Pointer(&_swig_i_3)))
+	C._wrap_DrawList_AddText__SWIG_1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2), *(*C.swig_type_488)(unsafe.Pointer(&_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg4
 	}
@@ -15863,7 +16396,7 @@ func (arg1 SwigcptrDrawList) AddText__SWIG_2(arg2 Font, arg3 float32, arg4 Vec2,
 	_swig_i_6 := arg7
 	_swig_i_7 := arg8
 	_swig_i_8 := arg9.Swigcptr()
-	C._wrap_DrawList_AddText__SWIG_2(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.float(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_477)(unsafe.Pointer(&_swig_i_5)), *(*C.swig_type_478)(unsafe.Pointer(&_swig_i_6)), C.float(_swig_i_7), C.uintptr_t(_swig_i_8))
+	C._wrap_DrawList_AddText__SWIG_2(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.float(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_489)(unsafe.Pointer(&_swig_i_5)), *(*C.swig_type_490)(unsafe.Pointer(&_swig_i_6)), C.float(_swig_i_7), C.uintptr_t(_swig_i_8))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg6
 	}
@@ -15881,7 +16414,7 @@ func (arg1 SwigcptrDrawList) AddText__SWIG_3(arg2 Font, arg3 float32, arg4 Vec2,
 	_swig_i_5 := arg6
 	_swig_i_6 := arg7
 	_swig_i_7 := arg8
-	C._wrap_DrawList_AddText__SWIG_3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.float(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_479)(unsafe.Pointer(&_swig_i_5)), *(*C.swig_type_480)(unsafe.Pointer(&_swig_i_6)), C.float(_swig_i_7))
+	C._wrap_DrawList_AddText__SWIG_3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.float(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_491)(unsafe.Pointer(&_swig_i_5)), *(*C.swig_type_492)(unsafe.Pointer(&_swig_i_6)), C.float(_swig_i_7))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg6
 	}
@@ -15898,7 +16431,7 @@ func (arg1 SwigcptrDrawList) AddText__SWIG_4(arg2 Font, arg3 float32, arg4 Vec2,
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
 	_swig_i_6 := arg7
-	C._wrap_DrawList_AddText__SWIG_4(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.float(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_481)(unsafe.Pointer(&_swig_i_5)), *(*C.swig_type_482)(unsafe.Pointer(&_swig_i_6)))
+	C._wrap_DrawList_AddText__SWIG_4(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.float(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_493)(unsafe.Pointer(&_swig_i_5)), *(*C.swig_type_494)(unsafe.Pointer(&_swig_i_6)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg6
 	}
@@ -15914,7 +16447,7 @@ func (arg1 SwigcptrDrawList) AddText__SWIG_5(arg2 Font, arg3 float32, arg4 Vec2,
 	_swig_i_3 := arg4.Swigcptr()
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
-	C._wrap_DrawList_AddText__SWIG_5(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.float(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_483)(unsafe.Pointer(&_swig_i_5)))
+	C._wrap_DrawList_AddText__SWIG_5(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.float(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_495)(unsafe.Pointer(&_swig_i_5)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg6
 	}
@@ -16384,25 +16917,11 @@ func (arg1 SwigcptrDrawList) ChannelsSetCurrent(arg2 int) {
 	C._wrap_DrawList_ChannelsSetCurrent(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
-type cbData struct {
-	fn func(interface{}) bool
-	in interface{}
-}
-
-var callbackMap = map[int]cbData{}
-
-func (arg1 SwigcptrDrawList) AddCallback(arg2 func(interface{}) bool, arg3 interface{}) {
+func (arg1 SwigcptrDrawList) _AddCallback(arg2 _swig_fnptr, arg3 uintptr) {
 	_swig_i_0 := arg1
-	_swig_i_1 := C.cgoDrawListCallback
-	_swig_i_2 := 0
-	for i := len(callbackMap); ; i++ {
-		if _, ok := callbackMap[i]; !ok {
-			_swig_i_2 = i
-			callbackMap[i] = cbData{fn: arg2, in: arg3}
-			break
-		}
-	}
-	C._wrap_DrawList_AddCallback(C.uintptr_t(_swig_i_0), C.swig_type_484(_swig_i_1), C.uintptr_t(_swig_i_2))
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	C._wrap_DrawList_AddCallback(C.uintptr_t(_swig_i_0), C.swig_type_496(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func (arg1 SwigcptrDrawList) AddDrawCmd() {
@@ -16428,7 +16947,7 @@ func (arg1 SwigcptrDrawList) CommandsAt(arg2 int64) (_swig_ret DrawCmd) {
 	var swig_r DrawCmd
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (DrawCmd)(SwigcptrDrawCmd(C._wrap_DrawList_CommandsAt(C.uintptr_t(_swig_i_0), C.swig_type_486(_swig_i_1))))
+	swig_r = (DrawCmd)(SwigcptrDrawCmd(C._wrap_DrawList_CommandsAt(C.uintptr_t(_swig_i_0), C.swig_type_498(_swig_i_1))))
 	return swig_r
 }
 
@@ -16443,7 +16962,7 @@ func (arg1 SwigcptrDrawList) VtxBufferAt(arg2 int64) (_swig_ret DrawVert) {
 	var swig_r DrawVert
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (DrawVert)(SwigcptrDrawVert(C._wrap_DrawList_VtxBufferAt(C.uintptr_t(_swig_i_0), C.swig_type_488(_swig_i_1))))
+	swig_r = (DrawVert)(SwigcptrDrawVert(C._wrap_DrawList_VtxBufferAt(C.uintptr_t(_swig_i_0), C.swig_type_500(_swig_i_1))))
 	return swig_r
 }
 
@@ -16458,7 +16977,7 @@ func (arg1 SwigcptrDrawList) IdxBufferAt(arg2 int64) (_swig_ret *uint16) {
 	var swig_r *uint16
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (*uint16)(C._wrap_DrawList_IdxBufferAt(C.uintptr_t(_swig_i_0), C.swig_type_490(_swig_i_1)))
+	swig_r = (*uint16)(C._wrap_DrawList_IdxBufferAt(C.uintptr_t(_swig_i_0), C.swig_type_502(_swig_i_1)))
 	return swig_r
 }
 
@@ -16567,17 +17086,16 @@ func (arg1 SwigcptrDrawData) GetValid() (_swig_ret bool) {
 func (arg1 SwigcptrDrawData) SetCmdLists(arg2 []DrawList) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_DrawData_CmdLists_set(C.uintptr_t(_swig_i_0), *(*C.swig_type_491)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_DrawData_CmdLists_set(C.uintptr_t(_swig_i_0), *(*C.swig_type_503)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
 }
 
 func (arg1 SwigcptrDrawData) GetCmdLists() (_swig_ret []SwigcptrDrawList) {
-	var swig_r []SwigcptrDrawList
 	_swig_i_0 := arg1
 	swig_r_p := C._wrap_DrawData_CmdLists_get(C.uintptr_t(_swig_i_0))
-	swig_r = *(*[]SwigcptrDrawList)(unsafe.Pointer(&swig_r_p))
+	swig_r := *(*[]SwigcptrDrawList)(unsafe.Pointer(&swig_r_p))
 	return swig_r
 }
 
@@ -16646,13 +17164,26 @@ func (arg1 SwigcptrDrawData) GetDisplaySize() (_swig_ret Vec2) {
 	return swig_r
 }
 
+func (arg1 SwigcptrDrawData) SetFramebufferScale(arg2 Vec2) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_DrawData_FramebufferScale_set(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrDrawData) GetFramebufferScale() (_swig_ret Vec2) {
+	var swig_r Vec2
+	_swig_i_0 := arg1
+	swig_r = (Vec2)(SwigcptrVec2(C._wrap_DrawData_FramebufferScale_get(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
 func NewDrawData() (_swig_ret DrawData) {
 	var swig_r DrawData
 	swig_r = (DrawData)(SwigcptrDrawData(C._wrap_new_DrawData()))
 	return swig_r
 }
 
-func DeleteDrawData(arg1 DrawData) {
+func DeleteDrawData(arg1 SwigcptrDrawData) {
 	_swig_i_0 := arg1.Swigcptr()
 	C._wrap_delete_DrawData(C.uintptr_t(_swig_i_0))
 }
@@ -16690,9 +17221,12 @@ type DrawData interface {
 	GetDisplayPos() (_swig_ret Vec2)
 	SetDisplaySize(arg2 Vec2)
 	GetDisplaySize() (_swig_ret Vec2)
+	SetFramebufferScale(arg2 Vec2)
+	GetFramebufferScale() (_swig_ret Vec2)
 	Clear()
 	DeIndexAllBuffers()
 	ScaleClipRects(arg2 Vec2)
+	Delete()
 }
 
 type SwigcptrFontConfig uintptr
@@ -17137,6 +17671,119 @@ type FontGlyph interface {
 	Delete()
 }
 
+type SwigcptrFontGlyphRangesBuilder uintptr
+
+func (p SwigcptrFontGlyphRangesBuilder) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrFontGlyphRangesBuilder) SwigIsFontGlyphRangesBuilder() {
+}
+
+func (arg1 SwigcptrFontGlyphRangesBuilder) SetUsedChars(arg2 ImVector_Sl_int_Sg_) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_FontGlyphRangesBuilder_UsedChars_set(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrFontGlyphRangesBuilder) GetUsedChars() (_swig_ret ImVector_Sl_int_Sg_) {
+	var swig_r ImVector_Sl_int_Sg_
+	_swig_i_0 := arg1
+	swig_r = (ImVector_Sl_int_Sg_)(SwigcptrImVector_Sl_int_Sg_(C._wrap_FontGlyphRangesBuilder_UsedChars_get(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func NewFontGlyphRangesBuilder() (_swig_ret FontGlyphRangesBuilder) {
+	var swig_r FontGlyphRangesBuilder
+	swig_r = (FontGlyphRangesBuilder)(SwigcptrFontGlyphRangesBuilder(C._wrap_new_FontGlyphRangesBuilder()))
+	return swig_r
+}
+
+func (arg1 SwigcptrFontGlyphRangesBuilder) GetBit(arg2 int) (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (bool)(C._wrap_FontGlyphRangesBuilder_GetBit(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	return swig_r
+}
+
+func (arg1 SwigcptrFontGlyphRangesBuilder) SetBit(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_FontGlyphRangesBuilder_SetBit(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrFontGlyphRangesBuilder) AddChar(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_FontGlyphRangesBuilder_AddChar(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrFontGlyphRangesBuilder) AddText__SWIG_0(arg2 string, arg3 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	C._wrap_FontGlyphRangesBuilder_AddText__SWIG_0(C.uintptr_t(_swig_i_0), *(*C.swig_type_505)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_506)(unsafe.Pointer(&_swig_i_2)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+	if Swig_escape_always_false {
+		Swig_escape_val = arg3
+	}
+}
+
+func (arg1 SwigcptrFontGlyphRangesBuilder) AddText__SWIG_1(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_FontGlyphRangesBuilder_AddText__SWIG_1(C.uintptr_t(_swig_i_0), *(*C.swig_type_507)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (p SwigcptrFontGlyphRangesBuilder) AddText(a0 string, a ...interface{}) {
+	argc := len(a)
+	if argc == 0 {
+		p.AddText__SWIG_1(a0)
+		return
+	}
+	if argc == 1 {
+		p.AddText__SWIG_0(a0, a[0].(string))
+		return
+	}
+	panic("No match for overloaded function call")
+}
+
+func (arg1 SwigcptrFontGlyphRangesBuilder) AddRanges(arg2 *uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_FontGlyphRangesBuilder_AddRanges(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrFontGlyphRangesBuilder) BuildRanges(arg2 ImVector_Sl_unsigned_SS_short_Sg_) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_FontGlyphRangesBuilder_BuildRanges(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func DeleteFontGlyphRangesBuilder(arg1 FontGlyphRangesBuilder) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_FontGlyphRangesBuilder(C.uintptr_t(_swig_i_0))
+}
+
+type FontGlyphRangesBuilder interface {
+	Swigcptr() uintptr
+	SwigIsFontGlyphRangesBuilder()
+	SetUsedChars(arg2 ImVector_Sl_int_Sg_)
+	GetUsedChars() (_swig_ret ImVector_Sl_int_Sg_)
+	GetBit(arg2 int) (_swig_ret bool)
+	SetBit(arg2 int)
+	AddChar(arg2 uint16)
+	AddText(a0 string, a ...interface{})
+	AddRanges(arg2 *uint16)
+	BuildRanges(arg2 ImVector_Sl_unsigned_SS_short_Sg_)
+}
+
 type ImFontAtlasFlags_ int
 
 func _swig_getFontAtlasFlags_None() (_swig_ret ImFontAtlasFlags_) {
@@ -17224,7 +17871,7 @@ func (arg1 SwigcptrFontAtlas) AddFontFromFileTTF__SWIG_0(arg2 string, arg3 float
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4.Swigcptr()
 	_swig_i_4 := arg5
-	swig_r = (Font)(SwigcptrFont(C._wrap_FontAtlas_AddFontFromFileTTF__SWIG_0(C.uintptr_t(_swig_i_0), *(*C.swig_type_493)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_voidp(_swig_i_4))))
+	swig_r = (Font)(SwigcptrFont(C._wrap_FontAtlas_AddFontFromFileTTF__SWIG_0(C.uintptr_t(_swig_i_0), *(*C.swig_type_508)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_voidp(_swig_i_4))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -17237,7 +17884,7 @@ func (arg1 SwigcptrFontAtlas) AddFontFromFileTTF__SWIG_1(arg2 string, arg3 float
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (Font)(SwigcptrFont(C._wrap_FontAtlas_AddFontFromFileTTF__SWIG_1(C.uintptr_t(_swig_i_0), *(*C.swig_type_494)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	swig_r = (Font)(SwigcptrFont(C._wrap_FontAtlas_AddFontFromFileTTF__SWIG_1(C.uintptr_t(_swig_i_0), *(*C.swig_type_509)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2), C.uintptr_t(_swig_i_3))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -17249,7 +17896,7 @@ func (arg1 SwigcptrFontAtlas) AddFontFromFileTTF__SWIG_2(arg2 string, arg3 float
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (Font)(SwigcptrFont(C._wrap_FontAtlas_AddFontFromFileTTF__SWIG_2(C.uintptr_t(_swig_i_0), *(*C.swig_type_495)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2))))
+	swig_r = (Font)(SwigcptrFont(C._wrap_FontAtlas_AddFontFromFileTTF__SWIG_2(C.uintptr_t(_swig_i_0), *(*C.swig_type_510)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -17371,7 +18018,7 @@ func (arg1 SwigcptrFontAtlas) AddFontFromMemoryCompressedBase85TTF__SWIG_0(arg2 
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4.Swigcptr()
 	_swig_i_4 := arg5
-	swig_r = (Font)(SwigcptrFont(C._wrap_FontAtlas_AddFontFromMemoryCompressedBase85TTF__SWIG_0(C.uintptr_t(_swig_i_0), *(*C.swig_type_496)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_voidp(_swig_i_4))))
+	swig_r = (Font)(SwigcptrFont(C._wrap_FontAtlas_AddFontFromMemoryCompressedBase85TTF__SWIG_0(C.uintptr_t(_swig_i_0), *(*C.swig_type_511)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_voidp(_swig_i_4))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -17384,7 +18031,7 @@ func (arg1 SwigcptrFontAtlas) AddFontFromMemoryCompressedBase85TTF__SWIG_1(arg2 
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (Font)(SwigcptrFont(C._wrap_FontAtlas_AddFontFromMemoryCompressedBase85TTF__SWIG_1(C.uintptr_t(_swig_i_0), *(*C.swig_type_497)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	swig_r = (Font)(SwigcptrFont(C._wrap_FontAtlas_AddFontFromMemoryCompressedBase85TTF__SWIG_1(C.uintptr_t(_swig_i_0), *(*C.swig_type_512)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2), C.uintptr_t(_swig_i_3))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -17396,7 +18043,7 @@ func (arg1 SwigcptrFontAtlas) AddFontFromMemoryCompressedBase85TTF__SWIG_2(arg2 
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (Font)(SwigcptrFont(C._wrap_FontAtlas_AddFontFromMemoryCompressedBase85TTF__SWIG_2(C.uintptr_t(_swig_i_0), *(*C.swig_type_498)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2))))
+	swig_r = (Font)(SwigcptrFont(C._wrap_FontAtlas_AddFontFromMemoryCompressedBase85TTF__SWIG_2(C.uintptr_t(_swig_i_0), *(*C.swig_type_513)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -17441,13 +18088,6 @@ func (arg1 SwigcptrFontAtlas) Build() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	swig_r = (bool)(C._wrap_FontAtlas_Build(C.uintptr_t(_swig_i_0)))
-	return swig_r
-}
-
-func (arg1 SwigcptrFontAtlas) IsBuilt() (_swig_ret bool) {
-	var swig_r bool
-	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_FontAtlas_IsBuilt(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -17509,6 +18149,13 @@ func (p SwigcptrFontAtlas) _GetTexDataAsRGBA32(a0 **byte, a1 *int, a2 *int, a ..
 		return
 	}
 	panic("No match for overloaded function call")
+}
+
+func (arg1 SwigcptrFontAtlas) IsBuilt() (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	swig_r = (bool)(C._wrap_FontAtlas_IsBuilt(C.uintptr_t(_swig_i_0)))
+	return swig_r
 }
 
 func (arg1 SwigcptrFontAtlas) SetTexID_(arg2 uintptr) {
@@ -17719,9 +18366,9 @@ type FontAtlas interface {
 	ClearFonts()
 	Clear()
 	Build() (_swig_ret bool)
-	IsBuilt() (_swig_ret bool)
 	GetTexDataAsAlpha8() ([]uint8, int, int)
 	GetTexDataAsRGBA32() ([]uint32, int, int)
+	IsBuilt() (_swig_ret bool)
 	SetTexID_(arg2 uintptr)
 	GetGlyphRangesDefault() (_swig_ret *uint16)
 	GetGlyphRangesKorean() (_swig_ret *uint16)
@@ -17767,16 +18414,6 @@ func DeleteFont(arg1 Font) {
 	C._wrap_delete_Font(C.uintptr_t(_swig_i_0))
 }
 
-func (arg1 SwigcptrFont) ClearOutputData() {
-	_swig_i_0 := arg1
-	C._wrap_Font_ClearOutputData(C.uintptr_t(_swig_i_0))
-}
-
-func (arg1 SwigcptrFont) BuildLookupTable() {
-	_swig_i_0 := arg1
-	C._wrap_Font_BuildLookupTable(C.uintptr_t(_swig_i_0))
-}
-
 func (arg1 SwigcptrFont) FindGlyph(arg2 uint16) (_swig_ret FontGlyph) {
 	var swig_r FontGlyph
 	_swig_i_0 := arg1
@@ -17791,12 +18428,6 @@ func (arg1 SwigcptrFont) FindGlyphNoFallback(arg2 uint16) (_swig_ret FontGlyph) 
 	_swig_i_1 := arg2
 	swig_r = (FontGlyph)(SwigcptrFontGlyph(C._wrap_Font_FindGlyphNoFallback(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))))
 	return swig_r
-}
-
-func (arg1 SwigcptrFont) SetFallbackChar_(arg2 uint16) {
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2
-	C._wrap_Font_SetFallbackChar_(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
 }
 
 func (arg1 SwigcptrFont) GetCharAdvance(arg2 uint16) (_swig_ret float32) {
@@ -17833,7 +18464,7 @@ func (arg1 SwigcptrFont) CalcTextSizeA__SWIG_0(arg2 float32, arg3 float32, arg4 
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
 	_swig_i_6 := arg7
-	swig_r = (Vec2)(SwigcptrVec2(C._wrap_Font_CalcTextSizeA__SWIG_0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), *(*C.swig_type_500)(unsafe.Pointer(&_swig_i_4)), *(*C.swig_type_501)(unsafe.Pointer(&_swig_i_5)), C.swig_voidp(_swig_i_6))))
+	swig_r = (Vec2)(SwigcptrVec2(C._wrap_Font_CalcTextSizeA__SWIG_0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), *(*C.swig_type_515)(unsafe.Pointer(&_swig_i_4)), *(*C.swig_type_516)(unsafe.Pointer(&_swig_i_5)), C.swig_voidp(_swig_i_6))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg5
 	}
@@ -17851,7 +18482,7 @@ func (arg1 SwigcptrFont) CalcTextSizeA__SWIG_1(arg2 float32, arg3 float32, arg4 
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
-	swig_r = (Vec2)(SwigcptrVec2(C._wrap_Font_CalcTextSizeA__SWIG_1(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), *(*C.swig_type_502)(unsafe.Pointer(&_swig_i_4)), *(*C.swig_type_503)(unsafe.Pointer(&_swig_i_5)))))
+	swig_r = (Vec2)(SwigcptrVec2(C._wrap_Font_CalcTextSizeA__SWIG_1(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), *(*C.swig_type_517)(unsafe.Pointer(&_swig_i_4)), *(*C.swig_type_518)(unsafe.Pointer(&_swig_i_5)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg5
 	}
@@ -17868,7 +18499,7 @@ func (arg1 SwigcptrFont) CalcTextSizeA__SWIG_2(arg2 float32, arg3 float32, arg4 
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r = (Vec2)(SwigcptrVec2(C._wrap_Font_CalcTextSizeA__SWIG_2(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), *(*C.swig_type_504)(unsafe.Pointer(&_swig_i_4)))))
+	swig_r = (Vec2)(SwigcptrVec2(C._wrap_Font_CalcTextSizeA__SWIG_2(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), *(*C.swig_type_519)(unsafe.Pointer(&_swig_i_4)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg5
 	}
@@ -17896,7 +18527,7 @@ func (arg1 SwigcptrFont) CalcWordWrapPositionA(arg2 float32, arg3 string, arg4 s
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r_p := C._wrap_Font_CalcWordWrapPositionA(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), *(*C.swig_type_506)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_507)(unsafe.Pointer(&_swig_i_3)), C.float(_swig_i_4))
+	swig_r_p := C._wrap_Font_CalcWordWrapPositionA(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), *(*C.swig_type_521)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_522)(unsafe.Pointer(&_swig_i_3)), C.float(_swig_i_4))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg3
@@ -17930,7 +18561,7 @@ func (arg1 SwigcptrFont) RenderText__SWIG_0(arg2 DrawList, arg3 float32, arg4 Ve
 	_swig_i_7 := arg8
 	_swig_i_8 := arg9
 	_swig_i_9 := arg10
-	C._wrap_Font_RenderText__SWIG_0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.float(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4), C.uintptr_t(_swig_i_5), *(*C.swig_type_508)(unsafe.Pointer(&_swig_i_6)), *(*C.swig_type_509)(unsafe.Pointer(&_swig_i_7)), C.float(_swig_i_8), C._Bool(_swig_i_9))
+	C._wrap_Font_RenderText__SWIG_0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.float(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4), C.uintptr_t(_swig_i_5), *(*C.swig_type_523)(unsafe.Pointer(&_swig_i_6)), *(*C.swig_type_524)(unsafe.Pointer(&_swig_i_7)), C.float(_swig_i_8), C._Bool(_swig_i_9))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg7
 	}
@@ -17949,7 +18580,7 @@ func (arg1 SwigcptrFont) RenderText__SWIG_1(arg2 DrawList, arg3 float32, arg4 Ve
 	_swig_i_6 := arg7
 	_swig_i_7 := arg8
 	_swig_i_8 := arg9
-	C._wrap_Font_RenderText__SWIG_1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.float(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4), C.uintptr_t(_swig_i_5), *(*C.swig_type_510)(unsafe.Pointer(&_swig_i_6)), *(*C.swig_type_511)(unsafe.Pointer(&_swig_i_7)), C.float(_swig_i_8))
+	C._wrap_Font_RenderText__SWIG_1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.float(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4), C.uintptr_t(_swig_i_5), *(*C.swig_type_525)(unsafe.Pointer(&_swig_i_6)), *(*C.swig_type_526)(unsafe.Pointer(&_swig_i_7)), C.float(_swig_i_8))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg7
 	}
@@ -17967,7 +18598,7 @@ func (arg1 SwigcptrFont) RenderText__SWIG_2(arg2 DrawList, arg3 float32, arg4 Ve
 	_swig_i_5 := arg6.Swigcptr()
 	_swig_i_6 := arg7
 	_swig_i_7 := arg8
-	C._wrap_Font_RenderText__SWIG_2(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.float(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4), C.uintptr_t(_swig_i_5), *(*C.swig_type_512)(unsafe.Pointer(&_swig_i_6)), *(*C.swig_type_513)(unsafe.Pointer(&_swig_i_7)))
+	C._wrap_Font_RenderText__SWIG_2(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.float(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4), C.uintptr_t(_swig_i_5), *(*C.swig_type_527)(unsafe.Pointer(&_swig_i_6)), *(*C.swig_type_528)(unsafe.Pointer(&_swig_i_7)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg7
 	}
@@ -17993,63 +18624,11 @@ func (p SwigcptrFont) RenderText(a0 DrawList, a1 float32, a2 Vec2, a3 uint, a4 V
 	panic("No match for overloaded function call")
 }
 
-func (arg1 SwigcptrFont) GrowIndex(arg2 int) {
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2
-	C._wrap_Font_GrowIndex(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
-}
-
-func (arg1 SwigcptrFont) AddGlyph(arg2 uint16, arg3 float32, arg4 float32, arg5 float32, arg6 float32, arg7 float32, arg8 float32, arg9 float32, arg10 float32, arg11 float32) {
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2
-	_swig_i_2 := arg3
-	_swig_i_3 := arg4
-	_swig_i_4 := arg5
-	_swig_i_5 := arg6
-	_swig_i_6 := arg7
-	_swig_i_7 := arg8
-	_swig_i_8 := arg9
-	_swig_i_9 := arg10
-	_swig_i_10 := arg11
-	C._wrap_Font_AddGlyph(C.uintptr_t(_swig_i_0), C.short(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4), C.float(_swig_i_5), C.float(_swig_i_6), C.float(_swig_i_7), C.float(_swig_i_8), C.float(_swig_i_9), C.float(_swig_i_10))
-}
-
-func (arg1 SwigcptrFont) AddRemapChar__SWIG_0(arg2 uint16, arg3 uint16, arg4 bool) {
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2
-	_swig_i_2 := arg3
-	_swig_i_3 := arg4
-	C._wrap_Font_AddRemapChar__SWIG_0(C.uintptr_t(_swig_i_0), C.short(_swig_i_1), C.short(_swig_i_2), C._Bool(_swig_i_3))
-}
-
-func (arg1 SwigcptrFont) AddRemapChar__SWIG_1(arg2 uint16, arg3 uint16) {
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2
-	_swig_i_2 := arg3
-	C._wrap_Font_AddRemapChar__SWIG_1(C.uintptr_t(_swig_i_0), C.short(_swig_i_1), C.short(_swig_i_2))
-}
-
-func (p SwigcptrFont) AddRemapChar(a0 uint16, a1 uint16, a ...interface{}) {
-	argc := len(a)
-	if argc == 0 {
-		p.AddRemapChar__SWIG_1(a0, a1)
-		return
-	}
-	if argc == 1 {
-		p.AddRemapChar__SWIG_0(a0, a1, a[0].(bool))
-		return
-	}
-	panic("No match for overloaded function call")
-}
-
 type Font interface {
 	Swigcptr() uintptr
 	SwigIsFont()
-	ClearOutputData()
-	BuildLookupTable()
 	FindGlyph(arg2 uint16) (_swig_ret FontGlyph)
 	FindGlyphNoFallback(arg2 uint16) (_swig_ret FontGlyph)
-	SetFallbackChar_(arg2 uint16)
 	GetCharAdvance(arg2 uint16) (_swig_ret float32)
 	IsLoaded() (_swig_ret bool)
 	GetDebugName() (_swig_ret string)
@@ -18057,9 +18636,6 @@ type Font interface {
 	CalcWordWrapPositionA(arg2 float32, arg3 string, arg4 string, arg5 float32) (_swig_ret string)
 	RenderChar(arg2 DrawList, arg3 float32, arg4 Vec2, arg5 uint, arg6 uint16)
 	RenderText(a0 DrawList, a1 float32, a2 Vec2, a3 uint, a4 Vec4, a5 string, a6 string, a ...interface{})
-	GrowIndex(arg2 int)
-	AddGlyph(arg2 uint16, arg3 float32, arg4 float32, arg5 float32, arg6 float32, arg7 float32, arg8 float32, arg9 float32, arg10 float32, arg11 float32)
-	AddRemapChar(a0 uint16, a1 uint16, a ...interface{})
 }
 
 type SwigcptrImGuiContext uintptr
@@ -18161,20 +18737,35 @@ func (p SwigcptrImVector_Sl_ImDrawChannel_Sg_) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
-//////////////
-
-var GoMalloc func(p unsafe.Pointer, s uint64)
-
-//export cgoMemAlloc
-func cgoMemAlloc(p unsafe.Pointer, s C.size_t) {
-	GoMalloc(p, uint64(s))
+type SwigcptrImVector_Sl_int_Sg_ uintptr
+type ImVector_Sl_int_Sg_ interface {
+	Swigcptr() uintptr
 }
 
-var GoFree func(p unsafe.Pointer)
+func (p SwigcptrImVector_Sl_int_Sg_) Swigcptr() uintptr {
+	return uintptr(p)
+}
 
-//export cgoMemFree
-func cgoMemFree(p unsafe.Pointer) {
-	GoFree(p)
+//////////////
+type cbData struct {
+	fn func(interface{}) bool
+	in interface{}
+}
+
+var callbackMap = map[int]cbData{}
+
+func (arg1 SwigcptrDrawList) AddCallback(arg2 func(interface{}) bool, arg3 interface{}) {
+	_swig_i_0 := arg1
+	_swig_i_1 := C.cgoDrawListCallback
+	_swig_i_2 := 0
+	for i := len(callbackMap); ; i++ {
+		if _, ok := callbackMap[i]; !ok {
+			_swig_i_2 = i
+			callbackMap[i] = cbData{fn: arg2, in: arg3}
+			break
+		}
+	}
+	C._wrap_DrawList_AddCallback(C.uintptr_t(_swig_i_0), C.swig_type_496(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 //export cgoDrawListCallback
